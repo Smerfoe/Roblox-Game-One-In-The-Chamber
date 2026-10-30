@@ -57,7 +57,7 @@ case("new player loads defaults and takes the lock", function()
 	assert(result == "Ok", result)
 	assert(profile.IsNew and same(profile.Data, Schema.Default()), "defaults")
 	local record = w.store:Peek("u_1")
-	assert(record.Lock.Session == "A", "lock owner")
+	assert(record.Lock.Session == profile.Session, "lock owner")
 end)
 
 case("save persists data and refreshes the lock", function()
@@ -120,9 +120,9 @@ case("competing session: a released lock is picked up while waiting", function()
 		end
 		realWait(s)
 	end
-	local result = b:Load("u_1")
+	local result, profileB = b:Load("u_1")
 	assert(result == "Ok", result)
-	assert(w.store:Peek("u_1").Lock.Session == "B", "B owns it")
+	assert(w.store:Peek("u_1").Lock.Session == profileB.Session, "B owns it")
 end)
 
 case("stale lock (crashed server) is taken over; the old server can't save over it", function()
@@ -218,12 +218,62 @@ case("schema repair keeps valid entries and drops wrong types", function()
 	assert(missing.SchemaVersion == Schema.CURRENT and type(missing.Inventory.Skins) == "table")
 end)
 
-case("same server rejoin: own lock is reused", function()
+case("same server rejoin cannot reuse an active acquisition", function()
 	local w = world()
 	local a = w.session("A")
-	a:Load("u_1") -- lock held by A, not released (e.g. leave-save still pending)
-	local result = a:Load("u_1")
-	assert(result == "Ok", result)
+	local _, old = a:Load("u_1")
+	assert(a:Load("u_1") == "Locked", "second handle must wait")
+	assert(a:Save(old, true) == "Ok")
+	local result, current = a:Load("u_1")
+	assert(result == "Ok" and current.Session ~= old.Session, "fresh acquisition")
+end)
+
+case("old same-server cleanup cannot erase a newer acquisition", function()
+	local w = world()
+	local a = w.session("A")
+	local _, old = a:Load("u_1")
+	w.t += DataConfig.LockStaleAfter + 1
+	local result, current = a:Load("u_1")
+	assert(result == "Ok")
+	current.Data.Inventory.Skins["service1911.slate"] = true
+	assert(a:Save(current) == "Ok")
+	local before = w.store:Peek("u_1")
+	local saved = a:Save(old, true)
+	assert(same(w.store:Peek("u_1"), before), "stale cleanup erased data or released the new lock")
+	assert(saved == "LostLock", "late cleanup must not release new lock")
+end)
+
+case("ambiguous committed load retries its own acquisition safely", function()
+	local w = world()
+	local update = w.store.UpdateAsync
+	local failed = false
+	w.store.UpdateAsync = function(store, key, transform)
+		local result = update(store, key, transform)
+		if not failed then failed = true; error("response lost after commit") end
+		return result
+	end
+	local result, profile = w.session("A"):Load("u_1")
+	assert(result == "Ok" and profile.Active, result)
+	assert(w.store:Peek("u_1").Lock.Session == profile.Session)
+end)
+
+case("missing payload and malformed envelope are refused without writes", function()
+	local records = {
+		{}, { SaveCount = 12 },
+		{ Data = {}, Lock = "bad" },
+		{ Data = {}, Lock = { Session = "other", Time = "bad" } },
+		{ Data = {}, Lock = { Time = 1000 } },
+		{ Data = {}, SaveCount = "bad" },
+		{ Data = { SchemaVersion = "99" } },
+		{ Data = { SchemaVersion = 1.5 } },
+		{ Data = { SchemaVersion = 0 } },
+	}
+	for _, record in records do
+		local w = world()
+		w.store:Poke("u_1", record)
+		assert(w.session("A"):Load("u_1") == "Corrupt")
+		assert(w.store.writes == 0 and same(w.store:Peek("u_1"), record), "malformed record untouched")
+	end
 end)
 
 function DataTests.Run()

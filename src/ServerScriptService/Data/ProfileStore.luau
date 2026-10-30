@@ -20,6 +20,31 @@
 
 local Schema = require(script.Parent.Schema)
 
+local function validRecord(record)
+	if record == nil then
+		return true
+	end
+	if type(record) ~= "table" or type(record.Data) ~= "table" then
+		return false
+	end
+	local version = record.Data.SchemaVersion
+	if version ~= nil and (type(version) ~= "number" or version ~= version
+		or version == math.huge or version % 1 ~= 0 or version < 1) then
+		return false
+	end
+	local count = record.SaveCount
+	if count ~= nil and (type(count) ~= "number" or count ~= count
+		or count == math.huge or count < 0 or count % 1 ~= 0) then
+		return false
+	end
+	local lock = record.Lock
+	if lock ~= nil and (type(lock) ~= "table" or type(lock.Session) ~= "string" or lock.Session == ""
+		or type(lock.Time) ~= "number" or lock.Time ~= lock.Time or math.abs(lock.Time) == math.huge) then
+		return false
+	end
+	return true
+end
+
 local ProfileStore = {}
 ProfileStore.__index = ProfileStore
 
@@ -27,6 +52,7 @@ function ProfileStore.new(options)
 	assert(options.store and options.sessionId and options.config, "store, sessionId and config are required")
 	return setmetatable({
 		store = options.store,
+		loadSequence = 0,
 		sessionId = options.sessionId,
 		config = options.config,
 		now = options.now or os.time,
@@ -48,6 +74,11 @@ end
 --   "Corrupt", nil          stored value isn't a record (left untouched)
 function ProfileStore:Load(key, userIds)
 	local c = self.config
+	-- A server may have an old load/release still in flight when a player rejoins.
+	-- Each acquisition needs its own identity; sharing only a server GUID lets the
+	-- old handle overwrite or release the new handle's record.
+	self.loadSequence += 1
+	local session = self.sessionId .. ":" .. tostring(self.loadSequence)
 	local errorAttempts, lockAttempts = 0, 0
 	local lastError
 	while true do
@@ -55,7 +86,7 @@ function ProfileStore:Load(key, userIds)
 		local ok, err = pcall(function()
 			self.store:UpdateAsync(key, function(record)
 				outcome = nil -- the transform may run more than once
-				if record ~= nil and (type(record) ~= "table" or (record.Data ~= nil and type(record.Data) ~= "table")) then
+				if not validRecord(record) then
 					outcome = { kind = "Corrupt" }
 					return nil
 				end
@@ -66,18 +97,18 @@ function ProfileStore:Load(key, userIds)
 				end
 				local lock = record.Lock
 				local now = self.now()
-				if type(lock) == "table" and lock.Session ~= self.sessionId
+				if type(lock) == "table" and lock.Session ~= session
 					and type(lock.Time) == "number" and now - lock.Time < c.LockStaleAfter then
 					outcome = { kind = "Locked", lock = { Session = lock.Session, Age = now - lock.Time } }
 					return nil
 				end
 				local data = Schema.Migrate(record.Data)
 				record.Data = data
-				record.Lock = { Session = self.sessionId, Time = now }
+				record.Lock = { Session = session, Time = now }
 				outcome = {
 					kind = "Ok",
 					data = Schema.DeepCopy(data),
-					tookStaleLock = type(lock) == "table" and lock.Session ~= self.sessionId,
+					tookStaleLock = type(lock) == "table" and lock.Session ~= session,
 					isNew = record.SaveCount == nil,
 				}
 				return record
@@ -88,7 +119,7 @@ function ProfileStore:Load(key, userIds)
 				if outcome.tookStaleLock then
 					self.log("took over a stale session lock for", key)
 				end
-				return "Ok", { Key = key, Data = outcome.data, Active = true, Session = self.sessionId, IsNew = outcome.isNew }
+				return "Ok", { Key = key, Data = outcome.data, Active = true, Session = session, IsNew = outcome.isNew }
 			elseif outcome.kind == "Locked" then
 				lockAttempts += 1
 				if lockAttempts >= c.LockWaitAttempts then
@@ -127,7 +158,7 @@ function ProfileStore:Save(profile, release, userIds)
 		local ok, err = pcall(function()
 			self.store:UpdateAsync(profile.Key, function(record)
 				outcome = nil
-				if type(record) ~= "table" or type(record.Lock) ~= "table" or record.Lock.Session ~= self.sessionId then
+				if type(record) ~= "table" or type(record.Lock) ~= "table" or record.Lock.Session ~= profile.Session then
 					outcome = "LostLock"
 					return nil
 				end
@@ -135,7 +166,7 @@ function ProfileStore:Save(profile, release, userIds)
 				if release then
 					record.Lock = nil
 				else
-					record.Lock = { Session = self.sessionId, Time = self.now() }
+					record.Lock = { Session = profile.Session, Time = self.now() }
 				end
 				record.SavedAt = self.now()
 				record.SaveCount = (record.SaveCount or 0) + 1

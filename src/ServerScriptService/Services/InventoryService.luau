@@ -33,6 +33,7 @@ local InventoryService = {}
 local remote
 local lastRequest = {} -- [player] = os.clock()
 local lastGet = {}
+local lastRateReply = {}
 
 -- the skin each weapon should show for this player (always valid)
 function InventoryService.GetSkin(player, weaponId)
@@ -78,7 +79,7 @@ local function equip(player, weaponId, skinId)
 	local status = DataService.GetStatus(player)
 	if status == "Loading" then
 		return false, "Your data is still loading"
-	elseif status ~= "Ready" then
+	elseif status ~= "Ready" or not DataService.IsReady(player) then
 		return false, "Saved data is unavailable this session - skins can't be changed"
 	end
 	if not SkinCatalog.Weapons[weaponId] then
@@ -94,7 +95,7 @@ local function equip(player, weaponId, skinId)
 	if not skin.Default and not DataService.OwnsSkin(player, skinId) then
 		return false, "You don't own that skin"
 	end
-	if PlayerState.IsArmed(player) or player:GetAttribute("InMatch") then
+	if PlayerState.IsArmed(player) or player:GetAttribute("MatchId") ~= nil then
 		return false, "Return to the lobby to change skins"
 	end
 	if InventoryService.GetSkin(player, weaponId) == skinId then
@@ -130,12 +131,17 @@ local function onRequest(player, action, ...)
 		local now = os.clock()
 		local ok, reason
 		if lastRequest[player] and now - lastRequest[player] < REQUEST_COOLDOWN then
+			-- Bound rejection replies as well as successful mutations.
+			if lastRateReply[player] and now - lastRateReply[player] < REQUEST_COOLDOWN then return end
+			lastRateReply[player] = now
 			ok, reason = false, "Too fast - try again"
-		elseif type(weaponId) ~= "string" or type(skinId) ~= "string" or #weaponId > 64 or #skinId > 64 then
-			ok, reason = false, "Invalid request"
 		else
-			lastRequest[player] = now
-			ok, reason = equip(player, weaponId, skinId)
+			lastRequest[player] = now -- malformed requests consume the same budget
+			if type(weaponId) ~= "string" or type(skinId) ~= "string" or #weaponId > 64 or #skinId > 64 then
+				ok, reason = false, "Invalid request"
+			else
+				ok, reason = equip(player, weaponId, skinId)
+			end
 		end
 		remote:FireClient(player, "EquipResult", requestId, ok, reason)
 		if ok then
@@ -160,6 +166,7 @@ function InventoryService.Start()
 	Players.PlayerRemoving:Connect(function(player)
 		lastRequest[player] = nil
 		lastGet[player] = nil
+		lastRateReply[player] = nil
 	end)
 end
 

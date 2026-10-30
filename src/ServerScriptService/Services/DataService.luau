@@ -140,14 +140,18 @@ end
 ------------------------------------------------------------------ load / unload
 local function load(player)
 	while releasing[player.UserId] do
+		if player.Parent ~= Players then return end
 		task.wait(0.1) -- rejoining this same server while the leave-save is still running
 	end
+	if player.Parent ~= Players then return end
 	local state = { status = "Loading", version = 0, savedVersion = 0 }
 	states[player] = state
 	setStatus(player, "Loading")
 	local result, info = profiles:Load(keyFor(player.UserId), { player.UserId })
-	if states[player] ~= state then
-		-- the player left (or was reloaded by a test) while loading: give the lock back
+	if states[player] ~= state or player.Parent ~= Players then
+		-- The player left while loading. A per-acquisition token ensures this
+		-- cleanup cannot release or overwrite a newer join on the same server.
+		if states[player] == state then states[player] = nil end
 		if result == "Ok" then
 			profiles:Save(info, true, { player.UserId })
 		end
@@ -169,6 +173,13 @@ local function unload(player)
 	if not state then
 		return
 	end
+	if state.closing then
+		-- PlayerRemoving and BindToClose can overlap. Wait for the existing
+		-- release so shutdown does not finish before that write completes.
+		while states[player] == state do task.wait() end
+		return
+	end
+	state.closing = true
 	releasing[player.UserId] = true
 	if state.profile and state.profile.Active then
 		save(player, true)
@@ -185,7 +196,7 @@ end
 
 function DataService.IsReady(player)
 	local state = states[player]
-	return state ~= nil and state.status == "Ready" and state.profile ~= nil and state.profile.Active
+	return state ~= nil and not state.closing and state.status == "Ready" and state.profile ~= nil and state.profile.Active
 end
 
 -- Read-only copy of the player's data (nil unless Ready).

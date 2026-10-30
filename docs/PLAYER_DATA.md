@@ -10,7 +10,7 @@ Server-owned player data (owned skins, equipped skins, room for progression) plu
 | `ServerScriptService.Data.Schema` | Versioned data shape (v1), migrations, repair of wrong-typed fields. |
 | `ServerScriptService.Data.ProfileStore` | Load/save of one record per player with a session lock. All reads and writes go through `UpdateAsync`. |
 | `ServerScriptService.Data.MemoryStore` | In-memory stand-in for a DataStore, with simulated failures. Used by the tests, and in Studio when API access is off. |
-| `ServerScriptService.Data.DataTests` | 13 automated checks of the above. Run with `print(require(game.ServerScriptService.Data.DataTests).Run())`. |
+| `ServerScriptService.Data.DataTests` | 16 automated checks of the above. Run with `print(require(game.ServerScriptService.Data.DataTests).Run())`. |
 | `Services.DataService` | Runs ProfileStore for every player: load on join, save after changes, autosave, save and release on leave or shutdown. Sets the `DataStatus` attribute. |
 | `Services.InventoryService` | Equip requests (`Remotes.Inventory`), server validation, per-player `Skin_<weapon>` attributes, and each owner's private inventory snapshot. |
 | `Services.LoadoutService` (changed) | Gives each weapon in the player's equipped skin and tags the Tool with `SkinId`. |
@@ -32,7 +32,7 @@ key "u_<UserId>" -> {
     Equipped    = { [weaponId] = skinId },           -- no entry = default
     Progression = {},                                -- reserved
   },
-  Lock = { Session = <server GUID>, Time = os.time() } | nil,
+  Lock = { Session = <server GUID + per-load sequence>, Time = os.time() } | nil,
   SavedAt, SaveCount,
 }
 ```
@@ -117,7 +117,7 @@ Controller B closes the screen, like the other menus.
 
 ## Test results
 
-### Automated (`DataTests`, MemoryStore with a fake clock): 13/13 pass
+### Automated (`DataTests`, MemoryStore with a fake clock): 16/16 pass in the Luau CLI review harness; Studio rerun pending
 
 - A new player gets the defaults and takes the lock.
 - A save persists the data and refreshes the lock.
@@ -131,9 +131,12 @@ Controller B closes the screen, like the other menus.
 - A save failure keeps the profile active and the old record intact; a later save succeeds.
 - Newer-schema data and unreadable records are refused and left untouched.
 - Schema repair keeps valid entries and drops wrong types.
-- A rejoin to the same server reuses its own lock.
+- A second load on the same server waits for the existing acquisition; it cannot reuse that handle's lock.
+- A late save/release from an old same-server acquisition cannot overwrite or release a newer acquisition.
+- A load whose commit succeeded but whose response was lost safely retries its own acquisition token.
+- Missing data payloads and malformed lock/version/save-count envelopes are refused without writes.
 
-### Live play test in Studio (in-memory store, real DataService and remotes)
+### Previously reported live play tests in Studio (before the review fixes; in-memory store, real DataService and remotes)
 
 | Check | Result |
 |---|---|
@@ -165,3 +168,7 @@ Controller B closes the screen, like the other menus.
 - A crashed server's lock blocks that player for up to 5 minutes. They load with defaults and the "couldn't be loaded" message until the lock goes stale and they rejoin.
 - Other players see your equipped skin on your Tool; the `Skin_<weapon>` attributes are public. Your owned list is sent only to you.
 - The skins are colour proofs, not final art.
+
+## Follow-up code review
+
+See `docs/PLAYER_DATA_REVIEW.md` for the fixes, mock-service regression results and required Studio checklist. Each load now has a unique acquisition token. The GUID returned by `DataService.Test.SessionId()` is only the server prefix; inspect `Peek` for the exact stored lock token. Restart the Studio server after installing the module updates. No production store or schema version changed.
