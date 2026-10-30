@@ -1,6 +1,6 @@
 # Python rare finishes — production preparation
 
-This document prepares the four liked designs for a real asset workflow. It is NOT a finished texture set, UV map, material pack or implemented skin. A first detailed finish has not been selected by the user in this handoff. Recommendation: **Eclipse** first, because black/gold material separation can be evaluated clearly before the harder pearlescent/iridescent looks.
+This document prepares the four liked designs for a real asset workflow. It is NOT a finished texture set, UV map, material pack or implemented skin. The user selected **Eclipse — black and gold** for the first detailed production pass. Opal Vein, Crimson Regent and Aurora Titanium remain later candidates.
 
 Source visual: [PythonRareFinishes.png](PythonRareFinishes.png). Equip/ownership plan: [SKIN_INTEGRATION.md](SKIN_INTEGRATION.md). Standard: [../QUALITY_CHECKLIST.md](../QUALITY_CHECKLIST.md).
 
@@ -23,7 +23,7 @@ These are suggested art colors, not authoritative game stat/currency/catalog dat
 | Crimson Regent | Burgundy satin #65343E | Dark walnut #432D28 | Restrained brass #B09356 | Warm colored panels stay secondary to the silhouette; no red team marker confusion |
 | Aurora Titanium | Dark titanium #485462 with controlled blue/teal/violet variation | Matte charcoal #20262A | Muted teal #508A94 and violet #766386 | Static material impression, no shifting animation/bloom or rainbow glare |
 
-### Eclipse — recommended first study, not yet selected
+### Eclipse — selected first finish
 
 - Barrel side flats: one fine bordered gold line following existing surfaces; leave the crown/front-sight region plain dark metal.
 - Frame side: one original geometric engraving composition with substantial quiet black space. Do not copy the concept's tiny arbitrary marks literally.
@@ -47,7 +47,7 @@ Use controlled broad blue/teal/violet bands within existing metal surfaces, keep
 ## Smallest useful production sequence
 
 1. Export/inspect the actual production mesh, UVs, material IDs and moving parts. Do not texture the wrong base and refit everything afterward.
-2. Select the first finish with the user. The recommendation above is not selection approval.
+2. Start with the selected Eclipse finish; review the actual production base/UVs before final texture work.
 3. Prepare original base-color/material maps on that base and compare against baseline. Start with moderate texture resolution; choose final resolution from on-screen detail/platform budget, not rarity alone.
 4. Import through the owner's approved asset workflow, verify experience permissions, inspect real Roblox rendering and provide side/three-quarter/first-person screenshots.
 5. Add a DISABLED catalog descriptor until the approved assets load. Use existing immutable IDs and server-owned ownership/equip validation; no invented texture IDs or false Owned cards.
@@ -64,3 +64,7 @@ Use controlled broad blue/teal/violet bands within existing metal surfaces, keep
 - Record texture resolution, material/mesh count, asset ownership and practical render budget. Test lower graphics settings before release.
 
 The proposed **0.1%** crate chance remains a future rarity idea only. No paid crate, random award, probability, inventory grant or monetization code is delivered here. No final skin material/texture or Studio test is claimed by this preparation document.
+
+## Native-part material study delivered
+
+`../skins/PythonEclipse_MaterialStudy.rbxmx` is an importable color/material study on the existing Python prototype. Its 73 Parts, joint transforms, sizes, collision and visibility flags match the baseline. Dark metal, dark grip, muted flute accents and small gold medallion/crane details establish the color balance. It has NO fine engraving, production texture, unlock, inventory grant or new gameplay logic. It is not automatically included in the ten-weapon preview pack. Follow `../skins/README.md` for isolated inspection.
