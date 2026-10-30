@@ -5,7 +5,10 @@ These are the six STANDARD-map names from the original game roadmap, now explore
 ## Boards
 
 - `TeamArenas_SetA.png`: Freight Terminal, Foundry, Canal Works.
-- `TeamArenas_SetB.png`: Metro Exchange, Skyline, Alpine Station.
+- `TeamArenas_SetB.png`: Metro Exchange, Skyline, and the superseded detailed Alpine Station proposal.
+- `AlpineStation_Studded.png`: LATEST Alpine direction; this replaces the Alpine panel in Set B.
+
+The user likes all six concepts, with Alpine revised to a very basic classic Roblox studded style. The other five retain their existing visual direction.
 
 The art and small diagrams are visual proposals. They are not exact measured construction plans and may contain illustration discrepancies. Dimensioned geometry/spawn plans must be reviewed before building. No Toolbox assets or copied game-map geometry are specified.
 
@@ -18,7 +21,7 @@ The art and small diagrams are visual proposals. They are not exact measured con
 | Canal Works | 3v3 | 130 × 105 studs | Utility sheds, pump housings and dry drainage run |
 | Metro Exchange | 3v3 | 125 × 95 studs | Central kiosk, substantial columns and cross-aisles |
 | Skyline | 4v4 | 150 × 115 studs | Mechanical penthouses and enclosed roof service paths |
-| Alpine Station | 4v4 | 155 × 125 studs | Central laboratory and connected cleared service yard |
+| Alpine Station | 4v4 | 155 × 125 studs | Basic studded baseplate, central roofless block structure and four cover blocks |
 
 These are initial blockout estimates, not approved measurements. The primary fit does not permanently lock a map to that mode. Later mode compatibility requires spawn capacity and movement tests, not simply enabling every mode in a catalog.
 
@@ -57,7 +60,7 @@ All gameplay is on the SAME roof elevation. Mechanical penthouses and HVAC banks
 
 ### Alpine Station
 
-Research depot with a central utility laboratory and two offset walk-through entrances. Cleared routes remain level, snow is visual only, and opposing team cabins have usable exits. No slippery mechanics, whiteout or climbable drifts. Test both dark and pale cosmetic visibility against snow and building backgrounds.
+LATEST USER DIRECTION: very basic, classic Roblox STUDDED geometry only. Use a white studded baseplate to suggest snow, light-gray simple perimeter walls, one small roofless central block structure with offset door gaps, and four purposefully placed basic cover blocks. Blue/red flat floor tiles identify protected opposing spawn pockets. Keep three connected ground routes and clear four-player spawn capacity. No detailed research props, textured snow, custom meshes, mountain scenery, satellite equipment, trees, realistic weathering or cinematic lighting. Use standard simple materials and native studded surfaces; the image is an art reference, not an instruction to create hundreds of separate stud Parts. Geometry stays anchored and grid-aligned. Retain single-floor gameplay and check target visibility against pale surfaces. The initial footprint remains a proposal to test, not an approved construction dimension. The realistic Alpine panel in Set B is superseded; do not build that version.
 
 ## Suggested build order
 
