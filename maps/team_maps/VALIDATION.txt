@@ -1,0 +1,7 @@
+PASS FreightTerminal: 167 parts; exact plan floor/collision; enclosed perimeter; 2v2 real spawn markers/facing; body-clear connectivity; initial eye-level sightline occlusion.
+PASS Foundry: 326 parts; exact plan floor/collision; enclosed perimeter; 2v2 real spawn markers/facing; body-clear connectivity; initial eye-level sightline occlusion.
+PASS CanalWorks: 259 parts; exact plan floor/collision; enclosed perimeter; 3v3 real spawn markers/facing; body-clear connectivity; initial eye-level sightline occlusion.
+PASS MetroExchange: 216 parts; exact plan floor/collision; enclosed perimeter; 3v3 real spawn markers/facing; body-clear connectivity; initial eye-level sightline occlusion.
+PASS Skyline: 307 parts; exact plan floor/collision; enclosed perimeter; 4v4 real spawn markers/facing; body-clear connectivity; initial eye-level sightline occlusion.
+PASS Crosscut: 33 parts; exact plan floor/collision; enclosed perimeter; 4v4 real spawn markers/facing; body-clear connectivity; initial eye-level sightline occlusion.
+PASS exact six-model bundle, zero scripts, byte-identical rebuild. Studio checks remain unrun.

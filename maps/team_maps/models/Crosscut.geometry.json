@@ -1,0 +1,1018 @@
+{
+  "name": "Crosscut",
+  "footprint": [
+    128,
+    112
+  ],
+  "theme": "Crosscut",
+  "spawns": {
+    "Blue": [
+      {
+        "name": "BlueSpawn01",
+        "position": [
+          -51.5,
+          3,
+          40.5
+        ],
+        "yaw": -48.731396999160445
+      },
+      {
+        "name": "BlueSpawn02",
+        "position": [
+          -45.5,
+          3,
+          46.5
+        ],
+        "yaw": -48.731396999160445
+      },
+      {
+        "name": "BlueSpawn03",
+        "position": [
+          -51.5,
+          3,
+          46.5
+        ],
+        "yaw": -48.731396999160445
+      },
+      {
+        "name": "BlueSpawn04",
+        "position": [
+          -45.5,
+          3,
+          40.5
+        ],
+        "yaw": -48.731396999160445
+      }
+    ],
+    "Red": [
+      {
+        "name": "RedSpawn01",
+        "position": [
+          46.5,
+          3,
+          -45.5
+        ],
+        "yaw": 131.26860300083956
+      },
+      {
+        "name": "RedSpawn02",
+        "position": [
+          52.5,
+          3,
+          -39.5
+        ],
+        "yaw": 131.26860300083956
+      },
+      {
+        "name": "RedSpawn03",
+        "position": [
+          46.5,
+          3,
+          -39.5
+        ],
+        "yaw": 131.26860300083956
+      },
+      {
+        "name": "RedSpawn04",
+        "position": [
+          52.5,
+          3,
+          -45.5
+        ],
+        "yaw": 131.26860300083956
+      }
+    ]
+  },
+  "coordinates": "Original plan X/Z minus half footprint; Y=0 floor surface. Spawn slot integer cells exported at +0.5 cell center.",
+  "status": "Built and geometrically checked outside Roblox. Studio import, visuals and gameplay untested.",
+  "primary_mode": "4v4",
+  "team_size": 4,
+  "plan_source": "maps/concepts/v2/layouts.json",
+  "version": "team-build-v1",
+  "source_footprint": [
+    128,
+    112
+  ],
+  "boundary_policy": "Opaque 14-stud boundary walls are placed entirely OUTSIDE the plan floor, including inner voids.",
+  "source_blocks": [
+    [
+      26,
+      92,
+      28,
+      106,
+      12
+    ],
+    [
+      100,
+      6,
+      102,
+      20,
+      12
+    ],
+    [
+      42,
+      22,
+      46,
+      42,
+      12
+    ],
+    [
+      42,
+      54,
+      46,
+      88,
+      12
+    ],
+    [
+      66,
+      56,
+      84,
+      60,
+      12
+    ],
+    [
+      96,
+      56,
+      118,
+      60,
+      12
+    ],
+    [
+      80,
+      10,
+      84,
+      34,
+      12
+    ],
+    [
+      19,
+      39,
+      27,
+      47,
+      12
+    ],
+    [
+      103,
+      72,
+      111,
+      80,
+      12
+    ],
+    [
+      59,
+      82,
+      67,
+      86,
+      3.2
+    ],
+    [
+      60,
+      19,
+      67,
+      23,
+      3.2
+    ]
+  ],
+  "floor_rectangles": [
+    [
+      32,
+      0,
+      128,
+      88
+    ],
+    [
+      0,
+      24,
+      32,
+      112
+    ],
+    [
+      32,
+      88,
+      96,
+      112
+    ]
+  ],
+  "boundary_segments": [
+    {
+      "direction": "E",
+      "rect": [
+        96,
+        88,
+        97,
+        112
+      ],
+      "height": 14
+    },
+    {
+      "direction": "E",
+      "rect": [
+        128,
+        0,
+        129,
+        88
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        96,
+        88,
+        128,
+        89
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        0,
+        112,
+        96,
+        113
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        32,
+        -1,
+        128,
+        0
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        0,
+        23,
+        32,
+        24
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        -1,
+        24,
+        0,
+        112
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        31,
+        0,
+        32,
+        24
+      ],
+      "height": 14
+    }
+  ],
+  "part_count": 33,
+  "parts": [
+    {
+      "name": "FoundationSlab",
+      "position": [
+        16.0,
+        -1.0,
+        -12.0
+      ],
+      "size": [
+        96,
+        2,
+        88
+      ],
+      "world_size": [
+        96,
+        2,
+        88
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -48.0,
+        -1.0,
+        12.0
+      ],
+      "size": [
+        32,
+        2,
+        88
+      ],
+      "world_size": [
+        32,
+        2,
+        88
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        0.0,
+        -1.0,
+        44.0
+      ],
+      "size": [
+        64,
+        2,
+        24
+      ],
+      "world_size": [
+        64,
+        2,
+        24
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        32.5,
+        7.0,
+        44.0
+      ],
+      "size": [
+        1,
+        14,
+        24
+      ],
+      "world_size": [
+        1,
+        14,
+        24
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        64.5,
+        7.0,
+        -12.0
+      ],
+      "size": [
+        1,
+        14,
+        88
+      ],
+      "world_size": [
+        1,
+        14,
+        88
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        48.0,
+        7.0,
+        32.5
+      ],
+      "size": [
+        32,
+        14,
+        1
+      ],
+      "world_size": [
+        32,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        -16.0,
+        7.0,
+        56.5
+      ],
+      "size": [
+        96,
+        14,
+        1
+      ],
+      "world_size": [
+        96,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        16.0,
+        7.0,
+        -56.5
+      ],
+      "size": [
+        96,
+        14,
+        1
+      ],
+      "world_size": [
+        96,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        -48.0,
+        7.0,
+        -32.5
+      ],
+      "size": [
+        32,
+        14,
+        1
+      ],
+      "world_size": [
+        32,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -64.5,
+        7.0,
+        12.0
+      ],
+      "size": [
+        1,
+        14,
+        88
+      ],
+      "world_size": [
+        1,
+        14,
+        88
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -32.5,
+        7.0,
+        -44.0
+      ],
+      "size": [
+        1,
+        14,
+        24
+      ],
+      "world_size": [
+        1,
+        14,
+        24
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_00",
+      "position": [
+        -37.0,
+        6.0,
+        43.0
+      ],
+      "size": [
+        2,
+        12,
+        14
+      ],
+      "world_size": [
+        2,
+        12,
+        14
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 0
+    },
+    {
+      "name": "Wall_01",
+      "position": [
+        37.0,
+        6.0,
+        -43.0
+      ],
+      "size": [
+        2,
+        12,
+        14
+      ],
+      "world_size": [
+        2,
+        12,
+        14
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 1
+    },
+    {
+      "name": "Wall_02",
+      "position": [
+        -20.0,
+        6.0,
+        -24.0
+      ],
+      "size": [
+        4,
+        12,
+        20
+      ],
+      "world_size": [
+        4,
+        12,
+        20
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 2
+    },
+    {
+      "name": "Wall_03",
+      "position": [
+        -20.0,
+        6.0,
+        15.0
+      ],
+      "size": [
+        4,
+        12,
+        34
+      ],
+      "world_size": [
+        4,
+        12,
+        34
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 3
+    },
+    {
+      "name": "Wall_04",
+      "position": [
+        11.0,
+        6.0,
+        2.0
+      ],
+      "size": [
+        18,
+        12,
+        4
+      ],
+      "world_size": [
+        18,
+        12,
+        4
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 4
+    },
+    {
+      "name": "Wall_05",
+      "position": [
+        43.0,
+        6.0,
+        2.0
+      ],
+      "size": [
+        22,
+        12,
+        4
+      ],
+      "world_size": [
+        22,
+        12,
+        4
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 5
+    },
+    {
+      "name": "Wall_06",
+      "position": [
+        18.0,
+        6.0,
+        -34.0
+      ],
+      "size": [
+        4,
+        12,
+        24
+      ],
+      "world_size": [
+        4,
+        12,
+        24
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 6
+    },
+    {
+      "name": "Wall_07",
+      "position": [
+        -41.0,
+        6.0,
+        -13.0
+      ],
+      "size": [
+        8,
+        12,
+        8
+      ],
+      "world_size": [
+        8,
+        12,
+        8
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 7
+    },
+    {
+      "name": "Wall_08",
+      "position": [
+        43.0,
+        6.0,
+        20.0
+      ],
+      "size": [
+        8,
+        12,
+        8
+      ],
+      "world_size": [
+        8,
+        12,
+        8
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 8
+    },
+    {
+      "name": "Wall_09",
+      "position": [
+        -1.0,
+        1.6,
+        28.0
+      ],
+      "size": [
+        8,
+        3.2,
+        4
+      ],
+      "world_size": [
+        8,
+        3.2,
+        4
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 9
+    },
+    {
+      "name": "Wall_10",
+      "position": [
+        -0.5,
+        1.6,
+        -35.0
+      ],
+      "size": [
+        7,
+        3.2,
+        4
+      ],
+      "world_size": [
+        7,
+        3.2,
+        4
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 10
+    },
+    {
+      "name": "BlueSpawn01",
+      "position": [
+        -51.5,
+        3,
+        40.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -48.731396999160445
+    },
+    {
+      "name": "BlueSpawn02",
+      "position": [
+        -45.5,
+        3,
+        46.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -48.731396999160445
+    },
+    {
+      "name": "BlueSpawn03",
+      "position": [
+        -51.5,
+        3,
+        46.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -48.731396999160445
+    },
+    {
+      "name": "BlueSpawn04",
+      "position": [
+        -45.5,
+        3,
+        40.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -48.731396999160445
+    },
+    {
+      "name": "BlueSpawnTile",
+      "position": [
+        -48.5,
+        0.025,
+        43.5
+      ],
+      "size": [
+        10,
+        0.05,
+        10
+      ],
+      "world_size": [
+        10,
+        0.05,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedSpawn01",
+      "position": [
+        46.5,
+        3,
+        -45.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 131.26860300083956
+    },
+    {
+      "name": "RedSpawn02",
+      "position": [
+        52.5,
+        3,
+        -39.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 131.26860300083956
+    },
+    {
+      "name": "RedSpawn03",
+      "position": [
+        46.5,
+        3,
+        -39.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 131.26860300083956
+    },
+    {
+      "name": "RedSpawn04",
+      "position": [
+        52.5,
+        3,
+        -45.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 131.26860300083956
+    },
+    {
+      "name": "RedSpawnTile",
+      "position": [
+        49.5,
+        0.025,
+        -42.5
+      ],
+      "size": [
+        10,
+        0.05,
+        10
+      ],
+      "world_size": [
+        10,
+        0.05,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "MapOrigin",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Metadata",
+      "shape": "Block",
+      "yaw": 0
+    }
+  ]
+}
