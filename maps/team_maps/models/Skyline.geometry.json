@@ -1,0 +1,7264 @@
+{
+  "name": "Skyline",
+  "footprint": [
+    144,
+    96
+  ],
+  "theme": "Skyline",
+  "spawns": {
+    "Blue": [
+      {
+        "name": "BlueSpawn01",
+        "position": [
+          -61.5,
+          3,
+          -38.5
+        ],
+        "yaw": -121.3902681041878
+      },
+      {
+        "name": "BlueSpawn02",
+        "position": [
+          -55.5,
+          3,
+          -32.5
+        ],
+        "yaw": -121.3902681041878
+      },
+      {
+        "name": "BlueSpawn03",
+        "position": [
+          -61.5,
+          3,
+          -32.5
+        ],
+        "yaw": -121.3902681041878
+      },
+      {
+        "name": "BlueSpawn04",
+        "position": [
+          -55.5,
+          3,
+          -38.5
+        ],
+        "yaw": -121.3902681041878
+      }
+    ],
+    "Red": [
+      {
+        "name": "RedSpawn01",
+        "position": [
+          56.5,
+          3,
+          33.5
+        ],
+        "yaw": 58.6097318958122
+      },
+      {
+        "name": "RedSpawn02",
+        "position": [
+          62.5,
+          3,
+          39.5
+        ],
+        "yaw": 58.6097318958122
+      },
+      {
+        "name": "RedSpawn03",
+        "position": [
+          56.5,
+          3,
+          39.5
+        ],
+        "yaw": 58.6097318958122
+      },
+      {
+        "name": "RedSpawn04",
+        "position": [
+          62.5,
+          3,
+          33.5
+        ],
+        "yaw": 58.6097318958122
+      }
+    ]
+  },
+  "coordinates": "Original plan X/Z minus half footprint; Y=0 floor surface. Spawn slot integer cells exported at +0.5 cell center.",
+  "status": "Built and geometrically checked outside Roblox. Studio import, visuals and gameplay untested.",
+  "primary_mode": "4v4",
+  "team_size": 4,
+  "plan_source": "maps/concepts/v2/layouts.json",
+  "version": "team-build-v1",
+  "source_footprint": [
+    144,
+    96
+  ],
+  "boundary_policy": "Opaque 14-stud boundary walls are placed entirely OUTSIDE the plan floor, including inner voids.",
+  "source_blocks": [
+    [
+      22,
+      8,
+      24,
+      18,
+      12
+    ],
+    [
+      120,
+      78,
+      122,
+      88,
+      12
+    ],
+    [
+      42,
+      41,
+      61,
+      58,
+      12
+    ],
+    [
+      84,
+      41,
+      105,
+      57,
+      12
+    ],
+    [
+      68,
+      24,
+      73,
+      43,
+      12
+    ],
+    [
+      63,
+      66,
+      75,
+      73,
+      12
+    ],
+    [
+      27,
+      68,
+      33,
+      73,
+      3.2
+    ],
+    [
+      110,
+      25,
+      116,
+      30,
+      3.2
+    ],
+    [
+      83,
+      9,
+      91,
+      14,
+      3.2
+    ]
+  ],
+  "floor_rectangles": [
+    [
+      0,
+      0,
+      28,
+      26
+    ],
+    [
+      52,
+      4,
+      120,
+      74
+    ],
+    [
+      28,
+      12,
+      48,
+      94
+    ],
+    [
+      120,
+      20,
+      132,
+      96
+    ],
+    [
+      48,
+      24,
+      52,
+      94
+    ],
+    [
+      12,
+      26,
+      28,
+      40
+    ],
+    [
+      16,
+      40,
+      28,
+      78
+    ],
+    [
+      132,
+      70,
+      144,
+      96
+    ],
+    [
+      52,
+      74,
+      94,
+      94
+    ],
+    [
+      96,
+      74,
+      120,
+      84
+    ],
+    [
+      24,
+      78,
+      28,
+      94
+    ],
+    [
+      116,
+      84,
+      120,
+      96
+    ]
+  ],
+  "boundary_segments": [
+    {
+      "direction": "E",
+      "rect": [
+        28,
+        0,
+        29,
+        12
+      ],
+      "height": 14
+    },
+    {
+      "direction": "E",
+      "rect": [
+        48,
+        12,
+        49,
+        24
+      ],
+      "height": 14
+    },
+    {
+      "direction": "E",
+      "rect": [
+        94,
+        74,
+        95,
+        94
+      ],
+      "height": 14
+    },
+    {
+      "direction": "E",
+      "rect": [
+        120,
+        4,
+        121,
+        20
+      ],
+      "height": 14
+    },
+    {
+      "direction": "E",
+      "rect": [
+        132,
+        20,
+        133,
+        70
+      ],
+      "height": 14
+    },
+    {
+      "direction": "E",
+      "rect": [
+        144,
+        70,
+        145,
+        96
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        0,
+        26,
+        12,
+        27
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        12,
+        40,
+        16,
+        41
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        94,
+        74,
+        96,
+        75
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        16,
+        78,
+        24,
+        79
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        96,
+        84,
+        116,
+        85
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        24,
+        94,
+        94,
+        95
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        116,
+        96,
+        144,
+        97
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        0,
+        -1,
+        28,
+        0
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        52,
+        3,
+        120,
+        4
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        28,
+        11,
+        48,
+        12
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        120,
+        19,
+        132,
+        20
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        48,
+        23,
+        52,
+        24
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        132,
+        69,
+        144,
+        70
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        -1,
+        0,
+        0,
+        26
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        11,
+        26,
+        12,
+        40
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        15,
+        40,
+        16,
+        78
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        23,
+        78,
+        24,
+        94
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        51,
+        4,
+        52,
+        24
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        95,
+        74,
+        96,
+        84
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        115,
+        84,
+        116,
+        96
+      ],
+      "height": 14
+    }
+  ],
+  "part_count": 307,
+  "parts": [
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -58.0,
+        -1.0,
+        -35.0
+      ],
+      "size": [
+        28,
+        2,
+        26
+      ],
+      "world_size": [
+        28,
+        2,
+        26
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        14.0,
+        -1.0,
+        -9.0
+      ],
+      "size": [
+        68,
+        2,
+        70
+      ],
+      "world_size": [
+        68,
+        2,
+        70
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -34.0,
+        -1.0,
+        5.0
+      ],
+      "size": [
+        20,
+        2,
+        82
+      ],
+      "world_size": [
+        20,
+        2,
+        82
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        54.0,
+        -1.0,
+        10.0
+      ],
+      "size": [
+        12,
+        2,
+        76
+      ],
+      "world_size": [
+        12,
+        2,
+        76
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -22.0,
+        -1.0,
+        11.0
+      ],
+      "size": [
+        4,
+        2,
+        70
+      ],
+      "world_size": [
+        4,
+        2,
+        70
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -52.0,
+        -1.0,
+        -15.0
+      ],
+      "size": [
+        16,
+        2,
+        14
+      ],
+      "world_size": [
+        16,
+        2,
+        14
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -50.0,
+        -1.0,
+        11.0
+      ],
+      "size": [
+        12,
+        2,
+        38
+      ],
+      "world_size": [
+        12,
+        2,
+        38
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        66.0,
+        -1.0,
+        35.0
+      ],
+      "size": [
+        12,
+        2,
+        26
+      ],
+      "world_size": [
+        12,
+        2,
+        26
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        1.0,
+        -1.0,
+        36.0
+      ],
+      "size": [
+        42,
+        2,
+        20
+      ],
+      "world_size": [
+        42,
+        2,
+        20
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        36.0,
+        -1.0,
+        31.0
+      ],
+      "size": [
+        24,
+        2,
+        10
+      ],
+      "world_size": [
+        24,
+        2,
+        10
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -46.0,
+        -1.0,
+        38.0
+      ],
+      "size": [
+        4,
+        2,
+        16
+      ],
+      "world_size": [
+        4,
+        2,
+        16
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        46.0,
+        -1.0,
+        42.0
+      ],
+      "size": [
+        4,
+        2,
+        12
+      ],
+      "world_size": [
+        4,
+        2,
+        12
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        -43.5,
+        7.0,
+        -42.0
+      ],
+      "size": [
+        1,
+        14,
+        12
+      ],
+      "world_size": [
+        1,
+        14,
+        12
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -43.5,
+        14.08,
+        -42.0
+      ],
+      "size": [
+        1,
+        0.16,
+        12
+      ],
+      "world_size": [
+        1,
+        0.16,
+        12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -43.55,
+        7,
+        -44.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        -23.5,
+        7.0,
+        -30.0
+      ],
+      "size": [
+        1,
+        14,
+        12
+      ],
+      "world_size": [
+        1,
+        14,
+        12
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -23.5,
+        14.08,
+        -30.0
+      ],
+      "size": [
+        1,
+        0.16,
+        12
+      ],
+      "world_size": [
+        1,
+        0.16,
+        12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -23.549999999999997,
+        7,
+        -32.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        22.5,
+        7.0,
+        36.0
+      ],
+      "size": [
+        1,
+        14,
+        20
+      ],
+      "world_size": [
+        1,
+        14,
+        20
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        22.5,
+        14.08,
+        36.0
+      ],
+      "size": [
+        1,
+        0.16,
+        20
+      ],
+      "world_size": [
+        1,
+        0.16,
+        20
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        22.450000000000003,
+        7,
+        30.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        22.450000000000003,
+        7,
+        42.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        48.5,
+        7.0,
+        -36.0
+      ],
+      "size": [
+        1,
+        14,
+        16
+      ],
+      "world_size": [
+        1,
+        14,
+        16
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        48.5,
+        14.08,
+        -36.0
+      ],
+      "size": [
+        1,
+        0.16,
+        16
+      ],
+      "world_size": [
+        1,
+        0.16,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        48.45,
+        7,
+        -40.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        60.5,
+        7.0,
+        -3.0
+      ],
+      "size": [
+        1,
+        14,
+        50
+      ],
+      "world_size": [
+        1,
+        14,
+        50
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        60.5,
+        14.08,
+        -3.0
+      ],
+      "size": [
+        1,
+        0.16,
+        50
+      ],
+      "world_size": [
+        1,
+        0.16,
+        50
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        60.44999999999999,
+        7,
+        -24.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        60.44999999999999,
+        7,
+        -12.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        60.44999999999999,
+        7,
+        0.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        60.44999999999999,
+        7,
+        12.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        72.5,
+        7.0,
+        35.0
+      ],
+      "size": [
+        1,
+        14,
+        26
+      ],
+      "world_size": [
+        1,
+        14,
+        26
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        72.5,
+        14.08,
+        35.0
+      ],
+      "size": [
+        1,
+        0.16,
+        26
+      ],
+      "world_size": [
+        1,
+        0.16,
+        26
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        72.44999999999999,
+        7,
+        26.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        72.44999999999999,
+        7,
+        38.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        -66.0,
+        7.0,
+        -21.5
+      ],
+      "size": [
+        12,
+        14,
+        1
+      ],
+      "world_size": [
+        12,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -66.0,
+        14.08,
+        -21.5
+      ],
+      "size": [
+        12,
+        0.16,
+        1
+      ],
+      "world_size": [
+        12,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -68.0,
+        7,
+        -21.55
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        -58.0,
+        7.0,
+        -7.5
+      ],
+      "size": [
+        4,
+        14,
+        1
+      ],
+      "world_size": [
+        4,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -58.0,
+        14.08,
+        -7.5
+      ],
+      "size": [
+        4,
+        0.16,
+        1
+      ],
+      "world_size": [
+        4,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        23.0,
+        7.0,
+        26.5
+      ],
+      "size": [
+        2,
+        14,
+        1
+      ],
+      "world_size": [
+        2,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        23.0,
+        14.08,
+        26.5
+      ],
+      "size": [
+        2,
+        0.16,
+        1
+      ],
+      "world_size": [
+        2,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        -52.0,
+        7.0,
+        30.5
+      ],
+      "size": [
+        8,
+        14,
+        1
+      ],
+      "world_size": [
+        8,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -52.0,
+        14.08,
+        30.5
+      ],
+      "size": [
+        8,
+        0.16,
+        1
+      ],
+      "world_size": [
+        8,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        34.0,
+        7.0,
+        36.5
+      ],
+      "size": [
+        20,
+        14,
+        1
+      ],
+      "world_size": [
+        20,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        34.0,
+        14.08,
+        36.5
+      ],
+      "size": [
+        20,
+        0.16,
+        1
+      ],
+      "world_size": [
+        20,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        28.0,
+        7,
+        36.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        40.0,
+        7,
+        36.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        -13.0,
+        7.0,
+        46.5
+      ],
+      "size": [
+        70,
+        14,
+        1
+      ],
+      "world_size": [
+        70,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -13.0,
+        14.08,
+        46.5
+      ],
+      "size": [
+        70,
+        0.16,
+        1
+      ],
+      "world_size": [
+        70,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -44.0,
+        7,
+        46.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -32.0,
+        7,
+        46.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -20.0,
+        7,
+        46.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -8.0,
+        7,
+        46.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        4.0,
+        7,
+        46.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        16.0,
+        7,
+        46.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        58.0,
+        7.0,
+        48.5
+      ],
+      "size": [
+        28,
+        14,
+        1
+      ],
+      "world_size": [
+        28,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        58.0,
+        14.08,
+        48.5
+      ],
+      "size": [
+        28,
+        0.16,
+        1
+      ],
+      "world_size": [
+        28,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        48.0,
+        7,
+        48.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        60.0,
+        7,
+        48.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        -58.0,
+        7.0,
+        -48.5
+      ],
+      "size": [
+        28,
+        14,
+        1
+      ],
+      "world_size": [
+        28,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -58.0,
+        14.08,
+        -48.5
+      ],
+      "size": [
+        28,
+        0.16,
+        1
+      ],
+      "world_size": [
+        28,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -68.0,
+        7,
+        -48.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -56.0,
+        7,
+        -48.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        14.0,
+        7.0,
+        -44.5
+      ],
+      "size": [
+        68,
+        14,
+        1
+      ],
+      "world_size": [
+        68,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        14.0,
+        14.08,
+        -44.5
+      ],
+      "size": [
+        68,
+        0.16,
+        1
+      ],
+      "world_size": [
+        68,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -16.0,
+        7,
+        -44.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -4.0,
+        7,
+        -44.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        8.0,
+        7,
+        -44.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        20.0,
+        7,
+        -44.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        32.0,
+        7,
+        -44.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        44.0,
+        7,
+        -44.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        -34.0,
+        7.0,
+        -36.5
+      ],
+      "size": [
+        20,
+        14,
+        1
+      ],
+      "world_size": [
+        20,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -34.0,
+        14.08,
+        -36.5
+      ],
+      "size": [
+        20,
+        0.16,
+        1
+      ],
+      "world_size": [
+        20,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -40.0,
+        7,
+        -36.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -28.0,
+        7,
+        -36.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        54.0,
+        7.0,
+        -28.5
+      ],
+      "size": [
+        12,
+        14,
+        1
+      ],
+      "world_size": [
+        12,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        54.0,
+        14.08,
+        -28.5
+      ],
+      "size": [
+        12,
+        0.16,
+        1
+      ],
+      "world_size": [
+        12,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        52.0,
+        7,
+        -28.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        -22.0,
+        7.0,
+        -24.5
+      ],
+      "size": [
+        4,
+        14,
+        1
+      ],
+      "world_size": [
+        4,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -22.0,
+        14.08,
+        -24.5
+      ],
+      "size": [
+        4,
+        0.16,
+        1
+      ],
+      "world_size": [
+        4,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        66.0,
+        7.0,
+        21.5
+      ],
+      "size": [
+        12,
+        14,
+        1
+      ],
+      "world_size": [
+        12,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        66.0,
+        14.08,
+        21.5
+      ],
+      "size": [
+        12,
+        0.16,
+        1
+      ],
+      "world_size": [
+        12,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        64.0,
+        7,
+        21.549999999999997
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -72.5,
+        7.0,
+        -35.0
+      ],
+      "size": [
+        1,
+        14,
+        26
+      ],
+      "world_size": [
+        1,
+        14,
+        26
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -72.5,
+        14.08,
+        -35.0
+      ],
+      "size": [
+        1,
+        0.16,
+        26
+      ],
+      "world_size": [
+        1,
+        0.16,
+        26
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -72.45,
+        7,
+        -44.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -72.45,
+        7,
+        -32.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -60.5,
+        7.0,
+        -15.0
+      ],
+      "size": [
+        1,
+        14,
+        14
+      ],
+      "world_size": [
+        1,
+        14,
+        14
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -60.5,
+        14.08,
+        -15.0
+      ],
+      "size": [
+        1,
+        0.16,
+        14
+      ],
+      "world_size": [
+        1,
+        0.16,
+        14
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -60.45,
+        7,
+        -18.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -56.5,
+        7.0,
+        11.0
+      ],
+      "size": [
+        1,
+        14,
+        38
+      ],
+      "world_size": [
+        1,
+        14,
+        38
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -56.5,
+        14.08,
+        11.0
+      ],
+      "size": [
+        1,
+        0.16,
+        38
+      ],
+      "world_size": [
+        1,
+        0.16,
+        38
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -56.45,
+        7,
+        -4.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -56.45,
+        7,
+        8.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -56.45,
+        7,
+        20.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -48.5,
+        7.0,
+        38.0
+      ],
+      "size": [
+        1,
+        14,
+        16
+      ],
+      "world_size": [
+        1,
+        14,
+        16
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -48.5,
+        14.08,
+        38.0
+      ],
+      "size": [
+        1,
+        0.16,
+        16
+      ],
+      "world_size": [
+        1,
+        0.16,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -48.45,
+        7,
+        34.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -20.5,
+        7.0,
+        -34.0
+      ],
+      "size": [
+        1,
+        14,
+        20
+      ],
+      "world_size": [
+        1,
+        14,
+        20
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -20.5,
+        14.08,
+        -34.0
+      ],
+      "size": [
+        1,
+        0.16,
+        20
+      ],
+      "world_size": [
+        1,
+        0.16,
+        20
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -20.450000000000003,
+        7,
+        -40.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -20.450000000000003,
+        7,
+        -28.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        23.5,
+        7.0,
+        31.0
+      ],
+      "size": [
+        1,
+        14,
+        10
+      ],
+      "world_size": [
+        1,
+        14,
+        10
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        23.5,
+        14.08,
+        31.0
+      ],
+      "size": [
+        1,
+        0.16,
+        10
+      ],
+      "world_size": [
+        1,
+        0.16,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        43.5,
+        7.0,
+        42.0
+      ],
+      "size": [
+        1,
+        14,
+        12
+      ],
+      "world_size": [
+        1,
+        14,
+        12
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        43.5,
+        14.08,
+        42.0
+      ],
+      "size": [
+        1,
+        0.16,
+        12
+      ],
+      "world_size": [
+        1,
+        0.16,
+        12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        43.55,
+        7,
+        40.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -44.015,
+        9.4,
+        -42.0
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        0.18,
+        0.65,
+        1.25
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -44.135000000000005,
+        9.4,
+        -42.0
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        0.3,
+        0.85
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        21.985,
+        9.4,
+        36.0
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        0.18,
+        0.65,
+        1.25
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        21.864999999999995,
+        9.4,
+        36.0
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        0.3,
+        0.85
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        59.985000000000014,
+        9.4,
+        -3.0
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        0.18,
+        0.65,
+        1.25
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        59.86500000000001,
+        9.4,
+        -3.0
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        0.3,
+        0.85
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -66.0,
+        9.4,
+        -22.015
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -66.0,
+        9.4,
+        -22.135
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -13.0,
+        9.4,
+        45.985
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -13.0,
+        9.4,
+        45.864999999999995
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -58.0,
+        9.4,
+        -47.985
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -58.0,
+        9.4,
+        -47.865
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -34.0,
+        9.4,
+        -35.985
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -34.0,
+        9.4,
+        -35.865
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        66.0,
+        9.4,
+        22.015
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        66.0,
+        9.4,
+        22.135000000000005
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -59.985,
+        9.4,
+        -15.0
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        0.18,
+        0.65,
+        1.25
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -59.865,
+        9.4,
+        -15.0
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        0.3,
+        0.85
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -47.985,
+        9.4,
+        38.0
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        0.18,
+        0.65,
+        1.25
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -47.864999999999995,
+        9.4,
+        38.0
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        0.3,
+        0.85
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        44.015,
+        9.4,
+        42.0
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        0.18,
+        0.65,
+        1.25
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        44.135000000000005,
+        9.4,
+        42.0
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        0.3,
+        0.85
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "Wall_00",
+      "position": [
+        -49.0,
+        6.0,
+        -35.0
+      ],
+      "size": [
+        2,
+        12,
+        10
+      ],
+      "world_size": [
+        2,
+        12,
+        10
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 0
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        -49.0,
+        12.04,
+        -35.0
+      ],
+      "size": [
+        2,
+        0.08,
+        10
+      ],
+      "world_size": [
+        2,
+        0.08,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_01",
+      "position": [
+        49.0,
+        6.0,
+        35.0
+      ],
+      "size": [
+        2,
+        12,
+        10
+      ],
+      "world_size": [
+        2,
+        12,
+        10
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 1
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        49.0,
+        12.04,
+        35.0
+      ],
+      "size": [
+        2,
+        0.08,
+        10
+      ],
+      "world_size": [
+        2,
+        0.08,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Plant_02",
+      "position": [
+        -20.5,
+        6.0,
+        1.5
+      ],
+      "size": [
+        19,
+        12,
+        17
+      ],
+      "world_size": [
+        19,
+        12,
+        17
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 2
+    },
+    {
+      "name": "PlantCap",
+      "position": [
+        -20.5,
+        12.04,
+        1.5
+      ],
+      "size": [
+        19,
+        0.08,
+        17
+      ],
+      "world_size": [
+        19,
+        0.08,
+        17
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        -30.03,
+        7,
+        -5.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        6,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        6.5,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        7,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        7.5,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        8,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        -30.03,
+        7,
+        -2.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        6,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        6.5,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        7,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        7.5,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        8,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        -30.03,
+        7,
+        1.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        6,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        6.5,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        7,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        7.5,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        8,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        -30.03,
+        7,
+        4.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        6,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        6.5,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        7,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        7.5,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        8,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        -30.03,
+        7,
+        7.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        6,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        6.5,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        7,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        7.5,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -30.060000000000002,
+        8,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        -10.969999999999999,
+        7,
+        -5.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        6,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        6.5,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        7,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        7.5,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        8,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        -10.969999999999999,
+        7,
+        -2.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        6,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        6.5,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        7,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        7.5,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        8,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        -10.969999999999999,
+        7,
+        1.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        6,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        6.5,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        7,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        7.5,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        8,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        -10.969999999999999,
+        7,
+        4.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        6,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        6.5,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        7,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        7.5,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        8,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        -10.969999999999999,
+        7,
+        7.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        6,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        6.5,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        7,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        7.5,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -10.939999999999998,
+        8,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "MachineAccessPanel",
+      "position": [
+        -20.5,
+        4.5,
+        -7.030000000000001
+      ],
+      "size": [
+        17.8,
+        5,
+        0.04
+      ],
+      "world_size": [
+        17.8,
+        5,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "MachinePanelHandle",
+      "position": [
+        -20.5,
+        4.5,
+        -7.0
+      ],
+      "size": [
+        0.12,
+        0.8,
+        0.08
+      ],
+      "world_size": [
+        0.12,
+        0.8,
+        0.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "MachineAccessPanel",
+      "position": [
+        -20.5,
+        4.5,
+        10.030000000000001
+      ],
+      "size": [
+        17.8,
+        5,
+        0.04
+      ],
+      "world_size": [
+        17.8,
+        5,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "MachinePanelHandle",
+      "position": [
+        -20.5,
+        4.5,
+        10.060000000000002
+      ],
+      "size": [
+        0.12,
+        0.8,
+        0.08
+      ],
+      "world_size": [
+        0.12,
+        0.8,
+        0.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PlantExhaustRing",
+      "position": [
+        -24.5,
+        12.18,
+        1.5
+      ],
+      "size": [
+        0.2,
+        3.4,
+        3.4
+      ],
+      "world_size": [
+        3.4,
+        0.2,
+        3.4
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "PlantExhaustRing",
+      "position": [
+        -16.5,
+        12.18,
+        1.5
+      ],
+      "size": [
+        0.2,
+        3.4,
+        3.4
+      ],
+      "world_size": [
+        3.4,
+        0.2,
+        3.4
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "Plant_03",
+      "position": [
+        22.5,
+        6.0,
+        1.0
+      ],
+      "size": [
+        21,
+        12,
+        16
+      ],
+      "world_size": [
+        21,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 3
+    },
+    {
+      "name": "PlantCap",
+      "position": [
+        22.5,
+        12.04,
+        1.0
+      ],
+      "size": [
+        21,
+        0.08,
+        16
+      ],
+      "world_size": [
+        21,
+        0.08,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        11.969999999999999,
+        7,
+        -5.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        6,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        6.5,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        7,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        7.5,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        8,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        11.969999999999999,
+        7,
+        -2.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        6,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        6.5,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        7,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        7.5,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        8,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        11.969999999999999,
+        7,
+        1.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        6,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        6.5,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        7,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        7.5,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        8,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        11.969999999999999,
+        7,
+        4.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        6,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        6.5,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        7,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        7.5,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        8,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        11.969999999999999,
+        7,
+        7.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        6,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        6.5,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        7,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        7.5,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        11.939999999999998,
+        8,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        33.03,
+        7,
+        -5.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        6,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        6.5,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        7,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        7.5,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        8,
+        -5.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        33.03,
+        7,
+        -2.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        6,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        6.5,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        7,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        7.5,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        8,
+        -2.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        33.03,
+        7,
+        1.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        6,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        6.5,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        7,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        7.5,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        8,
+        1.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        33.03,
+        7,
+        4.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        6,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        6.5,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        7,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        7.5,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        8,
+        4.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentPanel",
+      "position": [
+        33.03,
+        7,
+        7.0
+      ],
+      "size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "world_size": [
+        0.05,
+        3,
+        1.8
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        6,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        6.5,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        7,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        7.5,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        33.06,
+        8,
+        7.0
+      ],
+      "size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "world_size": [
+        0.04,
+        0.07,
+        1.6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "MachineAccessPanel",
+      "position": [
+        22.5,
+        4.5,
+        -7.030000000000001
+      ],
+      "size": [
+        19.8,
+        5,
+        0.04
+      ],
+      "world_size": [
+        19.8,
+        5,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "MachinePanelHandle",
+      "position": [
+        22.5,
+        4.5,
+        -7.0
+      ],
+      "size": [
+        0.12,
+        0.8,
+        0.08
+      ],
+      "world_size": [
+        0.12,
+        0.8,
+        0.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "MachineAccessPanel",
+      "position": [
+        22.5,
+        4.5,
+        9.030000000000001
+      ],
+      "size": [
+        19.8,
+        5,
+        0.04
+      ],
+      "world_size": [
+        19.8,
+        5,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "MachinePanelHandle",
+      "position": [
+        22.5,
+        4.5,
+        9.060000000000002
+      ],
+      "size": [
+        0.12,
+        0.8,
+        0.08
+      ],
+      "world_size": [
+        0.12,
+        0.8,
+        0.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PlantExhaustRing",
+      "position": [
+        18.5,
+        12.18,
+        1.0
+      ],
+      "size": [
+        0.2,
+        3.4,
+        3.4
+      ],
+      "world_size": [
+        3.4,
+        0.2,
+        3.4
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "PlantExhaustRing",
+      "position": [
+        26.5,
+        12.18,
+        1.0
+      ],
+      "size": [
+        0.2,
+        3.4,
+        3.4
+      ],
+      "world_size": [
+        3.4,
+        0.2,
+        3.4
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_04",
+      "position": [
+        -1.5,
+        6.0,
+        -14.5
+      ],
+      "size": [
+        5,
+        12,
+        19
+      ],
+      "world_size": [
+        5,
+        12,
+        19
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 4
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        -1.5,
+        12.04,
+        -14.5
+      ],
+      "size": [
+        5,
+        0.08,
+        19
+      ],
+      "world_size": [
+        5,
+        0.08,
+        19
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ConcreteJoint",
+      "position": [
+        -1.5,
+        6.24,
+        -24.012
+      ],
+      "size": [
+        5,
+        0.045,
+        0.025
+      ],
+      "world_size": [
+        5,
+        0.045,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_05",
+      "position": [
+        -3.0,
+        6.0,
+        21.5
+      ],
+      "size": [
+        12,
+        12,
+        7
+      ],
+      "world_size": [
+        12,
+        12,
+        7
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 5
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        -3.0,
+        12.04,
+        21.5
+      ],
+      "size": [
+        12,
+        0.08,
+        7
+      ],
+      "world_size": [
+        12,
+        0.08,
+        7
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ConcreteJoint",
+      "position": [
+        -3.0,
+        6.24,
+        17.988
+      ],
+      "size": [
+        12,
+        0.045,
+        0.025
+      ],
+      "world_size": [
+        12,
+        0.045,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_06",
+      "position": [
+        -42.0,
+        1.6,
+        22.5
+      ],
+      "size": [
+        6,
+        3.2,
+        5
+      ],
+      "world_size": [
+        6,
+        3.2,
+        5
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 6
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        -42.0,
+        3.24,
+        22.5
+      ],
+      "size": [
+        6,
+        0.08,
+        5
+      ],
+      "world_size": [
+        6,
+        0.08,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CoverSafetyInset",
+      "position": [
+        -42.0,
+        2.4,
+        19.982
+      ],
+      "size": [
+        3.0,
+        0.12,
+        0.025
+      ],
+      "world_size": [
+        3.0,
+        0.12,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_07",
+      "position": [
+        41.0,
+        1.6,
+        -20.5
+      ],
+      "size": [
+        6,
+        3.2,
+        5
+      ],
+      "world_size": [
+        6,
+        3.2,
+        5
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 7
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        41.0,
+        3.24,
+        -20.5
+      ],
+      "size": [
+        6,
+        0.08,
+        5
+      ],
+      "world_size": [
+        6,
+        0.08,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CoverSafetyInset",
+      "position": [
+        41.0,
+        2.4,
+        -23.018
+      ],
+      "size": [
+        3.0,
+        0.12,
+        0.025
+      ],
+      "world_size": [
+        3.0,
+        0.12,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_08",
+      "position": [
+        15.0,
+        1.6,
+        -36.5
+      ],
+      "size": [
+        8,
+        3.2,
+        5
+      ],
+      "world_size": [
+        8,
+        3.2,
+        5
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 8
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        15.0,
+        3.24,
+        -36.5
+      ],
+      "size": [
+        8,
+        0.08,
+        5
+      ],
+      "world_size": [
+        8,
+        0.08,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CoverSafetyInset",
+      "position": [
+        15.0,
+        2.4,
+        -39.018
+      ],
+      "size": [
+        4.0,
+        0.12,
+        0.025
+      ],
+      "world_size": [
+        4.0,
+        0.12,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RoofExpansionSeam",
+      "position": [
+        -58.0,
+        0.012,
+        -45.0
+      ],
+      "size": [
+        28,
+        0.024,
+        0.04
+      ],
+      "world_size": [
+        28,
+        0.024,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RoofExpansionSeam",
+      "position": [
+        14.0,
+        0.012,
+        -41.0
+      ],
+      "size": [
+        68,
+        0.024,
+        0.04
+      ],
+      "world_size": [
+        68,
+        0.024,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RoofExpansionSeam",
+      "position": [
+        -34.0,
+        0.012,
+        -33.0
+      ],
+      "size": [
+        20,
+        0.024,
+        0.04
+      ],
+      "world_size": [
+        20,
+        0.024,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RoofExpansionSeam",
+      "position": [
+        54.0,
+        0.012,
+        -25.0
+      ],
+      "size": [
+        12,
+        0.024,
+        0.04
+      ],
+      "world_size": [
+        12,
+        0.024,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RoofExpansionSeam",
+      "position": [
+        -52.0,
+        0.012,
+        -19.0
+      ],
+      "size": [
+        16,
+        0.024,
+        0.04
+      ],
+      "world_size": [
+        16,
+        0.024,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RoofExpansionSeam",
+      "position": [
+        -50.0,
+        0.012,
+        -5.0
+      ],
+      "size": [
+        12,
+        0.024,
+        0.04
+      ],
+      "world_size": [
+        12,
+        0.024,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RoofExpansionSeam",
+      "position": [
+        66.0,
+        0.012,
+        25.0
+      ],
+      "size": [
+        12,
+        0.024,
+        0.04
+      ],
+      "world_size": [
+        12,
+        0.024,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RoofExpansionSeam",
+      "position": [
+        1.0,
+        0.012,
+        29.0
+      ],
+      "size": [
+        42,
+        0.024,
+        0.04
+      ],
+      "world_size": [
+        42,
+        0.024,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RoofExpansionSeam",
+      "position": [
+        36.0,
+        0.012,
+        29.0
+      ],
+      "size": [
+        24,
+        0.024,
+        0.04
+      ],
+      "world_size": [
+        24,
+        0.024,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSpawn01",
+      "position": [
+        -61.5,
+        3,
+        -38.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -121.3902681041878
+    },
+    {
+      "name": "BlueSpawn02",
+      "position": [
+        -55.5,
+        3,
+        -32.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -121.3902681041878
+    },
+    {
+      "name": "BlueSpawn03",
+      "position": [
+        -61.5,
+        3,
+        -32.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -121.3902681041878
+    },
+    {
+      "name": "BlueSpawn04",
+      "position": [
+        -55.5,
+        3,
+        -38.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -121.3902681041878
+    },
+    {
+      "name": "BlueSpawnTile",
+      "position": [
+        -58.5,
+        0.025,
+        -35.5
+      ],
+      "size": [
+        10,
+        0.05,
+        10
+      ],
+      "world_size": [
+        10,
+        0.05,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Sign_BLUE_/_4v4",
+      "position": [
+        -58.5,
+        7,
+        -47.95
+      ],
+      "size": [
+        5.5,
+        1.2,
+        0.07
+      ],
+      "world_size": [
+        5.5,
+        1.2,
+        0.07
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 180.0
+    },
+    {
+      "name": "RedSpawn01",
+      "position": [
+        56.5,
+        3,
+        33.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 58.6097318958122
+    },
+    {
+      "name": "RedSpawn02",
+      "position": [
+        62.5,
+        3,
+        39.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 58.6097318958122
+    },
+    {
+      "name": "RedSpawn03",
+      "position": [
+        56.5,
+        3,
+        39.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 58.6097318958122
+    },
+    {
+      "name": "RedSpawn04",
+      "position": [
+        62.5,
+        3,
+        33.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 58.6097318958122
+    },
+    {
+      "name": "RedSpawnTile",
+      "position": [
+        59.5,
+        0.025,
+        36.5
+      ],
+      "size": [
+        10,
+        0.05,
+        10
+      ],
+      "world_size": [
+        10,
+        0.05,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Sign_RED_/_4v4",
+      "position": [
+        59.5,
+        7,
+        47.95
+      ],
+      "size": [
+        5.5,
+        1.2,
+        0.07
+      ],
+      "world_size": [
+        5.5,
+        1.2,
+        0.07
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0.0
+    },
+    {
+      "name": "MapOrigin",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Metadata",
+      "shape": "Block",
+      "yaw": 0
+    }
+  ]
+}

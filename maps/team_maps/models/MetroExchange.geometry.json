@@ -1,0 +1,5244 @@
+{
+  "name": "MetroExchange",
+  "footprint": [
+    120,
+    96
+  ],
+  "theme": "Metro Exchange",
+  "spawns": {
+    "Blue": [
+      {
+        "name": "BlueSpawn01",
+        "position": [
+          -51.5,
+          3,
+          27.5
+        ],
+        "yaw": -52.71567356354847
+      },
+      {
+        "name": "BlueSpawn02",
+        "position": [
+          -45.5,
+          3,
+          33.5
+        ],
+        "yaw": -52.71567356354847
+      },
+      {
+        "name": "BlueSpawn03",
+        "position": [
+          -51.5,
+          3,
+          33.5
+        ],
+        "yaw": -52.71567356354847
+      }
+    ],
+    "Red": [
+      {
+        "name": "RedSpawn01",
+        "position": [
+          36.5,
+          3,
+          -39.5
+        ],
+        "yaw": 127.28432643645154
+      },
+      {
+        "name": "RedSpawn02",
+        "position": [
+          42.5,
+          3,
+          -33.5
+        ],
+        "yaw": 127.28432643645154
+      },
+      {
+        "name": "RedSpawn03",
+        "position": [
+          36.5,
+          3,
+          -33.5
+        ],
+        "yaw": 127.28432643645154
+      }
+    ]
+  },
+  "coordinates": "Original plan X/Z minus half footprint; Y=0 floor surface. Spawn slot integer cells exported at +0.5 cell center.",
+  "status": "Built and geometrically checked outside Roblox. Studio import, visuals and gameplay untested.",
+  "primary_mode": "3v3",
+  "team_size": 3,
+  "plan_source": "maps/concepts/v2/layouts.json",
+  "version": "team-build-v1",
+  "source_footprint": [
+    120,
+    96
+  ],
+  "boundary_policy": "Opaque 14-stud boundary walls are placed entirely OUTSIDE the plan floor, including inner voids.",
+  "source_blocks": [
+    [
+      19,
+      73,
+      21,
+      83,
+      12
+    ],
+    [
+      94,
+      21,
+      104,
+      23,
+      12
+    ],
+    [
+      36,
+      65,
+      42,
+      71,
+      12
+    ],
+    [
+      78,
+      77,
+      84,
+      83,
+      12
+    ],
+    [
+      98,
+      62,
+      103,
+      71,
+      12
+    ],
+    [
+      44,
+      42,
+      48,
+      54,
+      12
+    ],
+    [
+      61,
+      45,
+      65,
+      55,
+      12
+    ],
+    [
+      87,
+      47,
+      91,
+      52,
+      3.2
+    ],
+    [
+      51,
+      80,
+      59,
+      83,
+      3.2
+    ]
+  ],
+  "floor_rectangles": [
+    [
+      85,
+      0,
+      113,
+      90
+    ],
+    [
+      84,
+      12,
+      85,
+      90
+    ],
+    [
+      113,
+      12,
+      114,
+      90
+    ],
+    [
+      42,
+      22,
+      84,
+      38
+    ],
+    [
+      30,
+      24,
+      42,
+      90
+    ],
+    [
+      42,
+      38,
+      50,
+      90
+    ],
+    [
+      58,
+      38,
+      74,
+      90
+    ],
+    [
+      18,
+      60,
+      30,
+      90
+    ],
+    [
+      50,
+      60,
+      58,
+      90
+    ],
+    [
+      74,
+      60,
+      84,
+      90
+    ],
+    [
+      0,
+      65,
+      18,
+      92
+    ],
+    [
+      18,
+      90,
+      25,
+      92
+    ]
+  ],
+  "boundary_segments": [
+    {
+      "direction": "E",
+      "rect": [
+        25,
+        90,
+        26,
+        92
+      ],
+      "height": 14
+    },
+    {
+      "direction": "E",
+      "rect": [
+        50,
+        38,
+        51,
+        60
+      ],
+      "height": 14
+    },
+    {
+      "direction": "E",
+      "rect": [
+        74,
+        38,
+        75,
+        60
+      ],
+      "height": 14
+    },
+    {
+      "direction": "E",
+      "rect": [
+        113,
+        0,
+        114,
+        12
+      ],
+      "height": 14
+    },
+    {
+      "direction": "E",
+      "rect": [
+        114,
+        12,
+        115,
+        90
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        50,
+        38,
+        58,
+        39
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        74,
+        38,
+        84,
+        39
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        25,
+        90,
+        114,
+        91
+      ],
+      "height": 14
+    },
+    {
+      "direction": "N",
+      "rect": [
+        0,
+        92,
+        25,
+        93
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        85,
+        -1,
+        113,
+        0
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        84,
+        11,
+        85,
+        12
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        113,
+        11,
+        114,
+        12
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        42,
+        21,
+        84,
+        22
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        30,
+        23,
+        42,
+        24
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        18,
+        59,
+        30,
+        60
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        50,
+        59,
+        58,
+        60
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        74,
+        59,
+        84,
+        60
+      ],
+      "height": 14
+    },
+    {
+      "direction": "S",
+      "rect": [
+        0,
+        64,
+        18,
+        65
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        -1,
+        65,
+        0,
+        92
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        17,
+        60,
+        18,
+        65
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        29,
+        24,
+        30,
+        60
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        41,
+        22,
+        42,
+        24
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        57,
+        38,
+        58,
+        60
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        83,
+        12,
+        84,
+        22
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        83,
+        38,
+        84,
+        60
+      ],
+      "height": 14
+    },
+    {
+      "direction": "W",
+      "rect": [
+        84,
+        0,
+        85,
+        12
+      ],
+      "height": 14
+    }
+  ],
+  "part_count": 216,
+  "parts": [
+    {
+      "name": "FoundationSlab",
+      "position": [
+        39.0,
+        -1.0,
+        -3.0
+      ],
+      "size": [
+        28,
+        2,
+        90
+      ],
+      "world_size": [
+        28,
+        2,
+        90
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        24.5,
+        -1.0,
+        3.0
+      ],
+      "size": [
+        1,
+        2,
+        78
+      ],
+      "world_size": [
+        1,
+        2,
+        78
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        53.5,
+        -1.0,
+        3.0
+      ],
+      "size": [
+        1,
+        2,
+        78
+      ],
+      "world_size": [
+        1,
+        2,
+        78
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        3.0,
+        -1.0,
+        -18.0
+      ],
+      "size": [
+        42,
+        2,
+        16
+      ],
+      "world_size": [
+        42,
+        2,
+        16
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -24.0,
+        -1.0,
+        9.0
+      ],
+      "size": [
+        12,
+        2,
+        66
+      ],
+      "world_size": [
+        12,
+        2,
+        66
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -14.0,
+        -1.0,
+        16.0
+      ],
+      "size": [
+        8,
+        2,
+        52
+      ],
+      "world_size": [
+        8,
+        2,
+        52
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        6.0,
+        -1.0,
+        16.0
+      ],
+      "size": [
+        16,
+        2,
+        52
+      ],
+      "world_size": [
+        16,
+        2,
+        52
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -36.0,
+        -1.0,
+        27.0
+      ],
+      "size": [
+        12,
+        2,
+        30
+      ],
+      "world_size": [
+        12,
+        2,
+        30
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -6.0,
+        -1.0,
+        27.0
+      ],
+      "size": [
+        8,
+        2,
+        30
+      ],
+      "world_size": [
+        8,
+        2,
+        30
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        19.0,
+        -1.0,
+        27.0
+      ],
+      "size": [
+        10,
+        2,
+        30
+      ],
+      "world_size": [
+        10,
+        2,
+        30
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -51.0,
+        -1.0,
+        30.5
+      ],
+      "size": [
+        18,
+        2,
+        27
+      ],
+      "world_size": [
+        18,
+        2,
+        27
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FoundationSlab",
+      "position": [
+        -38.5,
+        -1.0,
+        43.0
+      ],
+      "size": [
+        7,
+        2,
+        2
+      ],
+      "world_size": [
+        7,
+        2,
+        2
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        -34.5,
+        7.0,
+        43.0
+      ],
+      "size": [
+        1,
+        14,
+        2
+      ],
+      "world_size": [
+        1,
+        14,
+        2
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -34.5,
+        14.08,
+        43.0
+      ],
+      "size": [
+        1,
+        0.16,
+        2
+      ],
+      "world_size": [
+        1,
+        0.16,
+        2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -35.015,
+        1.15,
+        43.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        2
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        -9.5,
+        7.0,
+        1.0
+      ],
+      "size": [
+        1,
+        14,
+        22
+      ],
+      "world_size": [
+        1,
+        14,
+        22
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -9.5,
+        14.08,
+        1.0
+      ],
+      "size": [
+        1,
+        0.16,
+        22
+      ],
+      "world_size": [
+        1,
+        0.16,
+        22
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -10.015,
+        1.15,
+        1.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        22
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        22
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -9.549999999999997,
+        7,
+        -6.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -9.549999999999997,
+        7,
+        6.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        14.5,
+        7.0,
+        1.0
+      ],
+      "size": [
+        1,
+        14,
+        22
+      ],
+      "world_size": [
+        1,
+        14,
+        22
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        14.5,
+        14.08,
+        1.0
+      ],
+      "size": [
+        1,
+        0.16,
+        22
+      ],
+      "world_size": [
+        1,
+        0.16,
+        22
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        13.985,
+        1.15,
+        1.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        22
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        22
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        14.450000000000003,
+        7,
+        -6.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        14.450000000000003,
+        7,
+        6.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        53.5,
+        7.0,
+        -42.0
+      ],
+      "size": [
+        1,
+        14,
+        12
+      ],
+      "world_size": [
+        1,
+        14,
+        12
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        53.5,
+        14.08,
+        -42.0
+      ],
+      "size": [
+        1,
+        0.16,
+        12
+      ],
+      "world_size": [
+        1,
+        0.16,
+        12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        52.985,
+        1.15,
+        -42.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        12
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        53.45,
+        7,
+        -44.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_E",
+      "position": [
+        54.5,
+        7.0,
+        3.0
+      ],
+      "size": [
+        1,
+        14,
+        78
+      ],
+      "world_size": [
+        1,
+        14,
+        78
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        54.5,
+        14.08,
+        3.0
+      ],
+      "size": [
+        1,
+        0.16,
+        78
+      ],
+      "world_size": [
+        1,
+        0.16,
+        78
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        53.985,
+        1.15,
+        3.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        78
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        78
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        54.45,
+        7,
+        -32.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        54.45,
+        7,
+        -20.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        54.45,
+        7,
+        -8.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        54.45,
+        7,
+        4.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        54.45,
+        7,
+        16.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        54.45,
+        7,
+        28.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        -6.0,
+        7.0,
+        -9.5
+      ],
+      "size": [
+        8,
+        14,
+        1
+      ],
+      "world_size": [
+        8,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -6.0,
+        14.08,
+        -9.5
+      ],
+      "size": [
+        8,
+        0.16,
+        1
+      ],
+      "world_size": [
+        8,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -6.0,
+        1.15,
+        -10.015
+      ],
+      "size": [
+        8,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        8,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        19.0,
+        7.0,
+        -9.5
+      ],
+      "size": [
+        10,
+        14,
+        1
+      ],
+      "world_size": [
+        10,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        19.0,
+        14.08,
+        -9.5
+      ],
+      "size": [
+        10,
+        0.16,
+        1
+      ],
+      "world_size": [
+        10,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        19.0,
+        1.15,
+        -10.015
+      ],
+      "size": [
+        10,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        10,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        9.5,
+        7.0,
+        42.5
+      ],
+      "size": [
+        89,
+        14,
+        1
+      ],
+      "world_size": [
+        89,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        9.5,
+        14.08,
+        42.5
+      ],
+      "size": [
+        89,
+        0.16,
+        1
+      ],
+      "world_size": [
+        89,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        9.5,
+        1.15,
+        41.985
+      ],
+      "size": [
+        89,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        89,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -31.0,
+        7,
+        42.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -19.0,
+        7,
+        42.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -7.0,
+        7,
+        42.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        5.0,
+        7,
+        42.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        17.0,
+        7,
+        42.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        29.0,
+        7,
+        42.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        41.0,
+        7,
+        42.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_N",
+      "position": [
+        -47.5,
+        7.0,
+        44.5
+      ],
+      "size": [
+        25,
+        14,
+        1
+      ],
+      "world_size": [
+        25,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -47.5,
+        14.08,
+        44.5
+      ],
+      "size": [
+        25,
+        0.16,
+        1
+      ],
+      "world_size": [
+        25,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -47.5,
+        1.15,
+        43.985
+      ],
+      "size": [
+        25,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        25,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -56.0,
+        7,
+        44.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -44.0,
+        7,
+        44.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        39.0,
+        7.0,
+        -48.5
+      ],
+      "size": [
+        28,
+        14,
+        1
+      ],
+      "world_size": [
+        28,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        39.0,
+        14.08,
+        -48.5
+      ],
+      "size": [
+        28,
+        0.16,
+        1
+      ],
+      "world_size": [
+        28,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        39.0,
+        1.15,
+        -47.985
+      ],
+      "size": [
+        28,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        28,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        29.0,
+        7,
+        -48.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        41.0,
+        7,
+        -48.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        24.5,
+        7.0,
+        -36.5
+      ],
+      "size": [
+        1,
+        14,
+        1
+      ],
+      "world_size": [
+        1,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        24.5,
+        14.08,
+        -36.5
+      ],
+      "size": [
+        1,
+        0.16,
+        1
+      ],
+      "world_size": [
+        1,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        24.5,
+        1.15,
+        -35.985
+      ],
+      "size": [
+        1,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        1,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        53.5,
+        7.0,
+        -36.5
+      ],
+      "size": [
+        1,
+        14,
+        1
+      ],
+      "world_size": [
+        1,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        53.5,
+        14.08,
+        -36.5
+      ],
+      "size": [
+        1,
+        0.16,
+        1
+      ],
+      "world_size": [
+        1,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        53.5,
+        1.15,
+        -35.985
+      ],
+      "size": [
+        1,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        1,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        3.0,
+        7.0,
+        -26.5
+      ],
+      "size": [
+        42,
+        14,
+        1
+      ],
+      "world_size": [
+        42,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        3.0,
+        14.08,
+        -26.5
+      ],
+      "size": [
+        42,
+        0.16,
+        1
+      ],
+      "world_size": [
+        42,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        3.0,
+        1.15,
+        -25.985
+      ],
+      "size": [
+        42,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        42,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -14.0,
+        7,
+        -26.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -2.0,
+        7,
+        -26.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        10.0,
+        7,
+        -26.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        -24.0,
+        7.0,
+        -24.5
+      ],
+      "size": [
+        12,
+        14,
+        1
+      ],
+      "world_size": [
+        12,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -24.0,
+        14.08,
+        -24.5
+      ],
+      "size": [
+        12,
+        0.16,
+        1
+      ],
+      "world_size": [
+        12,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -24.0,
+        1.15,
+        -23.985
+      ],
+      "size": [
+        12,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        12,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -26.0,
+        7,
+        -24.45
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        -36.0,
+        7.0,
+        11.5
+      ],
+      "size": [
+        12,
+        14,
+        1
+      ],
+      "world_size": [
+        12,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -36.0,
+        14.08,
+        11.5
+      ],
+      "size": [
+        12,
+        0.16,
+        1
+      ],
+      "world_size": [
+        12,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -36.0,
+        1.15,
+        12.015
+      ],
+      "size": [
+        12,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        12,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -38.0,
+        7,
+        11.549999999999997
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        -6.0,
+        7.0,
+        11.5
+      ],
+      "size": [
+        8,
+        14,
+        1
+      ],
+      "world_size": [
+        8,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -6.0,
+        14.08,
+        11.5
+      ],
+      "size": [
+        8,
+        0.16,
+        1
+      ],
+      "world_size": [
+        8,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -6.0,
+        1.15,
+        12.015
+      ],
+      "size": [
+        8,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        8,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        19.0,
+        7.0,
+        11.5
+      ],
+      "size": [
+        10,
+        14,
+        1
+      ],
+      "world_size": [
+        10,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        19.0,
+        14.08,
+        11.5
+      ],
+      "size": [
+        10,
+        0.16,
+        1
+      ],
+      "world_size": [
+        10,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        19.0,
+        1.15,
+        12.015
+      ],
+      "size": [
+        10,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        10,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_S",
+      "position": [
+        -51.0,
+        7.0,
+        16.5
+      ],
+      "size": [
+        18,
+        14,
+        1
+      ],
+      "world_size": [
+        18,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -51.0,
+        14.08,
+        16.5
+      ],
+      "size": [
+        18,
+        0.16,
+        1
+      ],
+      "world_size": [
+        18,
+        0.16,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -51.0,
+        1.15,
+        17.015
+      ],
+      "size": [
+        18,
+        2.3,
+        0.025
+      ],
+      "world_size": [
+        18,
+        2.3,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -56.0,
+        7,
+        16.549999999999997
+      ],
+      "size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "world_size": [
+        0.5,
+        14,
+        0.9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -60.5,
+        7.0,
+        30.5
+      ],
+      "size": [
+        1,
+        14,
+        27
+      ],
+      "world_size": [
+        1,
+        14,
+        27
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -60.5,
+        14.08,
+        30.5
+      ],
+      "size": [
+        1,
+        0.16,
+        27
+      ],
+      "world_size": [
+        1,
+        0.16,
+        27
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -59.985,
+        1.15,
+        30.5
+      ],
+      "size": [
+        0.025,
+        2.3,
+        27
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        27
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -60.45,
+        7,
+        21.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -60.45,
+        7,
+        33.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -42.5,
+        7.0,
+        14.5
+      ],
+      "size": [
+        1,
+        14,
+        5
+      ],
+      "world_size": [
+        1,
+        14,
+        5
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -42.5,
+        14.08,
+        14.5
+      ],
+      "size": [
+        1,
+        0.16,
+        5
+      ],
+      "world_size": [
+        1,
+        0.16,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -41.985,
+        1.15,
+        14.5
+      ],
+      "size": [
+        0.025,
+        2.3,
+        5
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -30.5,
+        7.0,
+        -6.0
+      ],
+      "size": [
+        1,
+        14,
+        36
+      ],
+      "world_size": [
+        1,
+        14,
+        36
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -30.5,
+        14.08,
+        -6.0
+      ],
+      "size": [
+        1,
+        0.16,
+        36
+      ],
+      "world_size": [
+        1,
+        0.16,
+        36
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -29.985,
+        1.15,
+        -6.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        36
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        36
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -30.45,
+        7,
+        -20.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -30.45,
+        7,
+        -8.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -30.45,
+        7,
+        4.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -18.5,
+        7.0,
+        -25.0
+      ],
+      "size": [
+        1,
+        14,
+        2
+      ],
+      "world_size": [
+        1,
+        14,
+        2
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -18.5,
+        14.08,
+        -25.0
+      ],
+      "size": [
+        1,
+        0.16,
+        2
+      ],
+      "world_size": [
+        1,
+        0.16,
+        2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -17.985,
+        1.15,
+        -25.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        2
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        -2.5,
+        7.0,
+        1.0
+      ],
+      "size": [
+        1,
+        14,
+        22
+      ],
+      "world_size": [
+        1,
+        14,
+        22
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        -2.5,
+        14.08,
+        1.0
+      ],
+      "size": [
+        1,
+        0.16,
+        22
+      ],
+      "world_size": [
+        1,
+        0.16,
+        22
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        -1.9849999999999994,
+        1.15,
+        1.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        22
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        22
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -2.450000000000003,
+        7,
+        -6.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        -2.450000000000003,
+        7,
+        6.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        23.5,
+        7.0,
+        -31.0
+      ],
+      "size": [
+        1,
+        14,
+        10
+      ],
+      "world_size": [
+        1,
+        14,
+        10
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        23.5,
+        14.08,
+        -31.0
+      ],
+      "size": [
+        1,
+        0.16,
+        10
+      ],
+      "world_size": [
+        1,
+        0.16,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        24.015,
+        1.15,
+        -31.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        10
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        23.5,
+        7.0,
+        1.0
+      ],
+      "size": [
+        1,
+        14,
+        22
+      ],
+      "world_size": [
+        1,
+        14,
+        22
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        23.5,
+        14.08,
+        1.0
+      ],
+      "size": [
+        1,
+        0.16,
+        22
+      ],
+      "world_size": [
+        1,
+        0.16,
+        22
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        24.015,
+        1.15,
+        1.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        22
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        22
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        23.549999999999997,
+        7,
+        -6.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        23.549999999999997,
+        7,
+        6.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Boundary_W",
+      "position": [
+        24.5,
+        7.0,
+        -42.0
+      ],
+      "size": [
+        1,
+        14,
+        12
+      ],
+      "world_size": [
+        1,
+        14,
+        12
+      ],
+      "collision": true,
+      "folder": "Boundary",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryCoping",
+      "position": [
+        24.5,
+        14.08,
+        -42.0
+      ],
+      "size": [
+        1,
+        0.16,
+        12
+      ],
+      "world_size": [
+        1,
+        0.16,
+        12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileWainscot",
+      "position": [
+        25.015,
+        1.15,
+        -42.0
+      ],
+      "size": [
+        0.025,
+        2.3,
+        12
+      ],
+      "world_size": [
+        0.025,
+        2.3,
+        12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BoundaryPier",
+      "position": [
+        24.549999999999997,
+        7,
+        -44.0
+      ],
+      "size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "world_size": [
+        0.9,
+        14,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -10.015,
+        9.4,
+        1.0
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        0.18,
+        0.65,
+        1.25
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -10.134999999999998,
+        9.4,
+        1.0
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        0.3,
+        0.85
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        52.985,
+        9.4,
+        -42.0
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        0.18,
+        0.65,
+        1.25
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        52.864999999999995,
+        9.4,
+        -42.0
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        0.3,
+        0.85
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        9.5,
+        9.4,
+        41.985
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        9.5,
+        9.4,
+        41.864999999999995
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        39.0,
+        9.4,
+        -47.985
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        39.0,
+        9.4,
+        -47.865
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -24.0,
+        9.4,
+        -23.985
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -24.0,
+        9.4,
+        -23.865
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -51.0,
+        9.4,
+        17.015
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -51.0,
+        9.4,
+        17.135000000000005
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        -29.985,
+        9.4,
+        -6.0
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        0.18,
+        0.65,
+        1.25
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        -29.865,
+        9.4,
+        -6.0
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        0.3,
+        0.85
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "BulkheadMount",
+      "position": [
+        24.015,
+        9.4,
+        1.0
+      ],
+      "size": [
+        1.25,
+        0.65,
+        0.18
+      ],
+      "world_size": [
+        0.18,
+        0.65,
+        1.25
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "WarmDiffuser",
+      "position": [
+        24.135000000000005,
+        9.4,
+        1.0
+      ],
+      "size": [
+        0.85,
+        0.3,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        0.3,
+        0.85
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 90
+    },
+    {
+      "name": "Wall_00",
+      "position": [
+        -40.0,
+        6.0,
+        30.0
+      ],
+      "size": [
+        2,
+        12,
+        10
+      ],
+      "world_size": [
+        2,
+        12,
+        10
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 0
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        -40.0,
+        12.04,
+        30.0
+      ],
+      "size": [
+        2,
+        0.08,
+        10
+      ],
+      "world_size": [
+        2,
+        0.08,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_01",
+      "position": [
+        39.0,
+        6.0,
+        -26.0
+      ],
+      "size": [
+        10,
+        12,
+        2
+      ],
+      "world_size": [
+        10,
+        12,
+        2
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 1
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        39.0,
+        12.04,
+        -26.0
+      ],
+      "size": [
+        10,
+        0.08,
+        2
+      ],
+      "world_size": [
+        10,
+        0.08,
+        2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Column_02",
+      "position": [
+        -21.0,
+        6.0,
+        20.0
+      ],
+      "size": [
+        6,
+        12,
+        6
+      ],
+      "world_size": [
+        6,
+        12,
+        6
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 2
+    },
+    {
+      "name": "ColumnCap",
+      "position": [
+        -21.0,
+        12.04,
+        20.0
+      ],
+      "size": [
+        6,
+        0.08,
+        6
+      ],
+      "world_size": [
+        6,
+        0.08,
+        6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ColumnBase",
+      "position": [
+        -24.025,
+        1.1,
+        20.0
+      ],
+      "size": [
+        0.035,
+        2.2,
+        6
+      ],
+      "world_size": [
+        0.035,
+        2.2,
+        6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ColumnBase",
+      "position": [
+        -17.975,
+        1.1,
+        20.0
+      ],
+      "size": [
+        0.035,
+        2.2,
+        6
+      ],
+      "world_size": [
+        0.035,
+        2.2,
+        6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Column_03",
+      "position": [
+        21.0,
+        6.0,
+        32.0
+      ],
+      "size": [
+        6,
+        12,
+        6
+      ],
+      "world_size": [
+        6,
+        12,
+        6
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 3
+    },
+    {
+      "name": "ColumnCap",
+      "position": [
+        21.0,
+        12.04,
+        32.0
+      ],
+      "size": [
+        6,
+        0.08,
+        6
+      ],
+      "world_size": [
+        6,
+        0.08,
+        6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ColumnBase",
+      "position": [
+        17.974999999999994,
+        1.1,
+        32.0
+      ],
+      "size": [
+        0.035,
+        2.2,
+        6
+      ],
+      "world_size": [
+        0.035,
+        2.2,
+        6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ColumnBase",
+      "position": [
+        24.025000000000006,
+        1.1,
+        32.0
+      ],
+      "size": [
+        0.035,
+        2.2,
+        6
+      ],
+      "world_size": [
+        0.035,
+        2.2,
+        6
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_04",
+      "position": [
+        40.5,
+        6.0,
+        18.5
+      ],
+      "size": [
+        5,
+        12,
+        9
+      ],
+      "world_size": [
+        5,
+        12,
+        9
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 4
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        40.5,
+        12.04,
+        18.5
+      ],
+      "size": [
+        5,
+        0.08,
+        9
+      ],
+      "world_size": [
+        5,
+        0.08,
+        9
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ConcreteJoint",
+      "position": [
+        40.5,
+        6.24,
+        13.988
+      ],
+      "size": [
+        5,
+        0.045,
+        0.025
+      ],
+      "world_size": [
+        5,
+        0.045,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_05",
+      "position": [
+        -14.0,
+        6.0,
+        0.0
+      ],
+      "size": [
+        4,
+        12,
+        12
+      ],
+      "world_size": [
+        4,
+        12,
+        12
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 5
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        -14.0,
+        12.04,
+        0.0
+      ],
+      "size": [
+        4,
+        0.08,
+        12
+      ],
+      "world_size": [
+        4,
+        0.08,
+        12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ConcreteJoint",
+      "position": [
+        -14.0,
+        6.24,
+        -6.0120000000000005
+      ],
+      "size": [
+        4,
+        0.045,
+        0.025
+      ],
+      "world_size": [
+        4,
+        0.045,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_06",
+      "position": [
+        3.0,
+        6.0,
+        2.0
+      ],
+      "size": [
+        4,
+        12,
+        10
+      ],
+      "world_size": [
+        4,
+        12,
+        10
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 6
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        3.0,
+        12.04,
+        2.0
+      ],
+      "size": [
+        4,
+        0.08,
+        10
+      ],
+      "world_size": [
+        4,
+        0.08,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ConcreteJoint",
+      "position": [
+        3.0,
+        6.24,
+        -3.0120000000000005
+      ],
+      "size": [
+        4,
+        0.045,
+        0.025
+      ],
+      "world_size": [
+        4,
+        0.045,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_07",
+      "position": [
+        29.0,
+        1.6,
+        1.5
+      ],
+      "size": [
+        4,
+        3.2,
+        5
+      ],
+      "world_size": [
+        4,
+        3.2,
+        5
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 7
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        29.0,
+        3.24,
+        1.5
+      ],
+      "size": [
+        4,
+        0.08,
+        5
+      ],
+      "world_size": [
+        4,
+        0.08,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CoverSafetyInset",
+      "position": [
+        29.0,
+        2.4,
+        -1.0180000000000007
+      ],
+      "size": [
+        2.0,
+        0.12,
+        0.025
+      ],
+      "world_size": [
+        2.0,
+        0.12,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Wall_08",
+      "position": [
+        -5.0,
+        1.6,
+        33.5
+      ],
+      "size": [
+        8,
+        3.2,
+        3
+      ],
+      "world_size": [
+        8,
+        3.2,
+        3
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0,
+      "source_block_index": 8
+    },
+    {
+      "name": "WallCap",
+      "position": [
+        -5.0,
+        3.24,
+        33.5
+      ],
+      "size": [
+        8,
+        0.08,
+        3
+      ],
+      "world_size": [
+        8,
+        0.08,
+        3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CoverSafetyInset",
+      "position": [
+        -5.0,
+        2.4,
+        31.982
+      ],
+      "size": [
+        4.0,
+        0.12,
+        0.025
+      ],
+      "world_size": [
+        4.0,
+        0.12,
+        0.025
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        39.0,
+        0.012,
+        -44.0
+      ],
+      "size": [
+        28,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        28,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        39.0,
+        0.012,
+        -36.0
+      ],
+      "size": [
+        30,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        30,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        39.0,
+        0.012,
+        -28.0
+      ],
+      "size": [
+        30,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        30,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        12.0,
+        0.012,
+        -20.0
+      ],
+      "size": [
+        84,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        84,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        12.0,
+        0.012,
+        -12.0
+      ],
+      "size": [
+        84,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        84,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -20.0,
+        0.012,
+        -4.0
+      ],
+      "size": [
+        20,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        20,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        6.0,
+        0.012,
+        -4.0
+      ],
+      "size": [
+        16,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        16,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        39.0,
+        0.012,
+        -4.0
+      ],
+      "size": [
+        30,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        30,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -20.0,
+        0.012,
+        4.0
+      ],
+      "size": [
+        20,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        20,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        6.0,
+        0.012,
+        4.0
+      ],
+      "size": [
+        16,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        16,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        39.0,
+        0.012,
+        4.0
+      ],
+      "size": [
+        30,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        30,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        6.0,
+        0.012,
+        12.0
+      ],
+      "size": [
+        96,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        96,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -3.0,
+        0.012,
+        20.0
+      ],
+      "size": [
+        114,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        114,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -3.0,
+        0.012,
+        28.0
+      ],
+      "size": [
+        114,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        114,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -3.0,
+        0.012,
+        36.0
+      ],
+      "size": [
+        114,
+        0.024,
+        0.035
+      ],
+      "world_size": [
+        114,
+        0.024,
+        0.035
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -56.0,
+        0.012,
+        30.5
+      ],
+      "size": [
+        0.035,
+        0.024,
+        27
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        27
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -48.0,
+        0.012,
+        30.5
+      ],
+      "size": [
+        0.035,
+        0.024,
+        27
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        27
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -40.0,
+        0.012,
+        28.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        32
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        32
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -32.0,
+        0.012,
+        27.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        30
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        30
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -24.0,
+        0.012,
+        9.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        66
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        66
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -16.0,
+        0.012,
+        8.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        68
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        68
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -8.0,
+        0.012,
+        -18.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        16
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        -8.0,
+        0.012,
+        27.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        30
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        30
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        0.0,
+        0.012,
+        8.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        68
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        68
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        8.0,
+        0.012,
+        8.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        68
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        68
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        16.0,
+        0.012,
+        -18.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        16
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        16.0,
+        0.012,
+        27.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        30
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        30
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        24.0,
+        0.012,
+        3.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        78
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        78
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        32.0,
+        0.012,
+        -3.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        90
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        90
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        40.0,
+        0.012,
+        -3.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        90
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        90
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TileJoint",
+      "position": [
+        48.0,
+        0.012,
+        -3.0
+      ],
+      "size": [
+        0.035,
+        0.024,
+        90
+      ],
+      "world_size": [
+        0.035,
+        0.024,
+        90
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ConcourseRoofBeam",
+      "position": [
+        -6.0,
+        14.4,
+        27.0
+      ],
+      "size": [
+        0.35,
+        0.8,
+        31
+      ],
+      "world_size": [
+        0.35,
+        0.8,
+        31
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "ConcourseRoofBeam",
+      "position": [
+        16.0,
+        14.4,
+        27.0
+      ],
+      "size": [
+        0.35,
+        0.8,
+        31
+      ],
+      "world_size": [
+        0.35,
+        0.8,
+        31
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Sign_MAINTENANCE",
+      "position": [
+        10.0,
+        9,
+        -25.95
+      ],
+      "size": [
+        8,
+        1.2,
+        0.07
+      ],
+      "world_size": [
+        8,
+        1.2,
+        0.07
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSpawn01",
+      "position": [
+        -51.5,
+        3,
+        27.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -52.71567356354847
+    },
+    {
+      "name": "BlueSpawn02",
+      "position": [
+        -45.5,
+        3,
+        33.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -52.71567356354847
+    },
+    {
+      "name": "BlueSpawn03",
+      "position": [
+        -51.5,
+        3,
+        33.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": -52.71567356354847
+    },
+    {
+      "name": "BlueSpawnTile",
+      "position": [
+        -48.5,
+        0.025,
+        30.5
+      ],
+      "size": [
+        10,
+        0.05,
+        10
+      ],
+      "world_size": [
+        10,
+        0.05,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Sign_BLUE_/_3v3",
+      "position": [
+        -59.95,
+        7,
+        30.5
+      ],
+      "size": [
+        5.5,
+        1.2,
+        0.07
+      ],
+      "world_size": [
+        0.07,
+        1.2,
+        5.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": -90.0
+    },
+    {
+      "name": "RedSpawn01",
+      "position": [
+        36.5,
+        3,
+        -39.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 127.28432643645154
+    },
+    {
+      "name": "RedSpawn02",
+      "position": [
+        42.5,
+        3,
+        -33.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 127.28432643645154
+    },
+    {
+      "name": "RedSpawn03",
+      "position": [
+        36.5,
+        3,
+        -33.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "world_size": [
+        1,
+        1,
+        1
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 127.28432643645154
+    },
+    {
+      "name": "RedSpawnTile",
+      "position": [
+        39.5,
+        0.025,
+        -36.5
+      ],
+      "size": [
+        10,
+        0.05,
+        10
+      ],
+      "world_size": [
+        10,
+        0.05,
+        10
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Sign_RED_/_3v3",
+      "position": [
+        39.5,
+        7,
+        -47.95
+      ],
+      "size": [
+        5.5,
+        1.2,
+        0.07
+      ],
+      "world_size": [
+        5.5,
+        1.2,
+        0.07
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 180.0
+    },
+    {
+      "name": "MapOrigin",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Metadata",
+      "shape": "Block",
+      "yaw": 0
+    }
+  ]
+}
