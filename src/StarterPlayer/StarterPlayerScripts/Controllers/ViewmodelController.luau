@@ -12,6 +12,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 
 local WeaponConfig = require(ReplicatedStorage.Shared.Config.WeaponConfig)
+local SkinAppearance = require(ReplicatedStorage.Shared.SkinAppearance)
 local Remotes = ReplicatedStorage:WaitForChild("Remotes")
 
 local PISTOL = WeaponConfig.Pistol
@@ -135,7 +136,7 @@ local WEAPONS = {
 local current -- { tool, name, def, model, parts = {[part] = rest offset}, pivots = {} }
 local anim -- { fn, start }
 
-local function build(name)
+local function build(name, skinId)
 	local template = ReplicatedStorage.Assets.Weapons:FindFirstChild(name)
 	local grip = template and template:FindFirstChild("Grip", true)
 	if not grip then
@@ -167,6 +168,8 @@ local function build(name)
 			pivots[source.Name] = gripWorld:ToObjectSpace(source.WorldCFrame).Position
 		end
 	end
+	-- same skin as the real Tool (set by the server's LoadoutService)
+	SkinAppearance.Apply(model, name, skinId)
 	return model, parts, pivots
 end
 
@@ -220,7 +223,7 @@ end
 
 local function show(tool)
 	hide()
-	local model, parts, pivots = build(tool.Name)
+	local model, parts, pivots = build(tool.Name, tool:GetAttribute("SkinId"))
 	if not model then
 		return
 	end

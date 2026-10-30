@@ -3,7 +3,8 @@
 --     Progression and coins do not exist yet, so those fields say so instead of
 --     showing made-up numbers. Clicking the profile opens the Profile menu.
 --   * Bottom centre: PLAY GAME above the five tiles STORE / INVENTORY / MODES /
---     STATS / SETTINGS. Tiles open menus through MenuController. PLAY GAME and
+--     STATS / SETTINGS. Tiles open menus through MenuController (INVENTORY opens
+--     InventoryController's skins screen). PLAY GAME and
 --     MODES open the same mode screen ("Play"). Features that do not exist yet
 --     are shown disabled with a SOON tag.
 --   * Profile menu ("Profile", also the STATS tile): statistics and equipped
@@ -16,6 +17,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 
 local WeaponConfig = require(ReplicatedStorage.Shared.Config.WeaponConfig)
+local SkinCatalog = require(ReplicatedStorage.Shared.Config.SkinCatalog)
 local UI = script.Parent.Parent:WaitForChild("UI")
 local Theme = require(UI.Theme)
 local Components = require(UI.Components)
@@ -31,7 +33,7 @@ local UNAVAILABLE = "Not available yet"
 -- tile name, icon, menu it opens (nil = not implemented yet)
 local TILES = {
 	{ Name = "Store", Icon = "Store", Menu = "Store" },
-	{ Name = "Inventory", Icon = "Inventory", Menu = nil },
+	{ Name = "Inventory", Icon = "Inventory", Menu = "Inventory" },
 	{ Name = "Modes", Icon = "Modes", Menu = "Play" },
 	{ Name = "Stats", Icon = "Stats", Menu = "Profile" },
 	{ Name = "Settings", Icon = "Settings", Menu = nil },
@@ -203,7 +205,7 @@ local function statRow(parent, order, name, value, nameWidth)
 	nameWidth = nameWidth or 0.5
 	local row = new("Frame", { LayoutOrder = order, BackgroundTransparency = 1, Size = UDim2.new(1, 0, 0, 26), Parent = parent })
 	Components.label(row, { Text = name, TextColor3 = C.TextSecondary, Size = UDim2.new(nameWidth, 0, 1, 0) })
-	Components.label(row, {
+	return Components.label(row, {
 		Text = value,
 		TextXAlignment = Enum.TextXAlignment.Right,
 		TextColor3 = value == UNAVAILABLE and C.TextDisabled or C.Text,
@@ -251,11 +253,20 @@ local function buildProfileMenu()
 		Size = UDim2.new(1, 0, 0, 36),
 	})
 	local equipped = column(profilePanel.Content, 0.5, "EQUIPPED")
-	statRow(equipped, 1, "Pistol", "Service 1911 (Standard)", 0.3)
-	statRow(equipped, 2, "Knife", "Karambit (Standard)", 0.3)
+	-- equipped skins come from the server (player attributes Skin_<weapon>)
+	for i, slot in { { "Pistol", WeaponConfig.Pistol.ToolName }, { "Knife", WeaponConfig.Knife.ToolName } } do
+		local weaponId = slot[2]
+		local valueLabel = statRow(equipped, i, slot[1], "", 0.3)
+		local function refresh()
+			local weapon = SkinCatalog.Weapons[weaponId]
+			local skin = SkinCatalog.GetSkin(player:GetAttribute("Skin_" .. weaponId))
+				or SkinCatalog.GetSkin(SkinCatalog.DefaultSkin(weaponId))
+			valueLabel.Text = (weapon and weapon.Name or weaponId) .. " (" .. (skin and skin.Name or "Factory") .. ")"
+		end
+		refresh()
+		player:GetAttributeChangedSignal("Skin_" .. weaponId):Connect(refresh)
+	end
 	statRow(equipped, 3, "Player card", UNAVAILABLE, 0.3)
-	-- everyone currently uses these; the names come from the real tool names
-	assert(WeaponConfig.Pistol.ToolName == "Service1911" and WeaponConfig.Knife.ToolName == "Karambit")
 
 	MenuController.Register("Profile", {
 		Open = function()

@@ -1,4 +1,46 @@
-# Checkpoint — 2026-10-30 (Stage 3: Play Game and unified queue)
+# Checkpoint — 2026-10-30 (Player data + inventory skins)
+
+Studio place: "One In The Chamber", Team Create, **not published**. Studio scripts match `src/`; every file's byte length was checked after install. Full details: `docs/PLAYER_DATA.md`.
+
+Backup: `ServerStorage.Backups.PrePlayerData_2026-10-30`.
+
+## Done this stage
+
+- **DataService + Data/ProfileStore:**
+  - versioned schema (v1);
+  - session lock, `UpdateAsync` only, retries with backoff;
+  - failed, locked or newer-version loads never write;
+  - separate Studio store (in-memory fallback while Studio API access is off);
+  - developer grants are server-only (Studio, or an allowlist plus a flag in live servers).
+- **InventoryService:** server-validated equips (ownership, weapon compatibility, lobby only, rate limit, well-formed ids); `Skin_<weapon>` attributes; a private snapshot to the owner.
+- **SkinCatalog + SkinAppearance:** 3 colour-proof skins per weapon plus a default. They change Color and Material only; no gameplay values.
+- **Wiring:**
+  - LoadoutService gives weapons in the equipped skin;
+  - the viewmodel matches the Tool;
+  - INVENTORY tile → Inventory screen (weapon → skins → preview → EQUIP);
+  - Profile shows the real equipped skins.
+
+## Tests
+
+- **Passed:**
+  - `DataTests` 13/13.
+  - Live Studio play test: grants, equip validation (unowned, wrong weapon, injected id, unknown weapon, cooldown, malformed), delayed save, competing session `Locked`, leave/rejoin restore, store-down `Failed` with no overwrite, transient-error recovery, newer schema refused.
+  - Skins correct on the server Tool and the client viewmodel in practice; ammo unchanged; equip refused in practice.
+- **Not run:**
+  - real DataStore (needs Studio API access);
+  - Inventory screen screenshots and a click-through (lost the device connection);
+  - a 2-client match with skins;
+  - real devices (touch, gamepad).
+- **Failed:** none.
+
+## Next step
+
+1. When the computer is reachable again: screenshot and click through the Inventory screen. Then run a 2-client match and confirm both players see each other's skins. Optionally run real-DataStore rejoin tests if Studio API access is enabled.
+2. Then decide on store and crates scope (not started; needs approval).
+
+---
+
+## Previous checkpoint — Stage 3: Play Game and unified queue
 
 Studio place: "One In The Chamber", Team Create, **not published**. The Studio scripts match `src/` (byte lengths checked after every edit). Architecture and earlier results are in `docs/HANDOFF.md`.
 

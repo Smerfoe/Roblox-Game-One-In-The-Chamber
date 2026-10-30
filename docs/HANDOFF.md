@@ -23,7 +23,8 @@ This is the record of what is built in the Roblox Studio place, how it fits toge
 | `ServerStorage.Dev.TestDummy` | Dummy rig used for practice targets (and the old TestMode). |
 | `ServerStorage.SourceAssets` | Raw 1911 and karambit imports. |
 | `ReplicatedStorage.Assets.Weapons` | `Service1911`, `Karambit` tools. |
-| `ReplicatedStorage.Remotes` | `Fire`, `Melee`, `ShotAccepted`, `SwingAccepted`, `WeaponEffect`. No remotes were added this round. |
+| `ReplicatedStorage.Remotes` | `Fire`, `Melee`, `ShotAccepted`, `SwingAccepted`, `WeaponEffect`, `Queue`, `Inventory` (equip requests, see `docs/PLAYER_DATA.md`). |
+| `ServerScriptService.Data` | Player-data modules (config, schema, ProfileStore, MemoryStore, tests). See `docs/PLAYER_DATA.md`. |
 | `ArenaMaps` (older ChatGPT package) | Set aside, untouched, as asked. |
 
 ## Architecture
@@ -38,6 +39,8 @@ Everything that matters is decided on the server. Clients send only "I pulled th
 | `MatchId`, `Team`, `Round`, `ScoreBlue`, `ScoreRed`, `MatchPhase`, `PhaseEndsAt`, `RoundResult`, `MatchResult` | `MatchService` | Match state. |
 | `InMatch` | `MatchService` | Alive in the current round, holding weapons. |
 | `Queue`, `QueueSource` | `MatchmakingService` | Mode id (e.g. "1v1") while queued; "Pad" or "Menu". |
+| `DataStatus` | `DataService` | `Loading` / `Ready` / `Failed` / `Locked` / `Incompatible` / `Corrupt` / `SessionLost`. |
+| `Skin_Service1911`, `Skin_Karambit` | `InventoryService` | Skin shown on each weapon (always a valid id). Tools also carry a `SkinId` attribute. |
 | `Ammo` | `CombatService` | Read-only copy of the server's bullet count. |
 | character `SpawnCFrame` | `MatchService` / `LocationService` | Which way the client turns the camera after a move. |
 

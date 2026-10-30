@@ -1,12 +1,16 @@
 -- LoadoutService: gives the pistol and the knife to armed players (in a match round,
 -- or in the practice room; see Shared.PlayerState) and takes them away when that
 -- ends. The pistol is equipped when the loadout is given.
+-- Each weapon is given in the player's equipped skin (InventoryService), which
+-- only recolours parts; the Tool, its scripts and combat are identical for everyone.
 
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local WeaponConfig = require(ReplicatedStorage.Shared.Config.WeaponConfig)
 local PlayerState = require(ReplicatedStorage.Shared.PlayerState)
+local SkinAppearance = require(ReplicatedStorage.Shared.SkinAppearance)
+local InventoryService = require(script.Parent.InventoryService)
 
 local PISTOL_NAME = WeaponConfig.Pistol.ToolName
 local LOADOUT = { PISTOL_NAME, WeaponConfig.Knife.ToolName }
@@ -41,7 +45,10 @@ local function giveLoadout(player)
 		if not owns(player, toolName) then
 			local template = ReplicatedStorage.Assets.Weapons:FindFirstChild(toolName)
 			if template then
-				template:Clone().Parent = player.Backpack
+				local tool = template:Clone()
+				local skinId = SkinAppearance.Apply(tool, toolName, InventoryService.GetSkin(player, toolName))
+				tool:SetAttribute("SkinId", skinId) -- read by the first-person viewmodel
+				tool.Parent = player.Backpack
 			else
 				warn(`[Loadout] {toolName} not found in ReplicatedStorage.Assets.Weapons`)
 			end
