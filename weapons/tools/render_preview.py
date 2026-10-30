@@ -13,9 +13,11 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 ROOT=Path(__file__).resolve().parents[1]
 expanded='--new' in sys.argv
 items=([('PythonMagnum_Prototype','PYTHON-STYLE MAGNUM'),('Machete_Prototype','MACHETE'),('ButterKnife_Prototype','BUTTER KNIFE')] if expanded else [('Service1911_Prototype','SERVICE 1911'),('Karambit_Prototype','KARAMBIT')])
-fig=plt.figure(figsize=(18 if expanded else 14,6),facecolor='#1c2228')
+western='--western' in sys.argv
+if western:items=[('FrontierRepeater_Prototype','FRONTIER REPEATER'),('OldWestRevolver_Prototype','OLD WEST REVOLVER'),('HeavyEagle_Prototype','HEAVY EAGLE'),('ButterflyKnife_Prototype','BUTTERFLY KNIFE'),('TrailBowie_Prototype','TRAIL BOWIE')]
+fig=plt.figure(figsize=(18,10) if western else (18 if expanded else 14,6),facecolor='#1c2228')
 for idx,(name,label) in enumerate(items,1):
- ax=fig.add_subplot(1,len(items),idx,projection='3d');ax.set_facecolor('#1c2228')
+ ax=fig.add_subplot(2,3,idx,projection='3d') if western else fig.add_subplot(1,len(items),idx,projection='3d');ax.set_facecolor('#1c2228')
  for p in [n.find('Properties') for n in E.parse(ROOT/'models'/f'{name}.rbxmx').findall('.//Item') if n.get('class') in ('Part','WedgePart')]:
   if float(p.find("float[@name='Transparency']").text)==1:continue
   if p.find("string[@name='Name']").text in ('SingleCartridge','CartridgeTip'):continue
@@ -42,7 +44,12 @@ for idx,(name,label) in enumerate(items,1):
   poly=Poly3DCollection(transformed,facecolors=colors,edgecolor=(0,0,0,.15),linewidth=.2)
   ax.add_collection3d(poly)
  ax.set_proj_type('ortho');ax.view_init(elev=7,azim=-78)
- if name.startswith('Python'):ax.set_xlim(-2.8,.85);ax.set_ylim(-.6,.6);ax.set_zlim(-1.3,.85);ax.set_box_aspect((3.65,1.2,2.15))
+ if name.startswith('Frontier'):ax.set_xlim(-3.9,2.1);ax.set_ylim(-.65,.65);ax.set_zlim(-.95,.7);ax.set_box_aspect((6,1.3,1.65))
+ elif name.startswith('OldWest'):ax.set_xlim(-2.4,.85);ax.set_ylim(-.6,.6);ax.set_zlim(-1.3,.85);ax.set_box_aspect((3.25,1.2,2.15))
+ elif name.startswith('Heavy'):ax.set_xlim(-2.05,.85);ax.set_ylim(-.65,.65);ax.set_zlim(-1.5,.85);ax.set_box_aspect((2.9,1.3,2.35))
+ elif name.startswith('Butterfly'):ax.set_xlim(-.6,.6);ax.set_ylim(-.5,.5);ax.set_zlim(-1.4,1.8);ax.set_box_aspect((1.2,1,3.2))
+ elif name.startswith('Trail'):ax.set_xlim(-.9,.65);ax.set_ylim(-.6,.6);ax.set_zlim(-1.05,2.45);ax.set_box_aspect((1.55,1.2,3.5))
+ elif name.startswith('Python'):ax.set_xlim(-2.8,.85);ax.set_ylim(-.6,.6);ax.set_zlim(-1.3,.85);ax.set_box_aspect((3.65,1.2,2.15))
  elif name.startswith('Machete'):ax.set_xlim(-.9,.65);ax.set_ylim(-.6,.6);ax.set_zlim(-.9,2.5);ax.set_box_aspect((1.55,1.2,3.4))
  elif name.startswith('Butter'):ax.set_xlim(-.65,.65);ax.set_ylim(-.5,.5);ax.set_zlim(-.95,1.5);ax.set_box_aspect((1.3,1,2.45))
  elif name.startswith('Service'):ax.set_xlim(-1.8,.8);ax.set_ylim(-.65,.65);ax.set_zlim(-1.4,.8);ax.set_box_aspect((2.6,1.3,2.2))
@@ -51,6 +58,6 @@ for idx,(name,label) in enumerate(items,1):
 fig.suptitle('EDITABLE WEAPON RIGS — ACTUAL EXPORTED GEOMETRY',color='#e6e8e9',fontsize=16,y=.95)
 fig.text(.5,.045,'Native-part prototypes • No arms included • Studio review pending',ha='center',color='#aeb8c0',fontsize=12)
 fig.subplots_adjust(left=.03,right=.97,bottom=.10,top=.84,wspace=.05)
-output=ROOT/('NewWeaponGeometryPreview.png' if expanded else 'GeometryPreview.png')
+output=ROOT/('WesternAndBladesGeometryPreview.png' if western else 'NewWeaponGeometryPreview.png' if expanded else 'GeometryPreview.png')
 fig.savefig(output,dpi=150,facecolor=fig.get_facecolor())
 print(output)

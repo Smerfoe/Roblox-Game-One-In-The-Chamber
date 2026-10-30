@@ -1,0 +1,3363 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="OldWestRevolver_Prototype">
+    <Properties>
+      <string name="Name">OldWestRevolver_Prototype</string>
+      <Ref name="PrimaryPart">OldWestRevolver_Prototype_001</Ref>
+    </Properties>
+    <Item class="Part" referent="OldWestRevolver_Prototype_001">
+      <Properties>
+        <string name="Name">Anchor</string>
+        <Vector3 name="size">
+          <X>0.05</X>
+          <Y>0.05</Y>
+          <Z>0.05</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>-0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <Color3 name="Color">
+          <R>0.10196078431372549</R>
+          <G>0.11372549019607843</G>
+          <B>0.12156862745098039</B>
+        </Color3>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="Massless">true</bool>
+        <bool name="CastShadow">false</bool>
+        <float name="Transparency">1</float>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+      </Properties>
+    </Item>
+    <Item class="Model" referent="OldWestRevolver_PrototypeBody">
+      <Properties>
+        <string name="Name">Body</string>
+      </Properties>
+      <Item class="Part" referent="OldWestRevolver_Prototype_002">
+        <Properties>
+          <string name="Name">BodyPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="OldWestRevolver_Prototype_002Joint">
+          <Properties>
+            <string name="Name">Presentation</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_001</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_002</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_007">
+        <Properties>
+          <string name="Name">LowerFrame</string>
+          <Vector3 name="size">
+            <X>0.28</X>
+            <Y>0.17</Y>
+            <Z>0.86</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.17</Y>
+            <Z>-0.08</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_007Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_007</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_008">
+        <Properties>
+          <string name="Name">RearFrame</string>
+          <Vector3 name="size">
+            <X>0.27</X>
+            <Y>0.63</Y>
+            <Z>0.12</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.13</Y>
+            <Z>0.28</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_008Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_008</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_009">
+        <Properties>
+          <string name="Name">TopStrap</string>
+          <Vector3 name="size">
+            <X>0.26</X>
+            <Y>0.12</Y>
+            <Z>0.92</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.49</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_009Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_009</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_010">
+        <Properties>
+          <string name="Name">FrontFrame</string>
+          <Vector3 name="size">
+            <X>0.28</X>
+            <Y>0.65</Y>
+            <Z>0.11</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.13</Y>
+            <Z>-0.52</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_010Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_010</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_011">
+        <Properties>
+          <string name="Name">Barrel</string>
+          <Vector3 name="size">
+            <X>1.64</X>
+            <Y>0.24</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.28</Y>
+            <Z>-1.35</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_011Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_011</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_012">
+        <Properties>
+          <string name="Name">MuzzleRim</string>
+          <Vector3 name="size">
+            <X>0.026</X>
+            <Y>0.25</Y>
+            <Z>0.25</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.28</Y>
+            <Z>-2.18</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_012Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_012</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_013">
+        <Properties>
+          <string name="Name">MuzzleBore</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.13</Y>
+            <Z>0.13</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.28</Y>
+            <Z>-2.198</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_013Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_013</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_014">
+        <Properties>
+          <string name="Name">EjectorHousing</string>
+          <Vector3 name="size">
+            <X>1.36</X>
+            <Y>0.085</Y>
+            <Z>0.085</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.13</X>
+            <Y>0.1</Y>
+            <Z>-1.24</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_014Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_014</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_015">
+        <Properties>
+          <string name="Name">FrontBladeSight</string>
+          <Vector3 name="size">
+            <X>0.05</X>
+            <Y>0.12</Y>
+            <Z>0.15</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.455</Y>
+            <Z>-2.04</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3333333333333333</R>
+            <G>0.32941176470588235</G>
+            <B>0.2901960784313726</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_015Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_015</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_016">
+        <Properties>
+          <string name="Name">RearNotchEar</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.06</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.08</X>
+            <Y>0.565</Y>
+            <Z>0.26</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3333333333333333</R>
+            <G>0.32941176470588235</G>
+            <B>0.2901960784313726</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_016Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_016</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_017">
+        <Properties>
+          <string name="Name">RearNotchEar</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.06</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.08</X>
+            <Y>0.565</Y>
+            <Z>0.26</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3333333333333333</R>
+            <G>0.32941176470588235</G>
+            <B>0.2901960784313726</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_017Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_017</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_033">
+        <Properties>
+          <string name="Name">GripTang</string>
+          <Vector3 name="size">
+            <X>0.2</X>
+            <Y>0.94</Y>
+            <Z>0.36</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.61</Y>
+            <Z>0.39</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_033Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_033</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_034">
+        <Properties>
+          <string name="Name">IvoryGrip</string>
+          <Vector3 name="size">
+            <X>0.085</X>
+            <Y>0.85</Y>
+            <Z>0.39</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.14</X>
+            <Y>-0.61</Y>
+            <Z>0.42</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.803921568627451</R>
+            <G>0.7647058823529411</G>
+            <B>0.615686274509804</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_034Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_034</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_035">
+        <Properties>
+          <string name="Name">GripScrew</string>
+          <Vector3 name="size">
+            <X>0.014</X>
+            <Y>0.065</Y>
+            <Z>0.065</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.19</X>
+            <Y>-0.66</Y>
+            <Z>0.43</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3333333333333333</R>
+            <G>0.32941176470588235</G>
+            <B>0.2901960784313726</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_035Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_035</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_036">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.187</X>
+            <Y>-0.4</Y>
+            <Z>0.36</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_036Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_036</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_037">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.187</X>
+            <Y>-0.47</Y>
+            <Z>0.384</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_037Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_037</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_038">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.187</X>
+            <Y>-0.54</Y>
+            <Z>0.408</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_038Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_038</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_039">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.187</X>
+            <Y>-0.61</Y>
+            <Z>0.432</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_039Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_039</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_040">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.187</X>
+            <Y>-0.68</Y>
+            <Z>0.456</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_040Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_040</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_041">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.187</X>
+            <Y>-0.75</Y>
+            <Z>0.48</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_041Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_041</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_042">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.187</X>
+            <Y>-0.82</Y>
+            <Z>0.504</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_042Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_042</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_043">
+        <Properties>
+          <string name="Name">IvoryGrip</string>
+          <Vector3 name="size">
+            <X>0.085</X>
+            <Y>0.85</Y>
+            <Z>0.39</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.14</X>
+            <Y>-0.61</Y>
+            <Z>0.42</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.803921568627451</R>
+            <G>0.7647058823529411</G>
+            <B>0.615686274509804</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_043Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_043</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_044">
+        <Properties>
+          <string name="Name">GripScrew</string>
+          <Vector3 name="size">
+            <X>0.014</X>
+            <Y>0.065</Y>
+            <Z>0.065</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.19</X>
+            <Y>-0.66</Y>
+            <Z>0.43</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3333333333333333</R>
+            <G>0.32941176470588235</G>
+            <B>0.2901960784313726</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_044Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_044</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_045">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.187</X>
+            <Y>-0.4</Y>
+            <Z>0.36</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_045Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_045</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_046">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.187</X>
+            <Y>-0.47</Y>
+            <Z>0.384</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_046Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_046</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_047">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.187</X>
+            <Y>-0.54</Y>
+            <Z>0.408</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_047Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_047</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_048">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.187</X>
+            <Y>-0.61</Y>
+            <Z>0.432</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_048Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_048</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_049">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.187</X>
+            <Y>-0.68</Y>
+            <Z>0.456</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_049Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_049</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_050">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.187</X>
+            <Y>-0.75</Y>
+            <Z>0.48</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_050Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_050</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_051">
+        <Properties>
+          <string name="Name">GripFineLine</string>
+          <Vector3 name="size">
+            <X>0.006</X>
+            <Y>0.008</Y>
+            <Z>0.24</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.187</X>
+            <Y>-0.82</Y>
+            <Z>0.504</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.7019607843137254</R>
+            <G>0.6666666666666666</G>
+            <B>0.5254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_051Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_051</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_052">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07553937617557167</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.27752876</Y>
+            <Z>-0.27574073</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.99362117</R10>
+            <R11>0.0</R11>
+            <R12>-0.11276958</R12>
+            <R20>0.11276958</R20>
+            <R21>-0.0</R21>
+            <R22>-0.99362117</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_052Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_052</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_053">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07426779907052634</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.35002876</Y>
+            <Z>-0.2589939</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.94176046</R10>
+            <R11>0.0</R11>
+            <R12>-0.33628445</R12>
+            <R20>0.33628445</R20>
+            <R21>-0.0</R21>
+            <R22>-0.94176046</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_053Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_053</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_054">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.0720122575693683</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.41503048</Y>
+            <Z>-0.22664152</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.8340381</R10>
+            <R11>0.0</R11>
+            <R12>-0.55170685</R12>
+            <R20>0.55170685</R20>
+            <R21>-0.0</R21>
+            <R22>-0.8340381</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_054Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_054</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_055">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.06931653837150366</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.46810417</Y>
+            <Z>-0.18088835</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.66486875</R10>
+            <R11>0.0</R11>
+            <R12>-0.7469602</R12>
+            <R20>0.7469602</R20>
+            <R21>-0.0</R21>
+            <R22>-0.66486875</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_055Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_055</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_056">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.06689425799921174</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.50563293</Y>
+            <Z>-0.12485238</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.43308833</R10>
+            <R11>0.0</R11>
+            <R12>-0.90135148</R12>
+            <R20>0.90135148</R20>
+            <R21>-0.0</R21>
+            <R22>-0.43308833</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_056Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_056</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_057">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.06545494923266422</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.52505924</Y>
+            <Z>-0.06235238</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.15096659</R10>
+            <R11>0.0</R11>
+            <R12>-0.98853887</R12>
+            <R20>0.98853887</R20>
+            <R21>-0.0</R21>
+            <R22>-0.15096659</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_057Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_057</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_058">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.06545494923266422</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.52505924</Y>
+            <Z>0.00235238</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.15096659</R10>
+            <R11>0.0</R11>
+            <R12>-0.98853887</R12>
+            <R20>0.98853887</R20>
+            <R21>0.0</R21>
+            <R22>0.15096659</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_058Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_058</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_059">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.0668942579992117</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.50563293</Y>
+            <Z>0.06485238</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.43308833</R10>
+            <R11>0.0</R11>
+            <R12>-0.90135148</R12>
+            <R20>0.90135148</R20>
+            <R21>0.0</R21>
+            <R22>0.43308833</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_059Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_059</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_060">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.0693165383715037</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.46810417</Y>
+            <Z>0.12088835</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.66486875</R10>
+            <R11>0.0</R11>
+            <R12>-0.7469602</R12>
+            <R20>0.7469602</R20>
+            <R21>0.0</R21>
+            <R22>0.66486875</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_060Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_060</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_061">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07201225756936831</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.41503048</Y>
+            <Z>0.16664152</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.8340381</R10>
+            <R11>0.0</R11>
+            <R12>-0.55170685</R12>
+            <R20>0.55170685</R20>
+            <R21>0.0</R21>
+            <R22>0.8340381</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_061Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_061</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_062">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07426779907052627</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.35002876</Y>
+            <Z>0.1989939</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.94176046</R10>
+            <R11>0.0</R11>
+            <R12>-0.33628445</R12>
+            <R20>0.33628445</R20>
+            <R21>0.0</R21>
+            <R22>0.94176046</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_062Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_062</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_063">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.0755393761755717</X>
+            <Y>0.054</Y>
+            <Z>0.054</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.27752876</Y>
+            <Z>0.21574073</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.99362117</R10>
+            <R11>0.0</R11>
+            <R12>-0.11276958</R12>
+            <R20>0.11276958</R20>
+            <R21>0.0</R21>
+            <R22>0.99362117</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_063Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_063</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_064">
+        <Properties>
+          <string name="Name">Trigger</string>
+          <Vector3 name="size">
+            <X>0.08</X>
+            <Y>0.19</Y>
+            <Z>0.045</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.32</Y>
+            <Z>-0.02</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.95630476</R11>
+            <R12>0.2923717</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2923717</R21>
+            <R22>0.95630476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3333333333333333</R>
+            <G>0.32941176470588235</G>
+            <B>0.2901960784313726</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_064Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_064</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="OldWestRevolver_PrototypeCylinder">
+      <Properties>
+        <string name="Name">Cylinder</string>
+      </Properties>
+      <Item class="Part" referent="OldWestRevolver_Prototype_003">
+        <Properties>
+          <string name="Name">CylinderPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.12</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="OldWestRevolver_Prototype_003Joint">
+          <Properties>
+            <string name="Name">Cylinder</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_003</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.12</Y>
+              <Z>-0.11</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_018">
+        <Properties>
+          <string name="Name">CylinderShell</string>
+          <Vector3 name="size">
+            <X>0.59</X>
+            <Y>0.57</Y>
+            <Z>0.57</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.12</Y>
+            <Z>-0.11</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3333333333333333</R>
+            <G>0.32941176470588235</G>
+            <B>0.2901960784313726</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_018Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_018</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_019">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.01</X>
+            <Y>0.08</Y>
+            <Z>0.37</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.277</X>
+            <Y>0.12</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4627450980392157</R>
+            <G>0.4588235294117647</G>
+            <B>0.403921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_019Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_019</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_020">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.09</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.16</X>
+            <Y>0.12</Y>
+            <Z>0.192</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_020Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_020</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_021">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.01</X>
+            <Y>0.08</Y>
+            <Z>0.37</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.1385</X>
+            <Y>0.35988904</Y>
+            <Z>-0.11</Z>
+            <R00>0.5</R00>
+            <R01>-0.8660254</R01>
+            <R02>0.0</R02>
+            <R10>0.8660254</R10>
+            <R11>0.5</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4627450980392157</R>
+            <G>0.4588235294117647</G>
+            <B>0.403921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_021Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_021</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_022">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.09</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.08</X>
+            <Y>0.25856406</Y>
+            <Z>0.192</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_022Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_022</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_023">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.01</X>
+            <Y>0.08</Y>
+            <Z>0.37</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.1385</X>
+            <Y>0.35988904</Y>
+            <Z>-0.11</Z>
+            <R00>-0.5</R00>
+            <R01>-0.8660254</R01>
+            <R02>0.0</R02>
+            <R10>0.8660254</R10>
+            <R11>-0.5</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4627450980392157</R>
+            <G>0.4588235294117647</G>
+            <B>0.403921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_023Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_023</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_024">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.09</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.08</X>
+            <Y>0.25856406</Y>
+            <Z>0.192</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_024Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_024</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_025">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.01</X>
+            <Y>0.08</Y>
+            <Z>0.37</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.277</X>
+            <Y>0.12</Y>
+            <Z>-0.11</Z>
+            <R00>-1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>-1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4627450980392157</R>
+            <G>0.4588235294117647</G>
+            <B>0.403921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_025Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_025</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_026">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.09</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.16</X>
+            <Y>0.12</Y>
+            <Z>0.192</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_026Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_026</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_027">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.01</X>
+            <Y>0.08</Y>
+            <Z>0.37</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.1385</X>
+            <Y>-0.11988904</Y>
+            <Z>-0.11</Z>
+            <R00>-0.5</R00>
+            <R01>0.8660254</R01>
+            <R02>-0.0</R02>
+            <R10>-0.8660254</R10>
+            <R11>-0.5</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4627450980392157</R>
+            <G>0.4588235294117647</G>
+            <B>0.403921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_027Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_027</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_028">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.09</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.08</X>
+            <Y>-0.01856406</Y>
+            <Z>0.192</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_028Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_028</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_029">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.01</X>
+            <Y>0.08</Y>
+            <Z>0.37</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.1385</X>
+            <Y>-0.11988904</Y>
+            <Z>-0.11</Z>
+            <R00>0.5</R00>
+            <R01>0.8660254</R01>
+            <R02>0.0</R02>
+            <R10>-0.8660254</R10>
+            <R11>0.5</R11>
+            <R12>-0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4627450980392157</R>
+            <G>0.4588235294117647</G>
+            <B>0.403921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_029Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_029</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_030">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.09</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.08</X>
+            <Y>-0.01856406</Y>
+            <Z>0.192</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_030Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_003</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_030</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="OldWestRevolver_PrototypeLoadingGate">
+      <Properties>
+        <string name="Name">LoadingGate</string>
+      </Properties>
+      <Item class="Part" referent="OldWestRevolver_Prototype_004">
+        <Properties>
+          <string name="Name">LoadingGatePivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.29</X>
+            <Y>0.12</Y>
+            <Z>0.22</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="OldWestRevolver_Prototype_004Joint">
+          <Properties>
+            <string name="Name">LoadingGate</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_004</Ref>
+            <CoordinateFrame name="C0">
+              <X>0.29</X>
+              <Y>0.12</Y>
+              <Z>0.22</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_031">
+        <Properties>
+          <string name="Name">GatePlate</string>
+          <Vector3 name="size">
+            <X>0.16</X>
+            <Y>0.23</Y>
+            <Z>0.035</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.2</X>
+            <Y>0.12</Y>
+            <Z>0.212</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_031Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_004</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_031</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_032">
+        <Properties>
+          <string name="Name">GateTab</string>
+          <Vector3 name="size">
+            <X>0.1</X>
+            <Y>0.045</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.29</X>
+            <Y>0.23</Y>
+            <Z>0.212</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.5686274509803921</G>
+            <B>0.30980392156862746</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_032Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_004</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_032</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="OldWestRevolver_PrototypeHammer">
+      <Properties>
+        <string name="Name">Hammer</string>
+      </Properties>
+      <Item class="Part" referent="OldWestRevolver_Prototype_005">
+        <Properties>
+          <string name="Name">HammerPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.29</Y>
+            <Z>0.36</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="OldWestRevolver_Prototype_005Joint">
+          <Properties>
+            <string name="Name">Hammer</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_005</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.29</Y>
+              <Z>0.36</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_065">
+        <Properties>
+          <string name="Name">HammerStem</string>
+          <Vector3 name="size">
+            <X>0.11</X>
+            <Y>0.23</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.33</Y>
+            <Z>0.38</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3333333333333333</R>
+            <G>0.32941176470588235</G>
+            <B>0.2901960784313726</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_065Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_005</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_065</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_066">
+        <Properties>
+          <string name="Name">HammerSpur</string>
+          <Vector3 name="size">
+            <X>0.16</X>
+            <Y>0.07</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.46</Y>
+            <Z>0.43</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.93969262</R11>
+            <R12>0.34202014</R12>
+            <R20>-0.0</R20>
+            <R21>-0.34202014</R21>
+            <R22>0.93969262</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3333333333333333</R>
+            <G>0.32941176470588235</G>
+            <B>0.2901960784313726</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_066Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_005</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_066</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="OldWestRevolver_PrototypeCartridge">
+      <Properties>
+        <string name="Name">Cartridge</string>
+      </Properties>
+      <Item class="Part" referent="OldWestRevolver_Prototype_006">
+        <Properties>
+          <string name="Name">CartridgePivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.78</X>
+            <Y>0.12</Y>
+            <Z>0.81</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="OldWestRevolver_Prototype_006Joint">
+          <Properties>
+            <string name="Name">Cartridge</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_002</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_006</Ref>
+            <CoordinateFrame name="C0">
+              <X>0.78</X>
+              <Y>0.12</Y>
+              <Z>0.81</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_067">
+        <Properties>
+          <string name="Name">SingleCartridge</string>
+          <Vector3 name="size">
+            <X>0.25</X>
+            <Y>0.085</Y>
+            <Z>0.085</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.78</X>
+            <Y>0.12</Y>
+            <Z>0.81</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6392156862745098</R>
+            <G>0.49019607843137253</G>
+            <B>0.23921568627450981</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_067Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_006</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_067</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="OldWestRevolver_Prototype_068">
+        <Properties>
+          <string name="Name">CartridgeTip</string>
+          <Vector3 name="size">
+            <X>0.05</X>
+            <Y>0.075</Y>
+            <Z>0.075</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.78</X>
+            <Y>0.12</Y>
+            <Z>0.66</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5803921568627451</R>
+            <G>0.4</G>
+            <B>0.24705882352941178</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="OldWestRevolver_Prototype_068Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">OldWestRevolver_Prototype_006</Ref>
+            <Ref name="Part1">OldWestRevolver_Prototype_068</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

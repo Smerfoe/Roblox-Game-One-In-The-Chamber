@@ -35,7 +35,15 @@ for file in sorted((ROOT/'models').glob('*.rbxmx')):
   graph[a].append(b);incoming[b]+=1
   if n.attrib['class']=='Motor6D':joints.append(p.find("string[@name='Name']").text)
  assert len(set(joints))==len(joints)
- expected=({'Presentation','Slide','Hammer','Magazine','Cartridge'} if file.stem.startswith('Service') else {'Presentation','Cylinder','Hammer','Cartridge'} if file.stem.startswith('Python') else {'Presentation'})
+ contracts={
+  'Service1911_Prototype':{'Presentation','Slide','Hammer','Magazine','Cartridge'},
+  'HeavyEagle_Prototype':{'Presentation','Slide','Hammer','Magazine','Cartridge'},
+  'PythonMagnum_Prototype':{'Presentation','Cylinder','Hammer','Cartridge'},
+  'FrontierRepeater_Prototype':{'Presentation','Lever','Breech','Hammer','Cartridge'},
+  'OldWestRevolver_Prototype':{'Presentation','Cylinder','LoadingGate','Hammer','Cartridge'},
+  'ButterflyKnife_Prototype':{'Presentation','HandleA','HandleB'},
+ }
+ expected=contracts.get(file.stem,{'Presentation'})
  assert set(joints)==expected,(file,set(joints))
  assert all(incoming[r]==(0 if r in anchored else 1) for r in parts),'Unattached or overconstrained part'
  seen=set();stack=anchored.copy()

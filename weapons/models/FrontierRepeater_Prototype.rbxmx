@@ -1,0 +1,3163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="FrontierRepeater_Prototype">
+    <Properties>
+      <string name="Name">FrontierRepeater_Prototype</string>
+      <Ref name="PrimaryPart">FrontierRepeater_Prototype_001</Ref>
+    </Properties>
+    <Item class="Part" referent="FrontierRepeater_Prototype_001">
+      <Properties>
+        <string name="Name">Anchor</string>
+        <Vector3 name="size">
+          <X>0.05</X>
+          <Y>0.05</Y>
+          <Z>0.05</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>-0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <Color3 name="Color">
+          <R>0.10196078431372549</R>
+          <G>0.11372549019607843</G>
+          <B>0.12156862745098039</B>
+        </Color3>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="Massless">true</bool>
+        <bool name="CastShadow">false</bool>
+        <float name="Transparency">1</float>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+      </Properties>
+    </Item>
+    <Item class="Model" referent="FrontierRepeater_PrototypeBody">
+      <Properties>
+        <string name="Name">Body</string>
+      </Properties>
+      <Item class="Part" referent="FrontierRepeater_Prototype_002">
+        <Properties>
+          <string name="Name">BodyPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="FrontierRepeater_Prototype_002Joint">
+          <Properties>
+            <string name="Name">Presentation</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_001</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_002</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_007">
+        <Properties>
+          <string name="Name">Receiver</string>
+          <Vector3 name="size">
+            <X>0.36</X>
+            <Y>0.52</Y>
+            <Z>0.88</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.08</Y>
+            <Z>-0.2</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_007Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_007</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_008">
+        <Properties>
+          <string name="Name">ReceiverTop</string>
+          <Vector3 name="size">
+            <X>0.3</X>
+            <Y>0.06</Y>
+            <Z>0.88</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.37</Y>
+            <Z>-0.2</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_008Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_008</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_009">
+        <Properties>
+          <string name="Name">ReceiverInset</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.31</Y>
+            <Z>0.56</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.184</X>
+            <Y>0.08</Y>
+            <Z>-0.2</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.22745098039215686</R>
+            <G>0.23529411764705882</G>
+            <B>0.2235294117647059</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_009Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_009</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_010">
+        <Properties>
+          <string name="Name">FrameScrew</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.06</Y>
+            <Z>0.06</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.195</X>
+            <Y>0.07</Y>
+            <Z>-0.46</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.49019607843137253</R>
+            <G>0.48627450980392156</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_010Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_010</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_011">
+        <Properties>
+          <string name="Name">FrameScrew</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.06</Y>
+            <Z>0.06</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.195</X>
+            <Y>0.07</Y>
+            <Z>0.05</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.49019607843137253</R>
+            <G>0.48627450980392156</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_011Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_011</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_012">
+        <Properties>
+          <string name="Name">ReceiverInset</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.31</Y>
+            <Z>0.56</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.184</X>
+            <Y>0.08</Y>
+            <Z>-0.2</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.22745098039215686</R>
+            <G>0.23529411764705882</G>
+            <B>0.2235294117647059</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_012Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_012</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_013">
+        <Properties>
+          <string name="Name">FrameScrew</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.06</Y>
+            <Z>0.06</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.195</X>
+            <Y>0.07</Y>
+            <Z>-0.46</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.49019607843137253</R>
+            <G>0.48627450980392156</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_013Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_013</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_014">
+        <Properties>
+          <string name="Name">FrameScrew</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.06</Y>
+            <Z>0.06</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.195</X>
+            <Y>0.07</Y>
+            <Z>0.05</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.49019607843137253</R>
+            <G>0.48627450980392156</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_014Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_014</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_015">
+        <Properties>
+          <string name="Name">LoadingPortRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.12</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.195</X>
+            <Y>0.16</Y>
+            <Z>-0.12</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_015Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_015</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_017">
+        <Properties>
+          <string name="Name">Barrel</string>
+          <Vector3 name="size">
+            <X>2.96</X>
+            <Y>0.19</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.27</Y>
+            <Z>-2.1</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_017Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_017</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_018">
+        <Properties>
+          <string name="Name">MuzzleRim</string>
+          <Vector3 name="size">
+            <X>0.025</X>
+            <Y>0.2</Y>
+            <Z>0.2</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.27</Y>
+            <Z>-3.595</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_018Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_018</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_019">
+        <Properties>
+          <string name="Name">Bore</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.11</Y>
+            <Z>0.11</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.27</Y>
+            <Z>-3.611</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_019Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_019</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_020">
+        <Properties>
+          <string name="Name">MagazineTube</string>
+          <Vector3 name="size">
+            <X>2.85</X>
+            <Y>0.12</Y>
+            <Z>0.12</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.02</Y>
+            <Z>-2.05</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_020Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_020</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_021">
+        <Properties>
+          <string name="Name">ForeEndWood</string>
+          <Vector3 name="size">
+            <X>0.3</X>
+            <Y>0.27</Y>
+            <Z>1.12</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.01</Y>
+            <Z>-1.2</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_021Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_021</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_022">
+        <Properties>
+          <string name="Name">ForeEndBand</string>
+          <Vector3 name="size">
+            <X>0.33</X>
+            <Y>0.34</Y>
+            <Z>0.06</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.06</Y>
+            <Z>-0.73</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.37254901960784315</R>
+            <G>0.3764705882352941</G>
+            <B>0.3333333333333333</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_022Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_022</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_023">
+        <Properties>
+          <string name="Name">ForeEndBand</string>
+          <Vector3 name="size">
+            <X>0.33</X>
+            <Y>0.34</Y>
+            <Z>0.06</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.06</Y>
+            <Z>-1.65</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.37254901960784315</R>
+            <G>0.3764705882352941</G>
+            <B>0.3333333333333333</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_023Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_023</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_024">
+        <Properties>
+          <string name="Name">FrontSight</string>
+          <Vector3 name="size">
+            <X>0.055</X>
+            <Y>0.11</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.415</Y>
+            <Z>-3.44</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_024Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_024</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_025">
+        <Properties>
+          <string name="Name">RearSightLeaf</string>
+          <Vector3 name="size">
+            <X>0.2</X>
+            <Y>0.04</Y>
+            <Z>0.25</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.41</Y>
+            <Z>-0.84</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_025Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_025</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_026">
+        <Properties>
+          <string name="Name">RearSightEar</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.06</Y>
+            <Z>0.08</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.075</X>
+            <Y>0.45</Y>
+            <Z>-0.91</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_026Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_026</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_027">
+        <Properties>
+          <string name="Name">RearSightEar</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.06</Y>
+            <Z>0.08</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.075</X>
+            <Y>0.45</Y>
+            <Z>-0.91</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_027Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_027</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_028">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.3149624961487463</Y>
+            <Z>0.21259968490040373</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.0</Y>
+            <Z>0.25</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.82884867</R11>
+            <R12>0.55947286</R12>
+            <R20>0</R20>
+            <R21>-0.55947286</R21>
+            <R22>0.82884867</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_028Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_028</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_029">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.3149624961487463</Y>
+            <Z>0.26999745558014243</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.135</Y>
+            <Z>0.45</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.82884867</R11>
+            <R12>-0.55947286</R12>
+            <R20>0</R20>
+            <R21>-0.55947286</R21>
+            <R22>-0.82884867</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_029Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_029</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_030">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.3149624961487463</Y>
+            <Z>0.21259968490040373</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.11</Y>
+            <Z>0.65</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.82884867</R11>
+            <R12>-0.55947286</R12>
+            <R20>0</R20>
+            <R21>0.55947286</R21>
+            <R22>-0.82884867</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_030Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_030</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_031">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.3149624961487463</Y>
+            <Z>0.26999745558014243</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.245</Y>
+            <Z>0.45</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.82884867</R11>
+            <R12>0.55947286</R12>
+            <R20>0</R20>
+            <R21>0.55947286</R21>
+            <R22>0.82884867</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_031Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_031</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_032">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.3503532001307973</Y>
+            <Z>0.1471483440549349</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.11</Y>
+            <Z>0.65</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.92198211</R11>
+            <R12>0.38723248</R12>
+            <R20>0</R20>
+            <R21>-0.38723248</R21>
+            <R22>0.92198211</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_032Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_032</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_033">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.3503532001307973</Y>
+            <Z>0.3951615304633149</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.005</Y>
+            <Z>0.9</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.92198211</R11>
+            <R12>-0.38723248</R12>
+            <R20>0</R20>
+            <R21>-0.38723248</R21>
+            <R22>-0.92198211</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_033Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_033</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_034">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.4662283015377985</Y>
+            <Z>0.2770039184653884</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.195</Y>
+            <Z>0.9</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8038419</R11>
+            <R12>-0.59484301</R12>
+            <R20>0</R20>
+            <R21>0.59484301</R21>
+            <R22>0.8038419</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_034Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_034</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_035">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.4662283015377985</Y>
+            <Z>0.345008943137971</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.38</Y>
+            <Z>1.15</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8038419</R11>
+            <R12>0.59484301</R12>
+            <R20>0</R20>
+            <R21>0.59484301</R21>
+            <R22>-0.8038419</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_035Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_035</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_036">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.45782428607826925</Y>
+            <Z>0.3560855558386538</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.38</Y>
+            <Z>1.15</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.78935222</R11>
+            <R12>0.61394061</R12>
+            <R20>0</R20>
+            <R21>-0.61394061</R21>
+            <R22>0.78935222</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_036Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_036</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_037">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.45782428607826925</Y>
+            <Z>0.44203724173074294</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.135</Y>
+            <Z>1.465</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.78935222</R11>
+            <R12>-0.61394061</R12>
+            <R20>0</R20>
+            <R21>-0.61394061</R21>
+            <R22>-0.78935222</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_037Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_037</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_038">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.4815048525995591</Y>
+            <Z>0.3745037742441015</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.485</Y>
+            <Z>1.78</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.78935222</R11>
+            <R12>-0.61394061</R12>
+            <R20>0</R20>
+            <R21>0.61394061</R21>
+            <R22>-0.78935222</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_038Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_038</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="FrontierRepeater_Prototype_039">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.31</X>
+            <Y>0.4815048525995591</Y>
+            <Z>0.4236190233252953</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.73</Y>
+            <Z>1.465</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.78935222</R11>
+            <R12>0.61394061</R12>
+            <R20>0</R20>
+            <R21>0.61394061</R21>
+            <R22>0.78935222</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30980392156862746</R>
+            <G>0.19215686274509805</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_039Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_039</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_040">
+        <Properties>
+          <string name="Name">ButtPlate</string>
+          <Vector3 name="size">
+            <X>0.33</X>
+            <Y>0.63</Y>
+            <Z>0.055</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.48</Y>
+            <Z>1.81</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.99026807</R11>
+            <R12>0.1391731</R12>
+            <R20>-0.0</R20>
+            <R21>-0.1391731</R21>
+            <R22>0.99026807</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4117647058823529</R>
+            <G>0.41568627450980394</G>
+            <B>0.3843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_040Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_040</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_041">
+        <Properties>
+          <string name="Name">ButtPlateScrew</string>
+          <Vector3 name="size">
+            <X>0.055</X>
+            <Y>0.055</Y>
+            <Z>0.012</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.25</Y>
+            <Z>1.85</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_041Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_041</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_042">
+        <Properties>
+          <string name="Name">ButtPlateScrew</string>
+          <Vector3 name="size">
+            <X>0.055</X>
+            <Y>0.055</Y>
+            <Z>0.012</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.69</Y>
+            <Z>1.85</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_042Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_042</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_060">
+        <Properties>
+          <string name="Name">Trigger</string>
+          <Vector3 name="size">
+            <X>0.08</X>
+            <Y>0.2</Y>
+            <Z>0.045</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.22</Y>
+            <Z>0.02</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4117647058823529</R>
+            <G>0.41568627450980394</G>
+            <B>0.38823529411764707</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_060Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_060</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="FrontierRepeater_PrototypeLever">
+      <Properties>
+        <string name="Name">Lever</string>
+      </Properties>
+      <Item class="Part" referent="FrontierRepeater_Prototype_003">
+        <Properties>
+          <string name="Name">LeverPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.17</Y>
+            <Z>-0.16</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="FrontierRepeater_Prototype_003Joint">
+          <Properties>
+            <string name="Name">Lever</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_003</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>-0.17</Y>
+              <Z>-0.16</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_043">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.1156197690496571</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.18685084</Y>
+            <Z>0.09740251</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.11850641</R10>
+            <R11>0.0</R11>
+            <R12>-0.99295329</R12>
+            <R20>0.99295329</R20>
+            <R21>-0.0</R21>
+            <R22>-0.11850641</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_043Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_043</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_044">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.10485721542495345</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.21321123</Y>
+            <Z>0.20346853</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.37211645</R10>
+            <R11>0.0</R11>
+            <R12>-0.92818605</R12>
+            <R20>0.92818605</R20>
+            <R21>-0.0</R21>
+            <R22>-0.37211645</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_044Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_044</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_045">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.08740283070108143</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.26191888</Y>
+            <Z>0.28464795</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.66812713</R10>
+            <R11>0.0</R11>
+            <R12>-0.74404713</R12>
+            <R20>0.74404713</R20>
+            <R21>-0.0</R21>
+            <R22>-0.66812713</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_045Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_045</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_046">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.07256968682680773</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.32555849</Y>
+            <Z>0.32858193</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.94919822</R10>
+            <R11>0.0</R11>
+            <R12>-0.31467878</R12>
+            <R20>0.31467878</R20>
+            <R21>-0.0</R21>
+            <R22>-0.94919822</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_046Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_046</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_047">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.07256968682680773</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.39444151</Y>
+            <Z>0.32858193</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>-0.94919822</R10>
+            <R11>0.0</R11>
+            <R12>0.31467878</R12>
+            <R20>-0.31467878</R20>
+            <R21>-0.0</R21>
+            <R22>-0.94919822</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_047Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_047</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_048">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.08740283070108139</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.45808112</Y>
+            <Z>0.28464795</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>-0.66812713</R10>
+            <R11>0.0</R11>
+            <R12>0.74404713</R12>
+            <R20>-0.74404713</R20>
+            <R21>-0.0</R21>
+            <R22>-0.66812713</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_048Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_048</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_049">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.10485721542495344</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.50678877</Y>
+            <Z>0.20346853</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>-0.37211645</R10>
+            <R11>0.0</R11>
+            <R12>0.92818605</R12>
+            <R20>-0.92818605</R20>
+            <R21>-0.0</R21>
+            <R22>-0.37211645</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_049Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_049</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_050">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.11561976904965714</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.53314916</Y>
+            <Z>0.09740251</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>-0.11850641</R10>
+            <R11>0.0</R11>
+            <R12>0.99295329</R12>
+            <R20>-0.99295329</R20>
+            <R21>-0.0</R21>
+            <R22>-0.11850641</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_050Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_050</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_051">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.11561976904965714</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.53314916</Y>
+            <Z>-0.01740251</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>0.11850641</R10>
+            <R11>0.0</R11>
+            <R12>0.99295329</R12>
+            <R20>-0.99295329</R20>
+            <R21>0.0</R21>
+            <R22>0.11850641</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_051Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_051</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_052">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.10485721542495346</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.50678877</Y>
+            <Z>-0.12346853</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>0.37211645</R10>
+            <R11>0.0</R11>
+            <R12>0.92818605</R12>
+            <R20>-0.92818605</R20>
+            <R21>0.0</R21>
+            <R22>0.37211645</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_052Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_052</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_053">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.08740283070108128</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.45808112</Y>
+            <Z>-0.20464795</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>0.66812713</R10>
+            <R11>0.0</R11>
+            <R12>0.74404713</R12>
+            <R20>-0.74404713</R20>
+            <R21>0.0</R21>
+            <R22>0.66812713</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_053Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_053</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_054">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.07256968682680782</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.39444151</Y>
+            <Z>-0.24858193</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>0.94919822</R10>
+            <R11>0.0</R11>
+            <R12>0.31467878</R12>
+            <R20>-0.31467878</R20>
+            <R21>0.0</R21>
+            <R22>0.94919822</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_054Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_054</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_055">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.07256968682680785</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.32555849</Y>
+            <Z>-0.24858193</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.94919822</R10>
+            <R11>0.0</R11>
+            <R12>-0.31467878</R12>
+            <R20>0.31467878</R20>
+            <R21>0.0</R21>
+            <R22>0.94919822</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_055Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_055</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_056">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.08740283070108128</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.26191888</Y>
+            <Z>-0.20464795</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.66812713</R10>
+            <R11>0.0</R11>
+            <R12>-0.74404713</R12>
+            <R20>0.74404713</R20>
+            <R21>0.0</R21>
+            <R22>0.66812713</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_056Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_056</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_057">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.10485721542495337</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.21321123</Y>
+            <Z>-0.12346853</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.37211645</R10>
+            <R11>0.0</R11>
+            <R12>-0.92818605</R12>
+            <R20>0.92818605</R20>
+            <R21>0.0</R21>
+            <R22>0.37211645</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_057Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_057</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_058">
+        <Properties>
+          <string name="Name">LeverLoop</string>
+          <Vector3 name="size">
+            <X>0.1156197690496572</X>
+            <Y>0.056</Y>
+            <Z>0.056</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.18685084</Y>
+            <Z>-0.01740251</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.11850641</R10>
+            <R11>0.0</R11>
+            <R12>-0.99295329</R12>
+            <R20>0.99295329</R20>
+            <R21>0.0</R21>
+            <R22>0.11850641</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_058Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_058</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_059">
+        <Properties>
+          <string name="Name">LeverNeck</string>
+          <Vector3 name="size">
+            <X>0.12369316876852979</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.23</Y>
+            <Z>-0.175</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>-0.9701425</R10>
+            <R11>0.0</R11>
+            <R12>0.24253563</R12>
+            <R20>-0.24253563</R20>
+            <R21>-0.0</R21>
+            <R22>-0.9701425</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_059Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_003</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_059</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="FrontierRepeater_PrototypeBreech">
+      <Properties>
+        <string name="Name">Breech</string>
+      </Properties>
+      <Item class="Part" referent="FrontierRepeater_Prototype_004">
+        <Properties>
+          <string name="Name">BreechPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.18</Y>
+            <Z>-0.16</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="FrontierRepeater_Prototype_004Joint">
+          <Properties>
+            <string name="Name">Breech</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_004</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.18</Y>
+              <Z>-0.16</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_016">
+        <Properties>
+          <string name="Name">BreechBlock</string>
+          <Vector3 name="size">
+            <X>0.22</X>
+            <Y>0.02</Y>
+            <Z>0.4</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.405</Y>
+            <Z>-0.2</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5098039215686274</R>
+            <G>0.5137254901960784</G>
+            <B>0.4745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_016Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_004</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_016</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="FrontierRepeater_PrototypeHammer">
+      <Properties>
+        <string name="Name">Hammer</string>
+      </Properties>
+      <Item class="Part" referent="FrontierRepeater_Prototype_005">
+        <Properties>
+          <string name="Name">HammerPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.25</Y>
+            <Z>0.36</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="FrontierRepeater_Prototype_005Joint">
+          <Properties>
+            <string name="Name">Hammer</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_005</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.25</Y>
+              <Z>0.36</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_061">
+        <Properties>
+          <string name="Name">HammerStem</string>
+          <Vector3 name="size">
+            <X>0.11</X>
+            <Y>0.19</Y>
+            <Z>0.11</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.28</Y>
+            <Z>0.34</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_061Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_005</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_061</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_062">
+        <Properties>
+          <string name="Name">HammerSpur</string>
+          <Vector3 name="size">
+            <X>0.16</X>
+            <Y>0.065</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.4</Y>
+            <Z>0.39</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.93969262</R11>
+            <R12>0.34202014</R12>
+            <R20>-0.0</R20>
+            <R21>-0.34202014</R21>
+            <R22>0.93969262</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.29411764705882354</R>
+            <G>0.30196078431372547</G>
+            <B>0.28627450980392155</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_062Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_005</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_062</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="FrontierRepeater_PrototypeCartridge">
+      <Properties>
+        <string name="Name">Cartridge</string>
+      </Properties>
+      <Item class="Part" referent="FrontierRepeater_Prototype_006">
+        <Properties>
+          <string name="Name">CartridgePivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.7</X>
+            <Y>-0.05</Y>
+            <Z>0.6</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="FrontierRepeater_Prototype_006Joint">
+          <Properties>
+            <string name="Name">Cartridge</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_002</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_006</Ref>
+            <CoordinateFrame name="C0">
+              <X>-0.7</X>
+              <Y>-0.05</Y>
+              <Z>0.6</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_063">
+        <Properties>
+          <string name="Name">SingleCartridge</string>
+          <Vector3 name="size">
+            <X>0.32</X>
+            <Y>0.085</Y>
+            <Z>0.085</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.7</X>
+            <Y>-0.05</Y>
+            <Z>0.6</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6431372549019608</R>
+            <G>0.5019607843137255</G>
+            <B>0.2549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_063Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_006</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_063</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="FrontierRepeater_Prototype_064">
+        <Properties>
+          <string name="Name">CartridgeTip</string>
+          <Vector3 name="size">
+            <X>0.055</X>
+            <Y>0.075</Y>
+            <Z>0.075</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.7</X>
+            <Y>-0.05</Y>
+            <Z>0.41</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.41568627450980394</G>
+            <B>0.25098039215686274</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="FrontierRepeater_Prototype_064Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">FrontierRepeater_Prototype_006</Ref>
+            <Ref name="Part1">FrontierRepeater_Prototype_064</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

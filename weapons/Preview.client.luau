@@ -13,9 +13,9 @@ local player = Players.LocalPlayer
 local previousMode = player.CameraMode
 player.CameraMode = Enum.CameraMode.LockFirstPerson
 local index, sprint, sliding, stopped = 1, false, false, false
-local names = {"Service1911_Prototype", "Karambit_Prototype", "PythonMagnum_Prototype", "Machete_Prototype", "ButterKnife_Prototype"}
-local kinds = {"Pistol", "Knife", "Revolver", "Machete", "ButterKnife"}
-local function isFirearm(): boolean return kinds[index] == "Pistol" or kinds[index] == "Revolver" end
+local names = {"Service1911_Prototype", "Karambit_Prototype", "PythonMagnum_Prototype", "Machete_Prototype", "ButterKnife_Prototype", "FrontierRepeater_Prototype", "OldWestRevolver_Prototype", "HeavyEagle_Prototype", "ButterflyKnife_Prototype", "TrailBowie_Prototype"}
+local kinds = {"Pistol", "Knife", "Revolver", "Machete", "ButterKnife", "Repeater", "OldWest", "HeavyPistol", "Butterfly", "Bowie"}
+local function isFirearm(): boolean return kinds[index] == "Pistol" or kinds[index] == "Revolver" or kinds[index] == "Repeater" or kinds[index] == "OldWest" or kinds[index] == "HeavyPistol" end
 local current: Model? = nil
 local animation: any = nil
 local connections: {RBXScriptConnection} = {}
@@ -69,4 +69,4 @@ table.insert(connections, player.CharacterAdded:Connect(function() if not stoppe
 table.insert(connections, Workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function() if not stopped then load() end end))
 table.insert(connections, script.Destroying:Connect(stop))
 load()
-print("Weapon preview: click fire/slash; F inspect; R cosmetic reload; Q cycle 5 weapons; hold Shift sprint pose; hold C slide pose; P stop. No gameplay actions occur.")
+print("Weapon preview: click fire/slash; F inspect; R cosmetic reload; Q cycle 10 weapons; hold Shift sprint pose; hold C slide pose; P stop. No gameplay actions occur.")

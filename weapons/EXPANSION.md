@@ -1,5 +1,7 @@
 # Python-style revolver, machete and butter knife
 
+This document describes the first expansion. The current pack now has ten models; see `WESTERN_AND_KNIVES.md` for the next five.
+
 ## Delivered prototypes
 
 - `models/PythonMagnum_Prototype.rbxmx`: 73 native parts. Long fixed barrel, vented rib, wood grip, independent cylinder/crane, hammer and single-cartridge prop.
@@ -8,7 +10,7 @@
 - `NewWeaponGeometryPreview.png`: actual exported geometry, plotted outside Roblox.
 - `concepts/PythonRareFinishes.png`: four visual-only rare finish proposals; see accompanying finish document.
 
-The full preview pack now includes FIVE weapons: the original 1911 and karambit plus these three. Reimport the updated `WeaponPreviewPack.rbxmx` and `WeaponPreviewClient.rbxmx` into a separate review place, removing only a previous preview pack/script of the same name in that review place. Do not duplicate packs and do not delete production weapons. Follow `README.md` for locations. Q cycles all five. Left click fires/slashes cosmetically, F inspects, R presents a cosmetic reload on 1911 or revolver only; hold Shift/C for weapon sprint/slide poses; P stops. There are still no arms or fingers in this standalone pack.
+The first expansion added these three to the original 1911 and karambit; the full pack now also includes the five listed in `WESTERN_AND_KNIVES.md`. Reimport the updated `WeaponPreviewPack.rbxmx` and `WeaponPreviewClient.rbxmx` into a separate review place, removing only a previous preview pack/script of the same name in that review place. Do not duplicate packs and do not delete production weapons. Follow `README.md` for locations. Q cycles all ten. Left click fires/slashes cosmetically, F inspects, R presents a cosmetic reload on 1911 or revolver only; hold Shift/C for weapon sprint/slide poses; P stops. There are still no arms or fingers in this standalone pack.
 
 ## Revolver animation
 
@@ -45,7 +47,7 @@ Both attack poses peak at approximately 0.15s to support the existing server's m
 
 ## Verification completed here
 
-All FIVE loose rigs pass finite positive dimensions, orthonormal rotation matrices, connected acyclic single-parent assembly graph, single anchor, unique joint references, no embedded scripts, expected named motors and deterministic generation. Both updated Luau scripts compile with official Luau 0.699. State tests now exercise revolver reload prop windows/inspection/fire and both knife variants, alongside original cancellation/cleanup tests. Bundled sources match reviewed source files.
+All ten loose rigs pass finite positive dimensions, orthonormal rotation matrices, connected acyclic single-parent assembly graph, single anchor, unique joint references, no embedded scripts, expected named motors and deterministic generation. Both updated Luau scripts compile with official Luau 0.699. State tests now exercise revolver reload prop windows/inspection/fire and both knife variants, alongside original cancellation/cleanup tests. Bundled sources match reviewed source files.
 
 ## Still required in Studio
 

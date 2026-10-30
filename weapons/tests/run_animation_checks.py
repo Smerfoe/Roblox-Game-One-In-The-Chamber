@@ -26,10 +26,10 @@ local TweenService={GetValue=function(_,alpha) return alpha end}
 local game={GetService=function(_,name) return name=='RunService' and RunService or TweenService end}
 '''
 CHECKS=r'''
-local function rig(pistol, revolver)
+local function rig(pistol, revolver, overrides)
  local list={};local anchor={Name='Anchor',CFrame=CFrame.identity,IsA=function(_,n) return n=='BasePart' end}
  table.insert(list,anchor)
- for _,name in (pistol and {'Presentation','Slide','Hammer','Magazine','Cartridge'} or revolver and {'Presentation','Cylinder','Hammer','Cartridge'} or {'Presentation'}) do
+ for _,name in (overrides or (pistol and {'Presentation','Slide','Hammer','Magazine','Cartridge'} or revolver and {'Presentation','Cylinder','Hammer','Cartridge'} or {'Presentation'})) do
   table.insert(list,{Name=name,C0=CFrame.identity,IsA=function(_,n) return n=='Motor6D' end})
  end
  for _,name in {'SingleCartridge','CartridgeTip'} do
@@ -82,6 +82,39 @@ for _,kind in {'Machete','ButterKnife'} do
  blade:Destroy()
 end
 
+
+local cases = {
+ {'Repeater', {'Presentation','Lever','Breech','Hammer','Cartridge'}, true},
+ {'OldWest', {'Presentation','Cylinder','LoadingGate','Hammer','Cartridge'}, true},
+ {'HeavyPistol', {'Presentation','Slide','Hammer','Magazine','Cartridge'}, true},
+ {'Butterfly', {'Presentation','HandleA','HandleB'}, false},
+ {'Bowie', {'Presentation'}, false},
+}
+for _,case in cases do
+ local kind,names,firearm=case[1],case[2],case[3]
+ local c=Animator.new(rig(false,false,names),kind,camera)
+ for _,action in {'Equip','Inspect',firearm and 'Fire' or 'Attack'} do
+  assert(c:Play(action),kind..' missing '..action)
+  local track=c.active.track
+  for joint,keys in track.joints do
+   assert(c.joints[joint],kind..' unknown animated joint '..joint)
+   assert(keys[1].time==0 and keys[#keys].time==track.duration)
+   for i=2,#keys do assert(keys[i].time>keys[i-1].time,'Nonmonotonic keyframes') end
+  end
+  advance(c,math.ceil(track.duration*100)+20);assert(c.active==nil)
+ end
+ if firearm then
+  assert(c:Play('Reload'));local track=c.active.track
+  assert(track.cartridgeWindow[1]<track.cartridgeWindow[2])
+  advance(c,math.ceil((track.cartridgeWindow[1]+.05)*100));assert(c.cartridges[1].Transparency==0)
+  c:Cancel();assert(c.cartridges[1].Transparency==1)
+ else assert(not c:Play('Reload')) end
+ assert(c:Play('Inspect'));c:SetLocomotion('Sprint');assert(c.active==nil)
+ c:SetLocomotion('Idle');assert(c:Play('Equip'));c:Cancel();c:Destroy()
+ local ok=pcall(function() Animator.new(rig(false),kind,camera) end)
+ assert(ok==(kind=='Bowie'),'Missing required joint accepted for '..kind)
+ print('PASS '..kind..' action/joint/timing and lifecycle checks')
+end
 print('PASS animation state checks: action availability, inspection gating/interruption, cartridge timing, cancellation, locomotion, repeatability, knife attack, camera swap and idempotent cleanup.')
 print('Mocks do not validate real Roblox rotations, motor evaluation, import, rendering, timing feel or hands.')
 '''

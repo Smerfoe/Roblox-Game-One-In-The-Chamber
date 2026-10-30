@@ -1,0 +1,3974 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="HeavyEagle_Prototype">
+    <Properties>
+      <string name="Name">HeavyEagle_Prototype</string>
+      <Ref name="PrimaryPart">HeavyEagle_Prototype_001</Ref>
+    </Properties>
+    <Item class="Part" referent="HeavyEagle_Prototype_001">
+      <Properties>
+        <string name="Name">Anchor</string>
+        <Vector3 name="size">
+          <X>0.05</X>
+          <Y>0.05</Y>
+          <Z>0.05</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>-0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <Color3 name="Color">
+          <R>0.10196078431372549</R>
+          <G>0.11372549019607843</G>
+          <B>0.12156862745098039</B>
+        </Color3>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="Massless">true</bool>
+        <bool name="CastShadow">false</bool>
+        <float name="Transparency">1</float>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+      </Properties>
+    </Item>
+    <Item class="Model" referent="HeavyEagle_PrototypeBody">
+      <Properties>
+        <string name="Name">Body</string>
+      </Properties>
+      <Item class="Part" referent="HeavyEagle_Prototype_002">
+        <Properties>
+          <string name="Name">BodyPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="HeavyEagle_Prototype_002Joint">
+          <Properties>
+            <string name="Name">Presentation</string>
+            <Ref name="Part0">HeavyEagle_Prototype_001</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_002</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_007">
+        <Properties>
+          <string name="Name">Receiver</string>
+          <Vector3 name="size">
+            <X>0.48</X>
+            <Y>0.25</Y>
+            <Z>1.95</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.07</Y>
+            <Z>-0.46</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_007Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_007</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_008">
+        <Properties>
+          <string name="Name">GripFrame</string>
+          <Vector3 name="size">
+            <X>0.45</X>
+            <Y>1.15</Y>
+            <Z>0.58</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.73</Y>
+            <Z>0.34</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_008Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_008</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_009">
+        <Properties>
+          <string name="Name">GripPanel</string>
+          <Vector3 name="size">
+            <X>0.055</X>
+            <Y>0.99</Y>
+            <Z>0.49</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.25</X>
+            <Y>-0.73</Y>
+            <Z>0.34</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_009Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_009</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_010">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.28</X>
+            <Y>-0.43</Y>
+            <Z>0.29</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_010Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_010</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_011">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.28</X>
+            <Y>-0.508</Y>
+            <Z>0.309</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_011Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_011</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_012">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.28</X>
+            <Y>-0.586</Y>
+            <Z>0.328</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_012Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_012</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_013">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.28</X>
+            <Y>-0.664</Y>
+            <Z>0.347</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_013Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_013</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_014">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.28</X>
+            <Y>-0.742</Y>
+            <Z>0.366</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_014Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_014</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_015">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.28</X>
+            <Y>-0.82</Y>
+            <Z>0.385</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_015Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_015</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_016">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.28</X>
+            <Y>-0.898</Y>
+            <Z>0.404</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_016Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_016</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_017">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.28</X>
+            <Y>-0.976</Y>
+            <Z>0.423</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_017Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_017</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_018">
+        <Properties>
+          <string name="Name">GripScrew</string>
+          <Vector3 name="size">
+            <X>0.015</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.284</X>
+            <Y>-0.43</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.40784313725490196</G>
+            <B>0.4196078431372549</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_018Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_018</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_019">
+        <Properties>
+          <string name="Name">GripScrew</string>
+          <Vector3 name="size">
+            <X>0.015</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.284</X>
+            <Y>-1.03</Y>
+            <Z>0.42</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.40784313725490196</G>
+            <B>0.4196078431372549</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_019Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_019</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_020">
+        <Properties>
+          <string name="Name">GripPanel</string>
+          <Vector3 name="size">
+            <X>0.055</X>
+            <Y>0.99</Y>
+            <Z>0.49</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.25</X>
+            <Y>-0.73</Y>
+            <Z>0.34</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_020Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_020</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_021">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.28</X>
+            <Y>-0.43</Y>
+            <Z>0.29</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_021Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_021</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_022">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.28</X>
+            <Y>-0.508</Y>
+            <Z>0.309</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_022Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_022</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_023">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.28</X>
+            <Y>-0.586</Y>
+            <Z>0.328</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_023Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_023</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_024">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.28</X>
+            <Y>-0.664</Y>
+            <Z>0.347</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_024Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_024</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_025">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.28</X>
+            <Y>-0.742</Y>
+            <Z>0.366</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_025Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_025</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_026">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.28</X>
+            <Y>-0.82</Y>
+            <Z>0.385</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_026Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_026</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_027">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.28</X>
+            <Y>-0.898</Y>
+            <Z>0.404</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_027Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_027</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_028">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.02</Y>
+            <Z>0.38</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.28</X>
+            <Y>-0.976</Y>
+            <Z>0.423</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16470588235294117</R>
+            <G>0.17647058823529413</G>
+            <B>0.1843137254901961</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_028Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_028</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_029">
+        <Properties>
+          <string name="Name">GripScrew</string>
+          <Vector3 name="size">
+            <X>0.015</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.284</X>
+            <Y>-0.43</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.40784313725490196</G>
+            <B>0.4196078431372549</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_029Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_029</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_030">
+        <Properties>
+          <string name="Name">GripScrew</string>
+          <Vector3 name="size">
+            <X>0.015</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.284</X>
+            <Y>-1.03</Y>
+            <Z>0.42</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.40784313725490196</G>
+            <B>0.4196078431372549</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_030Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_030</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_031">
+        <Properties>
+          <string name="Name">FixedBarrelShroud</string>
+          <Vector3 name="size">
+            <X>0.52</X>
+            <Y>0.4</Y>
+            <Z>1.14</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.3</Y>
+            <Z>-1.28</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6549019607843137</R>
+            <G>0.6745098039215687</G>
+            <B>0.6862745098039216</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_031Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_031</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_032">
+        <Properties>
+          <string name="Name">ShroudTopRib</string>
+          <Vector3 name="size">
+            <X>0.32</X>
+            <Y>0.05</Y>
+            <Z>1.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.525</Y>
+            <Z>-1.28</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6549019607843137</R>
+            <G>0.6745098039215687</G>
+            <B>0.6862745098039216</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_032Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_032</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_052">
+        <Properties>
+          <string name="Name">FrontSight</string>
+          <Vector3 name="size">
+            <X>0.065</X>
+            <Y>0.12</Y>
+            <Z>0.13</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.6</Y>
+            <Z>-1.69</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_052Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_052</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_053">
+        <Properties>
+          <string name="Name">BarrelMouth</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.25</Y>
+            <Z>0.25</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.3</Y>
+            <Z>-1.865</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4627450980392157</R>
+            <G>0.49019607843137253</G>
+            <B>0.5098039215686274</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_053Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_053</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_054">
+        <Properties>
+          <string name="Name">Bore</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.15</Y>
+            <Z>0.15</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.3</Y>
+            <Z>-1.89</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_054Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_054</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_055">
+        <Properties>
+          <string name="Name">TopRailLand</string>
+          <Vector3 name="size">
+            <X>0.3</X>
+            <Y>0.03</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.566</Y>
+            <Z>-1.65</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6549019607843137</R>
+            <G>0.6745098039215687</G>
+            <B>0.6862745098039216</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_055Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_055</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_056">
+        <Properties>
+          <string name="Name">TopRailLand</string>
+          <Vector3 name="size">
+            <X>0.3</X>
+            <Y>0.03</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.566</Y>
+            <Z>-1.44</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6549019607843137</R>
+            <G>0.6745098039215687</G>
+            <B>0.6862745098039216</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_056Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_056</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_057">
+        <Properties>
+          <string name="Name">TopRailLand</string>
+          <Vector3 name="size">
+            <X>0.3</X>
+            <Y>0.03</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.566</Y>
+            <Z>-1.23</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6549019607843137</R>
+            <G>0.6745098039215687</G>
+            <B>0.6862745098039216</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_057Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_057</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_058">
+        <Properties>
+          <string name="Name">TopRailLand</string>
+          <Vector3 name="size">
+            <X>0.3</X>
+            <Y>0.03</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.566</Y>
+            <Z>-1.02</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6549019607843137</R>
+            <G>0.6745098039215687</G>
+            <B>0.6862745098039216</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_058Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_058</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_059">
+        <Properties>
+          <string name="Name">UnderRailLand</string>
+          <Vector3 name="size">
+            <X>0.4</X>
+            <Y>0.05</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.235</Y>
+            <Z>-1.65</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_059Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_059</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_060">
+        <Properties>
+          <string name="Name">UnderRailLand</string>
+          <Vector3 name="size">
+            <X>0.4</X>
+            <Y>0.05</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.235</Y>
+            <Z>-1.45</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_060Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_060</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_061">
+        <Properties>
+          <string name="Name">UnderRailLand</string>
+          <Vector3 name="size">
+            <X>0.4</X>
+            <Y>0.05</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.235</Y>
+            <Z>-1.25</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_061Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_061</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_062">
+        <Properties>
+          <string name="Name">UnderRailLand</string>
+          <Vector3 name="size">
+            <X>0.4</X>
+            <Y>0.05</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.235</Y>
+            <Z>-1.05</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_062Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_062</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_063">
+        <Properties>
+          <string name="Name">UnderRailLand</string>
+          <Vector3 name="size">
+            <X>0.4</X>
+            <Y>0.05</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.235</Y>
+            <Z>-0.85</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_063Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_063</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_064">
+        <Properties>
+          <string name="Name">Beavertail</string>
+          <Vector3 name="size">
+            <X>0.4</X>
+            <Y>0.1</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.08</Y>
+            <Z>0.52</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_064Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_064</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_065">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.11540399607372658</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.25716814</Y>
+            <Z>-0.44216904</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.99074808</R10>
+            <R11>0.0</R11>
+            <R12>-0.1357138</R12>
+            <R20>0.1357138</R20>
+            <R21>-0.0</R21>
+            <R22>-0.99074808</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_065Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_065</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_066">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.11271504135972445</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.36590842</Y>
+            <Z>-0.41161176</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.91508865</R10>
+            <R11>0.0</R11>
+            <R12>-0.40325272</R12>
+            <R20>0.40325272</R20>
+            <R21>-0.0</R21>
+            <R22>-0.91508865</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_066Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_066</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_067">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.10822280559369064</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.45840842</Y>
+            <Z>-0.35348836</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.75636317</R10>
+            <R11>0.0</R11>
+            <R12>-0.65415193</R12>
+            <R20>0.65415193</R20>
+            <R21>-0.0</R21>
+            <R22>-0.75636317</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_067Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_067</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_068">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.1035358428391593</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.5256136</Y>
+            <Z>-0.27348836</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.50759835</R10>
+            <R11>0.0</R11>
+            <R12>-0.86159382</R12>
+            <R20>0.86159382</R20>
+            <R21>-0.0</R21>
+            <R22>-0.50759835</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_068Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_068</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_069">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.10052994077067189</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.56094546</Y>
+            <Z>-0.17944272</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.18013627</R10>
+            <R11>0.0</R11>
+            <R12>-0.98364166</R12>
+            <R20>0.98364166</R20>
+            <R21>-0.0</R21>
+            <R22>-0.18013627</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_069Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_069</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_070">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.10052994077067189</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.56094546</Y>
+            <Z>-0.08055728</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.18013627</R10>
+            <R11>0.0</R11>
+            <R12>-0.98364166</R12>
+            <R20>0.98364166</R20>
+            <R21>0.0</R21>
+            <R22>0.18013627</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_070Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_070</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_071">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.1035358428391594</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.5256136</Y>
+            <Z>0.01348836</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.50759835</R10>
+            <R11>0.0</R11>
+            <R12>-0.86159382</R12>
+            <R20>0.86159382</R20>
+            <R21>0.0</R21>
+            <R22>0.50759835</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_071Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_071</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_072">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.1082228055936906</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.45840842</Y>
+            <Z>0.09348836</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.75636317</R10>
+            <R11>0.0</R11>
+            <R12>-0.65415193</R12>
+            <R20>0.65415193</R20>
+            <R21>0.0</R21>
+            <R22>0.75636317</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_072Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_072</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_073">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.11271504135972445</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.36590842</Y>
+            <Z>0.15161176</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.91508865</R10>
+            <R11>0.0</R11>
+            <R12>-0.40325272</R12>
+            <R20>0.40325272</R20>
+            <R21>0.0</R21>
+            <R22>0.91508865</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_073Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_073</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_074">
+        <Properties>
+          <string name="Name">TriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.11540399607372658</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.25716814</Y>
+            <Z>0.18216904</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.99074808</R10>
+            <R11>0.0</R11>
+            <R12>-0.1357138</R12>
+            <R20>0.1357138</R20>
+            <R21>0.0</R21>
+            <R22>0.99074808</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_074Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_074</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_075">
+        <Properties>
+          <string name="Name">Trigger</string>
+          <Vector3 name="size">
+            <X>0.14</X>
+            <Y>0.2</Y>
+            <Z>0.065</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.3</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.96592583</R11>
+            <R12>0.25881905</R12>
+            <R20>-0.0</R20>
+            <R21>-0.25881905</R21>
+            <R22>0.96592583</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6549019607843137</R>
+            <G>0.6745098039215687</G>
+            <B>0.6862745098039216</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_075Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_075</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="HeavyEagle_PrototypeSlide">
+      <Properties>
+        <string name="Name">Slide</string>
+      </Properties>
+      <Item class="Part" referent="HeavyEagle_Prototype_003">
+        <Properties>
+          <string name="Name">SlidePivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.3</Y>
+            <Z>-0.25</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="HeavyEagle_Prototype_003Joint">
+          <Properties>
+            <string name="Name">Slide</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_003</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.3</Y>
+              <Z>-0.25</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_033">
+        <Properties>
+          <string name="Name">RearSlide</string>
+          <Vector3 name="size">
+            <X>0.54</X>
+            <Y>0.39</Y>
+            <Z>1.06</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.3</Y>
+            <Z>-0.19</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6549019607843137</R>
+            <G>0.6745098039215687</G>
+            <B>0.6862745098039216</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_033Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_033</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_034">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.274</X>
+            <Y>0.3</Y>
+            <Z>0.17</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_034Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_034</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_035">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.274</X>
+            <Y>0.3</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_035Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_035</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_036">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.274</X>
+            <Y>0.3</Y>
+            <Z>0.03</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_036Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_036</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_037">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.274</X>
+            <Y>0.3</Y>
+            <Z>-0.04</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_037Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_037</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_038">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.274</X>
+            <Y>0.3</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_038Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_038</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_039">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.274</X>
+            <Y>0.3</Y>
+            <Z>-0.18</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_039Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_039</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_040">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.274</X>
+            <Y>0.3</Y>
+            <Z>-0.25</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_040Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_040</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_041">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.274</X>
+            <Y>0.3</Y>
+            <Z>0.17</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_041Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_041</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_042">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.274</X>
+            <Y>0.3</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_042Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_042</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_043">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.274</X>
+            <Y>0.3</Y>
+            <Z>0.03</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_043Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_043</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_044">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.274</X>
+            <Y>0.3</Y>
+            <Z>-0.04</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_044Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_044</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_045">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.274</X>
+            <Y>0.3</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_045Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_045</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_046">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.274</X>
+            <Y>0.3</Y>
+            <Z>-0.18</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_046Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_046</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_047">
+        <Properties>
+          <string name="Name">SlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.29</Y>
+            <Z>0.025</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.274</X>
+            <Y>0.3</Y>
+            <Z>-0.25</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>-0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.38823529411764707</R>
+            <G>0.41568627450980394</G>
+            <B>0.43137254901960786</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_047Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_047</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_048">
+        <Properties>
+          <string name="Name">EjectionRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.16</Y>
+            <Z>0.34</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.276</X>
+            <Y>0.35</Y>
+            <Z>-0.35</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_048Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_048</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_049">
+        <Properties>
+          <string name="Name">RearSightBase</string>
+          <Vector3 name="size">
+            <X>0.35</X>
+            <Y>0.06</Y>
+            <Z>0.16</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.54</Y>
+            <Z>0.2</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_049Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_049</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_050">
+        <Properties>
+          <string name="Name">RearSightEar</string>
+          <Vector3 name="size">
+            <X>0.085</X>
+            <Y>0.08</Y>
+            <Z>0.12</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.12</X>
+            <Y>0.6</Y>
+            <Z>0.2</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_050Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_050</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_051">
+        <Properties>
+          <string name="Name">RearSightEar</string>
+          <Vector3 name="size">
+            <X>0.085</X>
+            <Y>0.08</Y>
+            <Z>0.12</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.12</X>
+            <Y>0.6</Y>
+            <Z>0.2</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_051Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_003</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_051</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="HeavyEagle_PrototypeHammer">
+      <Properties>
+        <string name="Name">Hammer</string>
+      </Properties>
+      <Item class="Part" referent="HeavyEagle_Prototype_004">
+        <Properties>
+          <string name="Name">HammerPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.28</Y>
+            <Z>0.45</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="HeavyEagle_Prototype_004Joint">
+          <Properties>
+            <string name="Name">Hammer</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_004</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.28</Y>
+              <Z>0.45</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_076">
+        <Properties>
+          <string name="Name">HammerStem</string>
+          <Vector3 name="size">
+            <X>0.15</X>
+            <Y>0.22</Y>
+            <Z>0.12</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.31</Y>
+            <Z>0.45</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_076Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_004</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_076</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_077">
+        <Properties>
+          <string name="Name">HammerSpur</string>
+          <Vector3 name="size">
+            <X>0.19</X>
+            <Y>0.075</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.43</Y>
+            <Z>0.5</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.93969262</R11>
+            <R12>0.34202014</R12>
+            <R20>-0.0</R20>
+            <R21>-0.34202014</R21>
+            <R22>0.93969262</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.2235294117647059</G>
+            <B>0.23137254901960785</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_077Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_004</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_077</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="HeavyEagle_PrototypeMagazine">
+      <Properties>
+        <string name="Name">Magazine</string>
+      </Properties>
+      <Item class="Part" referent="HeavyEagle_Prototype_005">
+        <Properties>
+          <string name="Name">MagazinePivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.72</Y>
+            <Z>0.32</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="HeavyEagle_Prototype_005Joint">
+          <Properties>
+            <string name="Name">Magazine</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_005</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>-0.72</Y>
+              <Z>0.32</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_078">
+        <Properties>
+          <string name="Name">MagazineBody</string>
+          <Vector3 name="size">
+            <X>0.35</X>
+            <Y>1.01</Y>
+            <Z>0.43</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.73</Y>
+            <Z>0.34</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30196078431372547</R>
+            <G>0.32941176470588235</G>
+            <B>0.34509803921568627</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_078Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_005</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_078</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_079">
+        <Properties>
+          <string name="Name">MagazineBase</string>
+          <Vector3 name="size">
+            <X>0.49</X>
+            <Y>0.08</Y>
+            <Z>0.56</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-1.29</Y>
+            <Z>0.48</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_079Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_005</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_079</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="HeavyEagle_PrototypeCartridge">
+      <Properties>
+        <string name="Name">Cartridge</string>
+      </Properties>
+      <Item class="Part" referent="HeavyEagle_Prototype_006">
+        <Properties>
+          <string name="Name">CartridgePivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.68</X>
+            <Y>-0.7</Y>
+            <Z>0.28</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="HeavyEagle_Prototype_006Joint">
+          <Properties>
+            <string name="Name">Cartridge</string>
+            <Ref name="Part0">HeavyEagle_Prototype_002</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_006</Ref>
+            <CoordinateFrame name="C0">
+              <X>-0.68</X>
+              <Y>-0.7</Y>
+              <Z>0.28</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_080">
+        <Properties>
+          <string name="Name">SingleCartridge</string>
+          <Vector3 name="size">
+            <X>0.25</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.68</X>
+            <Y>-0.7</Y>
+            <Z>0.28</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6392156862745098</R>
+            <G>0.4980392156862745</G>
+            <B>0.24313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_080Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_006</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_080</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="HeavyEagle_Prototype_081">
+        <Properties>
+          <string name="Name">CartridgeTip</string>
+          <Vector3 name="size">
+            <X>0.05</X>
+            <Y>0.085</Y>
+            <Z>0.085</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.68</X>
+            <Y>-0.7</Y>
+            <Z>0.13</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5803921568627451</R>
+            <G>0.40784313725490196</G>
+            <B>0.2549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="HeavyEagle_Prototype_081Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">HeavyEagle_Prototype_006</Ref>
+            <Ref name="Part1">HeavyEagle_Prototype_081</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

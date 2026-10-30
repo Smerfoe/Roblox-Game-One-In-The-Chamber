@@ -1,0 +1,3590 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="TrailBowie_Prototype">
+    <Properties>
+      <string name="Name">TrailBowie_Prototype</string>
+      <Ref name="PrimaryPart">TrailBowie_Prototype_001</Ref>
+    </Properties>
+    <Item class="Part" referent="TrailBowie_Prototype_001">
+      <Properties>
+        <string name="Name">Anchor</string>
+        <Vector3 name="size">
+          <X>0.05</X>
+          <Y>0.05</Y>
+          <Z>0.05</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>-0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <Color3 name="Color">
+          <R>0.10196078431372549</R>
+          <G>0.11372549019607843</G>
+          <B>0.12156862745098039</B>
+        </Color3>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="Massless">true</bool>
+        <bool name="CastShadow">false</bool>
+        <float name="Transparency">1</float>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+      </Properties>
+    </Item>
+    <Item class="Model" referent="TrailBowie_PrototypeBody">
+      <Properties>
+        <string name="Name">Body</string>
+      </Properties>
+      <Item class="Part" referent="TrailBowie_Prototype_002">
+        <Properties>
+          <string name="Name">BodyPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="TrailBowie_Prototype_002Joint">
+          <Properties>
+            <string name="Name">Presentation</string>
+            <Ref name="Part0">TrailBowie_Prototype_001</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_002</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_003">
+        <Properties>
+          <string name="Name">CylindricalGrip</string>
+          <Vector3 name="size">
+            <X>0.93</X>
+            <Y>0.28</Y>
+            <Z>0.28</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.28</Y>
+            <Z>0.03</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>1.0</R10>
+            <R11>0.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_003Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_003</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_004">
+        <Properties>
+          <string name="Name">GripRing</string>
+          <Vector3 name="size">
+            <X>0.035</X>
+            <Y>0.296</Y>
+            <Z>0.296</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.65</Y>
+            <Z>0.03</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>1.0</R10>
+            <R11>0.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.14901960784313725</R>
+            <G>0.16862745098039217</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_004Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_004</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_005">
+        <Properties>
+          <string name="Name">GripRing</string>
+          <Vector3 name="size">
+            <X>0.035</X>
+            <Y>0.296</Y>
+            <Z>0.296</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.54</Y>
+            <Z>0.03</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>1.0</R10>
+            <R11>0.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.14901960784313725</R>
+            <G>0.16862745098039217</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_005Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_005</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_006">
+        <Properties>
+          <string name="Name">GripRing</string>
+          <Vector3 name="size">
+            <X>0.035</X>
+            <Y>0.296</Y>
+            <Z>0.296</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.43</Y>
+            <Z>0.03</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>1.0</R10>
+            <R11>0.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.14901960784313725</R>
+            <G>0.16862745098039217</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_006Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_006</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_007">
+        <Properties>
+          <string name="Name">GripRing</string>
+          <Vector3 name="size">
+            <X>0.035</X>
+            <Y>0.296</Y>
+            <Z>0.296</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.32</Y>
+            <Z>0.03</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>1.0</R10>
+            <R11>0.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.14901960784313725</R>
+            <G>0.16862745098039217</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_007Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_007</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_008">
+        <Properties>
+          <string name="Name">GripRing</string>
+          <Vector3 name="size">
+            <X>0.035</X>
+            <Y>0.296</Y>
+            <Z>0.296</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.21</Y>
+            <Z>0.03</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>1.0</R10>
+            <R11>0.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.14901960784313725</R>
+            <G>0.16862745098039217</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_008Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_008</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_009">
+        <Properties>
+          <string name="Name">GripRing</string>
+          <Vector3 name="size">
+            <X>0.035</X>
+            <Y>0.296</Y>
+            <Z>0.296</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.1</Y>
+            <Z>0.03</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>1.0</R10>
+            <R11>0.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.14901960784313725</R>
+            <G>0.16862745098039217</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_009Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_009</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_010">
+        <Properties>
+          <string name="Name">GripRing</string>
+          <Vector3 name="size">
+            <X>0.035</X>
+            <Y>0.296</Y>
+            <Z>0.296</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.01</Y>
+            <Z>0.03</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>1.0</R10>
+            <R11>0.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.14901960784313725</R>
+            <G>0.16862745098039217</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_010Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_010</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_011">
+        <Properties>
+          <string name="Name">GripRing</string>
+          <Vector3 name="size">
+            <X>0.035</X>
+            <Y>0.296</Y>
+            <Z>0.296</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.12</Y>
+            <Z>0.03</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>1.0</R10>
+            <R11>0.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.14901960784313725</R>
+            <G>0.16862745098039217</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_011Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_011</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_012">
+        <Properties>
+          <string name="Name">Pommel</string>
+          <Vector3 name="size">
+            <X>0.12</X>
+            <Y>0.32</Y>
+            <Z>0.32</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.8</Y>
+            <Z>0.03</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>1.0</R10>
+            <R11>0.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_012Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_012</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="TrailBowie_Prototype_013">
+        <Properties>
+          <string name="Name">CrossGuard</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.075</Y>
+            <Z>0.65</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.24</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_013Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_013</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_014">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.3105924443852605</Y>
+            <Z>0.29737574462418565</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.28</Y>
+            <Z>0.015</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.6915715</R11>
+            <R12>0.72230801</R12>
+            <R20>0</R20>
+            <R21>-0.72230801</R21>
+            <R22>-0.6915715</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_014Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_014</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_015">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.3105924443852605</Y>
+            <Z>0.3533161947757119</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.515</Y>
+            <Z>-0.21</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.6915715</R11>
+            <R12>-0.72230801</R12>
+            <R20>0</R20>
+            <R21>-0.72230801</R21>
+            <R22>0.6915715</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_015Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_015</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_016">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.3250386045892261</Y>
+            <Z>0.3112071746067059</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.75</Y>
+            <Z>0.005</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.6915715</R11>
+            <R12>-0.72230801</R12>
+            <R20>0</R20>
+            <R21>0.72230801</R21>
+            <R22>0.6915715</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_016Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_016</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_017">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.3250386045892261</Y>
+            <Z>0.3394847647931917</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.515</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.6915715</R11>
+            <R12>0.72230801</R12>
+            <R20>0</R20>
+            <R21>0.72230801</R21>
+            <R22>-0.6915715</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_017Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_017</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_018">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.3571228625813622</Y>
+            <Z>0.27379419464571103</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.75</Y>
+            <Z>0.005</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.60843154</R11>
+            <R12>0.79360636</R12>
+            <R20>0</R20>
+            <R21>-0.79360636</R21>
+            <R22>-0.60843154</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_018Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_018</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_019">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.3571228625813622</Y>
+            <Z>0.4822481322117211</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.05</Y>
+            <Z>-0.225</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.60843154</R11>
+            <R12>-0.79360636</R12>
+            <R20>0</R20>
+            <R21>-0.79360636</R21>
+            <R22>0.60843154</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_019Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_019</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_020">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.36505892619428143</Y>
+            <Z>0.27987851008228243</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.35</Y>
+            <Z>0.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.60843154</R11>
+            <R12>-0.79360636</R12>
+            <R20>0</R20>
+            <R21>0.79360636</R21>
+            <R22>0.60843154</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_020Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_020</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_021">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.36505892619428143</Y>
+            <Z>0.47616381677514963</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.05</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.60843154</R11>
+            <R12>0.79360636</R12>
+            <R20>0</R20>
+            <R21>0.79360636</R21>
+            <R22>-0.60843154</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_021Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_021</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_022">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.3351687276949234</Y>
+            <Z>0.315058604033228</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.35</Y>
+            <Z>-0.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.68491001</R11>
+            <R12>0.72862767</R12>
+            <R20>0</R20>
+            <R21>-0.72862767</R21>
+            <R22>-0.68491001</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_022Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_022</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_023">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.3351687276949234</Y>
+            <Z>0.3711629345386825</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.6</Y>
+            <Z>-0.235</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.68491001</R11>
+            <R12>-0.72862767</R12>
+            <R20>0</R20>
+            <R21>-0.72862767</R21>
+            <R22>0.68491001</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_023Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_023</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_024">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.30602362093884317</Y>
+            <Z>0.28766220368251255</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.85</Y>
+            <Z>-0.03</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.68491001</R11>
+            <R12>-0.72862767</R12>
+            <R20>0</R20>
+            <R21>0.72862767</R21>
+            <R22>0.68491001</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_024Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_024</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_025">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.30602362093884317</Y>
+            <Z>0.39855933488939793</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.6</Y>
+            <Z>0.205</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.68491001</R11>
+            <R12>0.72862767</R12>
+            <R20>0</R20>
+            <R21>0.72862767</R21>
+            <R22>-0.68491001</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_025Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_025</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_026">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.2530931198609613</Y>
+            <Z>0.3351773749510027</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.85</Y>
+            <Z>-0.03</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.79804137</R11>
+            <R12>0.60260267</R12>
+            <R20>0</R20>
+            <R21>-0.60260267</R21>
+            <R22>-0.79804137</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_026Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_026</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_027">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.2530931198609613</Y>
+            <Z>0.2788258823693474</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>2.035</Y>
+            <Z>-0.275</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.79804137</R11>
+            <R12>-0.60260267</R12>
+            <R20>0</R20>
+            <R21>-0.60260267</R21>
+            <R22>0.79804137</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.21176470588235294</G>
+            <B>0.22745098039215686</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_027Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_027</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_028">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.054312835672156626</Y>
+            <Z>0.008666941862578196</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.28</Y>
+            <Z>-0.1725</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.15758076</R11>
+            <R12>0.9875061</R12>
+            <R20>0</R20>
+            <R21>-0.9875061</R21>
+            <R22>-0.15758076</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_028Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_028</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_029">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.054312835672156626</Y>
+            <Z>0.4672794836939123</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.515</Y>
+            <Z>-0.21</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.15758076</R11>
+            <R12>-0.9875061</R12>
+            <R20>0</R20>
+            <R21>-0.9875061</R21>
+            <R22>0.15758076</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_029Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_029</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_030">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05431283567215661</Y>
+            <Z>0.00866694186257814</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.75</Y>
+            <Z>-0.1925</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.15758076</R11>
+            <R12>-0.9875061</R12>
+            <R20>0</R20>
+            <R21>0.9875061</R21>
+            <R22>0.15758076</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_030Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_030</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_031">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05431283567215661</Y>
+            <Z>0.46727948369391237</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.515</Y>
+            <Z>-0.155</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.15758076</R11>
+            <R12>0.9875061</R12>
+            <R20>0</R20>
+            <R21>0.9875061</R21>
+            <R22>-0.15758076</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_031Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_031</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_032">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05468007025464633</Y>
+            <Z>0.005923674277586667</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.75</Y>
+            <Z>-0.1925</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.10770317</R11>
+            <R12>0.9941831</R12>
+            <R20>0</R20>
+            <R21>-0.9941831</R21>
+            <R22>-0.10770317</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_032Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_032</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_033">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05468007025464633</Y>
+            <Z>0.5975868890102485</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.05</Y>
+            <Z>-0.225</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.10770317</R11>
+            <R12>-0.9941831</R12>
+            <R20>0</R20>
+            <R21>-0.9941831</R21>
+            <R22>0.10770317</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_033Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_033</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_034">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05468007025464633</Y>
+            <Z>0.005923674277586667</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.35</Y>
+            <Z>-0.2025</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.10770317</R11>
+            <R12>-0.9941831</R12>
+            <R20>0</R20>
+            <R21>0.9941831</R21>
+            <R22>0.10770317</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_034Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_034</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_035">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05468007025464633</Y>
+            <Z>0.5975868890102485</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.05</Y>
+            <Z>-0.17</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.10770317</R11>
+            <R12>0.9941831</R12>
+            <R20>0</R20>
+            <R21>0.9941831</R21>
+            <R22>-0.10770317</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_035Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_035</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_036">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05454105895387809</Y>
+            <Z>0.0070903376640042</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.35</Y>
+            <Z>-0.2025</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.12891523</R11>
+            <R12>0.99165562</R12>
+            <R20>0</R20>
+            <R21>-0.99165562</R21>
+            <R22>-0.12891523</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_036Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_036</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_037">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05454105895387809</Y>
+            <Z>0.4971169609741651</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.6</Y>
+            <Z>-0.235</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.12891523</R11>
+            <R12>-0.99165562</R12>
+            <R20>0</R20>
+            <R21>-0.99165562</R21>
+            <R22>0.12891523</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_037Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_037</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_038">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05454105895387809</Y>
+            <Z>0.0070903376640042</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.85</Y>
+            <Z>-0.2125</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.12891523</R11>
+            <R12>-0.99165562</R12>
+            <R20>0</R20>
+            <R21>0.99165562</R21>
+            <R22>0.12891523</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_038Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_038</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_039">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05454105895387809</Y>
+            <Z>0.4971169609741651</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.6</Y>
+            <Z>-0.18</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.12891523</R11>
+            <R12>0.99165562</R12>
+            <R20>0</R20>
+            <R21>0.99165562</R21>
+            <R22>-0.12891523</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_039Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_039</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_040">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05210673926351516</Y>
+            <Z>0.01760362812956584</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.85</Y>
+            <Z>-0.2125</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.32006597</R11>
+            <R12>0.94739526</R12>
+            <R20>0</R20>
+            <R21>-0.94739526</R21>
+            <R22>-0.32006597</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_040Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_040</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_041">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.079</X>
+            <Y>0.05210673926351516</Y>
+            <Z>0.37294086357400447</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>2.035</Y>
+            <Z>-0.275</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.32006597</R11>
+            <R12>-0.94739526</R12>
+            <R20>0</R20>
+            <R21>-0.94739526</R21>
+            <R22>0.32006597</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_041Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_041</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_042">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.45</Y>
+            <Z>0.27</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_042Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_042</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_043">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000002</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.42</Y>
+            <Z>0.23</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_043Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_043</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_044">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000002</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.48</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_044Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_044</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_045">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.45</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_045Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_045</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_046">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.58</Y>
+            <Z>0.27</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_046Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_046</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_047">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.55</Y>
+            <Z>0.23</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_047Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_047</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_048">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.04799999999999997</Y>
+            <Z>0.03599999999999994</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.61</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_048Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_048</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_049">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.04799999999999997</Y>
+            <Z>0.06400000000000002</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.58</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_049Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_049</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_050">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.04799999999999997</Y>
+            <Z>0.06400000000000002</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.71</Y>
+            <Z>0.27</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_050Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_050</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_051">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.04799999999999997</Y>
+            <Z>0.03599999999999994</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.68</Y>
+            <Z>0.23</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_051Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_051</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_052">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.74</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_052Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_052</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_053">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.71</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_053Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_053</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_054">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.84</Y>
+            <Z>0.27</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_054Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_054</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_055">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.81</Y>
+            <Z>0.23</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_055Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_055</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_056">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.04799999999999997</Y>
+            <Z>0.03599999999999994</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.87</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_056Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_056</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_057">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.04799999999999997</Y>
+            <Z>0.06400000000000002</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.84</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_057Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_057</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_058">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.04799999999999997</Y>
+            <Z>0.06400000000000002</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.97</Y>
+            <Z>0.27</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_058Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_058</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_059">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.04799999999999997</Y>
+            <Z>0.03599999999999994</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.94</Y>
+            <Z>0.23</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_059Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_059</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_060">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.0</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_060Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_060</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_061">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.97</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_061Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_061</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_062">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.1</Y>
+            <Z>0.27</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_062Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_062</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_063">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.07</Y>
+            <Z>0.23</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_063Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_063</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_064">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.13</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_064Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_064</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_065">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.1</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_065Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_065</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_066">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.23</Y>
+            <Z>0.27</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_066Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_066</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_067">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.2</Y>
+            <Z>0.23</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_067Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_067</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_068">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.26</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_068Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_068</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_069">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.23</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_069Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_069</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_070">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.36</Y>
+            <Z>0.27</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_070Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_070</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_071">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.33</Y>
+            <Z>0.23</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_071Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_071</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_072">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.04799999999999994</Y>
+            <Z>0.03599999999999983</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.39</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_072Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_072</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_073">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.04799999999999994</Y>
+            <Z>0.06400000000000006</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.36</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_073Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_073</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_074">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.49</Y>
+            <Z>0.27</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_074Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_074</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_075">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.46</Y>
+            <Z>0.23</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_075Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_075</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_076">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.03600000000000005</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.52</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>-0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_076Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_076</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="TrailBowie_Prototype_077">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.075</X>
+            <Y>0.048</Y>
+            <Z>0.06399999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.49</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8</R11>
+            <R12>0.6</R12>
+            <R20>0</R20>
+            <R21>-0.6</R21>
+            <R22>-0.8</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6196078431372549</R>
+            <G>0.6431372549019608</G>
+            <B>0.6509803921568628</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="TrailBowie_Prototype_077Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">TrailBowie_Prototype_002</Ref>
+            <Ref name="Part1">TrailBowie_Prototype_077</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

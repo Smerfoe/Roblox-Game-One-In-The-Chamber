@@ -97,11 +97,73 @@ local ButterKnifeTracks = {
 		Presentation = {key(0,IDENTITY),key(.32,pose(-.20,.12,.08,-6,-22,-10)),key(.90,pose(-.20,.12,.08,-6,-22,-10)),key(1.25,pose(-.08,.13,.10,4,48,6)),key(1.65,pose(-.08,.13,.10,4,48,6)),key(2.10,IDENTITY)},
 	}},
 }
+
+local RepeaterTracks = {
+	Equip = { duration = .65, joints = {
+		Presentation = {key(0,pose(.05,-.75,.24,14,-12,12)),key(.42,pose(0,.02,0,-1,0,-1)),key(.65,IDENTITY)},
+	}},
+	Fire = { duration = .65, joints = {
+		Presentation = {key(0,IDENTITY),key(.045,pose(0,.025,.11,5,0,0)),key(.18,pose(0,-.04,.05,-3,0,3)),key(.65,IDENTITY)},
+		Lever = {key(0,IDENTITY),key(.15,IDENTITY),key(.31,pose(0,0,0,65)),key(.52,IDENTITY),key(.65,IDENTITY)},
+		Breech = {key(0,IDENTITY),key(.15,IDENTITY),key(.31,pose(0,0,.19)),key(.52,IDENTITY),key(.65,IDENTITY)},
+		Hammer = {key(0,IDENTITY),key(.04,pose(0,0,0,-22)),key(.31,pose(0,0,0,16)),key(.58,IDENTITY),key(.65,IDENTITY)},
+	}},
+	Reload = { duration = 2.05, cartridgeWindow = {.42,1.02}, joints = {
+		Presentation = {key(0,IDENTITY),key(.25,pose(-.08,.01,.10,0,-18,-17)),key(1.55,pose(-.08,.01,.10,0,-18,-17)),key(2.05,IDENTITY)},
+		Cartridge = {key(0,IDENTITY),key(.42,IDENTITY),key(.78,pose(.92,.21,-.65,0,-90,0)),key(1.02,pose(.73,.21,-.65,0,-90,0)),key(2.05,IDENTITY)},
+		Lever = {key(0,IDENTITY),key(1.12,IDENTITY),key(1.38,pose(0,0,0,65)),key(1.70,IDENTITY),key(2.05,IDENTITY)},
+		Breech = {key(0,IDENTITY),key(1.12,IDENTITY),key(1.38,pose(0,0,.19)),key(1.70,IDENTITY),key(2.05,IDENTITY)},
+	}},
+	Inspect = { duration = 2.8, joints = {
+		Presentation = {key(0,IDENTITY),key(.42,pose(-.16,.01,.20,-5,-22,-18)),key(1.05,pose(-.16,.01,.20,-5,-22,-18)),key(1.65,pose(-.05,.02,.20,4,22,15)),key(2.15,pose(-.05,.02,.20,4,22,15)),key(2.8,IDENTITY)},
+	}},
+}
+local OldWestTracks = {
+	Equip = RevolverTracks.Equip,
+	Fire = RevolverTracks.Fire,
+	Reload = { duration = 1.95, cartridgeWindow = {.45,1.02}, joints = {
+		Presentation = {key(0,IDENTITY),key(.25,pose(-.10,.08,.12,0,-18,-15)),key(1.48,pose(-.10,.08,.12,0,-18,-15)),key(1.95,IDENTITY)},
+		LoadingGate = {key(0,IDENTITY),key(.18,IDENTITY),key(.38,pose(0,0,0,0,-85,0)),key(1.13,pose(0,0,0,0,-85,0)),key(1.40,IDENTITY),key(1.95,IDENTITY)},
+		Cartridge = {key(0,IDENTITY),key(.45,IDENTITY),key(.78,pose(-.62,0,-.48)),key(1.02,pose(-.62,0,-.60)),key(1.95,IDENTITY)},
+		Hammer = {key(0,IDENTITY),key(1.45,IDENTITY),key(1.58,pose(0,0,0,22)),key(1.78,IDENTITY),key(1.95,IDENTITY)},
+	}},
+	Inspect = RevolverTracks.Inspect,
+}
+local HeavyPistolTracks = table.clone(PistolTracks)
+HeavyPistolTracks.Fire = { duration = .28, joints = {
+	Presentation = {key(0,IDENTITY),key(.045,pose(0,.04,.13,8,0,-1)),key(.28,IDENTITY)},
+	Slide = {key(0,IDENTITY),key(.04,pose(0,0,.25)),key(.12,IDENTITY),key(.28,IDENTITY)},
+	Hammer = {key(0,IDENTITY),key(.04,pose(0,0,0,-25)),key(.12,IDENTITY),key(.28,IDENTITY)},
+}}
+local ButterflyTracks = {
+	Equip = { duration = .60, joints = {
+		Presentation = {key(0,pose(.06,-.45,.10,0,0,20)),key(.38,pose(0,.02,0,0,0,-4)),key(.60,IDENTITY)},
+		HandleA = {key(0,pose(0,0,0,170)),key(.38,IDENTITY),key(.60,IDENTITY)},
+		HandleB = {key(0,pose(0,0,0,-170)),key(.38,IDENTITY),key(.60,IDENTITY)},
+	}},
+	Attack = KnifeTracks.Attack,
+	Inspect = { duration = 2.6, joints = {
+		Presentation = {key(0,IDENTITY),key(.30,pose(-.22,.13,.12,-8,-20,-15)),key(1.85,pose(-.12,.13,.10,5,22,18)),key(2.6,IDENTITY)},
+		HandleA = {key(0,IDENTITY),key(.36,IDENTITY),key(.72,pose(0,0,0,155)),key(1.08,IDENTITY),key(1.58,IDENTITY),key(1.94,pose(0,0,0,100)),key(2.35,IDENTITY),key(2.6,IDENTITY)},
+		HandleB = {key(0,IDENTITY),key(.78,IDENTITY),key(1.16,pose(0,0,0,-155)),key(1.54,IDENTITY),key(2.6,IDENTITY)},
+	}},
+}
 local TRACKS = { Pistol = PistolTracks, Knife = KnifeTracks, Revolver = RevolverTracks,
-	Machete = MacheteTracks, ButterKnife = ButterKnifeTracks }
+	Machete = MacheteTracks, ButterKnife = ButterKnifeTracks, Repeater = RepeaterTracks,
+	OldWest = OldWestTracks, HeavyPistol = HeavyPistolTracks, Butterfly = ButterflyTracks, Bowie = MacheteTracks }
 local OFFSETS = { Pistol = CFrame.new(.65,-.63,-1.05), Knife = CFrame.new(.70,-.65,-1.20),
 	Revolver = CFrame.new(.64,-.65,-.85), Machete = CFrame.new(.72,-.86,-1.35),
-	ButterKnife = CFrame.new(.66,-.71,-1.20) }
+	ButterKnife = CFrame.new(.66,-.71,-1.20), Repeater = CFrame.new(.53,-.65,-2.05),
+	OldWest = CFrame.new(.64,-.64,-.92), HeavyPistol = CFrame.new(.65,-.68,-1.0),
+	Butterfly = CFrame.new(.67,-.78,-1.25), Bowie = CFrame.new(.71,-.85,-1.35) }
+local REQUIRED_JOINTS = {
+	Pistol = {"Slide", "Hammer", "Magazine", "Cartridge"},
+	HeavyPistol = {"Slide", "Hammer", "Magazine", "Cartridge"},
+	Revolver = {"Cylinder", "Hammer", "Cartridge"},
+	OldWest = {"Cylinder", "LoadingGate", "Hammer", "Cartridge"},
+	Repeater = {"Lever", "Breech", "Hammer", "Cartridge"},
+	Butterfly = {"HandleA", "HandleB"},
+}
 
 function Animator.new(model: Model, kind: string, camera: Camera)
 	assert(RunService:IsClient(), "WeaponAnimator must run on the client")
@@ -126,14 +188,8 @@ function Animator.new(model: Model, kind: string, camera: Camera)
 		end
 	end
 	assert(self.joints.Presentation, "Rig requires Presentation Motor6D")
-	if kind == "Pistol" then
-		for _, name in {"Slide", "Hammer", "Magazine", "Cartridge"} do
-			assert(self.joints[name], "Missing pistol joint " .. name)
-		end
-	elseif kind == "Revolver" then
-		for _, name in {"Cylinder", "Hammer", "Cartridge"} do
-			assert(self.joints[name], "Missing revolver joint " .. name)
-		end
+	for _, name in REQUIRED_JOINTS[kind] or {} do
+		assert(self.joints[name], "Missing " .. kind .. " joint " .. name)
 	end
 	self.connection = RunService.RenderStepped:Connect(function(dt) self:_step(dt) end)
 	return self

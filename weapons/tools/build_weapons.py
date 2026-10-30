@@ -270,5 +270,163 @@ def butter_knife():
  r.save()
 
 
+def repeater():
+ r=Rig('FrontierRepeater_Prototype');iron=(75,77,73);wood=(79,49,31)
+ r.group('Lever',(0,-.17,-.16),'Lever')
+ r.group('Breech',(0,.18,-.16),'Breech')
+ r.group('Hammer',(0,.25,.36),'Hammer')
+ r.group('Cartridge',(-.7,-.05,.60),'Cartridge')
+ r.part('Receiver',(0,.08,-.20),(.36,.52,.88),iron)
+ r.part('ReceiverTop',(0,.37,-.20),(.30,.06,.88),FRAME)
+ for side in (-1,1):
+  r.part('ReceiverInset',(side*.184,.08,-.20),(.012,.31,.56),(58,60,57))
+  for z in (-.46,.05):r.part('FrameScrew',(side*.195,.07,z),(.012,.06,.06),(125,124,112),cylinder=True)
+ r.part('LoadingPortRecess',(.195,.16,-.12),(.012,.12,.31),BLACK)
+ r.part('BreechBlock',(0,.405,-.20),(.22,.02,.40),(130,131,121),'Breech')
+ r.part('Barrel',(0,.27,-2.10),(2.96,.19,.19),iron,rot=(0,90,0),cylinder=True)
+ r.part('MuzzleRim',(0,.27,-3.595),(.025,.20,.20),iron,rot=(0,90,0),cylinder=True)
+ r.part('Bore',(0,.27,-3.611),(.012,.11,.11),BLACK,rot=(0,90,0),cylinder=True)
+ r.part('MagazineTube',(0,.02,-2.05),(2.85,.12,.12),iron,rot=(0,90,0),cylinder=True)
+ r.part('ForeEndWood',(0,-.01,-1.20),(.30,.27,1.12),wood,material=512)
+ for z in (-.73,-1.65):r.part('ForeEndBand',(0,.06,z),(.33,.34,.06),(95,96,85))
+ r.part('FrontSight',(0,.415,-3.44),(.055,.11,.10),BLACK)
+ r.part('RearSightLeaf',(0,.41,-.84),(.20,.04,.25),BLACK)
+ for side in (-1,1):r.part('RearSightEar',(side*.075,.45,-.91),(.04,.06,.08),BLACK)
+ # Side profile stock is a continuous wedge-prism surface, not floating blocks.
+ blade_strip(r,[(.19,.25),(.08,.65),(-.09,1.15),(-.18,1.78)],
+                [(-.19,.25),(-.30,.65),(-.67,1.15),(-.79,1.78)],.31,wood)
+ r.part('ButtPlate',(0,-.48,1.81),(.33,.63,.055),(105,106,98),rot=(-8,0,0))
+ for y in (-.25,-.69):r.part('ButtPlateScrew',(0,y,1.85),(.055,.055,.012),BLACK)
+ # Distinct articulated oval lever; stays separate from trigger and receiver.
+ for i in range(16):
+  a=2*math.pi*i/16;b=2*math.pi*(i+1)/16
+  r.rod('LeverLoop',(0,-.36+.18*math.cos(a),.04+.30*math.sin(a)),
+        (0,-.36+.18*math.cos(b),.04+.30*math.sin(b)),.028,iron,'Lever')
+ r.rod('LeverNeck',(0,-.17,-.16),(0,-.29,-.19),.032,iron,'Lever')
+ r.part('Trigger',(0,-.22,.02),(.08,.20,.045),(105,106,99))
+ r.part('HammerStem',(0,.28,.34),(.11,.19,.11),iron,'Hammer')
+ r.part('HammerSpur',(0,.40,.39),(.16,.065,.19),iron,'Hammer',rot=(-20,0,0))
+ r.part('SingleCartridge',(-.7,-.05,.60),(.32,.085,.085),(164,128,65),'Cartridge',rot=(0,90,0),cylinder=True)
+ r.part('CartridgeTip',(-.7,-.05,.41),(.055,.075,.075),(151,106,64),'Cartridge',rot=(0,90,0),cylinder=True)
+ r.save()
+
+
+def old_west():
+ r=Rig('OldWestRevolver_Prototype');brass=(169,145,79);ivory=(205,195,157);iron=(85,84,74)
+ r.group('Cylinder', (0,.12,-.11), 'Cylinder')
+ r.group('LoadingGate',(.29,.12,.22),'LoadingGate')
+ r.group('Hammer',(0,.29,.36),'Hammer')
+ r.group('Cartridge',(.78,.12,.81),'Cartridge')
+ r.part('LowerFrame',(0,-.17,-.08),(.28,.17,.86),brass)
+ r.part('RearFrame',(0,.13,.28),(.27,.63,.12),brass)
+ r.part('TopStrap',(0,.49,-.11),(.26,.12,.92),brass)
+ r.part('FrontFrame',(0,.13,-.52),(.28,.65,.11),brass)
+ r.part('Barrel',(0,.28,-1.35),(1.64,.24,.24),brass,rot=(0,90,0),cylinder=True)
+ r.part('MuzzleRim',(0,.28,-2.18),(.026,.25,.25),brass,rot=(0,90,0),cylinder=True)
+ r.part('MuzzleBore',(0,.28,-2.198),(.012,.13,.13),BLACK,rot=(0,90,0),cylinder=True)
+ r.part('EjectorHousing',(.13,.10,-1.24),(1.36,.085,.085),brass,rot=(0,90,0),cylinder=True)
+ r.part('FrontBladeSight',(0,.455,-2.04),(.05,.12,.15),iron)
+ for side in (-1,1):r.part('RearNotchEar',(side*.08,.565,.26),(.04,.06,.10),iron)
+ r.part('CylinderShell',(0,.12,-.11),(.59,.57,.57),iron,'Cylinder',rot=(0,90,0),cylinder=True)
+ for i in range(6):
+  angle=2*math.pi*i/6
+  r.part('CylinderFlute',(.277*math.cos(angle),.12+.277*math.sin(angle),-.11),(.01,.08,.37),(118,117,103),'Cylinder',rot=(0,0,math.degrees(angle)))
+  r.part('EmptyChamberRecess',(.16*math.cos(angle),.12+.16*math.sin(angle),.192),(.012,.09,.09),BLACK,'Cylinder',rot=(0,90,0),cylinder=True)
+ r.part('GatePlate',(.20,.12,.212),(.16,.23,.035),brass,'LoadingGate')
+ r.part('GateTab',(.29,.23,.212),(.10,.045,.07),brass,'LoadingGate')
+ r.part('GripTang',(0,-.61,.39),(.20,.94,.36),brass,rot=(-19,0,0))
+ for side in (-1,1):
+  r.part('IvoryGrip',(side*.14,-.61,.42),(.085,.85,.39),ivory,rot=(-19,0,0),material=272)
+  r.part('GripScrew',(side*.19,-.66,.43),(.014,.065,.065),iron,cylinder=True)
+  # Restrained horizontal grip texture is authored, not a copied eagle insignia.
+  for j in range(7):r.part('GripFineLine',(side*.187,-.40-j*.07,.36+j*.024),(.006,.008,.24),(179,170,134),rot=(-19,0,0),material=272)
+ for i in range(12):
+  a=math.pi*i/12;b=math.pi*(i+1)/12
+  r.rod('TriggerGuard',(0,-.24-.29*math.sin(a),-.03-.25*math.cos(a)),
+        (0,-.24-.29*math.sin(b),-.03-.25*math.cos(b)),.027,brass)
+ r.part('Trigger',(0,-.32,-.02),(.08,.19,.045),iron,rot=(-17,0,0))
+ r.part('HammerStem',(0,.33,.38),(.11,.23,.10),iron,'Hammer')
+ r.part('HammerSpur',(0,.46,.43),(.16,.07,.19),iron,'Hammer',rot=(-20,0,0))
+ r.part('SingleCartridge',(.78,.12,.81),(.25,.085,.085),(163,125,61),'Cartridge',rot=(0,90,0),cylinder=True)
+ r.part('CartridgeTip',(.78,.12,.66),(.05,.075,.075),(148,102,63),'Cartridge',rot=(0,90,0),cylinder=True)
+ r.save()
+
+
+def heavy_pistol():
+ r=Rig('HeavyEagle_Prototype');silver=(167,172,175);dark=(53,57,59)
+ r.group('Slide',(0,.30,-.25),'Slide')
+ r.group('Hammer',(0,.28,.45),'Hammer')
+ r.group('Magazine',(0,-.72,.32),'Magazine')
+ r.group('Cartridge',(-.68,-.70,.28),'Cartridge')
+ r.part('Receiver',(0,-.07,-.46),(.48,.25,1.95),dark)
+ r.part('GripFrame',(0,-.73,.34),(.45,1.15,.58),dark,rot=(-14,0,0))
+ for side in (-1,1):
+  r.part('GripPanel',(side*.25,-.73,.34),(.055,.99,.49),BLACK,rot=(-14,0,0),material=272)
+  for j in range(8):r.part('GripRidge',(side*.28,-.43-j*.078,.29+j*.019),(.008,.02,.38),(42,45,47),rot=(-14,0,0),material=272)
+  for y,z in [(-.43,.27),(-1.03,.42)]:r.part('GripScrew',(side*.284,y,z),(.015,.07,.07),(99,104,107),cylinder=True)
+ # Fixed barrel shroud/front sights are separate from the rear-moving slide.
+ r.part('FixedBarrelShroud',(0,.30,-1.28),(.52,.40,1.14),silver)
+ r.part('ShroudTopRib',(0,.525,-1.28),(.32,.05,1.10),silver)
+ r.part('RearSlide',(0,.30,-.19),(.54,.39,1.06),silver,'Slide')
+ for side in (-1,1):
+  for j in range(7):r.part('SlideSerration',(side*.274,.30,.17-j*.07),(.012,.29,.025),(99,106,110),'Slide',rot=(14,0,0))
+ r.part('EjectionRecess',(.276,.35,-.35),(.012,.16,.34),BLACK,'Slide')
+ r.part('RearSightBase',(0,.54,.20),(.35,.06,.16),BLACK,'Slide')
+ for side in (-1,1):r.part('RearSightEar',(side*.12,.60,.20),(.085,.08,.12),BLACK,'Slide')
+ r.part('FrontSight',(0,.60,-1.69),(.065,.12,.13),BLACK)
+ r.part('BarrelMouth',(0,.30,-1.865),(.04,.25,.25),(118,125,130),rot=(0,90,0),cylinder=True)
+ r.part('Bore',(0,.30,-1.89),(.012,.15,.15),BLACK,rot=(0,90,0),cylinder=True)
+ for z in (-1.65,-1.44,-1.23,-1.02):r.part('TopRailLand',(0,.566,z),(.30,.03,.07),silver)
+ for z in (-1.65,-1.45,-1.25,-1.05,-.85):r.part('UnderRailLand',(0,-.235,z),(.40,.05,.07),dark)
+ r.part('Beavertail',(0,.08,.52),(.40,.10,.30),dark)
+ for i in range(10):
+  a=math.pi*i/10;b=math.pi*(i+1)/10
+  r.rod('TriggerGuard',(0,-.20-.37*math.sin(a),-.13-.32*math.cos(a)),(0,-.20-.37*math.sin(b),-.13-.32*math.cos(b)),.035,dark)
+ r.part('Trigger',(0,-.30,-.11),(.14,.20,.065),silver,rot=(-15,0,0))
+ r.part('HammerStem',(0,.31,.45),(.15,.22,.12),dark,'Hammer')
+ r.part('HammerSpur',(0,.43,.50),(.19,.075,.19),dark,'Hammer',rot=(-20,0,0))
+ r.part('MagazineBody',(0,-.73,.34),(.35,1.01,.43),(77,84,88),'Magazine',rot=(-14,0,0))
+ r.part('MagazineBase',(0,-1.29,.48),(.49,.08,.56),BLACK,'Magazine',rot=(-14,0,0))
+ r.part('SingleCartridge',(-.68,-.70,.28),(.25,.10,.10),(163,127,62),'Cartridge',rot=(0,90,0),cylinder=True)
+ r.part('CartridgeTip',(-.68,-.70,.13),(.05,.085,.085),(148,104,65),'Cartridge',rot=(0,90,0),cylinder=True)
+ r.save()
+
+
+def butterfly():
+ r=Rig('ButterflyKnife_Prototype');dark=(43,49,53);blue=(53,109,139)
+ r.group('HandleA',(0,.04,-.11),'HandleA');r.group('HandleB',(0,.04,.11),'HandleB')
+ outer=[(.08,-.11),(.50,-.16),(.95,-.20),(1.32,-.20),(1.60,-.11)]
+ inner=[(.08,.12),(.50,.14),(.95,.13),(1.32,.06),(1.60,-.11)]
+ blade_strip(r,outer,inner,.07,(151,158,161))
+ for z,group in [(-.11,'HandleA'),(.11,'HandleB')]:
+  r.part('HandleSpine',(0,-.53,z),(.16,1.14,.15),dark,group)
+  for side in (-1,1):
+   r.part('InsetPanel',(side*.086,-.53,z),(.012,.88,.09),blue,group,material=272)
+  for y in (-.19,-.85):r.part('HandleFastener',(0,y,z),(.18,.045,.045),(153,161,165),group,cylinder=True)
+  r.part('HingePin',(0,.04,z),(.19,.10,.10),(167,174,177),group,cylinder=True)
+  r.part('HandleEnd',(0,-1.12,z),(.17,.06,.16),dark,group)
+ r.part('Latch',(0,-1.19,.11),(.07,.14,.06),(119,126,131),'HandleB')
+ r.save()
+
+
+def bowie():
+ r=Rig('TrailBowie_Prototype');iron=(48,54,58);silver=(158,164,166)
+ r.part('CylindricalGrip',(0,-.28,.03),(.93,.28,.28),BLACK,rot=(0,0,90),cylinder=True)
+ for y in (-.65,-.54,-.43,-.32,-.21,-.10,.01,.12):
+  r.part('GripRing',(0,y,.03),(.035,.296,.296),(38,43,46),rot=(0,0,90),cylinder=True)
+ r.part('Pommel',(0,-.80,.03),(.12,.32,.32),silver,rot=(0,0,90),cylinder=True)
+ r.part('CrossGuard',(0,.24,0),(.18,.075,.65),iron)
+ outer=[(.28,-.20),(.75,-.22),(1.35,-.23),(1.85,-.24),(2.22,-.31)]
+ inner=[(.28,.23),(.75,.23),(1.35,.23),(1.85,.18),(2.22,-.31)]
+ blade_strip(r,outer,inner,.075,iron)
+ # Narrow exposed edge follows the blade, with no added collision/hit region.
+ edge=[(y,z+.055) for y,z in outer];edge[-1]=outer[-1]
+ blade_strip(r,outer,edge,.079,silver)
+ for j in range(9):
+  y=.39+j*.13
+  blade_strip(r,[(y,.23),(y+.06,.31),(y+.12,.23)],[(y,.23),(y+.06,.23),(y+.12,.23)],.075,silver)
+ r.save()
+
+
 if __name__=='__main__':
- (ROOT/'models').mkdir(exist_ok=True);pistol();knife();revolver();machete();butter_knife()
+ (ROOT/'models').mkdir(exist_ok=True);pistol();knife();revolver();machete();butter_knife();repeater();old_west();heavy_pistol();butterfly();bowie()

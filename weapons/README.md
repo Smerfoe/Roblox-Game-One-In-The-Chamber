@@ -4,12 +4,14 @@ This is a standalone first-person weapon presentation pack for Studio review. It
 
 The pack now includes the Python-style revolver, machete and literal butter knife as well. Read **[EXPANSION.md](EXPANSION.md)** for the new rigs, animation sequences and checks. The rare Python finishes are concept art only.
 
+The pack now also includes the repeater, Old West revolver, Deagle-style heavy pistol, butterfly knife and Bowie-style hunting knife. Read **[WESTERN_AND_KNIVES.md](WESTERN_AND_KNIVES.md)** for the new batch. The current preview pack cycles **ten** weapons.
+
 ## What is built
 
 - **Service1911_Prototype:** 74 native parts/wedges, separate wood grips, slide, hammer, magazine and one cartridge prop; rounded trigger guard, grip screws, slide serrations, sight details and muzzle inset.
 - **Karambit_Prototype:** 59 native parts/wedges, continuous hooked blade profile and open finger ring, separate grip scales and pins.
 - **WeaponAnimator:** client-side procedural equip, firing/recoil/slide/hammer, single-cartridge magazine reload presentation, pistol inspection, knife equip/slash/inspection flourish, and idle/sprint/slide poses. No animation asset IDs or upload permissions are required for this procedural preview.
-- **WeaponPreviewPack.rbxmx:** importable Folder containing all five rigs and the animation ModuleScript.
+- **WeaponPreviewPack.rbxmx:** importable Folder containing all ten rigs and the animation ModuleScript.
 - **WeaponPreviewClient.rbxmx:** importable Studio-only LocalScript for testing.
 - **GeometryPreview.png:** a plotted view of the ACTUAL exported geometry, not concept art or a Roblox engine screenshot.
 
@@ -18,10 +20,10 @@ These are native-part prototypes, not photorealistic final meshes or production 
 ## Quick preview in a SEPARATE Studio Baseplate
 
 1. Pull this folder from GitHub. Save a backup and open a separate Baseplate; do not install the preview into the working game.
-2. Import `WeaponPreviewPack.rbxmx` using Insert from File or drag into Studio, then MOVE the resulting **WeaponPreviewPack** Folder into **ReplicatedStorage** before pressing Play. This folder includes the ModuleScript and five models. Keep the name unchanged.
+2. Import `WeaponPreviewPack.rbxmx` using Insert from File or drag into Studio, then MOVE the resulting **WeaponPreviewPack** Folder into **ReplicatedStorage** before pressing Play. This folder includes the ModuleScript and ten models. Keep the name unchanged.
 3. Import `WeaponPreviewClient.rbxmx`, then MOVE the resulting **WeaponPreviewClient** LocalScript into **StarterPlayer > StarterPlayerScripts**. Do not leave a LocalScript in Workspace and expect it to run.
 4. Press Play (client Play, not server-only Run). It temporarily locks first-person and clones only the selected prototype under CurrentCamera. It does not delete any existing viewmodel. Use the separate Baseplate to avoid duplicate weapons or input conflicts.
-5. Controls: left click = fire/slash animation; F = inspect; R = cosmetic pistol/revolver reload; Q = cycle all five prototypes; hold Left Shift = sprint pose; hold C = slide pose; P = stop preview and restore the previous camera mode. Shift/C only preview weapon poses; they do not implement locomotion or change character speed.
+5. Controls: left click = fire/slash animation; F = inspect; R = cosmetic pistol/revolver reload; Q = cycle all ten prototypes; hold Left Shift = sprint pose; hold C = slide pose; P = stop preview and restore the previous camera mode. Shift/C only preview weapon poses; they do not implement locomotion or change character speed.
 6. Reset the character during testing and verify cleanup/recreation. Stop Play to restore edit state.
 
 The expected hierarchy is:
@@ -34,6 +36,11 @@ ReplicatedStorage
     ├── PythonMagnum_Prototype
     ├── Machete_Prototype
     ├── ButterKnife_Prototype
+    ├── FrontierRepeater_Prototype
+    ├── OldWestRevolver_Prototype
+    ├── HeavyEagle_Prototype
+    ├── ButterflyKnife_Prototype
+    ├── TrailBowie_Prototype
     └── WeaponAnimator (ModuleScript)
 StarterPlayer
 └── StarterPlayerScripts

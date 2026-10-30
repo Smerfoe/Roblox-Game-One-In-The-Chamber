@@ -1,0 +1,1638 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="ButterflyKnife_Prototype">
+    <Properties>
+      <string name="Name">ButterflyKnife_Prototype</string>
+      <Ref name="PrimaryPart">ButterflyKnife_Prototype_001</Ref>
+    </Properties>
+    <Item class="Part" referent="ButterflyKnife_Prototype_001">
+      <Properties>
+        <string name="Name">Anchor</string>
+        <Vector3 name="size">
+          <X>0.05</X>
+          <Y>0.05</Y>
+          <Z>0.05</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>-0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <Color3 name="Color">
+          <R>0.10196078431372549</R>
+          <G>0.11372549019607843</G>
+          <B>0.12156862745098039</B>
+        </Color3>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="Massless">true</bool>
+        <bool name="CastShadow">false</bool>
+        <float name="Transparency">1</float>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+      </Properties>
+    </Item>
+    <Item class="Model" referent="ButterflyKnife_PrototypeBody">
+      <Properties>
+        <string name="Name">Body</string>
+      </Properties>
+      <Item class="Part" referent="ButterflyKnife_Prototype_002">
+        <Properties>
+          <string name="Name">BodyPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="ButterflyKnife_Prototype_002Joint">
+          <Properties>
+            <string name="Name">Presentation</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_001</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_002</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_005">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.19137156769770403</Y>
+            <Z>0.1275810451318027</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.08</Y>
+            <Z>0.005</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.5547002</R11>
+            <R12>0.83205029</R12>
+            <R20>0</R20>
+            <R21>-0.83205029</R21>
+            <R22>-0.5547002</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_005Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_005</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_006">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.19137156769770403</Y>
+            <Z>0.3771961334331558</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.29</Y>
+            <Z>-0.135</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.5547002</R11>
+            <R12>-0.83205029</R12>
+            <R20>0</R20>
+            <R21>-0.83205029</R21>
+            <R22>0.5547002</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_006Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_006</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_007">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.24961508830135312</Y>
+            <Z>0.1664100588675688</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.5</Y>
+            <Z>-0.01</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.5547002</R11>
+            <R12>-0.83205029</R12>
+            <R20>0</R20>
+            <R21>0.83205029</R21>
+            <R22>0.5547002</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_007Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_007</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_008">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.24961508830135312</Y>
+            <Z>0.3383671196973897</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.29</Y>
+            <Z>0.13</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.5547002</R11>
+            <R12>0.83205029</R12>
+            <R20>0</R20>
+            <R21>0.83205029</R21>
+            <R22>-0.5547002</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_008Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_008</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_009">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.23936019717667176</Y>
+            <Z>0.18084992675570757</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.5</Y>
+            <Z>-0.01</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.60283309</R11>
+            <R12>0.79786732</R12>
+            <R20>0</R20>
+            <R21>-0.79786732</R21>
+            <R22>-0.60283309</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_009Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_009</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_010">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.23936019717667176</Y>
+            <Z>0.38315361933243536</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.725</Y>
+            <Z>-0.18</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.60283309</R11>
+            <R12>-0.79786732</R12>
+            <R20>0</R20>
+            <R21>-0.79786732</R21>
+            <R22>0.60283309</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_010Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_010</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_011">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.26329621689433896</Y>
+            <Z>0.19893491943127833</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.95</Y>
+            <Z>-0.035</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.60283309</R11>
+            <R12>-0.79786732</R12>
+            <R20>0</R20>
+            <R21>0.79786732</R21>
+            <R22>0.60283309</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_011Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_011</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_012">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.26329621689433896</Y>
+            <Z>0.3650686266568646</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.725</Y>
+            <Z>0.135</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.60283309</R11>
+            <R12>0.79786732</R12>
+            <R20>0</R20>
+            <R21>0.79786732</R21>
+            <R22>-0.60283309</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_012Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_012</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_013">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.24627749337460866</Y>
+            <Z>0.21965289949627254</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.95</Y>
+            <Z>-0.035</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.66561485</R11>
+            <R12>0.74629543</R12>
+            <R20>0</R20>
+            <R21>-0.74629543</R21>
+            <R22>-0.66561485</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_013Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_013</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_014">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.24627749337460866</Y>
+            <Z>0.2761293107533491</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.135</Y>
+            <Z>-0.2</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.66561485</R11>
+            <R12>-0.74629543</R12>
+            <R20>0</R20>
+            <R21>-0.74629543</R21>
+            <R22>0.66561485</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_014Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_014</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_015">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.19403681296181297</Y>
+            <Z>0.1730598602091845</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.32</Y>
+            <Z>-0.07</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.66561485</R11>
+            <R12>-0.74629543</R12>
+            <R20>0</R20>
+            <R21>0.74629543</R21>
+            <R22>0.66561485</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_015Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_015</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_016">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.19403681296181297</Y>
+            <Z>0.3227223500404372</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.135</Y>
+            <Z>0.095</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.66561485</R11>
+            <R12>0.74629543</R12>
+            <R20>0</R20>
+            <R21>0.74629543</R21>
+            <R22>-0.66561485</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_016Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_016</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_017">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.2222447539576496</Y>
+            <Z>0.1349343149028587</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.32</Y>
+            <Z>-0.07</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.51897813</R11>
+            <R12>0.85478752</R12>
+            <R20>0</R20>
+            <R21>-0.85478752</R21>
+            <R22>-0.51897813</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_017Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_017</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="ButterflyKnife_Prototype_018">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.2222447539576496</Y>
+            <Z>0.1926324721803253</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.46</Y>
+            <Z>-0.155</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.51897813</R11>
+            <R12>-0.85478752</R12>
+            <R20>0</R20>
+            <R21>-0.85478752</R21>
+            <R22>0.51897813</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.592156862745098</R>
+            <G>0.6196078431372549</G>
+            <B>0.6313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_018Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_018</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="ButterflyKnife_PrototypeHandleA">
+      <Properties>
+        <string name="Name">HandleA</string>
+      </Properties>
+      <Item class="Part" referent="ButterflyKnife_Prototype_003">
+        <Properties>
+          <string name="Name">HandleAPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.04</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="ButterflyKnife_Prototype_003Joint">
+          <Properties>
+            <string name="Name">HandleA</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_003</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.04</Y>
+              <Z>-0.11</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_019">
+        <Properties>
+          <string name="Name">HandleSpine</string>
+          <Vector3 name="size">
+            <X>0.16</X>
+            <Y>1.14</Y>
+            <Z>0.15</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.53</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16862745098039217</R>
+            <G>0.19215686274509805</G>
+            <B>0.20784313725490197</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_019Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_003</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_019</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_020">
+        <Properties>
+          <string name="Name">InsetPanel</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.88</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.086</X>
+            <Y>-0.53</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.42745098039215684</G>
+            <B>0.5450980392156862</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_020Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_003</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_020</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_021">
+        <Properties>
+          <string name="Name">InsetPanel</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.88</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.086</X>
+            <Y>-0.53</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.42745098039215684</G>
+            <B>0.5450980392156862</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_021Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_003</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_021</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_022">
+        <Properties>
+          <string name="Name">HandleFastener</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.045</Y>
+            <Z>0.045</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.19</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6</R>
+            <G>0.6313725490196078</G>
+            <B>0.6470588235294118</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_022Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_003</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_022</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_023">
+        <Properties>
+          <string name="Name">HandleFastener</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.045</Y>
+            <Z>0.045</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.85</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6</R>
+            <G>0.6313725490196078</G>
+            <B>0.6470588235294118</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_023Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_003</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_023</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_024">
+        <Properties>
+          <string name="Name">HingePin</string>
+          <Vector3 name="size">
+            <X>0.19</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.04</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6549019607843137</R>
+            <G>0.6823529411764706</G>
+            <B>0.6941176470588235</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_024Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_003</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_024</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_025">
+        <Properties>
+          <string name="Name">HandleEnd</string>
+          <Vector3 name="size">
+            <X>0.17</X>
+            <Y>0.06</Y>
+            <Z>0.16</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-1.12</Y>
+            <Z>-0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16862745098039217</R>
+            <G>0.19215686274509805</G>
+            <B>0.20784313725490197</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_025Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_003</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_025</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="ButterflyKnife_PrototypeHandleB">
+      <Properties>
+        <string name="Name">HandleB</string>
+      </Properties>
+      <Item class="Part" referent="ButterflyKnife_Prototype_004">
+        <Properties>
+          <string name="Name">HandleBPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.04</Y>
+            <Z>0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="ButterflyKnife_Prototype_004Joint">
+          <Properties>
+            <string name="Name">HandleB</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_002</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_004</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.04</Y>
+              <Z>0.11</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_026">
+        <Properties>
+          <string name="Name">HandleSpine</string>
+          <Vector3 name="size">
+            <X>0.16</X>
+            <Y>1.14</Y>
+            <Z>0.15</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.53</Y>
+            <Z>0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16862745098039217</R>
+            <G>0.19215686274509805</G>
+            <B>0.20784313725490197</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_026Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_004</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_026</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_027">
+        <Properties>
+          <string name="Name">InsetPanel</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.88</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.086</X>
+            <Y>-0.53</Y>
+            <Z>0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.42745098039215684</G>
+            <B>0.5450980392156862</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_027Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_004</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_027</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_028">
+        <Properties>
+          <string name="Name">InsetPanel</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.88</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.086</X>
+            <Y>-0.53</Y>
+            <Z>0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.20784313725490197</R>
+            <G>0.42745098039215684</G>
+            <B>0.5450980392156862</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_028Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_004</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_028</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_029">
+        <Properties>
+          <string name="Name">HandleFastener</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.045</Y>
+            <Z>0.045</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.19</Y>
+            <Z>0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6</R>
+            <G>0.6313725490196078</G>
+            <B>0.6470588235294118</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_029Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_004</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_029</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_030">
+        <Properties>
+          <string name="Name">HandleFastener</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.045</Y>
+            <Z>0.045</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.85</Y>
+            <Z>0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6</R>
+            <G>0.6313725490196078</G>
+            <B>0.6470588235294118</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_030Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_004</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_030</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_031">
+        <Properties>
+          <string name="Name">HingePin</string>
+          <Vector3 name="size">
+            <X>0.19</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.04</Y>
+            <Z>0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6549019607843137</R>
+            <G>0.6823529411764706</G>
+            <B>0.6941176470588235</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_031Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_004</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_031</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_032">
+        <Properties>
+          <string name="Name">HandleEnd</string>
+          <Vector3 name="size">
+            <X>0.17</X>
+            <Y>0.06</Y>
+            <Z>0.16</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-1.12</Y>
+            <Z>0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.16862745098039217</R>
+            <G>0.19215686274509805</G>
+            <B>0.20784313725490197</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_032Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_004</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_032</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="ButterflyKnife_Prototype_033">
+        <Properties>
+          <string name="Name">Latch</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.14</Y>
+            <Z>0.06</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-1.19</Y>
+            <Z>0.11</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4666666666666667</R>
+            <G>0.49411764705882355</G>
+            <B>0.5137254901960784</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="ButterflyKnife_Prototype_033Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">ButterflyKnife_Prototype_004</Ref>
+            <Ref name="Part1">ButterflyKnife_Prototype_033</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>
