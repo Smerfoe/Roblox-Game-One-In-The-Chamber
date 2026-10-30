@@ -1,0 +1,2841 @@
+{
+  "name": "PumpHouse",
+  "footprint": [
+    76,
+    68
+  ],
+  "theme": "Decommissioned brick and steel water utility courtyard",
+  "spawns": {
+    "Blue": {
+      "position": [
+        0,
+        3,
+        -27
+      ],
+      "facing": [
+        0,
+        3,
+        0
+      ],
+      "note": "Marker only; adapter must face toward arena center."
+    },
+    "Red": {
+      "position": [
+        0,
+        3,
+        27
+      ],
+      "facing": [
+        0,
+        3,
+        0
+      ],
+      "note": "Marker only; adapter must face toward arena center."
+    }
+  },
+  "coordinates": "X/Z horizontal; floor surface Y=0; pivot at world origin",
+  "status": "Generated; automated geometry checks only. Studio playtest required.",
+  "design_notes": [
+    "Two tank landmarks with asymmetric appearance and rotationally symmetric collision.",
+    "No climbable ladders, elevated routes, or water hazards.",
+    "Tank-to-housing lanes have at least 7 studs of clear width.",
+    "Local warm light fixtures only; existing global Lighting is untouched."
+  ],
+  "part_count": 127,
+  "parts": [
+    {
+      "name": "Foundation",
+      "position": [
+        0,
+        -1,
+        0
+      ],
+      "size": [
+        76,
+        2,
+        68
+      ],
+      "world_size": [
+        76,
+        2,
+        68
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "NorthBoundary",
+      "position": [
+        0,
+        7.0,
+        -33.5
+      ],
+      "size": [
+        76,
+        14,
+        1
+      ],
+      "world_size": [
+        76,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "SouthBoundary",
+      "position": [
+        0,
+        7.0,
+        33.5
+      ],
+      "size": [
+        76,
+        14,
+        1
+      ],
+      "world_size": [
+        76,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestBoundary",
+      "position": [
+        -37.5,
+        7.0,
+        0
+      ],
+      "size": [
+        1,
+        14,
+        66
+      ],
+      "world_size": [
+        1,
+        14,
+        66
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastBoundary",
+      "position": [
+        37.5,
+        7.0,
+        0
+      ],
+      "size": [
+        1,
+        14,
+        66
+      ],
+      "world_size": [
+        1,
+        14,
+        66
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        -26
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        -14
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        -2
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        10
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        22
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        -26
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        -14
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        -2
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        10
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        22
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        -28.0,
+        9,
+        -33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        -28.0,
+        8.65,
+        -32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        0,
+        9,
+        -33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        0,
+        8.65,
+        -32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        28.0,
+        9,
+        -33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        28.0,
+        8.65,
+        -32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        -28.0,
+        9,
+        33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        -28.0,
+        8.65,
+        32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        0,
+        9,
+        33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        0,
+        8.65,
+        32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        28.0,
+        9,
+        33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        28.0,
+        8.65,
+        32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterSafetyLine",
+      "position": [
+        -35.0,
+        0.018,
+        0
+      ],
+      "size": [
+        0.12,
+        0.035,
+        62
+      ],
+      "world_size": [
+        0.12,
+        0.035,
+        62
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterSafetyLine",
+      "position": [
+        35.0,
+        0.018,
+        0
+      ],
+      "size": [
+        0.12,
+        0.035,
+        62
+      ],
+      "world_size": [
+        0.12,
+        0.035,
+        62
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSpawn",
+      "position": [
+        0,
+        3,
+        -27
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "world_size": [
+        2,
+        2,
+        2
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSpawnFloor",
+      "position": [
+        0,
+        0.025,
+        -27
+      ],
+      "size": [
+        8,
+        0.05,
+        5
+      ],
+      "world_size": [
+        8,
+        0.05,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSightlineShield",
+      "position": [
+        0,
+        4.5,
+        -21
+      ],
+      "size": [
+        10,
+        9,
+        1
+      ],
+      "world_size": [
+        10,
+        9,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueShieldStripe",
+      "position": [
+        0,
+        6,
+        -20.48
+      ],
+      "size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "world_size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedSpawn",
+      "position": [
+        0,
+        3,
+        27
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "world_size": [
+        2,
+        2,
+        2
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedSpawnFloor",
+      "position": [
+        0,
+        0.025,
+        27
+      ],
+      "size": [
+        8,
+        0.05,
+        5
+      ],
+      "world_size": [
+        8,
+        0.05,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedSightlineShield",
+      "position": [
+        0,
+        4.5,
+        21
+      ],
+      "size": [
+        10,
+        9,
+        1
+      ],
+      "world_size": [
+        10,
+        9,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedShieldStripe",
+      "position": [
+        0,
+        6,
+        20.48
+      ],
+      "size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "world_size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankPlinth",
+      "position": [
+        -20,
+        0.5,
+        -4
+      ],
+      "size": [
+        1,
+        16,
+        16
+      ],
+      "world_size": [
+        16,
+        1,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankBody",
+      "position": [
+        -20,
+        7,
+        -4
+      ],
+      "size": [
+        12,
+        14,
+        14
+      ],
+      "world_size": [
+        14,
+        12,
+        14
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankBaseRing",
+      "position": [
+        -20,
+        1.2,
+        -4
+      ],
+      "size": [
+        0.4,
+        14.4,
+        14.4
+      ],
+      "world_size": [
+        14.4,
+        0.4,
+        14.4
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankUpperRing",
+      "position": [
+        -20,
+        12.8,
+        -4
+      ],
+      "size": [
+        0.4,
+        14.4,
+        14.4
+      ],
+      "world_size": [
+        14.4,
+        0.4,
+        14.4
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankLid",
+      "position": [
+        -20,
+        13.15,
+        -4
+      ],
+      "size": [
+        0.3,
+        14.1,
+        14.1
+      ],
+      "world_size": [
+        14.1,
+        0.3,
+        14.1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankVerticalSeam",
+      "position": [
+        -12.98,
+        7,
+        -4.0
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankVerticalSeam",
+      "position": [
+        -15.036110396070438,
+        7,
+        0.9638896039295632
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankVerticalSeam",
+      "position": [
+        -20.0,
+        7,
+        3.0199999999999996
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankVerticalSeam",
+      "position": [
+        -24.963889603929562,
+        7,
+        0.9638896039295632
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankVerticalSeam",
+      "position": [
+        -27.02,
+        7,
+        -3.999999999999999
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankVerticalSeam",
+      "position": [
+        -24.963889603929566,
+        7,
+        -8.963889603929562
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankVerticalSeam",
+      "position": [
+        -20.0,
+        7,
+        -11.02
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankVerticalSeam",
+      "position": [
+        -15.036110396070438,
+        7,
+        -8.963889603929564
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankBand",
+      "position": [
+        -20,
+        4,
+        -4
+      ],
+      "size": [
+        0.12,
+        14.1,
+        14.1
+      ],
+      "world_size": [
+        14.1,
+        0.12,
+        14.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "WestTankBand",
+      "position": [
+        -20,
+        8,
+        -4
+      ],
+      "size": [
+        0.12,
+        14.1,
+        14.1
+      ],
+      "world_size": [
+        14.1,
+        0.12,
+        14.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankPlinth",
+      "position": [
+        20,
+        0.5,
+        4
+      ],
+      "size": [
+        1,
+        16,
+        16
+      ],
+      "world_size": [
+        16,
+        1,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankBody",
+      "position": [
+        20,
+        7,
+        4
+      ],
+      "size": [
+        12,
+        14,
+        14
+      ],
+      "world_size": [
+        14,
+        12,
+        14
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankBaseRing",
+      "position": [
+        20,
+        1.2,
+        4
+      ],
+      "size": [
+        0.4,
+        14.4,
+        14.4
+      ],
+      "world_size": [
+        14.4,
+        0.4,
+        14.4
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankUpperRing",
+      "position": [
+        20,
+        12.8,
+        4
+      ],
+      "size": [
+        0.4,
+        14.4,
+        14.4
+      ],
+      "world_size": [
+        14.4,
+        0.4,
+        14.4
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankLid",
+      "position": [
+        20,
+        13.15,
+        4
+      ],
+      "size": [
+        0.3,
+        14.1,
+        14.1
+      ],
+      "world_size": [
+        14.1,
+        0.3,
+        14.1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankVerticalSeam",
+      "position": [
+        27.02,
+        7,
+        4.0
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankVerticalSeam",
+      "position": [
+        24.963889603929562,
+        7,
+        8.963889603929562
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankVerticalSeam",
+      "position": [
+        20.0,
+        7,
+        11.02
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankVerticalSeam",
+      "position": [
+        15.036110396070438,
+        7,
+        8.963889603929562
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankVerticalSeam",
+      "position": [
+        12.98,
+        7,
+        4.000000000000001
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankVerticalSeam",
+      "position": [
+        15.036110396070436,
+        7,
+        -0.9638896039295632
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankVerticalSeam",
+      "position": [
+        20.0,
+        7,
+        -3.0199999999999996
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankVerticalSeam",
+      "position": [
+        24.963889603929562,
+        7,
+        -0.9638896039295641
+      ],
+      "size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "world_size": [
+        0.1,
+        11.4,
+        0.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankBand",
+      "position": [
+        20,
+        4,
+        4
+      ],
+      "size": [
+        0.12,
+        14.1,
+        14.1
+      ],
+      "world_size": [
+        14.1,
+        0.12,
+        14.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "EastTankBand",
+      "position": [
+        20,
+        8,
+        4
+      ],
+      "size": [
+        0.12,
+        14.1,
+        14.1
+      ],
+      "world_size": [
+        14.1,
+        0.12,
+        14.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Cylinder",
+      "yaw": 0
+    },
+    {
+      "name": "PumpHousing",
+      "position": [
+        0,
+        6,
+        0
+      ],
+      "size": [
+        10,
+        12,
+        12
+      ],
+      "world_size": [
+        10,
+        12,
+        12
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PumpHousingCap",
+      "position": [
+        0,
+        12.2,
+        0
+      ],
+      "size": [
+        10.4,
+        0.4,
+        12.4
+      ],
+      "world_size": [
+        10.4,
+        0.4,
+        12.4
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -5.05,
+        4,
+        -4
+      ],
+      "size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "world_size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -5.05,
+        4,
+        -2
+      ],
+      "size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "world_size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -5.05,
+        4,
+        0
+      ],
+      "size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "world_size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -5.05,
+        4,
+        2
+      ],
+      "size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "world_size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        -5.05,
+        4,
+        4
+      ],
+      "size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "world_size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        5.05,
+        4,
+        -4
+      ],
+      "size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "world_size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        5.05,
+        4,
+        -2
+      ],
+      "size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "world_size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        5.05,
+        4,
+        0
+      ],
+      "size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "world_size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        5.05,
+        4,
+        2
+      ],
+      "size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "world_size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "VentSlat",
+      "position": [
+        5.05,
+        4,
+        4
+      ],
+      "size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "world_size": [
+        0.12,
+        2.5,
+        0.18
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UtilityBarrier",
+      "position": [
+        -12,
+        1.6,
+        17
+      ],
+      "size": [
+        7,
+        3.2,
+        2
+      ],
+      "world_size": [
+        7,
+        3.2,
+        2
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UtilityBarrierTop",
+      "position": [
+        -12,
+        3.23,
+        17
+      ],
+      "size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "world_size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UtilityBarrier",
+      "position": [
+        12,
+        1.6,
+        -17
+      ],
+      "size": [
+        7,
+        3.2,
+        2
+      ],
+      "world_size": [
+        7,
+        3.2,
+        2
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UtilityBarrierTop",
+      "position": [
+        12,
+        3.23,
+        -17
+      ],
+      "size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "world_size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "HighUtilityMain",
+      "position": [
+        -35,
+        10,
+        0
+      ],
+      "size": [
+        1.5,
+        1.5,
+        54
+      ],
+      "world_size": [
+        1.5,
+        1.5,
+        54
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PipeMount",
+      "position": [
+        -35,
+        10,
+        -22
+      ],
+      "size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "world_size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PipeMount",
+      "position": [
+        -35,
+        10,
+        -11
+      ],
+      "size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "world_size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PipeMount",
+      "position": [
+        -35,
+        10,
+        0
+      ],
+      "size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "world_size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PipeMount",
+      "position": [
+        -35,
+        10,
+        11
+      ],
+      "size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "world_size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PipeMount",
+      "position": [
+        -35,
+        10,
+        22
+      ],
+      "size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "world_size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "HighUtilityMain",
+      "position": [
+        35,
+        10,
+        0
+      ],
+      "size": [
+        1.5,
+        1.5,
+        54
+      ],
+      "world_size": [
+        1.5,
+        1.5,
+        54
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PipeMount",
+      "position": [
+        35,
+        10,
+        -22
+      ],
+      "size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "world_size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PipeMount",
+      "position": [
+        35,
+        10,
+        -11
+      ],
+      "size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "world_size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PipeMount",
+      "position": [
+        35,
+        10,
+        0
+      ],
+      "size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "world_size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PipeMount",
+      "position": [
+        35,
+        10,
+        11
+      ],
+      "size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "world_size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PipeMount",
+      "position": [
+        35,
+        10,
+        22
+      ],
+      "size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "world_size": [
+        2.6,
+        2.4,
+        0.3
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FlushDrainBed",
+      "position": [
+        -9,
+        0.018,
+        0
+      ],
+      "size": [
+        0.8,
+        0.035,
+        30
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        30
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        -14
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        -12
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        -10
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        -8
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        -6
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        -4
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        -2
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        0
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        2
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        4
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        6
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        8
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        10
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        12
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        -9,
+        0.045,
+        14
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FlushDrainBed",
+      "position": [
+        9,
+        0.018,
+        0
+      ],
+      "size": [
+        0.8,
+        0.035,
+        30
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        30
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        -14
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        -12
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        -10
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        -8
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        -6
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        -4
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        -2
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        0
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        2
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        4
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        6
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        8
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        10
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        12
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DrainGrate",
+      "position": [
+        9,
+        0.045,
+        14
+      ],
+      "size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "world_size": [
+        0.8,
+        0.035,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    }
+  ]
+}

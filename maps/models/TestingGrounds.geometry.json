@@ -1,0 +1,1718 @@
+{
+  "name": "TestingGrounds",
+  "footprint": [
+    76,
+    68
+  ],
+  "theme": "Weathered concrete tactical training compound",
+  "spawns": {
+    "Blue": {
+      "position": [
+        0,
+        3,
+        -27
+      ],
+      "facing": [
+        0,
+        3,
+        0
+      ],
+      "note": "Marker only; adapter must face toward arena center."
+    },
+    "Red": {
+      "position": [
+        0,
+        3,
+        27
+      ],
+      "facing": [
+        0,
+        3,
+        0
+      ],
+      "note": "Marker only; adapter must face toward arena center."
+    }
+  },
+  "coordinates": "X/Z horizontal; floor surface Y=0; pivot at world origin",
+  "status": "Generated; automated geometry checks only. Studio playtest required.",
+  "design_notes": [
+    "No accessible roofs or stairs.",
+    "6-stud doorways; 11-stud central walls.",
+    "Staggered entrances and interior baffle break central sightline."
+  ],
+  "part_count": 76,
+  "parts": [
+    {
+      "name": "Foundation",
+      "position": [
+        0,
+        -1,
+        0
+      ],
+      "size": [
+        76,
+        2,
+        68
+      ],
+      "world_size": [
+        76,
+        2,
+        68
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "NorthBoundary",
+      "position": [
+        0,
+        7.0,
+        -33.5
+      ],
+      "size": [
+        76,
+        14,
+        1
+      ],
+      "world_size": [
+        76,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "SouthBoundary",
+      "position": [
+        0,
+        7.0,
+        33.5
+      ],
+      "size": [
+        76,
+        14,
+        1
+      ],
+      "world_size": [
+        76,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestBoundary",
+      "position": [
+        -37.5,
+        7.0,
+        0
+      ],
+      "size": [
+        1,
+        14,
+        66
+      ],
+      "world_size": [
+        1,
+        14,
+        66
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastBoundary",
+      "position": [
+        37.5,
+        7.0,
+        0
+      ],
+      "size": [
+        1,
+        14,
+        66
+      ],
+      "world_size": [
+        1,
+        14,
+        66
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        -26
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        -14
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        -2
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        10
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        22
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        -26
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        -14
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        -2
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        10
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        22
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        -28.0,
+        9,
+        -33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        -28.0,
+        8.65,
+        -32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        0,
+        9,
+        -33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        0,
+        8.65,
+        -32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        28.0,
+        9,
+        -33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        28.0,
+        8.65,
+        -32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        -28.0,
+        9,
+        33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        -28.0,
+        8.65,
+        32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        0,
+        9,
+        33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        0,
+        8.65,
+        32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        28.0,
+        9,
+        33.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        28.0,
+        8.65,
+        32.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterSafetyLine",
+      "position": [
+        -35.0,
+        0.018,
+        0
+      ],
+      "size": [
+        0.12,
+        0.035,
+        62
+      ],
+      "world_size": [
+        0.12,
+        0.035,
+        62
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterSafetyLine",
+      "position": [
+        35.0,
+        0.018,
+        0
+      ],
+      "size": [
+        0.12,
+        0.035,
+        62
+      ],
+      "world_size": [
+        0.12,
+        0.035,
+        62
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSpawn",
+      "position": [
+        0,
+        3,
+        -27
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "world_size": [
+        2,
+        2,
+        2
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSpawnFloor",
+      "position": [
+        0,
+        0.025,
+        -27
+      ],
+      "size": [
+        8,
+        0.05,
+        5
+      ],
+      "world_size": [
+        8,
+        0.05,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSightlineShield",
+      "position": [
+        0,
+        4.5,
+        -21
+      ],
+      "size": [
+        10,
+        9,
+        1
+      ],
+      "world_size": [
+        10,
+        9,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueShieldStripe",
+      "position": [
+        0,
+        6,
+        -20.48
+      ],
+      "size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "world_size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedSpawn",
+      "position": [
+        0,
+        3,
+        27
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "world_size": [
+        2,
+        2,
+        2
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedSpawnFloor",
+      "position": [
+        0,
+        0.025,
+        27
+      ],
+      "size": [
+        8,
+        0.05,
+        5
+      ],
+      "world_size": [
+        8,
+        0.05,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedSightlineShield",
+      "position": [
+        0,
+        4.5,
+        21
+      ],
+      "size": [
+        10,
+        9,
+        1
+      ],
+      "world_size": [
+        10,
+        9,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedShieldStripe",
+      "position": [
+        0,
+        6,
+        20.48
+      ],
+      "size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "world_size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TrainingWestWall",
+      "position": [
+        -13,
+        5.5,
+        0
+      ],
+      "size": [
+        1,
+        11,
+        24
+      ],
+      "world_size": [
+        1,
+        11,
+        24
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TrainingEastWall",
+      "position": [
+        13,
+        5.5,
+        0
+      ],
+      "size": [
+        1,
+        11,
+        24
+      ],
+      "world_size": [
+        1,
+        11,
+        24
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Entry-1Left",
+      "position": [
+        -11.0,
+        5.5,
+        -12
+      ],
+      "size": [
+        4,
+        11,
+        1
+      ],
+      "world_size": [
+        4,
+        11,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Entry-1Right",
+      "position": [
+        5.0,
+        5.5,
+        -12
+      ],
+      "size": [
+        16,
+        11,
+        1
+      ],
+      "world_size": [
+        16,
+        11,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DoorLintel",
+      "position": [
+        -6,
+        9.5,
+        -12
+      ],
+      "size": [
+        6,
+        3,
+        1
+      ],
+      "world_size": [
+        6,
+        3,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DoorThreshold",
+      "position": [
+        -6,
+        0.025,
+        -12
+      ],
+      "size": [
+        6,
+        0.05,
+        1
+      ],
+      "world_size": [
+        6,
+        0.05,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Entry1Left",
+      "position": [
+        -5.0,
+        5.5,
+        12
+      ],
+      "size": [
+        16,
+        11,
+        1
+      ],
+      "world_size": [
+        16,
+        11,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Entry1Right",
+      "position": [
+        11.0,
+        5.5,
+        12
+      ],
+      "size": [
+        4,
+        11,
+        1
+      ],
+      "world_size": [
+        4,
+        11,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DoorLintel",
+      "position": [
+        6,
+        9.5,
+        12
+      ],
+      "size": [
+        6,
+        3,
+        1
+      ],
+      "world_size": [
+        6,
+        3,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "DoorThreshold",
+      "position": [
+        6,
+        0.025,
+        12
+      ],
+      "size": [
+        6,
+        0.05,
+        1
+      ],
+      "world_size": [
+        6,
+        0.05,
+        1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "InteriorSightlineBaffle",
+      "position": [
+        0,
+        4.5,
+        0
+      ],
+      "size": [
+        8,
+        9,
+        1
+      ],
+      "world_size": [
+        8,
+        9,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FlankConcreteBarrier",
+      "position": [
+        -25,
+        1.6,
+        -9
+      ],
+      "size": [
+        7,
+        3.2,
+        2
+      ],
+      "world_size": [
+        7,
+        3.2,
+        2
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FlankConcreteBarrierTop",
+      "position": [
+        -25,
+        3.23,
+        -9
+      ],
+      "size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "world_size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FlankConcreteBarrier",
+      "position": [
+        25,
+        1.6,
+        9
+      ],
+      "size": [
+        7,
+        3.2,
+        2
+      ],
+      "world_size": [
+        7,
+        3.2,
+        2
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FlankConcreteBarrierTop",
+      "position": [
+        25,
+        3.23,
+        9
+      ],
+      "size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "world_size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FlankConcreteBarrier",
+      "position": [
+        -23,
+        1.6,
+        13
+      ],
+      "size": [
+        7,
+        3.2,
+        2
+      ],
+      "world_size": [
+        7,
+        3.2,
+        2
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FlankConcreteBarrierTop",
+      "position": [
+        -23,
+        3.23,
+        13
+      ],
+      "size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "world_size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FlankConcreteBarrier",
+      "position": [
+        23,
+        1.6,
+        -13
+      ],
+      "size": [
+        7,
+        3.2,
+        2
+      ],
+      "world_size": [
+        7,
+        3.2,
+        2
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FlankConcreteBarrierTop",
+      "position": [
+        23,
+        3.23,
+        -13
+      ],
+      "size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "world_size": [
+        7.08,
+        0.06,
+        2.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TrainingWallCap",
+      "position": [
+        0,
+        11.08,
+        -12
+      ],
+      "size": [
+        27,
+        0.16,
+        1.2
+      ],
+      "world_size": [
+        27,
+        0.16,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TrainingWallCap",
+      "position": [
+        0,
+        11.08,
+        12
+      ],
+      "size": [
+        27,
+        0.16,
+        1.2
+      ],
+      "world_size": [
+        27,
+        0.16,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TrainingWallCap",
+      "position": [
+        -13,
+        11.08,
+        0
+      ],
+      "size": [
+        1.2,
+        0.16,
+        24
+      ],
+      "world_size": [
+        1.2,
+        0.16,
+        24
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "TrainingWallCap",
+      "position": [
+        13,
+        11.08,
+        0
+      ],
+      "size": [
+        1.2,
+        0.16,
+        24
+      ],
+      "world_size": [
+        1.2,
+        0.16,
+        24
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FormworkSeam",
+      "position": [
+        -13.52,
+        5.5,
+        -8
+      ],
+      "size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "world_size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FormworkSeam",
+      "position": [
+        -13.52,
+        5.5,
+        0
+      ],
+      "size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "world_size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FormworkSeam",
+      "position": [
+        -13.52,
+        5.5,
+        8
+      ],
+      "size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "world_size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FormworkSeam",
+      "position": [
+        13.52,
+        5.5,
+        -8
+      ],
+      "size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "world_size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FormworkSeam",
+      "position": [
+        13.52,
+        5.5,
+        0
+      ],
+      "size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "world_size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "FormworkSeam",
+      "position": [
+        13.52,
+        5.5,
+        8
+      ],
+      "size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "world_size": [
+        0.025,
+        10,
+        0.055
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CrossingDash",
+      "position": [
+        -8,
+        0.025,
+        -17
+      ],
+      "size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "world_size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CrossingDash",
+      "position": [
+        -4,
+        0.025,
+        -17
+      ],
+      "size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "world_size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CrossingDash",
+      "position": [
+        0,
+        0.025,
+        -17
+      ],
+      "size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "world_size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CrossingDash",
+      "position": [
+        4,
+        0.025,
+        -17
+      ],
+      "size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "world_size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CrossingDash",
+      "position": [
+        8,
+        0.025,
+        -17
+      ],
+      "size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "world_size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CrossingDash",
+      "position": [
+        -8,
+        0.025,
+        17
+      ],
+      "size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "world_size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CrossingDash",
+      "position": [
+        -4,
+        0.025,
+        17
+      ],
+      "size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "world_size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CrossingDash",
+      "position": [
+        0,
+        0.025,
+        17
+      ],
+      "size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "world_size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CrossingDash",
+      "position": [
+        4,
+        0.025,
+        17
+      ],
+      "size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "world_size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CrossingDash",
+      "position": [
+        8,
+        0.025,
+        17
+      ],
+      "size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "world_size": [
+        1.6,
+        0.05,
+        0.15
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    }
+  ]
+}

@@ -1,0 +1,6362 @@
+{
+  "name": "ContainerYard",
+  "footprint": [
+    76,
+    76
+  ],
+  "theme": "Dense overcast dockside container arena",
+  "spawns": {
+    "Blue": {
+      "position": [
+        0,
+        3,
+        -31
+      ],
+      "facing": [
+        0,
+        3,
+        0
+      ],
+      "note": "Marker only; adapter must face toward arena center."
+    },
+    "Red": {
+      "position": [
+        0,
+        3,
+        31
+      ],
+      "facing": [
+        0,
+        3,
+        0
+      ],
+      "note": "Marker only; adapter must face toward arena center."
+    }
+  },
+  "coordinates": "X/Z horizontal; floor surface Y=0; pivot at world origin",
+  "status": "Generated; automated geometry checks only. Studio playtest required.",
+  "design_notes": [
+    "Footprint expanded to 76 x 76 for character clearance.",
+    "Six ground containers plus two sealed upper containers; ground-level play only.",
+    "7-stud inter-container lanes and 8-stud central cross lane.",
+    "Two open-through containers; no door leaf blocks a lane.",
+    "Shipment-inspired atmosphere; original measured layout."
+  ],
+  "part_count": 287,
+  "parts": [
+    {
+      "name": "Foundation",
+      "position": [
+        0,
+        -1,
+        0
+      ],
+      "size": [
+        76,
+        2,
+        76
+      ],
+      "world_size": [
+        76,
+        2,
+        76
+      ],
+      "collision": true,
+      "folder": "Ground",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "NorthBoundary",
+      "position": [
+        0,
+        7.0,
+        -37.5
+      ],
+      "size": [
+        76,
+        14,
+        1
+      ],
+      "world_size": [
+        76,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "SouthBoundary",
+      "position": [
+        0,
+        7.0,
+        37.5
+      ],
+      "size": [
+        76,
+        14,
+        1
+      ],
+      "world_size": [
+        76,
+        14,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WestBoundary",
+      "position": [
+        -37.5,
+        7.0,
+        0
+      ],
+      "size": [
+        1,
+        14,
+        74
+      ],
+      "world_size": [
+        1,
+        14,
+        74
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "EastBoundary",
+      "position": [
+        37.5,
+        7.0,
+        0
+      ],
+      "size": [
+        1,
+        14,
+        74
+      ],
+      "world_size": [
+        1,
+        14,
+        74
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        -30
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        -18
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        -6
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        6
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        18
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        -37.0,
+        7,
+        30
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        -30
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        -18
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        -6
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        6
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        18
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterPilaster",
+      "position": [
+        37.0,
+        7,
+        30
+      ],
+      "size": [
+        1,
+        14,
+        1.2
+      ],
+      "world_size": [
+        1,
+        14,
+        1.2
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        -28.0,
+        9,
+        -37.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        -28.0,
+        8.65,
+        -36.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        0,
+        9,
+        -37.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        0,
+        8.65,
+        -36.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        28.0,
+        9,
+        -37.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        28.0,
+        8.65,
+        -36.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        -28.0,
+        9,
+        37.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        -28.0,
+        8.65,
+        36.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        0,
+        9,
+        37.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        0,
+        8.65,
+        36.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BulkheadBracket",
+      "position": [
+        28.0,
+        9,
+        37.0
+      ],
+      "size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "world_size": [
+        1.5,
+        0.25,
+        1.1
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "WarmBulkhead",
+      "position": [
+        28.0,
+        8.65,
+        36.7
+      ],
+      "size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "world_size": [
+        1.1,
+        0.45,
+        0.45
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterSafetyLine",
+      "position": [
+        -35.0,
+        0.018,
+        0
+      ],
+      "size": [
+        0.12,
+        0.035,
+        70
+      ],
+      "world_size": [
+        0.12,
+        0.035,
+        70
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "PerimeterSafetyLine",
+      "position": [
+        35.0,
+        0.018,
+        0
+      ],
+      "size": [
+        0.12,
+        0.035,
+        70
+      ],
+      "world_size": [
+        0.12,
+        0.035,
+        70
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSpawn",
+      "position": [
+        0,
+        3,
+        -31
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "world_size": [
+        2,
+        2,
+        2
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSpawnFloor",
+      "position": [
+        0,
+        0.025,
+        -31
+      ],
+      "size": [
+        8,
+        0.05,
+        5
+      ],
+      "world_size": [
+        8,
+        0.05,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueSightlineShield",
+      "position": [
+        0,
+        4.5,
+        -25
+      ],
+      "size": [
+        10,
+        9,
+        1
+      ],
+      "world_size": [
+        10,
+        9,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "BlueShieldStripe",
+      "position": [
+        0,
+        6,
+        -24.48
+      ],
+      "size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "world_size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedSpawn",
+      "position": [
+        0,
+        3,
+        31
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "world_size": [
+        2,
+        2,
+        2
+      ],
+      "collision": false,
+      "folder": "Spawns",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedSpawnFloor",
+      "position": [
+        0,
+        0.025,
+        31
+      ],
+      "size": [
+        8,
+        0.05,
+        5
+      ],
+      "world_size": [
+        8,
+        0.05,
+        5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedSightlineShield",
+      "position": [
+        0,
+        4.5,
+        25
+      ],
+      "size": [
+        10,
+        9,
+        1
+      ],
+      "world_size": [
+        10,
+        9,
+        1
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "RedShieldStripe",
+      "position": [
+        0,
+        6,
+        24.48
+      ],
+      "size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "world_size": [
+        8,
+        0.22,
+        0.04
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12WestShell",
+      "position": [
+        -27.75,
+        6.0,
+        -12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12EastShell",
+      "position": [
+        -14.25,
+        6.0,
+        -12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Roof",
+      "position": [
+        -21,
+        11.8,
+        -12
+      ],
+      "size": [
+        14,
+        0.4,
+        16
+      ],
+      "world_size": [
+        14,
+        0.4,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12OpenEndHeader",
+      "position": [
+        -21,
+        11,
+        -19.75
+      ],
+      "size": [
+        13,
+        2,
+        0.5
+      ],
+      "world_size": [
+        13,
+        2,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Threshold",
+      "position": [
+        -21,
+        0.035,
+        -19.75
+      ],
+      "size": [
+        13,
+        0.07,
+        0.5
+      ],
+      "world_size": [
+        13,
+        0.07,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12OpenEndHeader",
+      "position": [
+        -21,
+        11,
+        -4.25
+      ],
+      "size": [
+        13,
+        2,
+        0.5
+      ],
+      "world_size": [
+        13,
+        2,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Threshold",
+      "position": [
+        -21,
+        0.035,
+        -4.25
+      ],
+      "size": [
+        13,
+        0.07,
+        0.5
+      ],
+      "world_size": [
+        13,
+        0.07,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        -19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        -17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        -15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        -13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        -11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        -9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        -7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        -5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12SideRail",
+      "position": [
+        -28.04,
+        0.2,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12SideRail",
+      "position": [
+        -28.04,
+        11.8,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        -19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        -17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        -15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        -13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        -11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        -9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        -7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        -5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12SideRail",
+      "position": [
+        -13.96,
+        0.2,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12SideRail",
+      "position": [
+        -13.96,
+        11.8,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_-12RoofSpine",
+      "position": [
+        -21,
+        12.03,
+        -12
+      ],
+      "size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "world_size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12WestShell",
+      "position": [
+        -6.75,
+        6.0,
+        -12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12EastShell",
+      "position": [
+        6.75,
+        6.0,
+        -12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Roof",
+      "position": [
+        0,
+        11.8,
+        -12
+      ],
+      "size": [
+        14,
+        0.4,
+        16
+      ],
+      "world_size": [
+        14,
+        0.4,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12ClosedEnd",
+      "position": [
+        0,
+        6.0,
+        -19.75
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12LockingBar",
+      "position": [
+        -2,
+        5.8,
+        -20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12LockingBar",
+      "position": [
+        2,
+        5.8,
+        -20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12ClosedEnd",
+      "position": [
+        0,
+        6.0,
+        -4.25
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12LockingBar",
+      "position": [
+        -2,
+        5.8,
+        -3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12LockingBar",
+      "position": [
+        2,
+        5.8,
+        -3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        -19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        -17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        -15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        -13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        -11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        -9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        -7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        -5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12SideRail",
+      "position": [
+        -7.04,
+        0.2,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12SideRail",
+      "position": [
+        -7.04,
+        11.8,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        -19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        -17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        -15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        -13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        -11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        -9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        -7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        -5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12SideRail",
+      "position": [
+        7.04,
+        0.2,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12SideRail",
+      "position": [
+        7.04,
+        11.8,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_-12RoofSpine",
+      "position": [
+        0,
+        12.03,
+        -12
+      ],
+      "size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "world_size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12WestShell",
+      "position": [
+        14.25,
+        6.0,
+        -12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12EastShell",
+      "position": [
+        27.75,
+        6.0,
+        -12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Roof",
+      "position": [
+        21,
+        11.8,
+        -12
+      ],
+      "size": [
+        14,
+        0.4,
+        16
+      ],
+      "world_size": [
+        14,
+        0.4,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12ClosedEnd",
+      "position": [
+        21,
+        6.0,
+        -19.75
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12LockingBar",
+      "position": [
+        19,
+        5.8,
+        -20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12LockingBar",
+      "position": [
+        23,
+        5.8,
+        -20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12ClosedEnd",
+      "position": [
+        21,
+        6.0,
+        -4.25
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12LockingBar",
+      "position": [
+        19,
+        5.8,
+        -3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12LockingBar",
+      "position": [
+        23,
+        5.8,
+        -3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        -19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        -17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        -15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        -13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        -11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        -9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        -7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        -5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12SideRail",
+      "position": [
+        13.96,
+        0.2,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12SideRail",
+      "position": [
+        13.96,
+        11.8,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        -19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        -17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        -15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        -13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        -11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        -9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        -7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        -5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12SideRail",
+      "position": [
+        28.04,
+        0.2,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12SideRail",
+      "position": [
+        28.04,
+        11.8,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_-12RoofSpine",
+      "position": [
+        21,
+        12.03,
+        -12
+      ],
+      "size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "world_size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12WestShell",
+      "position": [
+        -27.75,
+        6.0,
+        12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12EastShell",
+      "position": [
+        -14.25,
+        6.0,
+        12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Roof",
+      "position": [
+        -21,
+        11.8,
+        12
+      ],
+      "size": [
+        14,
+        0.4,
+        16
+      ],
+      "world_size": [
+        14,
+        0.4,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12ClosedEnd",
+      "position": [
+        -21,
+        6.0,
+        4.25
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12LockingBar",
+      "position": [
+        -23,
+        5.8,
+        3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12LockingBar",
+      "position": [
+        -19,
+        5.8,
+        3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12ClosedEnd",
+      "position": [
+        -21,
+        6.0,
+        19.75
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12LockingBar",
+      "position": [
+        -23,
+        5.8,
+        20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12LockingBar",
+      "position": [
+        -19,
+        5.8,
+        20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -28.03,
+        5.9,
+        19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12SideRail",
+      "position": [
+        -28.04,
+        0.2,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12SideRail",
+      "position": [
+        -28.04,
+        11.8,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12Corrugation",
+      "position": [
+        -13.969999999999999,
+        5.9,
+        19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12SideRail",
+      "position": [
+        -13.96,
+        0.2,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12SideRail",
+      "position": [
+        -13.96,
+        11.8,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_-21_12RoofSpine",
+      "position": [
+        -21,
+        12.03,
+        12
+      ],
+      "size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "world_size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12WestShell",
+      "position": [
+        -6.75,
+        6.0,
+        12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12EastShell",
+      "position": [
+        6.75,
+        6.0,
+        12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Roof",
+      "position": [
+        0,
+        11.8,
+        12
+      ],
+      "size": [
+        14,
+        0.4,
+        16
+      ],
+      "world_size": [
+        14,
+        0.4,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12ClosedEnd",
+      "position": [
+        0,
+        6.0,
+        4.25
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12LockingBar",
+      "position": [
+        -2,
+        5.8,
+        3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12LockingBar",
+      "position": [
+        2,
+        5.8,
+        3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12ClosedEnd",
+      "position": [
+        0,
+        6.0,
+        19.75
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12LockingBar",
+      "position": [
+        -2,
+        5.8,
+        20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12LockingBar",
+      "position": [
+        2,
+        5.8,
+        20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        -7.03,
+        5.9,
+        19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12SideRail",
+      "position": [
+        -7.04,
+        0.2,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12SideRail",
+      "position": [
+        -7.04,
+        11.8,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12Corrugation",
+      "position": [
+        7.03,
+        5.9,
+        19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12SideRail",
+      "position": [
+        7.04,
+        0.2,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12SideRail",
+      "position": [
+        7.04,
+        11.8,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_0_12RoofSpine",
+      "position": [
+        0,
+        12.03,
+        12
+      ],
+      "size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "world_size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12WestShell",
+      "position": [
+        14.25,
+        6.0,
+        12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12EastShell",
+      "position": [
+        27.75,
+        6.0,
+        12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Roof",
+      "position": [
+        21,
+        11.8,
+        12
+      ],
+      "size": [
+        14,
+        0.4,
+        16
+      ],
+      "world_size": [
+        14,
+        0.4,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12OpenEndHeader",
+      "position": [
+        21,
+        11,
+        4.25
+      ],
+      "size": [
+        13,
+        2,
+        0.5
+      ],
+      "world_size": [
+        13,
+        2,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Threshold",
+      "position": [
+        21,
+        0.035,
+        4.25
+      ],
+      "size": [
+        13,
+        0.07,
+        0.5
+      ],
+      "world_size": [
+        13,
+        0.07,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12OpenEndHeader",
+      "position": [
+        21,
+        11,
+        19.75
+      ],
+      "size": [
+        13,
+        2,
+        0.5
+      ],
+      "world_size": [
+        13,
+        2,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Threshold",
+      "position": [
+        21,
+        0.035,
+        19.75
+      ],
+      "size": [
+        13,
+        0.07,
+        0.5
+      ],
+      "world_size": [
+        13,
+        0.07,
+        0.5
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        5.9,
+        19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12SideRail",
+      "position": [
+        13.96,
+        0.2,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12SideRail",
+      "position": [
+        13.96,
+        11.8,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12Corrugation",
+      "position": [
+        28.03,
+        5.9,
+        19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12SideRail",
+      "position": [
+        28.04,
+        0.2,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12SideRail",
+      "position": [
+        28.04,
+        11.8,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "Container_21_12RoofSpine",
+      "position": [
+        21,
+        12.03,
+        12
+      ],
+      "size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "world_size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12WestShell",
+      "position": [
+        -27.75,
+        18.0,
+        -12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12EastShell",
+      "position": [
+        -14.25,
+        18.0,
+        -12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Roof",
+      "position": [
+        -21,
+        23.8,
+        -12
+      ],
+      "size": [
+        14,
+        0.4,
+        16
+      ],
+      "world_size": [
+        14,
+        0.4,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12ClosedEnd",
+      "position": [
+        -21,
+        18.0,
+        -19.75
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12LockingBar",
+      "position": [
+        -23,
+        17.8,
+        -20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12LockingBar",
+      "position": [
+        -19,
+        17.8,
+        -20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12ClosedEnd",
+      "position": [
+        -21,
+        18.0,
+        -4.25
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12LockingBar",
+      "position": [
+        -23,
+        17.8,
+        -3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12LockingBar",
+      "position": [
+        -19,
+        17.8,
+        -3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        17.9,
+        -19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        17.9,
+        -17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        17.9,
+        -15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        17.9,
+        -13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        17.9,
+        -11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        17.9,
+        -9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        17.9,
+        -7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -28.03,
+        17.9,
+        -5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12SideRail",
+      "position": [
+        -28.04,
+        12.2,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12SideRail",
+      "position": [
+        -28.04,
+        23.8,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        17.9,
+        -19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        17.9,
+        -17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        17.9,
+        -15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        17.9,
+        -13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        17.9,
+        -11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        17.9,
+        -9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        17.9,
+        -7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12Corrugation",
+      "position": [
+        -13.969999999999999,
+        17.9,
+        -5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12SideRail",
+      "position": [
+        -13.96,
+        12.2,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12SideRail",
+      "position": [
+        -13.96,
+        23.8,
+        -12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_-21_-12RoofSpine",
+      "position": [
+        -21,
+        24.03,
+        -12
+      ],
+      "size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "world_size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12WestShell",
+      "position": [
+        14.25,
+        18.0,
+        12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12EastShell",
+      "position": [
+        27.75,
+        18.0,
+        12
+      ],
+      "size": [
+        0.5,
+        12,
+        16
+      ],
+      "world_size": [
+        0.5,
+        12,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Roof",
+      "position": [
+        21,
+        23.8,
+        12
+      ],
+      "size": [
+        14,
+        0.4,
+        16
+      ],
+      "world_size": [
+        14,
+        0.4,
+        16
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12ClosedEnd",
+      "position": [
+        21,
+        18.0,
+        4.25
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12LockingBar",
+      "position": [
+        19,
+        17.8,
+        3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12LockingBar",
+      "position": [
+        23,
+        17.8,
+        3.92
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12ClosedEnd",
+      "position": [
+        21,
+        18.0,
+        19.75
+      ],
+      "size": [
+        13,
+        12,
+        0.5
+      ],
+      "world_size": [
+        13,
+        12,
+        0.5
+      ],
+      "collision": true,
+      "folder": "Architecture",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12LockingBar",
+      "position": [
+        19,
+        17.8,
+        20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12LockingBar",
+      "position": [
+        23,
+        17.8,
+        20.08
+      ],
+      "size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "world_size": [
+        0.12,
+        10,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        17.9,
+        5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        17.9,
+        7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        17.9,
+        9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        17.9,
+        11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        17.9,
+        13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        17.9,
+        15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        17.9,
+        17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        13.969999999999999,
+        17.9,
+        19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12SideRail",
+      "position": [
+        13.96,
+        12.2,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12SideRail",
+      "position": [
+        13.96,
+        23.8,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        28.03,
+        17.9,
+        5
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        28.03,
+        17.9,
+        7
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        28.03,
+        17.9,
+        9
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        28.03,
+        17.9,
+        11
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        28.03,
+        17.9,
+        13
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        28.03,
+        17.9,
+        15
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        28.03,
+        17.9,
+        17
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12Corrugation",
+      "position": [
+        28.03,
+        17.9,
+        19
+      ],
+      "size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "world_size": [
+        0.12,
+        11.4,
+        0.16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12SideRail",
+      "position": [
+        28.04,
+        12.2,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12SideRail",
+      "position": [
+        28.04,
+        23.8,
+        12
+      ],
+      "size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "world_size": [
+        0.16,
+        0.25,
+        16
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "UpperContainer_21_12RoofSpine",
+      "position": [
+        21,
+        24.03,
+        12
+      ],
+      "size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "world_size": [
+        13.2,
+        0.06,
+        0.12
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "SecuredCargoCrate",
+      "position": [
+        -32,
+        1.75,
+        9
+      ],
+      "size": [
+        3,
+        3.5,
+        5
+      ],
+      "world_size": [
+        3,
+        3.5,
+        5
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CargoBand",
+      "position": [
+        -32,
+        0.4,
+        9
+      ],
+      "size": [
+        3.08,
+        0.15,
+        5.08
+      ],
+      "world_size": [
+        3.08,
+        0.15,
+        5.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CargoBand",
+      "position": [
+        -32,
+        3.1,
+        9
+      ],
+      "size": [
+        3.08,
+        0.15,
+        5.08
+      ],
+      "world_size": [
+        3.08,
+        0.15,
+        5.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "SecuredCargoCrate",
+      "position": [
+        32,
+        1.75,
+        -9
+      ],
+      "size": [
+        3,
+        3.5,
+        5
+      ],
+      "world_size": [
+        3,
+        3.5,
+        5
+      ],
+      "collision": true,
+      "folder": "Cover",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CargoBand",
+      "position": [
+        32,
+        0.4,
+        -9
+      ],
+      "size": [
+        3.08,
+        0.15,
+        5.08
+      ],
+      "world_size": [
+        3.08,
+        0.15,
+        5.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "CargoBand",
+      "position": [
+        32,
+        3.1,
+        -9
+      ],
+      "size": [
+        3.08,
+        0.15,
+        5.08
+      ],
+      "world_size": [
+        3.08,
+        0.15,
+        5.08
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "LoadingBayMark",
+      "position": [
+        -21,
+        0.025,
+        -23
+      ],
+      "size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "world_size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "LoadingBayMark",
+      "position": [
+        0,
+        0.025,
+        -23
+      ],
+      "size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "world_size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "LoadingBayMark",
+      "position": [
+        21,
+        0.025,
+        -23
+      ],
+      "size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "world_size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "LoadingBayMark",
+      "position": [
+        -21,
+        0.025,
+        23
+      ],
+      "size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "world_size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "LoadingBayMark",
+      "position": [
+        0,
+        0.025,
+        23
+      ],
+      "size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "world_size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    },
+    {
+      "name": "LoadingBayMark",
+      "position": [
+        21,
+        0.025,
+        23
+      ],
+      "size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "world_size": [
+        10,
+        0.05,
+        0.14
+      ],
+      "collision": false,
+      "folder": "Details",
+      "shape": "Block",
+      "yaw": 0
+    }
+  ]
+}
