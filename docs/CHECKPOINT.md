@@ -69,3 +69,10 @@ Build the **player-data save system** as its own stage before persistent invento
 - developer-only test grants, with no crates or purchases.
 
 After that comes Stage 4, inventory and skins.
+
+## Foundry export for the environment build (2026-10-30)
+
+- Exported the working Foundry (original + `DetailPass_v1`) to `maps/exports/Foundry_Current.rbxmx` / `.rbxm`. The notes are in `maps/exports/FOUNDRY_NOTES.md` and the screenshots in `maps/exports/screenshots/foundry/`.
+- **Foundry decoration is paused** while the full environment build happens elsewhere. The v2 builder in `maps/exports/drafts/` was never run.
+- The review place is saved locally as `Documents\Place1OITC_TeamMapReview_2026-10-30.rbxl`; the original Foundry is kept in its `ServerStorage.TeamMapOriginals`.
+- Merged `main` (team map models) into this branch; there were no conflicts.
