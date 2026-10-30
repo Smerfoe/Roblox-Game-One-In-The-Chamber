@@ -1,0 +1,2786 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="Karambit_Prototype">
+    <Properties>
+      <string name="Name">Karambit_Prototype</string>
+      <Ref name="PrimaryPart">Karambit_Prototype_001</Ref>
+    </Properties>
+    <Item class="Part" referent="Karambit_Prototype_001">
+      <Properties>
+        <string name="Name">Anchor</string>
+        <Vector3 name="size">
+          <X>0.05</X>
+          <Y>0.05</Y>
+          <Z>0.05</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>-0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <Color3 name="Color">
+          <R>0.10196078431372549</R>
+          <G>0.11372549019607843</G>
+          <B>0.12156862745098039</B>
+        </Color3>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="Massless">true</bool>
+        <bool name="CastShadow">false</bool>
+        <float name="Transparency">1</float>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+      </Properties>
+    </Item>
+    <Item class="Model" referent="Karambit_PrototypeBody">
+      <Properties>
+        <string name="Name">Body</string>
+      </Properties>
+      <Item class="Part" referent="Karambit_Prototype_002">
+        <Properties>
+          <string name="Name">BodyPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="Karambit_Prototype_002Joint">
+          <Properties>
+            <string name="Name">Presentation</string>
+            <Ref name="Part0">Karambit_Prototype_001</Ref>
+            <Ref name="Part1">Karambit_Prototype_002</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_003">
+        <Properties>
+          <string name="Name">GripCore</string>
+          <Vector3 name="size">
+            <X>0.17</X>
+            <Y>0.67</Y>
+            <Z>0.23</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.05</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_003Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_003</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_004">
+        <Properties>
+          <string name="Name">GripScale</string>
+          <Vector3 name="size">
+            <X>0.045</X>
+            <Y>0.56</Y>
+            <Z>0.2</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.1</X>
+            <Y>-0.04</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.2196078431372549</R>
+            <G>0.23921568627450981</G>
+            <B>0.2549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_004Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_004</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_005">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.025</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.126</X>
+            <Y>0.14</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.1450980392156863</R>
+            <G>0.16470588235294117</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_005Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_005</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_006">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.025</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.126</X>
+            <Y>0.05</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.1450980392156863</R>
+            <G>0.16470588235294117</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_006Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_006</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_007">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.025</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.126</X>
+            <Y>-0.04</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.1450980392156863</R>
+            <G>0.16470588235294117</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_007Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_007</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_008">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.025</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.126</X>
+            <Y>-0.13</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.1450980392156863</R>
+            <G>0.16470588235294117</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_008Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_008</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_009">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.025</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.126</X>
+            <Y>-0.22</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.1450980392156863</R>
+            <G>0.16470588235294117</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_009Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_009</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_010">
+        <Properties>
+          <string name="Name">GripScale</string>
+          <Vector3 name="size">
+            <X>0.045</X>
+            <Y>0.56</Y>
+            <Z>0.2</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.1</X>
+            <Y>-0.04</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.2196078431372549</R>
+            <G>0.23921568627450981</G>
+            <B>0.2549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_010Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_010</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_011">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.025</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.126</X>
+            <Y>0.14</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.1450980392156863</R>
+            <G>0.16470588235294117</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_011Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_011</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_012">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.025</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.126</X>
+            <Y>0.05</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.1450980392156863</R>
+            <G>0.16470588235294117</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_012Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_012</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_013">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.025</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.126</X>
+            <Y>-0.04</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.1450980392156863</R>
+            <G>0.16470588235294117</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_013Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_013</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_014">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.025</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.126</X>
+            <Y>-0.13</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.1450980392156863</R>
+            <G>0.16470588235294117</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_014Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_014</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_015">
+        <Properties>
+          <string name="Name">GripRidge</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.025</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.126</X>
+            <Y>-0.22</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9781476</R11>
+            <R12>0.20791169</R12>
+            <R20>-0.0</R20>
+            <R21>-0.20791169</R21>
+            <R22>0.9781476</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.1450980392156863</R>
+            <G>0.16470588235294117</G>
+            <B>0.1803921568627451</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_015Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_015</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_016">
+        <Properties>
+          <string name="Name">ScalePin</string>
+          <Vector3 name="size">
+            <X>0.25</X>
+            <Y>0.055</Y>
+            <Z>0.055</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.23</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_016Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_016</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_017">
+        <Properties>
+          <string name="Name">ScalePin</string>
+          <Vector3 name="size">
+            <X>0.25</X>
+            <Y>0.055</Y>
+            <Z>0.055</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.15</Y>
+            <Z>0.1</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_017Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_017</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_018">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649462</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.39001671</Y>
+            <Z>0.22167424</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.15643447</R10>
+            <R11>0.0</R11>
+            <R12>-0.98768834</R12>
+            <R20>0.98768834</R20>
+            <R21>-0.0</R21>
+            <R22>-0.15643447</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_018Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_018</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_019">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649465</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.40959247</Y>
+            <Z>0.28192223</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.4539905</R10>
+            <R11>0.0</R11>
+            <R12>-0.89100652</R12>
+            <R20>0.89100652</R20>
+            <R21>-0.0</R21>
+            <R22>-0.4539905</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_019Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_019</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_020">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649464</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.44682777</Y>
+            <Z>0.33317223</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.70710678</R10>
+            <R11>0.0</R11>
+            <R12>-0.70710678</R12>
+            <R20>0.70710678</R20>
+            <R21>-0.0</R21>
+            <R22>-0.70710678</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_020Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_020</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_021">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649468</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.49807777</Y>
+            <Z>0.37040753</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.89100652</R10>
+            <R11>0.0</R11>
+            <R12>-0.4539905</R12>
+            <R20>0.4539905</R20>
+            <R21>-0.0</R21>
+            <R22>-0.89100652</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_021Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_021</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_022">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649464</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.55832576</Y>
+            <Z>0.38998329</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.98768834</R10>
+            <R11>0.0</R11>
+            <R12>-0.15643447</R12>
+            <R20>0.15643447</R20>
+            <R21>-0.0</R21>
+            <R22>-0.98768834</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_022Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_022</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_023">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649464</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.62167424</Y>
+            <Z>0.38998329</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>-0.98768834</R10>
+            <R11>0.0</R11>
+            <R12>0.15643447</R12>
+            <R20>-0.15643447</R20>
+            <R21>-0.0</R21>
+            <R22>-0.98768834</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_023Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_023</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_024">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649464</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.68192223</Y>
+            <Z>0.37040753</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>-0.89100652</R10>
+            <R11>0.0</R11>
+            <R12>0.4539905</R12>
+            <R20>-0.4539905</R20>
+            <R21>-0.0</R21>
+            <R22>-0.89100652</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_024Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_024</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_025">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649468</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.73317223</Y>
+            <Z>0.33317223</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>-0.70710678</R10>
+            <R11>0.0</R11>
+            <R12>0.70710678</R12>
+            <R20>-0.70710678</R20>
+            <R21>-0.0</R21>
+            <R22>-0.70710678</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_025Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_025</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_026">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649458</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.77040753</Y>
+            <Z>0.28192223</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>-0.4539905</R10>
+            <R11>0.0</R11>
+            <R12>0.89100652</R12>
+            <R20>-0.89100652</R20>
+            <R21>-0.0</R21>
+            <R22>-0.4539905</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_026Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_026</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_027">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649467</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.78998329</Y>
+            <Z>0.22167424</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>-0.15643447</R10>
+            <R11>0.0</R11>
+            <R12>0.98768834</R12>
+            <R20>-0.98768834</R20>
+            <R21>-0.0</R21>
+            <R22>-0.15643447</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_027Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_027</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_028">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649454</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.78998329</Y>
+            <Z>0.15832576</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>0.15643447</R10>
+            <R11>0.0</R11>
+            <R12>0.98768834</R12>
+            <R20>-0.98768834</R20>
+            <R21>0.0</R21>
+            <R22>0.15643447</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_028Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_028</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_029">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649476</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.77040753</Y>
+            <Z>0.09807777</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>0.4539905</R10>
+            <R11>0.0</R11>
+            <R12>0.89100652</R12>
+            <R20>-0.89100652</R20>
+            <R21>0.0</R21>
+            <R22>0.4539905</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_029Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_029</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_030">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649464</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.73317223</Y>
+            <Z>0.04682777</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>0.70710678</R10>
+            <R11>0.0</R11>
+            <R12>0.70710678</R12>
+            <R20>-0.70710678</R20>
+            <R21>0.0</R21>
+            <R22>0.70710678</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_030Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_030</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_031">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649472</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.68192223</Y>
+            <Z>0.00959247</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>0.89100652</R10>
+            <R11>0.0</R11>
+            <R12>0.4539905</R12>
+            <R20>-0.4539905</R20>
+            <R21>0.0</R21>
+            <R22>0.89100652</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_031Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_031</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_032">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649464</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.62167424</Y>
+            <Z>-0.00998329</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>0.0</R02>
+            <R10>0.98768834</R10>
+            <R11>0.0</R11>
+            <R12>0.15643447</R12>
+            <R20>-0.15643447</R20>
+            <R21>0.0</R21>
+            <R22>0.98768834</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_032Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_032</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_033">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649462</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.55832576</Y>
+            <Z>-0.00998329</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.98768834</R10>
+            <R11>0.0</R11>
+            <R12>-0.15643447</R12>
+            <R20>0.15643447</R20>
+            <R21>0.0</R21>
+            <R22>0.98768834</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_033Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_033</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_034">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649462</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.49807777</Y>
+            <Z>0.00959247</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.89100652</R10>
+            <R11>0.0</R11>
+            <R12>-0.4539905</R12>
+            <R20>0.4539905</R20>
+            <R21>0.0</R21>
+            <R22>0.89100652</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_034Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_034</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_035">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.0641381306664947</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.44682777</Y>
+            <Z>0.04682777</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.70710678</R10>
+            <R11>0.0</R11>
+            <R12>-0.70710678</R12>
+            <R20>0.70710678</R20>
+            <R21>0.0</R21>
+            <R22>0.70710678</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_035Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_035</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_036">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649465</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.40959247</Y>
+            <Z>0.09807777</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.4539905</R10>
+            <R11>0.0</R11>
+            <R12>-0.89100652</R12>
+            <R20>0.89100652</R20>
+            <R21>0.0</R21>
+            <R22>0.4539905</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_036Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_036</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Karambit_Prototype_037">
+        <Properties>
+          <string name="Name">FingerRing</string>
+          <Vector3 name="size">
+            <X>0.06413813066649462</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.39001671</Y>
+            <Z>0.15832576</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.15643447</R10>
+            <R11>0.0</R11>
+            <R12>-0.98768834</R12>
+            <R20>0.98768834</R20>
+            <R21>0.0</R21>
+            <R22>0.15643447</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_037Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_037</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_038">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.10545237936282123</Y>
+            <Z>0.14621831515483838</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.275</Y>
+            <Z>0.07</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8422714</R11>
+            <R12>0.5390537</R12>
+            <R20>0</R20>
+            <R21>-0.5390537</R21>
+            <R22>-0.8422714</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_038Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_038</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_039">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.10545237936282123</Y>
+            <Z>0.15059812643827822</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.355</Y>
+            <Z>-0.055</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.8422714</R11>
+            <R12>-0.5390537</R12>
+            <R20>0</R20>
+            <R21>-0.5390537</R21>
+            <R22>0.8422714</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_039Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_039</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_040">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.15295648636013048</Y>
+            <Z>0.12768834434028517</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.47</Y>
+            <Z>0.005</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8422714</R11>
+            <R12>-0.5390537</R12>
+            <R20>0</R20>
+            <R21>0.5390537</R21>
+            <R22>0.8422714</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_040Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_040</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_041">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.15295648636013048</Y>
+            <Z>0.16912809725283143</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.39</Y>
+            <Z>0.13</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.8422714</R11>
+            <R12>0.5390537</R12>
+            <R20>0</R20>
+            <R21>0.5390537</R21>
+            <R22>-0.8422714</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_041Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_041</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_042">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.11206567537087474</Y>
+            <Z>0.16474612105803807</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.47</Y>
+            <Z>0.005</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.95782629</R11>
+            <R12>0.28734789</R12>
+            <R20>0</R20>
+            <R21>-0.28734789</R21>
+            <R22>-0.95782629</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_042Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_042</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_043">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.11206567537087474</Y>
+            <Z>0.14846307420927846</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.515</Y>
+            <Z>-0.145</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.95782629</R11>
+            <R12>-0.28734789</R12>
+            <R20>0</R20>
+            <R21>-0.28734789</R21>
+            <R22>0.95782629</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_043Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_043</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_044">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.16953525248414378</Y>
+            <Z>0.14750524792405734</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.65</Y>
+            <Z>-0.105</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.95782629</R11>
+            <R12>-0.28734789</R12>
+            <R20>0</R20>
+            <R21>0.28734789</R21>
+            <R22>0.95782629</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_044Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_044</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_045">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.16953525248414378</Y>
+            <Z>0.16570394734325916</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.605</Y>
+            <Z>0.045</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.95782629</R11>
+            <R12>0.28734789</R12>
+            <R20>0</R20>
+            <R21>0.28734789</R21>
+            <R22>-0.95782629</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_045Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_045</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_046">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.12</Y>
+            <Z>0.18999999999999997</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.65</Y>
+            <Z>-0.105</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-1.0</R11>
+            <R12>0.0</R12>
+            <R20>0</R20>
+            <R21>-0.0</R21>
+            <R22>-1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_046Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_046</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_047">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.12</Y>
+            <Z>0.15</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.65</Y>
+            <Z>-0.275</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-1.0</R11>
+            <R12>0.0</R12>
+            <R20>0</R20>
+            <R21>-0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_047Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_047</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_048">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.18000000000000005</Y>
+            <Z>0.16999999999999998</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.8</Y>
+            <Z>-0.265</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_048Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_048</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_049">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.18000000000000005</Y>
+            <Z>0.16999999999999998</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.8</Y>
+            <Z>-0.095</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0</R20>
+            <R21>0.0</R21>
+            <R22>-1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_049Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_049</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_050">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.11893056481930152</Y>
+            <Z>0.21715321952888914</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.8</Y>
+            <Z>-0.265</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.95144452</R11>
+            <R12>-0.30782029</R12>
+            <R20>0</R20>
+            <R21>0.30782029</R21>
+            <R22>-0.95144452</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_050Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_050</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_051">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.11893056481930152</Y>
+            <Z>0.14019814817522364</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.745</Y>
+            <Z>-0.435</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.95144452</R11>
+            <R12>0.30782029</R12>
+            <R20>0</R20>
+            <R21>0.30782029</R21>
+            <R22>0.95144452</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_051Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_051</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_052">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.172379359832211</Y>
+            <Z>0.18189380501775515</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.89</Y>
+            <Z>-0.46</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.95144452</R11>
+            <R12>0.30782029</R12>
+            <R20>0</R20>
+            <R21>-0.30782029</R21>
+            <R22>0.95144452</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_052Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_052</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_053">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.172379359832211</Y>
+            <Z>0.17545756268635765</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.945</Y>
+            <Z>-0.29</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.95144452</R11>
+            <R12>-0.30782029</R12>
+            <R20>0</R20>
+            <R21>-0.30782029</R21>
+            <R22>-0.95144452</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_053Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_053</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_054">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.1164870412072981</Y>
+            <Z>0.22188007849009167</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.89</Y>
+            <Z>-0.46</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.83205029</R11>
+            <R12>-0.5547002</R12>
+            <R20>0</R20>
+            <R21>0.5547002</R21>
+            <R22>-0.83205029</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_054Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_054</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_055">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.1164870412072981</Y>
+            <Z>0.13867504905630718</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.79</Y>
+            <Z>-0.61</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.83205029</R11>
+            <R12>0.5547002</R12>
+            <R20>0</R20>
+            <R21>0.5547002</R21>
+            <R22>0.83205029</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_055Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_055</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_056">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.12203404316955045</Y>
+            <Z>0.14144855003743334</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.89</Y>
+            <Z>-0.675</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.83205029</R11>
+            <R12>0.5547002</R12>
+            <R20>0</R20>
+            <R21>-0.5547002</R21>
+            <R22>0.83205029</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_056Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_056</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_057">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.12203404316955045</Y>
+            <Z>0.2191065775089655</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.99</Y>
+            <Z>-0.525</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.83205029</R11>
+            <R12>-0.5547002</R12>
+            <R20>0</R20>
+            <R21>-0.5547002</R21>
+            <R22>-0.83205029</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_057Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_057</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_058">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.09921392070599606</Y>
+            <Z>0.15829276022024605</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.89</Y>
+            <Z>-0.675</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.73848549</R11>
+            <R12>-0.67426936</R12>
+            <R20>0</R20>
+            <R21>0.67426936</R21>
+            <R22>-0.73848549</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_058Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_058</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Karambit_Prototype_059">
+        <Properties>
+          <string name="Name">ContinuousBlade</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.09921392070599606</Y>
+            <Z>0.15315546982770264</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.785</Y>
+            <Z>-0.79</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.73848549</R11>
+            <R12>0.67426936</R12>
+            <R20>0</R20>
+            <R21>0.67426936</R21>
+            <R22>0.73848549</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Karambit_Prototype_059Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Karambit_Prototype_002</Ref>
+            <Ref name="Part1">Karambit_Prototype_059</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

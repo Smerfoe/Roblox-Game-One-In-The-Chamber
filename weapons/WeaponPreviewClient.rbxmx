@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="LocalScript" referent="WeaponPreviewClient">
+    <Properties>
+      <string name="Name">WeaponPreviewClient</string>
+      <bool name="Disabled">false</bool>
+      <ProtectedString name="Source">--!strict
+-- STUDIO-ONLY VISUAL SANDBOX. Not combat code. No bullets, damage or server remotes.
+-- Use in a separate Baseplate. See weapons/README.md for the exact hierarchy.
+local RunService = game:GetService("RunService")
+if not RunService:IsStudio() then return end
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local UserInputService = game:GetService("UserInputService")
+local Workspace = game:GetService("Workspace")
+local pack = ReplicatedStorage:WaitForChild("WeaponPreviewPack")
+local Animator = require(pack:WaitForChild("WeaponAnimator") :: ModuleScript)
+local player = Players.LocalPlayer
+local previousMode = player.CameraMode
+player.CameraMode = Enum.CameraMode.LockFirstPerson
+local index, sprint, sliding, stopped = 1, false, false, false
+local names = {"Service1911_Prototype", "Karambit_Prototype"}
+local current: Model? = nil
+local animation: any = nil
+local connections: {RBXScriptConnection} = {}
+local function clear()
+	if animation then animation:Destroy(); animation = nil end
+	if current then current:Destroy(); current = nil end
+end
+local function load()
+	clear()
+	local camera = Workspace.CurrentCamera
+	if not camera then return end
+	local source = pack:FindFirstChild(names[index])
+	assert(source and source:IsA("Model"), "Missing preview model " .. names[index])
+	local clone = source:Clone()
+	clone.Parent = camera
+	current = clone
+	animation = Animator.new(clone, index == 1 and "Pistol" or "Knife", camera)
+	animation:SetLocomotion(sliding and "Slide" or (sprint and "Sprint" or "Idle"))
+	animation:Play("Equip")
+end
+local function stop()
+	if stopped then return end
+	stopped = true
+	clear()
+	for _, connection in connections do connection:Disconnect() end
+	player.CameraMode = previousMode
+end
+-- Track ONLY this script's connections and clones; never delete existing viewmodels.
+table.insert(connections, UserInputService.InputBegan:Connect(function(input, processed)
+	if processed or UserInputService:GetFocusedTextBox() then return end
+	if input.KeyCode == Enum.KeyCode.P then stop(); return end
+	if input.KeyCode == Enum.KeyCode.Q then index = index == 1 and 2 or 1; load(); return end
+	if not animation then return end
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then animation:Play(index == 1 and "Fire" or "Attack")
+	elseif input.KeyCode == Enum.KeyCode.F then animation:Play("Inspect")
+	elseif input.KeyCode == Enum.KeyCode.R and index == 1 then animation:Play("Reload")
+	elseif input.KeyCode == Enum.KeyCode.LeftShift then sprint = true; animation:SetLocomotion(sliding and "Slide" or "Sprint")
+	elseif input.KeyCode == Enum.KeyCode.C then sliding = true; animation:SetLocomotion("Slide") end
+end))
+table.insert(connections, UserInputService.InputEnded:Connect(function(input)
+	if input.KeyCode == Enum.KeyCode.LeftShift then sprint = false
+	elseif input.KeyCode == Enum.KeyCode.C then sliding = false else return end
+	if animation then animation:SetLocomotion(sliding and "Slide" or (sprint and "Sprint" or "Idle")) end
+end))
+table.insert(connections, UserInputService.WindowFocusReleased:Connect(function()
+	sprint, sliding = false, false
+	if animation then animation:Cancel(); animation:SetLocomotion("Idle") end
+end))
+table.insert(connections, player.CharacterRemoving:Connect(function() clear() end))
+table.insert(connections, player.CharacterAdded:Connect(function() if not stopped then load() end end))
+table.insert(connections, Workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function() if not stopped then load() end end))
+table.insert(connections, script.Destroying:Connect(stop))
+load()
+print("Weapon preview: click fire/slash; F inspect; R cosmetic reload; Q swap; hold Shift sprint pose; hold C slide pose; P stop. No gameplay actions occur.")
+</ProtectedString>
+    </Properties>
+  </Item>
+</roblox>

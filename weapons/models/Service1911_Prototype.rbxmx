@@ -1,0 +1,3643 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="Service1911_Prototype">
+    <Properties>
+      <string name="Name">Service1911_Prototype</string>
+      <Ref name="PrimaryPart">Service1911_Prototype_001</Ref>
+    </Properties>
+    <Item class="Part" referent="Service1911_Prototype_001">
+      <Properties>
+        <string name="Name">Anchor</string>
+        <Vector3 name="size">
+          <X>0.05</X>
+          <Y>0.05</Y>
+          <Z>0.05</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>-0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <Color3 name="Color">
+          <R>0.10196078431372549</R>
+          <G>0.11372549019607843</G>
+          <B>0.12156862745098039</B>
+        </Color3>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="Massless">true</bool>
+        <bool name="CastShadow">false</bool>
+        <float name="Transparency">1</float>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+      </Properties>
+    </Item>
+    <Item class="Model" referent="Service1911_PrototypeBody">
+      <Properties>
+        <string name="Name">Body</string>
+      </Properties>
+      <Item class="Part" referent="Service1911_Prototype_002">
+        <Properties>
+          <string name="Name">BodyPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="Service1911_Prototype_002Joint">
+          <Properties>
+            <string name="Name">Presentation</string>
+            <Ref name="Part0">Service1911_Prototype_001</Ref>
+            <Ref name="Part1">Service1911_Prototype_002</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_007">
+        <Properties>
+          <string name="Name">Receiver</string>
+          <Vector3 name="size">
+            <X>0.4</X>
+            <Y>0.26</Y>
+            <Z>1.77</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.025</Y>
+            <Z>-0.48</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_007Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_007</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_008">
+        <Properties>
+          <string name="Name">DustCover</string>
+          <Vector3 name="size">
+            <X>0.34</X>
+            <Y>0.16</Y>
+            <Z>0.73</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.14</Y>
+            <Z>-0.95</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_008Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_008</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_009">
+        <Properties>
+          <string name="Name">GripFrame</string>
+          <Vector3 name="size">
+            <X>0.37</X>
+            <Y>1.08</Y>
+            <Z>0.49</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.69</Y>
+            <Z>0.3</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_009Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_009</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_010">
+        <Properties>
+          <string name="Name">SeparateWoodGrip</string>
+          <Vector3 name="size">
+            <X>0.055</X>
+            <Y>0.83</Y>
+            <Z>0.4</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.205</X>
+            <Y>-0.68</Y>
+            <Z>0.3</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3607843137254902</R>
+            <G>0.2235294117647059</G>
+            <B>0.15294117647058825</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_010Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_010</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_011">
+        <Properties>
+          <string name="Name">GripScrew</string>
+          <Vector3 name="size">
+            <X>0.015</X>
+            <Y>0.065</Y>
+            <Z>0.065</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.238</X>
+            <Y>-0.4</Y>
+            <Z>0.21964</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_011Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_011</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_012">
+        <Properties>
+          <string name="Name">GripScrew</string>
+          <Vector3 name="size">
+            <X>0.015</X>
+            <Y>0.065</Y>
+            <Z>0.065</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.238</X>
+            <Y>-0.94</Y>
+            <Z>0.37462</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_012Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_012</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_013">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.237</X>
+            <Y>-0.42</Y>
+            <Z>0.22538</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_013Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_013</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_014">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.237</X>
+            <Y>-0.493</Y>
+            <Z>0.246331</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_014Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_014</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_015">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.237</X>
+            <Y>-0.566</Y>
+            <Z>0.267282</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_015Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_015</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_016">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.237</X>
+            <Y>-0.639</Y>
+            <Z>0.288233</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_016Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_016</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_017">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.237</X>
+            <Y>-0.712</Y>
+            <Z>0.309184</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_017Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_017</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_018">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.237</X>
+            <Y>-0.785</Y>
+            <Z>0.330135</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_018Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_018</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_019">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.237</X>
+            <Y>-0.858</Y>
+            <Z>0.351086</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_019Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_019</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_020">
+        <Properties>
+          <string name="Name">SeparateWoodGrip</string>
+          <Vector3 name="size">
+            <X>0.055</X>
+            <Y>0.83</Y>
+            <Z>0.4</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.205</X>
+            <Y>-0.68</Y>
+            <Z>0.3</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3607843137254902</R>
+            <G>0.2235294117647059</G>
+            <B>0.15294117647058825</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_020Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_020</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_021">
+        <Properties>
+          <string name="Name">GripScrew</string>
+          <Vector3 name="size">
+            <X>0.015</X>
+            <Y>0.065</Y>
+            <Z>0.065</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.238</X>
+            <Y>-0.4</Y>
+            <Z>0.21964</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_021Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_021</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_022">
+        <Properties>
+          <string name="Name">GripScrew</string>
+          <Vector3 name="size">
+            <X>0.015</X>
+            <Y>0.065</Y>
+            <Z>0.065</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.238</X>
+            <Y>-0.94</Y>
+            <Z>0.37462</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_022Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_022</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_023">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.237</X>
+            <Y>-0.42</Y>
+            <Z>0.22538</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_023Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_023</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_024">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.237</X>
+            <Y>-0.493</Y>
+            <Z>0.246331</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_024Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_024</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_025">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.237</X>
+            <Y>-0.566</Y>
+            <Z>0.267282</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_025Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_025</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_026">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.237</X>
+            <Y>-0.639</Y>
+            <Z>0.288233</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_026Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_026</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_027">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.237</X>
+            <Y>-0.712</Y>
+            <Z>0.309184</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_027Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_027</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_028">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.237</X>
+            <Y>-0.785</Y>
+            <Z>0.330135</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_028Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_028</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_029">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.008</X>
+            <Y>0.018</Y>
+            <Z>0.31</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.237</X>
+            <Y>-0.858</Y>
+            <Z>0.351086</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.26666666666666666</R>
+            <G>0.16862745098039217</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_029Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_029</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_030">
+        <Properties>
+          <string name="Name">Beavertail</string>
+          <Vector3 name="size">
+            <X>0.36</X>
+            <Y>0.1</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.11</Y>
+            <Z>0.41</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_030Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_030</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_031">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.1276022169500725</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.23334848</Y>
+            <Z>-0.48241376</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.99290569</R10>
+            <R11>0.0</R11>
+            <R12>-0.11890452</R12>
+            <R20>0.11890452</R20>
+            <R21>-0.0</R21>
+            <R22>-0.99290569</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_031Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_031</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_032">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.12248339873175582</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.35384446</Y>
+            <Z>-0.45281139</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.93314675</R10>
+            <R11>0.0</R11>
+            <R12>-0.35949567</R12>
+            <R20>0.35949567</R20>
+            <R21>-0.0</R21>
+            <R22>-0.93314675</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_032Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_032</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_033">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.11371397625103265</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.45634446</Y>
+            <Z>-0.39650435</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.79765933</R10>
+            <R11>0.0</R11>
+            <R12>-0.60310827</R12>
+            <R20>0.60310827</R20>
+            <R21>-0.0</R21>
+            <R22>-0.79765933</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_033Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_033</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_034">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.10420918301550292</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.53081507</Y>
+            <Z>-0.31900435</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.55883946</R10>
+            <R11>0.0</R11>
+            <R12>-0.82927586</R12>
+            <R20>0.82927586</R20>
+            <R21>-0.0</R21>
+            <R22>-0.55883946</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_034Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_034</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_035">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.09787446561318977</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.56996659</Y>
+            <Z>-0.22789763</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.20502619</R10>
+            <R11>0.0</R11>
+            <R12>-0.97875649</R12>
+            <R20>0.97875649</R20>
+            <R21>-0.0</R21>
+            <R22>-0.20502619</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_035Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_035</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_036">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.09787446561318981</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.56996659</Y>
+            <Z>-0.13210237</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.20502619</R10>
+            <R11>0.0</R11>
+            <R12>-0.97875649</R12>
+            <R20>0.97875649</R20>
+            <R21>0.0</R21>
+            <R22>0.20502619</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_036Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_036</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_037">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.1042091830155029</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.53081507</Y>
+            <Z>-0.04099565</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.55883946</R10>
+            <R11>0.0</R11>
+            <R12>-0.82927586</R12>
+            <R20>0.82927586</R20>
+            <R21>0.0</R21>
+            <R22>0.55883946</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_037Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_037</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_038">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.11371397625103263</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.45634446</Y>
+            <Z>0.03650435</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.79765933</R10>
+            <R11>0.0</R11>
+            <R12>-0.60310827</R12>
+            <R20>0.60310827</R20>
+            <R21>0.0</R21>
+            <R22>0.79765933</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_038Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_038</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_039">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.12248339873175583</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.35384446</Y>
+            <Z>0.09281139</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.93314675</R10>
+            <R11>0.0</R11>
+            <R12>-0.35949567</R12>
+            <R20>0.35949567</R20>
+            <R21>0.0</R21>
+            <R22>0.93314675</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_039Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_039</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_040">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.12760221695007246</X>
+            <Y>0.07</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.23334848</Y>
+            <Z>0.12241376</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.99290569</R10>
+            <R11>0.0</R11>
+            <R12>-0.11890452</R12>
+            <R20>0.11890452</R20>
+            <R21>0.0</R21>
+            <R22>0.99290569</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_040Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_040</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_041">
+        <Properties>
+          <string name="Name">Trigger</string>
+          <Vector3 name="size">
+            <X>0.15</X>
+            <Y>0.22</Y>
+            <Z>0.07</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.285</Y>
+            <Z>-0.17</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.97029573</R11>
+            <R12>0.2419219</R12>
+            <R20>-0.0</R20>
+            <R21>-0.2419219</R21>
+            <R22>0.97029573</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_041Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_041</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_066">
+        <Properties>
+          <string name="Name">Barrel</string>
+          <Vector3 name="size">
+            <X>0.1</X>
+            <Y>0.21</Y>
+            <Z>0.21</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.26</Y>
+            <Z>-1.5</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.4627450980392157</R>
+            <G>0.49411764705882355</G>
+            <B>0.5176470588235295</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_066Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_066</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_067">
+        <Properties>
+          <string name="Name">Bore</string>
+          <Vector3 name="size">
+            <X>0.014</X>
+            <Y>0.125</Y>
+            <Z>0.125</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.26</Y>
+            <Z>-1.556</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_067Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_067</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_068">
+        <Properties>
+          <string name="Name">RecoilPlug</string>
+          <Vector3 name="size">
+            <X>0.035</X>
+            <Y>0.13</Y>
+            <Z>0.13</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.01</Y>
+            <Z>-1.39</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.45098039215686275</R>
+            <G>0.4823529411764706</G>
+            <B>0.5098039215686274</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_068Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_068</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="Service1911_PrototypeSlide">
+      <Properties>
+        <string name="Name">Slide</string>
+      </Properties>
+      <Item class="Part" referent="Service1911_Prototype_003">
+        <Properties>
+          <string name="Name">SlidePivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.28</Y>
+            <Z>-0.48</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="Service1911_Prototype_003Joint">
+          <Properties>
+            <string name="Name">Slide</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_003</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.28</Y>
+              <Z>-0.48</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_042">
+        <Properties>
+          <string name="Name">SlideBody</string>
+          <Vector3 name="size">
+            <X>0.44</X>
+            <Y>0.35</Y>
+            <Z>1.92</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.285</Y>
+            <Z>-0.54</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_042Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_042</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_043">
+        <Properties>
+          <string name="Name">SlideTopRib</string>
+          <Vector3 name="size">
+            <X>0.34</X>
+            <Y>0.05</Y>
+            <Z>1.78</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.48</Y>
+            <Z>-0.54</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_043Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_043</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Service1911_Prototype_044">
+        <Properties>
+          <string name="Name">SlideBevel</string>
+          <Vector3 name="size">
+            <X>1.92</X>
+            <Y>0.05</Y>
+            <Z>0.05</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.195</X>
+            <Y>0.475</Y>
+            <Z>-0.54</Z>
+            <R00>0.0</R00>
+            <R01>-0.0</R01>
+            <R02>-1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>-0.0</R12>
+            <R20>1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_044Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_044</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Service1911_Prototype_045">
+        <Properties>
+          <string name="Name">SlideBevel</string>
+          <Vector3 name="size">
+            <X>1.92</X>
+            <Y>0.05</Y>
+            <Z>0.05</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.195</X>
+            <Y>0.475</Y>
+            <Z>-0.54</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6039215686274509</R>
+            <G>0.6352941176470588</G>
+            <B>0.6549019607843137</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_045Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_045</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_046">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.224</X>
+            <Y>0.285</Y>
+            <Z>0.03</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_046Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_046</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_047">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.025</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_047Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_047</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_048">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.08</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_048Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_048</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_049">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.135</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_049Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_049</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_050">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.19</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_050Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_050</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_051">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.245</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_051Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_051</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_052">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.3</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_052Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_052</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_053">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.224</X>
+            <Y>0.285</Y>
+            <Z>0.03</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_053Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_053</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_054">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.025</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_054Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_054</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_055">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.08</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_055Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_055</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_056">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.135</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_056Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_056</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_057">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.19</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_057Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_057</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_058">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.245</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_058Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_058</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_059">
+        <Properties>
+          <string name="Name">RearSlideSerration</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.25</Y>
+            <Z>0.018</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.224</X>
+            <Y>0.285</Y>
+            <Z>-0.3</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3843137254901961</R>
+            <G>0.41568627450980394</G>
+            <B>0.4392156862745098</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_059Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_059</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_060">
+        <Properties>
+          <string name="Name">EjectionPortRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.19</Y>
+            <Z>0.35</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.224</X>
+            <Y>0.32</Y>
+            <Z>-0.57</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_060Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_060</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_061">
+        <Properties>
+          <string name="Name">BreechFace</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.08</Y>
+            <Z>0.27</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.232</X>
+            <Y>0.3</Y>
+            <Z>-0.57</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.49411764705882355</R>
+            <G>0.5294117647058824</G>
+            <B>0.5568627450980392</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_061Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_061</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_062">
+        <Properties>
+          <string name="Name">RearSightBase</string>
+          <Vector3 name="size">
+            <X>0.36</X>
+            <Y>0.06</Y>
+            <Z>0.15</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.53</Y>
+            <Z>0.26</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_062Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_062</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_063">
+        <Properties>
+          <string name="Name">RearSightEar</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.08</Y>
+            <Z>0.12</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.12</X>
+            <Y>0.59</Y>
+            <Z>0.26</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_063Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_063</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_064">
+        <Properties>
+          <string name="Name">RearSightEar</string>
+          <Vector3 name="size">
+            <X>0.09</X>
+            <Y>0.08</Y>
+            <Z>0.12</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.12</X>
+            <Y>0.59</Y>
+            <Z>0.26</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_064Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_064</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_065">
+        <Properties>
+          <string name="Name">FrontSight</string>
+          <Vector3 name="size">
+            <X>0.06</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.555</Y>
+            <Z>-1.33</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_065Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_003</Ref>
+            <Ref name="Part1">Service1911_Prototype_065</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="Service1911_PrototypeHammer">
+      <Properties>
+        <string name="Name">Hammer</string>
+      </Properties>
+      <Item class="Part" referent="Service1911_Prototype_004">
+        <Properties>
+          <string name="Name">HammerPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.24</Y>
+            <Z>0.37</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="Service1911_Prototype_004Joint">
+          <Properties>
+            <string name="Name">Hammer</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_004</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.24</Y>
+              <Z>0.37</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_069">
+        <Properties>
+          <string name="Name">HammerSpur</string>
+          <Vector3 name="size">
+            <X>0.15</X>
+            <Y>0.12</Y>
+            <Z>0.19</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.32</Y>
+            <Z>0.46</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.91354546</R11>
+            <R12>0.40673664</R12>
+            <R20>-0.0</R20>
+            <R21>-0.40673664</R21>
+            <R22>0.91354546</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.396078431372549</R>
+            <G>0.43137254901960786</G>
+            <B>0.4588235294117647</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_069Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_004</Ref>
+            <Ref name="Part1">Service1911_Prototype_069</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_070">
+        <Properties>
+          <string name="Name">HammerStem</string>
+          <Vector3 name="size">
+            <X>0.14</X>
+            <Y>0.2</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.24</Y>
+            <Z>0.4</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_070Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_004</Ref>
+            <Ref name="Part1">Service1911_Prototype_070</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="Service1911_PrototypeMagazine">
+      <Properties>
+        <string name="Name">Magazine</string>
+      </Properties>
+      <Item class="Part" referent="Service1911_Prototype_005">
+        <Properties>
+          <string name="Name">MagazinePivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.68</Y>
+            <Z>0.26</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="Service1911_Prototype_005Joint">
+          <Properties>
+            <string name="Name">Magazine</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_005</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>-0.68</Y>
+              <Z>0.26</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_071">
+        <Properties>
+          <string name="Name">MagazineBody</string>
+          <Vector3 name="size">
+            <X>0.29</X>
+            <Y>0.91</Y>
+            <Z>0.35</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.7</Y>
+            <Z>0.3</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.30196078431372547</R>
+            <G>0.32941176470588235</G>
+            <B>0.35294117647058826</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_071Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_005</Ref>
+            <Ref name="Part1">Service1911_Prototype_071</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_072">
+        <Properties>
+          <string name="Name">MagazineBase</string>
+          <Vector3 name="size">
+            <X>0.4</X>
+            <Y>0.07</Y>
+            <Z>0.48</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-1.2</Y>
+            <Z>0.45</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.9612617</R11>
+            <R12>0.27563736</R12>
+            <R20>-0.0</R20>
+            <R21>-0.27563736</R21>
+            <R22>0.9612617</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_072Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_005</Ref>
+            <Ref name="Part1">Service1911_Prototype_072</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="Service1911_PrototypeCartridge">
+      <Properties>
+        <string name="Name">Cartridge</string>
+      </Properties>
+      <Item class="Part" referent="Service1911_Prototype_006">
+        <Properties>
+          <string name="Name">CartridgePivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.65</X>
+            <Y>-0.72</Y>
+            <Z>0.25</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="Service1911_Prototype_006Joint">
+          <Properties>
+            <string name="Name">Cartridge</string>
+            <Ref name="Part0">Service1911_Prototype_002</Ref>
+            <Ref name="Part1">Service1911_Prototype_006</Ref>
+            <CoordinateFrame name="C0">
+              <X>-0.65</X>
+              <Y>-0.72</Y>
+              <Z>0.25</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_073">
+        <Properties>
+          <string name="Name">SingleCartridge</string>
+          <Vector3 name="size">
+            <X>0.22</X>
+            <Y>0.09</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.65</X>
+            <Y>-0.72</Y>
+            <Z>0.25</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6470588235294118</R>
+            <G>0.5098039215686274</G>
+            <B>0.23921568627450981</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_073Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_006</Ref>
+            <Ref name="Part1">Service1911_Prototype_073</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Service1911_Prototype_074">
+        <Properties>
+          <string name="Name">CartridgeTip</string>
+          <Vector3 name="size">
+            <X>0.05</X>
+            <Y>0.08</Y>
+            <Z>0.08</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.65</X>
+            <Y>-0.72</Y>
+            <Z>0.12</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6235294117647059</R>
+            <G>0.4392156862745098</G>
+            <B>0.2901960784313726</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Service1911_Prototype_074Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Service1911_Prototype_006</Ref>
+            <Ref name="Part1">Service1911_Prototype_074</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>
