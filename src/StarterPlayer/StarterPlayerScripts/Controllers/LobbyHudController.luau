@@ -3,8 +3,9 @@
 --     Progression and coins do not exist yet, so those fields say so instead of
 --     showing made-up numbers. Clicking the profile opens the Profile menu.
 --   * Bottom centre: PLAY GAME above the five tiles STORE / INVENTORY / MODES /
---     STATS / SETTINGS. Tiles open menus through MenuController. Features that
---     do not exist yet are shown disabled with a SOON tag.
+--     STATS / SETTINGS. Tiles open menus through MenuController. PLAY GAME and
+--     MODES open the same mode screen ("Play"). Features that do not exist yet
+--     are shown disabled with a SOON tag.
 --   * Profile menu ("Profile", also the STATS tile): statistics and equipped
 --     cosmetics, again only real data.
 -- Everything is hidden outside the lobby (match, practice, dead), and PLAY GAME
@@ -31,7 +32,7 @@ local UNAVAILABLE = "Not available yet"
 local TILES = {
 	{ Name = "Store", Icon = "Store", Menu = "Store" },
 	{ Name = "Inventory", Icon = "Inventory", Menu = nil },
-	{ Name = "Modes", Icon = "Modes", Menu = nil },
+	{ Name = "Modes", Icon = "Modes", Menu = "Play" },
 	{ Name = "Stats", Icon = "Stats", Menu = "Profile" },
 	{ Name = "Settings", Icon = "Settings", Menu = nil },
 }
@@ -187,22 +188,15 @@ local function buildHotbar()
 		Name = "PlayGame",
 		Text = "PLAY GAME",
 		TextSize = 24,
-		Style = "disabled",
+		Style = "primary",
 		AnchorPoint = Vector2.new(0.5, 1),
 		Position = UDim2.new(0.5, 0, 1, -(Theme.Space.M + 84 + Theme.Space.S)),
 		Size = UDim2.fromOffset(276, 52),
 	})
-	Components.tag(playButton, "SOON")
-	Components.label(playButton, {
-		Name = "Hint",
-		Text = "Use the 1v1 pads for now",
-		TextSize = 11,
-		TextColor3 = C.TextDisabled,
-		TextXAlignment = Enum.TextXAlignment.Center,
-		AnchorPoint = Vector2.new(0, 1),
-		Position = UDim2.new(0, 0, 1, -2),
-		Size = UDim2.new(1, 0, 0, 12),
-	})
+	-- PLAY GAME and the MODES tile open the same mode screen (PlayController)
+	playButton.Activated:Connect(function()
+		MenuController.Open("Play")
+	end)
 end
 
 local function statRow(parent, order, name, value, nameWidth)
@@ -277,7 +271,7 @@ local function refresh()
 	local eligible = MenuController.IsLobbyEligible()
 	local open = MenuController.Current()
 	profileButton.Visible = eligible
-	hotbar.Visible = eligible
+	hotbar.Visible = eligible and open ~= "Play" -- the mode screen is a focused screen
 	playButton.Visible = eligible and open == nil
 	for menu, tile in tiles do
 		local stroke = tile:FindFirstChildOfClass("UIStroke")

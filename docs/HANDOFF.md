@@ -37,7 +37,7 @@ Everything that matters is decided on the server. Clients send only "I pulled th
 | `Location` | `LocationService` | `"Lobby"`, `"Practice"` or `"Match"`. The only place this is decided. |
 | `MatchId`, `Team`, `Round`, `ScoreBlue`, `ScoreRed`, `MatchPhase`, `PhaseEndsAt`, `RoundResult`, `MatchResult` | `MatchService` | Match state. |
 | `InMatch` | `MatchService` | Alive in the current round, holding weapons. |
-| `Queue` | `MatchmakingService` | "1v1 Blue" / "1v1 Red" while standing on a pad. |
+| `Queue`, `QueueSource` | `MatchmakingService` | Mode id (e.g. "1v1") while queued; "Pad" or "Menu". |
 | `Ammo` | `CombatService` | Read-only copy of the server's bullet count. |
 | character `SpawnCFrame` | `MatchService` / `LocationService` | Which way the client turns the camera after a move. |
 
@@ -46,7 +46,13 @@ Everything that matters is decided on the server. Clients send only "I pulled th
 ### Server services (`ServerScriptService.Services`, started by `Init`)
 
 - **MatchService** — best-of-five 1v1, phases Starting → Countdown → Combat → RoundEnd → … → Result → lobby. `CanAttack` and `CanDamage` hold the match combat rules. Change this round: `StartMatch` refuses a player whose `Location` is `"Practice"`.
-- **MatchmakingService** — polls the 1v1 pads every 0.2 s. Changes this round: it never queues a practice player, and it gained `Release(player)`.
+- **MatchmakingService** — the single server-owned queue (rewritten 2026-10-30, Stage 3; the pre-change copy is in `ServerStorage.Backups.PreUnifiedQueue_2026-10-30`).
+  - Pads and the Play Game menu (`Remotes.Queue`: `"Join", modeId` / `"Leave"`) both join the same per-mode queue. A player can be queued once; a second join is rejected ("Already queued").
+  - **Teams are no longer chosen by pad colour.** When enough players are queued and the arena is free, the longest-waiting players are shuffled and split into Blue and Red. `MatchService` keeps those teams for every round. This is an intentional change from the earlier "Blue pad = Blue team" rule.
+  - **Pad behaviour:** standing on either pad of a mode joins that mode's queue (source "Pad"). **Stepping off the pads removes a pad-joined player.** A menu-joined player is not affected by pads.
+  - Pressing Leave while standing on a pad does not requeue the player: pads ignore them until they have stepped off all pads once.
+  - A player also leaves the queue on death, disconnect, practice entry (`Release`) or being put in a match.
+  - Menu requests are rejected with a reason for: disabled mode, not in the lobby, dead, in a match, already queued, or less than 0.5 s since the last request.
 - **CombatService** — pistol and knife validation, server raycasts, eliminations and the one-bullet reward. Changes this round: `AddPolicy({CanAttack, CanDamage})` lets other services add narrow extra rules, which are checked after the match rules; `RefillAmmo(player)` was added.
 - **LoadoutService** — gives or removes the pistol and knife when `IsArmed` changes.
 - **RespawnService** — the only loader of non-match characters (death in the lobby or in practice → a new lobby character after 3 s).
@@ -152,7 +158,7 @@ Re-checked after the fixes: 0/36 open spawn-to-spawn sight lines on each map, st
 2. The practice room is plain, functional geometry (charcoal concrete, lane dividers, signs, warm lights). It has not had a visual pass.
 3. Container Yard tunnels are very dark inside, which hurts readability.
 4. The 1911's grip cannot be coloured separately (single mesh).
-5. The camera sits at the pad for one frame at the start of the countdown before turning to face the spawn (cosmetic, pre-existing).
+5. Fixed 2026-10-30: the camera used to show the old position (lobby pad) for a moment when a round started. A dark "SpawnCover" now covers loading until the camera has reached the spawn.
 6. Map choice is a manual setting; only one match can run at a time.
 7. Pushes from Claude's session to GitHub are refused; see the commit note in the PR or bundle.
 

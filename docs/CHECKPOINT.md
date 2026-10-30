@@ -1,84 +1,71 @@
-# Checkpoint — 2026-10-30 (UI stages 1–2)
+# Checkpoint — 2026-10-30 (Stage 3: Play Game and unified queue)
 
-Studio place: "One In The Chamber", Team Create, **not published**. The Studio scripts match `src/` exactly (lengths were checked after every edit). See `docs/HANDOFF.md` for the full architecture and the earlier shop/practice/map results.
+Studio place: "One In The Chamber", Team Create, **not published**. The Studio scripts match `src/` (byte lengths checked after every edit). Architecture and earlier results are in `docs/HANDOFF.md`.
 
-## Completed this session
+Backups in `ServerStorage.Backups`:
+- `PreUIFoundation_2026-10-30`
+- `PreUnifiedQueue_2026-10-30`: all services, shared config, client controllers and UI, saved before this stage.
 
-**UI stage 1: shared foundation**
+## Completed
 
-New modules:
-- `StarterPlayerScripts/UI/Theme`: the colour, spacing and text tokens from `ui/README.md`.
-- `UI/Components`: shared building blocks.
-  - ScreenGui factory with safe-area insets (`CoreUISafeInsets`), uniform scaling for small screens, and one GUI per session.
-  - Buttons with primary, secondary and disabled styles.
-  - Standard menu panel (title, tab row, X).
-  - SOON / PREVIEW tags.
-- `UI/Icons`: one original icon set drawn from Frames: Store, Inventory, Modes (two pistols), Stats, Settings.
-- `Controllers/MenuController`: the single owner of which menu is open.
-  - Opening one menu closes the current one.
-  - Open menus close automatically when the player is in a match, in practice or dead.
-  - Menus never lock the camera or input.
+**Stale spawn camera (fixed).** `CameraController` now has a dark "SpawnCover" screen. It shows while a round is loading (Starting), and during the Countdown until the camera itself has reached the spawn. The match HUD ("ROUND n") still draws on top of it.
 
-**UI stage 2: lobby**
+**Unified queue: `MatchmakingService` rewritten.**
+- One server-owned queue per mode, shared by the pads and the menu, with duplicate-join rejection.
+- Join requests are validated and rate-limited.
+- Teams are assigned at random by the server and stay fixed between rounds; pad colour no longer decides the team.
+- Pad rules:
+  - stepping off removes a player who joined on a pad;
+  - Leave pressed while on a pad doesn't requeue until the player steps off;
+  - menu-joined players are unaffected by pads.
+- New `Remotes.Queue`.
+- `MatchConfig.Modes`: 1v1 is enabled; 2v2, 3v3 and 4v4 are listed but disabled.
 
-- `Controllers/LobbyHudController` (new):
-  - Top-left profile: avatar, name, level, XP bar and coins. Progression and coins don't exist yet, so they say "not available yet".
-  - Bottom PLAY GAME button with five tiles.
-  - Profile/Stats menu: statistics show "Not available yet"; the equipped section shows the real standard 1911 and karambit.
-  - Hidden outside the lobby. PLAY GAME is hidden while a menu is open.
-- `Controllers/ShopController` (rewritten):
-  - It is now the "Store" menu: centred, with a 3-column grid of preview cards that use live ViewportFrame renders of the real 1911 and karambit.
-  - The hotbar tile and the walk-in shop zone open the same menu.
-  - Closing while inside the shop keeps the menu closed until the player leaves and comes back; hysteresis and controller B are kept.
-  - Everything is marked UNAVAILABLE / PREVIEW.
-- Backup taken before the changes: `ServerStorage.Backups.PreUIFoundation_2026-10-30` (old controllers).
-- Screenshots: `docs/screenshots/ui_store_menu.jpg`, `ui_profile_menu.jpg`, `ui_lobby_hud_after_match.jpg`, `practice_room.jpg`.
+**Play Game screen: new `PlayController` (menu "Play").**
+- PLAY GAME and the MODES tile open it, and the hotbar hides while it is open.
+- Four mode cards: 1v1 is selectable; the others show COMING SOON.
+- QUEUE FOR MATCH / LEAVE QUEUE.
+- Status shows not queued, joining/leaving (pending), "In the 1v1 queue (joined on a pad / joined here)", and rejected with the server's reason. A pending request that gets no answer times out.
+- No team choice and no fake wait times or counts.
+- Screenshots: `docs/screenshots/ui_play_screen.jpg`, `ui_play_queued.jpg`.
 
 ## Tests
 
 **Passed**
 
 - Solo:
-  - Store tile opens the Store; the Stats tile replaces it with the Profile menu (one menu at a time). X closes.
-  - The profile card opens Profile.
-  - Walking into the shop opens the Store. After Profile replaced it inside the shop, walking around inside did not reopen it. Leaving and re-entering reopened it.
-  - Entering practice hides the HUD and closes menus; returning through the LOBBY door shows them again.
-  - Death with a menu open closes it; respawn shows the HUD again.
-  - No duplicate GUIs.
-- 2 clients (recorded every frame on Player2):
-  - The Store was open when the match started; it closed at match start.
-  - Hotbar, profile and PLAY GAME stayed hidden through Starting, Countdown, Combat, RoundEnd, spectating and Result.
-  - First person in combat and Classic camera otherwise.
-  - The 3–1 match completed, and the HUD came back in the lobby. No duplicate GUIs.
+  - Play screen opens and the hotbar hides. Join leads to "In the 1v1 queue (joined here)". Two quick clicks did Join and then Leave, never a double join.
+  - A menu-joined player stepping on a pad stays a menu entry; stepping off doesn't remove them.
+  - A duplicate menu join is rejected.
+  - Pad join, then Leave while on the pad: not requeued while standing there, nor after moving to the other pad. After stepping off and back on, they join again.
+  - A pad-joined player who steps off is removed.
+  - Join while in practice is rejected ("Return to the lobby to queue"). Join for 2v2 is rejected (not available).
+- 2 clients:
+  - Random teams: over 4 matches, the Blue-pad player was Red twice, Blue once, then Red again.
+  - Race: a menu-queued player walked into practice in the same server step the opponent stepped on a pad. Result: Practice for one, still queued for the other, no match. After returning, the match started normally.
+  - Teams were identical in all 5 rounds of a 3–2 match.
+  - Full best-of-five 3–2 and 3–1 matches completed and returned to the lobby.
+  - Both perspectives: a Red player won (Victory) and a Blue player lost (Defeat), each from their own side.
+  - Spawn cover: 0 frames of stale camera on either client across a 5-round match. (The first attempt still showed 1 frame before the round started; that is fixed and retested.)
+- Earlier stages (shop, practice, the UI foundation, the lobby screen) are unchanged by this stage, apart from the HUD visibility rule for the Play screen.
 
-**Not run**
+**Not run / untested platforms**
 
-- Real touch screen and a physical gamepad.
-- Very small phone viewports. Scaling was only seen at Studio's window size.
-- Visual check of the Modes / Inventory icons at large size.
+- Mobile/touch and gamepad on real devices (controller B closes the Play screen; only simulated in Studio).
+- Small phone viewports.
+- 2v2–4v4 (disabled; MatchService is still 1v1 only).
+- Disconnect while queued was only covered by code review (`PlayerRemoving` removes the player).
 
 **Failed:** none outstanding.
 
-## Not started (in order)
+## Next stage (approved)
 
-- Stage 3: Play Game mode cards and a unified menu+pad queue with server random teams.
-- Stage 4: inventory and skins.
-- Stage 5: store details and categories.
-- Stage 6: sleek match/practice HUD.
-- Stage 7: spectate-a-living-player.
-- From the newer brief: weapon prototype review, Python skin workflow, six team maps, team modes.
+Build the **player-data save system** as its own stage before persistent inventory:
+- a `DataService` using Roblox DataStoreService;
+- a versioned schema (inventory, equipped skins, room for progression);
+- `UpdateAsync` for safe writes, with retry and backoff;
+- session locking, and a "loaded" flag so a failed load never saves over good data;
+- a separate Studio store name or scope, so tests never touch production data;
+- developer-only test grants, with no crates or purchases.
 
-Docs from the newer brief not yet read: `weapons/README.md`, `weapons/WESTERN_AND_KNIVES.md`, `maps/team_maps/CLAUDE_HANDOFF.md`.
-
-## Blockers / limitations
-
-- **Git push from Claude's session is refused** (the Claude GitHub App has no write access to `Smerfoe/Roblox-Game-One-In-The-Chamber`). The commits are on local branch `claude/shop-practice-maps`, rebased on `main` @ d04f671, and delivered as a git bundle. To land them, run `git fetch <bundle> claude/shop-practice-maps` and push, or install/re-link the Claude GitHub App.
-- No player-data/progression service exists. That makes level, XP, coins, stats, skin ownership and persistence unavailable, and stage 4 needs a decision on the data layer: the brief says "persist only through the existing data layer", and there isn't one.
-
-## Exact next task
-
-Stage 3, unified queue:
-1. Replace the colour-specific 1v1 pad slots in `MatchmakingService` with one server-owned mode queue. The pads become "join 1v1 queue" (keep the visuals); the Play Game/Modes menu sends Join/Leave through one new RemoteEvent; duplicate joins are rejected.
-2. In `MatchService.StartMatch`, assign Blue/Red randomly once per match; teams stay fixed for all rounds.
-3. Build the mode-card screen (1v1 enabled; 2v2–4v4 "Coming soon") with queue status and Leave.
-4. Test with 2 clients: pad+menu deduplication, leaving, races with practice entry, both team perspectives, and the full best-of-five regressions.
+After that comes Stage 4, inventory and skins.
