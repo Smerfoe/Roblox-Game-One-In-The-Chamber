@@ -10,6 +10,8 @@ The user approved the revised UI direction and requested delivery to Claude thro
 4. `concepts/MatchAndPractice.png`: latest sleek round result, match result, active HUD and practice. Supersedes the older bulky results board.
 5. `concepts/Spectating.png`: latest dedicated 1v1 spectator view.
 
+6. `concepts/PlayerProfile.png`: latest expanded player profile, with stats left and CURRENT LOADOUT right. Follow **[PROFILE_HANDOFF.md](PROFILE_HANDOFF.md)**; this supersedes the older tabbed profile proposal.
+
 Written requirements below override image-generation inaccuracies. Background scenery, weapon artwork, avatar appearances, prices, XP and balances are illustrative, not approved assets or actual player data. Do not replicate the incidental map/lobby changes in these images. Keep the approved single-floor lobby and existing match geometry.
 
 ## Shared design and implementation
@@ -23,6 +25,8 @@ Use safe-area-aware layouts so the profile and close buttons never overlap Roblo
 Use one menu state owner: opening one menu closes another; close/back behavior is predictable. No repeated event connections or stacked ScreenGuis on respawn. Lobby menus must close and release input when entering match/countdown/spectating. Use existing controllers and server attributes instead of competing state loops. Menu previews cannot authorize any gameplay action.
 
 ## Lobby and profile
+
+The dedicated expanded profile is now specified in **[PROFILE_HANDOFF.md](PROFILE_HANDOFF.md)** and shown in `concepts/PlayerProfile.png`. Backstabs replaces Revives; current pistol/knife/skins replace achievement cards. Sample numbers are not live data.
 
 Bottom center: prominent **PLAY GAME** button above five tiles **STORE / INVENTORY / MODES / STATS / SETTINGS**. Modes uses a pistol or two pistols; Play Game and Modes open the SAME mode-selection screen, not separate queue systems. Selected tab should remain clear. Hide Play Game while a menu is open; hotbar may stay on ordinary lobby menus, but hide it on the focused queue screen and all match/practice screens.
 

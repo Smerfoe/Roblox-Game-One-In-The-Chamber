@@ -6,6 +6,8 @@ The pack now includes the Python-style revolver, machete and literal butter knif
 
 The pack now also includes the repeater, Old West revolver, Deagle-style heavy pistol, butterfly knife and Bowie-style hunting knife. Read **[WESTERN_AND_KNIVES.md](WESTERN_AND_KNIVES.md)** for the new batch. The current preview pack cycles **ten** weapons.
 
+Before replacing any working weapon, use **[QUALITY_CHECKLIST.md](QUALITY_CHECKLIST.md)** and record evidence in **[QUALITY_STATUS.md](QUALITY_STATUS.md)**. Python finish preparation is in **[concepts/PYTHON_PRODUCTION_BRIEF.md](concepts/PYTHON_PRODUCTION_BRIEF.md)**; no first finish is selected or production texture delivered by that document.
+
 ## What is built
 
 - **Service1911_Prototype:** 74 native parts/wedges, separate wood grips, slide, hammer, magazine and one cartridge prop; rounded trigger guard, grip screws, slide serrations, sight details and muzzle inset.
