@@ -1,0 +1,14 @@
+CanalWorks: PASS — 985 instances; 682 new parts; original instance properties preserved
+ContainerYard: PASS — 6252 instances; new collision layout (Studio tests required)
+Crosscut: PASS — 59 instances; 10 new parts; original instance properties preserved
+Foundry: PASS — 1464 instances; 995 new parts; original instance properties preserved
+FreightTerminal: PASS — 1405 instances; 1155 new parts; original instance properties preserved
+MetroExchange: PASS — 1018 instances; 733 new parts; original instance properties preserved
+PumpHouse: PASS — 483 instances; 332 new parts; original instance properties preserved
+Skyline: PASS — 1089 instances; 735 new parts; original instance properties preserved
+TestingGrounds: PASS — 754 instances; 625 new parts; original instance properties preserved
+
+No Studio tests were run by this validator.
+ContainerYard: PASS — 3-stud-wide ground connection between spawns; 18/18 sampled initial rays blocked.
+Deterministic rebuild: PASS for all nine XML models, manifests and build report.
+Python source compilation: PASS.

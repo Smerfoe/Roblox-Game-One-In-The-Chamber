@@ -1,0 +1,347 @@
+{
+  "name": "Crosscut",
+  "source": "maps/team_maps/models/Crosscut.rbxmx",
+  "source_sha256": "c293dbd7ff7a4ea1469bf8258ebc0048c6be106d17842f0173cb0b46618986ea",
+  "baseline_instances": 47,
+  "added_parts": 10,
+  "zones": {
+    "SimpleAccents": 10
+  },
+  "parts": [
+    {
+      "name": "SimpleWallCap",
+      "position": [
+        -37.0,
+        12.06,
+        43.0
+      ],
+      "size": [
+        2.0,
+        0.12,
+        14.0
+      ],
+      "color": [
+        105,
+        120,
+        126
+      ],
+      "material": "Plastic",
+      "zone": "SimpleAccents",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SimpleWallCap",
+      "position": [
+        37.0,
+        12.06,
+        -43.0
+      ],
+      "size": [
+        2.0,
+        0.12,
+        14.0
+      ],
+      "color": [
+        105,
+        120,
+        126
+      ],
+      "material": "Plastic",
+      "zone": "SimpleAccents",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SimpleWallCap",
+      "position": [
+        -20.0,
+        12.06,
+        -24.0
+      ],
+      "size": [
+        4.0,
+        0.12,
+        20.0
+      ],
+      "color": [
+        105,
+        120,
+        126
+      ],
+      "material": "Plastic",
+      "zone": "SimpleAccents",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SimpleWallCap",
+      "position": [
+        -20.0,
+        12.06,
+        15.0
+      ],
+      "size": [
+        4.0,
+        0.12,
+        34.0
+      ],
+      "color": [
+        105,
+        120,
+        126
+      ],
+      "material": "Plastic",
+      "zone": "SimpleAccents",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SimpleWallCap",
+      "position": [
+        11.0,
+        12.06,
+        2.0
+      ],
+      "size": [
+        18.0,
+        0.12,
+        4.0
+      ],
+      "color": [
+        105,
+        120,
+        126
+      ],
+      "material": "Plastic",
+      "zone": "SimpleAccents",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SimpleWallCap",
+      "position": [
+        43.0,
+        12.06,
+        2.0
+      ],
+      "size": [
+        22.0,
+        0.12,
+        4.0
+      ],
+      "color": [
+        105,
+        120,
+        126
+      ],
+      "material": "Plastic",
+      "zone": "SimpleAccents",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SimpleWallCap",
+      "position": [
+        18.0,
+        12.06,
+        -34.0
+      ],
+      "size": [
+        4.0,
+        0.12,
+        24.0
+      ],
+      "color": [
+        105,
+        120,
+        126
+      ],
+      "material": "Plastic",
+      "zone": "SimpleAccents",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SimpleWallCap",
+      "position": [
+        -41.0,
+        12.06,
+        -13.0
+      ],
+      "size": [
+        8.0,
+        0.12,
+        8.0
+      ],
+      "color": [
+        105,
+        120,
+        126
+      ],
+      "material": "Plastic",
+      "zone": "SimpleAccents",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SimpleWallCap",
+      "position": [
+        43.0,
+        12.06,
+        20.0
+      ],
+      "size": [
+        8.0,
+        0.12,
+        8.0
+      ],
+      "color": [
+        105,
+        120,
+        126
+      ],
+      "material": "Plastic",
+      "zone": "SimpleAccents",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "StuddedBackdropBase",
+      "position": [
+        0,
+        -2.5,
+        0
+      ],
+      "size": [
+        168,
+        1,
+        152
+      ],
+      "color": [
+        116,
+        132,
+        110
+      ],
+      "material": "Plastic",
+      "zone": "SimpleAccents",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "status": "External build. Not imported or tested in Roblox Studio.",
+  "footprint": [
+    128,
+    112
+  ]
+}

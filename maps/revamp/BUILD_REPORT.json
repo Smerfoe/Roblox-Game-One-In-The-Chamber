@@ -1,0 +1,208 @@
+[
+  {
+    "name": "Foundry",
+    "source": "maps/revamp/sources/Foundry_Current.rbxmx",
+    "source_sha256": "76172661d0dd1d9df1ad001307985896781c75cb99a1f60de87e8a99fb0c673b",
+    "baseline_instances": 425,
+    "added_parts": 995,
+    "zones": {
+      "WallDetails": 12,
+      "ServicePanels": 20,
+      "Furnace_01": 65,
+      "OverheadExtraction": 30,
+      "ExteriorPlant": 12,
+      "Furnace_02": 65,
+      "Structure": 40,
+      "FunctionalLighting": 6,
+      "WallServices": 216,
+      "FloorFinish": 50,
+      "Backdrop": 287,
+      "ExteriorWorkshop": 18,
+      "ExteriorCargo": 116,
+      "RoofEquipment": 24,
+      "CoverFurniture": 34
+    },
+    "status": "External build. Not imported or tested in Roblox Studio.",
+    "footprint": [
+      104,
+      92
+    ]
+  },
+  {
+    "name": "ContainerYard",
+    "source": null,
+    "source_sha256": null,
+    "baseline_instances": 0,
+    "added_parts": 6052,
+    "zones": {
+      "GameplayShell": 7,
+      "PerimeterContainerFacade": 1200,
+      "ContainerConstruction": 3068,
+      "SpawnMarkers": 2,
+      "YardSurface": 74,
+      "NewGameplayCargo": 66,
+      "NewGameplayForklift": 18,
+      "PortBackdrop": 1346,
+      "ExteriorCargo": 174,
+      "ExteriorForklift": 36,
+      "PortCranes": 28,
+      "PortLighting": 32,
+      "OriginMarker": 1
+    },
+    "status": "External build. Not imported or tested in Roblox Studio.",
+    "footprint": [
+      136,
+      136
+    ]
+  },
+  {
+    "name": "FreightTerminal",
+    "source": "maps/team_maps/models/FreightTerminal.rbxmx",
+    "source_sha256": "8785ea7b7ddb0fe430f3245a3b30b8ca40c54326ac9a7dec7bbabaaebb1947ac",
+    "baseline_instances": 205,
+    "added_parts": 1155,
+    "zones": {
+      "BoundaryFinish": 128,
+      "FloorFinish": 17,
+      "CargoConstruction": 62,
+      "WallDetails": 6,
+      "RoofEquipment": 12,
+      "WarehouseStructure": 18,
+      "FunctionalLighting": 3,
+      "Backdrop": 727,
+      "ExteriorCargo": 132,
+      "ExteriorForklift": 36,
+      "CoverFurniture": 14
+    },
+    "status": "External build. Not imported or tested in Roblox Studio.",
+    "footprint": [
+      112,
+      88
+    ]
+  },
+  {
+    "name": "CanalWorks",
+    "source": "maps/team_maps/models/CanalWorks.rbxmx",
+    "source_sha256": "55b9817db9bc358c5efe43b7592d5a0daa533dd03715c67b76a69f67f787911e",
+    "baseline_instances": 294,
+    "added_parts": 682,
+    "zones": {
+      "BoundaryFinish": 240,
+      "FloorFinish": 24,
+      "WaterInfrastructure": 82,
+      "Backdrop": 142,
+      "CanalBackdrop": 60,
+      "PumpStation": 18,
+      "ExteriorCargo": 48,
+      "CoverFurniture": 68
+    },
+    "status": "External build. Not imported or tested in Roblox Studio.",
+    "footprint": [
+      138,
+      114
+    ]
+  },
+  {
+    "name": "MetroExchange",
+    "source": "maps/team_maps/models/MetroExchange.rbxmx",
+    "source_sha256": "9528689e17c71b742c1b45172e47614703cb2a27f9bd47b35a3784bb7147bd3d",
+    "baseline_instances": 250,
+    "added_parts": 733,
+    "zones": {
+      "BoundaryFinish": 317,
+      "StationRoof": 59,
+      "StationWayfinding": 12,
+      "Backdrop": 153,
+      "PlatformBackdrop": 166,
+      "CoverFurniture": 26
+    },
+    "status": "External build. Not imported or tested in Roblox Studio.",
+    "footprint": [
+      120,
+      96
+    ]
+  },
+  {
+    "name": "Skyline",
+    "source": "maps/team_maps/models/Skyline.rbxmx",
+    "source_sha256": "6bef8715e468f523fe87a26e8d92eae3ca94cf3ee4f780edab0188bcc9ab97f0",
+    "baseline_instances": 340,
+    "added_parts": 735,
+    "zones": {
+      "BoundaryFinish": 94,
+      "FloorFinish": 22,
+      "RoofEquipment": 72,
+      "PlantFacades": 54,
+      "RoofDucts": 4,
+      "TowerFacade": 171,
+      "CityBackdrop": 259,
+      "RoofAntennas": 8,
+      "CoverFurniture": 51
+    },
+    "status": "External build. Not imported or tested in Roblox Studio.",
+    "footprint": [
+      144,
+      96
+    ]
+  },
+  {
+    "name": "Crosscut",
+    "source": "maps/team_maps/models/Crosscut.rbxmx",
+    "source_sha256": "c293dbd7ff7a4ea1469bf8258ebc0048c6be106d17842f0173cb0b46618986ea",
+    "baseline_instances": 47,
+    "added_parts": 10,
+    "zones": {
+      "SimpleAccents": 10
+    },
+    "status": "External build. Not imported or tested in Roblox Studio.",
+    "footprint": [
+      128,
+      112
+    ]
+  },
+  {
+    "name": "TestingGrounds",
+    "source": "maps/models/TestingGrounds.rbxmx",
+    "source_sha256": "25d6942db130303650bf1e15f3da6676b359b7e3a406c0e2beed895f1579cb8d",
+    "baseline_instances": 88,
+    "added_parts": 625,
+    "zones": {
+      "FloorFinish": 7,
+      "TrainingStructure": 7,
+      "TrainingWayfinding": 6,
+      "Backdrop": 169,
+      "ExteriorCargo": 90,
+      "CompoundStorage": 314,
+      "CompoundLighting": 8,
+      "CoverFurniture": 24
+    },
+    "status": "External build. Not imported or tested in Roblox Studio.",
+    "footprint": [
+      76,
+      68
+    ]
+  },
+  {
+    "name": "PumpHouse",
+    "source": "maps/models/PumpHouse.rbxmx",
+    "source_sha256": "91856ff75bd1ae27ac9401a6b57d3b86908c7822dcbeac0bf95d6d12f1f5361e",
+    "baseline_instances": 139,
+    "added_parts": 332,
+    "zones": {
+      "FloorFinish": 7,
+      "TankConstruction": 20,
+      "HighPipelines": 8,
+      "PumpControls": 1,
+      "ServicePanels": 10,
+      "Backdrop": 202,
+      "ExteriorCargo": 64,
+      "WaterworksBackdrop": 12,
+      "CoverFurniture": 8
+    },
+    "status": "External build. Not imported or tested in Roblox Studio.",
+    "footprint": [
+      76,
+      68
+    ]
+  }
+]

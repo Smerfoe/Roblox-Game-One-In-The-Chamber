@@ -1,0 +1,1808 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="Crosscut">
+    <Properties>
+      <string name="Name">Crosscut</string>
+      <Ref name="PrimaryPart">Crosscut_0032</Ref>
+    </Properties>
+    <Item class="Folder" referent="CrosscutGround">
+      <Properties>
+        <string name="Name">Ground</string>
+      </Properties>
+      <Item class="Part" referent="Crosscut_0000">
+        <Properties>
+          <string name="Name">FoundationSlab</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>96</X>
+            <Y>2</Y>
+            <Z>88</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.615686274509804</R>
+            <G>0.6509803921568628</G>
+            <B>0.5843137254901961</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>16.0</X>
+            <Y>-1.0</Y>
+            <Z>-12.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0001">
+        <Properties>
+          <string name="Name">FoundationSlab</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>32</X>
+            <Y>2</Y>
+            <Z>88</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.615686274509804</R>
+            <G>0.6509803921568628</G>
+            <B>0.5843137254901961</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-48.0</X>
+            <Y>-1.0</Y>
+            <Z>12.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0002">
+        <Properties>
+          <string name="Name">FoundationSlab</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>64</X>
+            <Y>2</Y>
+            <Z>24</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.615686274509804</R>
+            <G>0.6509803921568628</G>
+            <B>0.5843137254901961</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-1.0</Y>
+            <Z>44.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Folder" referent="CrosscutBoundary">
+      <Properties>
+        <string name="Name">Boundary</string>
+      </Properties>
+      <Item class="Part" referent="Crosscut_0003">
+        <Properties>
+          <string name="Name">Boundary_E</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>1</X>
+            <Y>14</Y>
+            <Z>24</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>32.5</X>
+            <Y>7.0</Y>
+            <Z>44.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0004">
+        <Properties>
+          <string name="Name">Boundary_E</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>1</X>
+            <Y>14</Y>
+            <Z>88</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>64.5</X>
+            <Y>7.0</Y>
+            <Z>-12.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0005">
+        <Properties>
+          <string name="Name">Boundary_N</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>32</X>
+            <Y>14</Y>
+            <Z>1</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>48.0</X>
+            <Y>7.0</Y>
+            <Z>32.5</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0006">
+        <Properties>
+          <string name="Name">Boundary_N</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>96</X>
+            <Y>14</Y>
+            <Z>1</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-16.0</X>
+            <Y>7.0</Y>
+            <Z>56.5</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0007">
+        <Properties>
+          <string name="Name">Boundary_S</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>96</X>
+            <Y>14</Y>
+            <Z>1</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>16.0</X>
+            <Y>7.0</Y>
+            <Z>-56.5</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0008">
+        <Properties>
+          <string name="Name">Boundary_S</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>32</X>
+            <Y>14</Y>
+            <Z>1</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-48.0</X>
+            <Y>7.0</Y>
+            <Z>-32.5</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0009">
+        <Properties>
+          <string name="Name">Boundary_W</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>1</X>
+            <Y>14</Y>
+            <Z>88</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-64.5</X>
+            <Y>7.0</Y>
+            <Z>12.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0010">
+        <Properties>
+          <string name="Name">Boundary_W</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>1</X>
+            <Y>14</Y>
+            <Z>24</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-32.5</X>
+            <Y>7.0</Y>
+            <Z>-44.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Folder" referent="CrosscutArchitecture">
+      <Properties>
+        <string name="Name">Architecture</string>
+      </Properties>
+      <Item class="Part" referent="Crosscut_0011">
+        <Properties>
+          <string name="Name">Wall_00</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>2</X>
+            <Y>12</Y>
+            <Z>14</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-37.0</X>
+            <Y>6.0</Y>
+            <Z>43.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0012">
+        <Properties>
+          <string name="Name">Wall_01</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>2</X>
+            <Y>12</Y>
+            <Z>14</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>37.0</X>
+            <Y>6.0</Y>
+            <Z>-43.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0013">
+        <Properties>
+          <string name="Name">Wall_02</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>4</X>
+            <Y>12</Y>
+            <Z>20</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-20.0</X>
+            <Y>6.0</Y>
+            <Z>-24.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0014">
+        <Properties>
+          <string name="Name">Wall_03</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>4</X>
+            <Y>12</Y>
+            <Z>34</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-20.0</X>
+            <Y>6.0</Y>
+            <Z>15.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0015">
+        <Properties>
+          <string name="Name">Wall_04</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>18</X>
+            <Y>12</Y>
+            <Z>4</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>11.0</X>
+            <Y>6.0</Y>
+            <Z>2.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0016">
+        <Properties>
+          <string name="Name">Wall_05</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>22</X>
+            <Y>12</Y>
+            <Z>4</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>43.0</X>
+            <Y>6.0</Y>
+            <Z>2.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0017">
+        <Properties>
+          <string name="Name">Wall_06</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>4</X>
+            <Y>12</Y>
+            <Z>24</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>18.0</X>
+            <Y>6.0</Y>
+            <Z>-34.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0018">
+        <Properties>
+          <string name="Name">Wall_07</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>8</X>
+            <Y>12</Y>
+            <Z>8</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-41.0</X>
+            <Y>6.0</Y>
+            <Z>-13.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0019">
+        <Properties>
+          <string name="Name">Wall_08</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>8</X>
+            <Y>12</Y>
+            <Z>8</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>43.0</X>
+            <Y>6.0</Y>
+            <Z>20.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Folder" referent="CrosscutCover">
+      <Properties>
+        <string name="Name">Cover</string>
+      </Properties>
+      <Item class="Part" referent="Crosscut_0020">
+        <Properties>
+          <string name="Name">Wall_09</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>8</X>
+            <Y>3.2</Y>
+            <Z>4</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-1.0</X>
+            <Y>1.6</Y>
+            <Z>28.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0021">
+        <Properties>
+          <string name="Name">Wall_10</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">true</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>7</X>
+            <Y>3.2</Y>
+            <Z>4</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.6862745098039216</G>
+            <B>0.6666666666666666</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.5</X>
+            <Y>1.6</Y>
+            <Z>-35.0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Folder" referent="CrosscutSpawns">
+      <Properties>
+        <string name="Name">Spawns</string>
+      </Properties>
+      <Item class="Folder" referent="CrosscutBlue">
+        <Properties>
+          <string name="Name">Blue</string>
+        </Properties>
+        <Item class="Part" referent="Crosscut_0022">
+          <Properties>
+            <string name="Name">BlueSpawn01</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CastShadow">false</bool>
+            <float name="Transparency">1</float>
+            <float name="Reflectance">0</float>
+            <Vector3 name="size">
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.2196078431372549</R>
+              <G>0.3058823529411765</G>
+              <B>0.3568627450980392</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>-51.5</X>
+              <Y>3</Y>
+              <Z>40.5</Z>
+              <R00>0.65958989</R00>
+              <R01>0</R01>
+              <R02>-0.75162569</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0.75162569</R20>
+              <R21>0</R21>
+              <R22>0.65958989</R22>
+            </CoordinateFrame>
+            <token name="Material">272</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">3</token>
+            <token name="BottomSurface">0</token>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="Crosscut_0023">
+          <Properties>
+            <string name="Name">BlueSpawn02</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CastShadow">false</bool>
+            <float name="Transparency">1</float>
+            <float name="Reflectance">0</float>
+            <Vector3 name="size">
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.2196078431372549</R>
+              <G>0.3058823529411765</G>
+              <B>0.3568627450980392</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>-45.5</X>
+              <Y>3</Y>
+              <Z>46.5</Z>
+              <R00>0.65958989</R00>
+              <R01>0</R01>
+              <R02>-0.75162569</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0.75162569</R20>
+              <R21>0</R21>
+              <R22>0.65958989</R22>
+            </CoordinateFrame>
+            <token name="Material">272</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">3</token>
+            <token name="BottomSurface">0</token>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="Crosscut_0024">
+          <Properties>
+            <string name="Name">BlueSpawn03</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CastShadow">false</bool>
+            <float name="Transparency">1</float>
+            <float name="Reflectance">0</float>
+            <Vector3 name="size">
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.2196078431372549</R>
+              <G>0.3058823529411765</G>
+              <B>0.3568627450980392</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>-51.5</X>
+              <Y>3</Y>
+              <Z>46.5</Z>
+              <R00>0.65958989</R00>
+              <R01>0</R01>
+              <R02>-0.75162569</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0.75162569</R20>
+              <R21>0</R21>
+              <R22>0.65958989</R22>
+            </CoordinateFrame>
+            <token name="Material">272</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">3</token>
+            <token name="BottomSurface">0</token>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="Crosscut_0025">
+          <Properties>
+            <string name="Name">BlueSpawn04</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CastShadow">false</bool>
+            <float name="Transparency">1</float>
+            <float name="Reflectance">0</float>
+            <Vector3 name="size">
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.2196078431372549</R>
+              <G>0.3058823529411765</G>
+              <B>0.3568627450980392</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>-45.5</X>
+              <Y>3</Y>
+              <Z>40.5</Z>
+              <R00>0.65958989</R00>
+              <R01>0</R01>
+              <R02>-0.75162569</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0.75162569</R20>
+              <R21>0</R21>
+              <R22>0.65958989</R22>
+            </CoordinateFrame>
+            <token name="Material">272</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">3</token>
+            <token name="BottomSurface">0</token>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Folder" referent="CrosscutRed">
+        <Properties>
+          <string name="Name">Red</string>
+        </Properties>
+        <Item class="Part" referent="Crosscut_0027">
+          <Properties>
+            <string name="Name">RedSpawn01</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CastShadow">false</bool>
+            <float name="Transparency">1</float>
+            <float name="Reflectance">0</float>
+            <Vector3 name="size">
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4549019607843137</R>
+              <G>0.23921568627450981</G>
+              <B>0.19215686274509805</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>46.5</X>
+              <Y>3</Y>
+              <Z>-45.5</Z>
+              <R00>-0.65958989</R00>
+              <R01>0</R01>
+              <R02>0.75162569</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>-0.75162569</R20>
+              <R21>0</R21>
+              <R22>-0.65958989</R22>
+            </CoordinateFrame>
+            <token name="Material">272</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">3</token>
+            <token name="BottomSurface">0</token>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="Crosscut_0028">
+          <Properties>
+            <string name="Name">RedSpawn02</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CastShadow">false</bool>
+            <float name="Transparency">1</float>
+            <float name="Reflectance">0</float>
+            <Vector3 name="size">
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4549019607843137</R>
+              <G>0.23921568627450981</G>
+              <B>0.19215686274509805</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>52.5</X>
+              <Y>3</Y>
+              <Z>-39.5</Z>
+              <R00>-0.65958989</R00>
+              <R01>0</R01>
+              <R02>0.75162569</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>-0.75162569</R20>
+              <R21>0</R21>
+              <R22>-0.65958989</R22>
+            </CoordinateFrame>
+            <token name="Material">272</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">3</token>
+            <token name="BottomSurface">0</token>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="Crosscut_0029">
+          <Properties>
+            <string name="Name">RedSpawn03</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CastShadow">false</bool>
+            <float name="Transparency">1</float>
+            <float name="Reflectance">0</float>
+            <Vector3 name="size">
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4549019607843137</R>
+              <G>0.23921568627450981</G>
+              <B>0.19215686274509805</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>46.5</X>
+              <Y>3</Y>
+              <Z>-39.5</Z>
+              <R00>-0.65958989</R00>
+              <R01>0</R01>
+              <R02>0.75162569</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>-0.75162569</R20>
+              <R21>0</R21>
+              <R22>-0.65958989</R22>
+            </CoordinateFrame>
+            <token name="Material">272</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">3</token>
+            <token name="BottomSurface">0</token>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="Crosscut_0030">
+          <Properties>
+            <string name="Name">RedSpawn04</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CastShadow">false</bool>
+            <float name="Transparency">1</float>
+            <float name="Reflectance">0</float>
+            <Vector3 name="size">
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4549019607843137</R>
+              <G>0.23921568627450981</G>
+              <B>0.19215686274509805</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>52.5</X>
+              <Y>3</Y>
+              <Z>-45.5</Z>
+              <R00>-0.65958989</R00>
+              <R01>0</R01>
+              <R02>0.75162569</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>-0.75162569</R20>
+              <R21>0</R21>
+              <R22>-0.65958989</R22>
+            </CoordinateFrame>
+            <token name="Material">272</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">3</token>
+            <token name="BottomSurface">0</token>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Folder" referent="CrosscutDetails">
+      <Properties>
+        <string name="Name">Details</string>
+      </Properties>
+      <Item class="Part" referent="Crosscut_0026">
+        <Properties>
+          <string name="Name">BlueSpawnTile</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>10</X>
+            <Y>0.05</Y>
+            <Z>10</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.2196078431372549</R>
+            <G>0.3058823529411765</G>
+            <B>0.3568627450980392</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-48.5</X>
+            <Y>0.025</Y>
+            <Z>43.5</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="Crosscut_0031">
+        <Properties>
+          <string name="Name">RedSpawnTile</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="CastShadow">true</bool>
+          <float name="Transparency">0</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>10</X>
+            <Y>0.05</Y>
+            <Z>10</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.4549019607843137</R>
+            <G>0.23921568627450981</G>
+            <B>0.19215686274509805</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>49.5</X>
+            <Y>0.025</Y>
+            <Z>-42.5</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">256</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Folder" referent="CrosscutMetadata">
+      <Properties>
+        <string name="Name">Metadata</string>
+      </Properties>
+      <Item class="Part" referent="Crosscut_0032">
+        <Properties>
+          <string name="Name">MapOrigin</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <float name="Reflectance">0</float>
+          <Vector3 name="size">
+            <X>0.1</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <Color3 name="Color">
+            <R>0.15294117647058825</R>
+            <G>0.16862745098039217</G>
+            <B>0.16862745098039217</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0.0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.0</R20>
+            <R21>0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <token name="Material">272</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">3</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+      </Item>
+      <Item class="StringValue" referent="CrosscutMapId">
+        <Properties>
+          <string name="Name">MapId</string>
+          <string name="Value">Crosscut</string>
+        </Properties>
+      </Item>
+      <Item class="StringValue" referent="CrosscutPrimaryMode">
+        <Properties>
+          <string name="Name">PrimaryMode</string>
+          <string name="Value">4v4</string>
+        </Properties>
+      </Item>
+      <Item class="IntValue" referent="CrosscutTeamSize">
+        <Properties>
+          <string name="Name">TeamSize</string>
+          <int name="Value">4</int>
+        </Properties>
+      </Item>
+      <Item class="StringValue" referent="CrosscutBuildVersion">
+        <Properties>
+          <string name="Name">BuildVersion</string>
+          <string name="Value">team-build-v1</string>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Folder" referent="ENV_Crosscut_000001">
+      <Properties>
+        <string name="Name">EnvironmentRevamp</string>
+      </Properties>
+      <Item class="Folder" referent="ENV_Crosscut_000002">
+        <Properties>
+          <string name="Name">SimpleAccents</string>
+        </Properties>
+        <Item class="Part" referent="ENV_Crosscut_000003">
+          <Properties>
+            <string name="Name">SimpleWallCap</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CastShadow">true</bool>
+            <float name="Transparency">0</float>
+            <float name="Reflectance">0</float>
+            <token name="Material">256</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">0</token>
+            <token name="BottomSurface">0</token>
+            <Vector3 name="size">
+              <X>2.0</X>
+              <Y>0.12</Y>
+              <Z>14.0</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4117647058823529</R>
+              <G>0.47058823529411764</G>
+              <B>0.49411764705882355</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>-37.0</X>
+              <Y>12.06</Y>
+              <Z>43.0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="ENV_Crosscut_000004">
+          <Properties>
+            <string name="Name">SimpleWallCap</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CastShadow">true</bool>
+            <float name="Transparency">0</float>
+            <float name="Reflectance">0</float>
+            <token name="Material">256</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">0</token>
+            <token name="BottomSurface">0</token>
+            <Vector3 name="size">
+              <X>2.0</X>
+              <Y>0.12</Y>
+              <Z>14.0</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4117647058823529</R>
+              <G>0.47058823529411764</G>
+              <B>0.49411764705882355</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>37.0</X>
+              <Y>12.06</Y>
+              <Z>-43.0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="ENV_Crosscut_000005">
+          <Properties>
+            <string name="Name">SimpleWallCap</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CastShadow">true</bool>
+            <float name="Transparency">0</float>
+            <float name="Reflectance">0</float>
+            <token name="Material">256</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">0</token>
+            <token name="BottomSurface">0</token>
+            <Vector3 name="size">
+              <X>4.0</X>
+              <Y>0.12</Y>
+              <Z>20.0</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4117647058823529</R>
+              <G>0.47058823529411764</G>
+              <B>0.49411764705882355</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>-20.0</X>
+              <Y>12.06</Y>
+              <Z>-24.0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="ENV_Crosscut_000006">
+          <Properties>
+            <string name="Name">SimpleWallCap</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CastShadow">true</bool>
+            <float name="Transparency">0</float>
+            <float name="Reflectance">0</float>
+            <token name="Material">256</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">0</token>
+            <token name="BottomSurface">0</token>
+            <Vector3 name="size">
+              <X>4.0</X>
+              <Y>0.12</Y>
+              <Z>34.0</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4117647058823529</R>
+              <G>0.47058823529411764</G>
+              <B>0.49411764705882355</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>-20.0</X>
+              <Y>12.06</Y>
+              <Z>15.0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="ENV_Crosscut_000007">
+          <Properties>
+            <string name="Name">SimpleWallCap</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CastShadow">true</bool>
+            <float name="Transparency">0</float>
+            <float name="Reflectance">0</float>
+            <token name="Material">256</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">0</token>
+            <token name="BottomSurface">0</token>
+            <Vector3 name="size">
+              <X>18.0</X>
+              <Y>0.12</Y>
+              <Z>4.0</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4117647058823529</R>
+              <G>0.47058823529411764</G>
+              <B>0.49411764705882355</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>11.0</X>
+              <Y>12.06</Y>
+              <Z>2.0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="ENV_Crosscut_000008">
+          <Properties>
+            <string name="Name">SimpleWallCap</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CastShadow">true</bool>
+            <float name="Transparency">0</float>
+            <float name="Reflectance">0</float>
+            <token name="Material">256</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">0</token>
+            <token name="BottomSurface">0</token>
+            <Vector3 name="size">
+              <X>22.0</X>
+              <Y>0.12</Y>
+              <Z>4.0</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4117647058823529</R>
+              <G>0.47058823529411764</G>
+              <B>0.49411764705882355</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>43.0</X>
+              <Y>12.06</Y>
+              <Z>2.0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="ENV_Crosscut_000009">
+          <Properties>
+            <string name="Name">SimpleWallCap</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CastShadow">true</bool>
+            <float name="Transparency">0</float>
+            <float name="Reflectance">0</float>
+            <token name="Material">256</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">0</token>
+            <token name="BottomSurface">0</token>
+            <Vector3 name="size">
+              <X>4.0</X>
+              <Y>0.12</Y>
+              <Z>24.0</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4117647058823529</R>
+              <G>0.47058823529411764</G>
+              <B>0.49411764705882355</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>18.0</X>
+              <Y>12.06</Y>
+              <Z>-34.0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="ENV_Crosscut_000010">
+          <Properties>
+            <string name="Name">SimpleWallCap</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CastShadow">true</bool>
+            <float name="Transparency">0</float>
+            <float name="Reflectance">0</float>
+            <token name="Material">256</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">0</token>
+            <token name="BottomSurface">0</token>
+            <Vector3 name="size">
+              <X>8.0</X>
+              <Y>0.12</Y>
+              <Z>8.0</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4117647058823529</R>
+              <G>0.47058823529411764</G>
+              <B>0.49411764705882355</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>-41.0</X>
+              <Y>12.06</Y>
+              <Z>-13.0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="ENV_Crosscut_000011">
+          <Properties>
+            <string name="Name">SimpleWallCap</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CastShadow">true</bool>
+            <float name="Transparency">0</float>
+            <float name="Reflectance">0</float>
+            <token name="Material">256</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">0</token>
+            <token name="BottomSurface">0</token>
+            <Vector3 name="size">
+              <X>8.0</X>
+              <Y>0.12</Y>
+              <Z>8.0</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4117647058823529</R>
+              <G>0.47058823529411764</G>
+              <B>0.49411764705882355</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>43.0</X>
+              <Y>12.06</Y>
+              <Z>20.0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="ENV_Crosscut_000012">
+          <Properties>
+            <string name="Name">StuddedBackdropBase</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <bool name="CanTouch">false</bool>
+            <bool name="CastShadow">true</bool>
+            <float name="Transparency">0</float>
+            <float name="Reflectance">0</float>
+            <token name="Material">256</token>
+            <token name="shape">1</token>
+            <token name="TopSurface">3</token>
+            <token name="BottomSurface">0</token>
+            <Vector3 name="size">
+              <X>168</X>
+              <Y>1</Y>
+              <Z>152</Z>
+            </Vector3>
+            <Color3 name="Color">
+              <R>0.4549019607843137</R>
+              <G>0.5176470588235295</G>
+              <B>0.43137254901960786</B>
+            </Color3>
+            <CoordinateFrame name="CFrame">
+              <X>0</X>
+              <Y>-2.5</Y>
+              <Z>0</Z>
+              <R00>1</R00>
+              <R01>0</R01>
+              <R02>0</R02>
+              <R10>0</R10>
+              <R11>1</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

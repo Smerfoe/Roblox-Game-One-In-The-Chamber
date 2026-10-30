@@ -1,0 +1,10981 @@
+{
+  "name": "PumpHouse",
+  "source": "maps/models/PumpHouse.rbxmx",
+  "source_sha256": "91856ff75bd1ae27ac9401a6b57d3b86908c7822dcbeac0bf95d6d12f1f5361e",
+  "baseline_instances": 139,
+  "added_parts": 332,
+  "zones": {
+    "FloorFinish": 7,
+    "TankConstruction": 20,
+    "HighPipelines": 8,
+    "PumpControls": 1,
+    "ServicePanels": 10,
+    "Backdrop": 202,
+    "ExteriorCargo": 64,
+    "WaterworksBackdrop": 12,
+    "CoverFurniture": 8
+  },
+  "parts": [
+    {
+      "name": "ExpansionJoint",
+      "position": [
+        -33,
+        0.01,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.02,
+        67.7
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "SmoothPlastic",
+      "zone": "FloorFinish",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ExpansionJoint",
+      "position": [
+        -23,
+        0.01,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.02,
+        67.7
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "SmoothPlastic",
+      "zone": "FloorFinish",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ExpansionJoint",
+      "position": [
+        -13,
+        0.01,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.02,
+        67.7
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "SmoothPlastic",
+      "zone": "FloorFinish",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ExpansionJoint",
+      "position": [
+        -3,
+        0.01,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.02,
+        67.7
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "SmoothPlastic",
+      "zone": "FloorFinish",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ExpansionJoint",
+      "position": [
+        7,
+        0.01,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.02,
+        67.7
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "SmoothPlastic",
+      "zone": "FloorFinish",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ExpansionJoint",
+      "position": [
+        17,
+        0.01,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.02,
+        67.7
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "SmoothPlastic",
+      "zone": "FloorFinish",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ExpansionJoint",
+      "position": [
+        27,
+        0.01,
+        0.0
+      ],
+      "size": [
+        0.025,
+        0.02,
+        67.7
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "SmoothPlastic",
+      "zone": "FloorFinish",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        -12.84,
+        7.0,
+        -4.0
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        -14.937115446704318,
+        7.0,
+        1.0628845532956799
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        -20.0,
+        7.0,
+        3.16
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        -25.06288455329568,
+        7.0,
+        1.0628845532956808
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        -27.16,
+        7.0,
+        -3.999999999999999
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        -25.06288455329568,
+        7.0,
+        -9.06288455329568
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        -20.0,
+        7.0,
+        -11.16
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        -14.937115446704322,
+        7.0,
+        -9.062884553295682
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "RoofVentRiser",
+      "position": [
+        -20.0,
+        15.0,
+        -4.0
+      ],
+      "size": [
+        4.0,
+        0.65,
+        0.65
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "VentCap",
+      "position": [
+        -20.0,
+        17.125,
+        -4.0
+      ],
+      "size": [
+        0.25,
+        1.3,
+        1.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankHighOutlet",
+      "position": [
+        -20.0,
+        13.6,
+        -19.5
+      ],
+      "size": [
+        31.0,
+        0.7,
+        0.7
+      ],
+      "color": [
+        75,
+        88,
+        60
+      ],
+      "material": "Metal",
+      "zone": "HighPipelines",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        -0.0,
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PipeFlange",
+      "position": [
+        -20.0,
+        13.6,
+        -28.0
+      ],
+      "size": [
+        0.1599999999999966,
+        0.95,
+        0.95
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "HighPipelines",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PipeFlange",
+      "position": [
+        -20.0,
+        13.6,
+        -14.0
+      ],
+      "size": [
+        0.16000000000000014,
+        0.95,
+        0.95
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "HighPipelines",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PipeFlange",
+      "position": [
+        -20.0,
+        13.6,
+        0.0
+      ],
+      "size": [
+        0.16,
+        0.95,
+        0.95
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "HighPipelines",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        27.16,
+        7.0,
+        4.0
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        25.06288455329568,
+        7.0,
+        9.06288455329568
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        20.0,
+        7.0,
+        11.16
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        14.93711544670432,
+        7.0,
+        9.062884553295682
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        12.84,
+        7.0,
+        4.000000000000001
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        14.937115446704318,
+        7.0,
+        -1.0628845532956799
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        20.0,
+        7.0,
+        -3.16
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankWeldSeam",
+      "position": [
+        25.062884553295678,
+        7.0,
+        -1.0628845532956817
+      ],
+      "size": [
+        11.0,
+        0.05,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "RoofVentRiser",
+      "position": [
+        20.0,
+        15.0,
+        4.0
+      ],
+      "size": [
+        4.0,
+        0.65,
+        0.65
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "VentCap",
+      "position": [
+        20.0,
+        17.125,
+        4.0
+      ],
+      "size": [
+        0.25,
+        1.3,
+        1.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "TankConstruction",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "TankHighOutlet",
+      "position": [
+        20.0,
+        13.6,
+        -15.5
+      ],
+      "size": [
+        39.0,
+        0.7,
+        0.7
+      ],
+      "color": [
+        75,
+        88,
+        60
+      ],
+      "material": "Metal",
+      "zone": "HighPipelines",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        -0.0,
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PipeFlange",
+      "position": [
+        20.0,
+        13.6,
+        -28.0
+      ],
+      "size": [
+        0.1599999999999966,
+        0.95,
+        0.95
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "HighPipelines",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PipeFlange",
+      "position": [
+        20.0,
+        13.6,
+        -14.0
+      ],
+      "size": [
+        0.16000000000000014,
+        0.95,
+        0.95
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "HighPipelines",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PipeFlange",
+      "position": [
+        20.0,
+        13.6,
+        0.0
+      ],
+      "size": [
+        0.16,
+        0.95,
+        0.95
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "HighPipelines",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Sign_PUMP CONTROL",
+      "position": [
+        0,
+        8,
+        -6.15
+      ],
+      "size": [
+        7,
+        1.3,
+        0.12
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "PumpControls",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ServicePanel",
+      "position": [
+        0,
+        4.5,
+        -6.12
+      ],
+      "size": [
+        4,
+        3,
+        0.12
+      ],
+      "color": [
+        86,
+        98,
+        92
+      ],
+      "material": "Metal",
+      "zone": "ServicePanels",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PanelFastener",
+      "position": [
+        -1.85,
+        3.15,
+        -6.2
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ServicePanels",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PanelFastener",
+      "position": [
+        -1.85,
+        5.85,
+        -6.2
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ServicePanels",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PanelFastener",
+      "position": [
+        1.85,
+        3.15,
+        -6.2
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ServicePanels",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PanelFastener",
+      "position": [
+        1.85,
+        5.85,
+        -6.2
+      ],
+      "size": [
+        0.1,
+        0.1,
+        0.05
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ServicePanels",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "RecessedHandle",
+      "position": [
+        1.24,
+        4.5,
+        -6.2
+      ],
+      "size": [
+        0.08,
+        0.5,
+        0.05
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "ServicePanels",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PanelVent",
+      "position": [
+        -0.6,
+        3.9,
+        -6.2
+      ],
+      "size": [
+        2.0,
+        0.055,
+        0.04
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "ServicePanels",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PanelVent",
+      "position": [
+        -0.6,
+        4.2,
+        -6.2
+      ],
+      "size": [
+        2.0,
+        0.055,
+        0.04
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "ServicePanels",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PanelVent",
+      "position": [
+        -0.6,
+        4.5,
+        -6.2
+      ],
+      "size": [
+        2.0,
+        0.055,
+        0.04
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "ServicePanels",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PanelVent",
+      "position": [
+        -0.6,
+        4.8,
+        -6.2
+      ],
+      "size": [
+        2.0,
+        0.055,
+        0.04
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "ServicePanels",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WaterworksGround",
+      "position": [
+        0,
+        -0.25,
+        0
+      ],
+      "size": [
+        220,
+        0.4,
+        210
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Concrete",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "IndustrialBuilding",
+      "position": [
+        -65,
+        12.0,
+        0
+      ],
+      "size": [
+        30,
+        24,
+        92
+      ],
+      "color": [
+        111,
+        86,
+        72
+      ],
+      "material": "Brick",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "RoofCoping",
+      "position": [
+        -65,
+        24.175,
+        0
+      ],
+      "size": [
+        30.5,
+        0.35,
+        92.5
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "CornerColumn",
+      "position": [
+        -79.4,
+        12.0,
+        -46.1
+      ],
+      "size": [
+        0.5,
+        24,
+        0.3
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "CornerColumn",
+      "position": [
+        -50.6,
+        12.0,
+        -46.1
+      ],
+      "size": [
+        0.5,
+        24,
+        0.3
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -76,
+        7,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -76,
+        7,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -76,
+        5.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -69,
+        7,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -69,
+        7,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -69,
+        5.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -62,
+        7,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -62,
+        7,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -62,
+        5.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -55,
+        7,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -55,
+        7,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -55,
+        5.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -76,
+        14,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -76,
+        14,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -76,
+        12.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -69,
+        14,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -69,
+        14,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -69,
+        12.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -62,
+        14,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -62,
+        14,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -62,
+        12.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -55,
+        14,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -55,
+        14,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -55,
+        12.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -76,
+        21,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -76,
+        21,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -76,
+        19.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -69,
+        21,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -69,
+        21,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -69,
+        19.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -62,
+        21,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -62,
+        21,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -62,
+        19.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -55,
+        21,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -55,
+        21,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -55,
+        19.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        -84.25,
+        0.25,
+        -24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        -83,
+        0.25,
+        -24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        -81.75,
+        0.25,
+        -24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        -25.5
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        -24.9
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        -24.3
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        -23.7
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        -23.1
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        -22.5
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SteelDrum",
+      "position": [
+        -83.0,
+        2.0500000000000003,
+        -24.0
+      ],
+      "size": [
+        2.7,
+        1.8,
+        1.8
+      ],
+      "color": [
+        75,
+        88,
+        60
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        -83.0,
+        0.85,
+        -24.0
+      ],
+      "size": [
+        0.1100000000000001,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        -83.0,
+        1.5,
+        -24.0
+      ],
+      "size": [
+        0.10999999999999988,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        -83.0,
+        2.5999999999999996,
+        -24.0
+      ],
+      "size": [
+        0.11000000000000032,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        -83.0,
+        3.3,
+        -24.0
+      ],
+      "size": [
+        0.11000000000000032,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumLid",
+      "position": [
+        -83.0,
+        3.4250000000000003,
+        -24.0
+      ],
+      "size": [
+        0.04999999999999982,
+        1.73,
+        1.73
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumBung",
+      "position": [
+        -82.62,
+        3.47,
+        -23.72
+      ],
+      "size": [
+        0.040000000000000036,
+        0.19,
+        0.19
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        -84.25,
+        0.25,
+        24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        -83,
+        0.25,
+        24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        -81.75,
+        0.25,
+        24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        22.5
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        23.1
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        23.7
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        24.3
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        24.9
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        -83,
+        0.59,
+        25.5
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SteelDrum",
+      "position": [
+        -83.0,
+        2.0500000000000003,
+        24.0
+      ],
+      "size": [
+        2.7,
+        1.8,
+        1.8
+      ],
+      "color": [
+        75,
+        88,
+        60
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        -83.0,
+        0.85,
+        24.0
+      ],
+      "size": [
+        0.1100000000000001,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        -83.0,
+        1.5,
+        24.0
+      ],
+      "size": [
+        0.10999999999999988,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        -83.0,
+        2.5999999999999996,
+        24.0
+      ],
+      "size": [
+        0.11000000000000032,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        -83.0,
+        3.3,
+        24.0
+      ],
+      "size": [
+        0.11000000000000032,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumLid",
+      "position": [
+        -83.0,
+        3.4250000000000003,
+        24.0
+      ],
+      "size": [
+        0.04999999999999982,
+        1.73,
+        1.73
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumBung",
+      "position": [
+        -82.62,
+        3.47,
+        24.28
+      ],
+      "size": [
+        0.040000000000000036,
+        0.19,
+        0.19
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "IndustrialBuilding",
+      "position": [
+        65,
+        12.0,
+        0
+      ],
+      "size": [
+        30,
+        24,
+        92
+      ],
+      "color": [
+        111,
+        86,
+        72
+      ],
+      "material": "Brick",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "RoofCoping",
+      "position": [
+        65,
+        24.175,
+        0
+      ],
+      "size": [
+        30.5,
+        0.35,
+        92.5
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "CornerColumn",
+      "position": [
+        50.6,
+        12.0,
+        -46.1
+      ],
+      "size": [
+        0.5,
+        24,
+        0.3
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "CornerColumn",
+      "position": [
+        79.4,
+        12.0,
+        -46.1
+      ],
+      "size": [
+        0.5,
+        24,
+        0.3
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        54,
+        7,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        54,
+        7,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        54,
+        5.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        61,
+        7,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        61,
+        7,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        61,
+        5.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        68,
+        7,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        68,
+        7,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        68,
+        5.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        75,
+        7,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        75,
+        7,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        75,
+        5.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        54,
+        14,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        54,
+        14,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        54,
+        12.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        61,
+        14,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        61,
+        14,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        61,
+        12.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        68,
+        14,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        68,
+        14,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        68,
+        12.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        75,
+        14,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        75,
+        14,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        75,
+        12.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        54,
+        21,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        54,
+        21,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        54,
+        19.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        61,
+        21,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        61,
+        21,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        61,
+        19.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        68,
+        21,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        68,
+        21,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        68,
+        19.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        75,
+        21,
+        -46.17
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        75,
+        21,
+        -46.25
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        75,
+        19.35,
+        -46.3
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        45.75,
+        0.25,
+        -24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        47,
+        0.25,
+        -24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        48.25,
+        0.25,
+        -24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        -25.5
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        -24.9
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        -24.3
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        -23.7
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        -23.1
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        -22.5
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SteelDrum",
+      "position": [
+        47.0,
+        2.0500000000000003,
+        -24.0
+      ],
+      "size": [
+        2.7,
+        1.8,
+        1.8
+      ],
+      "color": [
+        75,
+        88,
+        60
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        47.0,
+        0.85,
+        -24.0
+      ],
+      "size": [
+        0.1100000000000001,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        47.0,
+        1.5,
+        -24.0
+      ],
+      "size": [
+        0.10999999999999988,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        47.0,
+        2.5999999999999996,
+        -24.0
+      ],
+      "size": [
+        0.11000000000000032,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        47.0,
+        3.3,
+        -24.0
+      ],
+      "size": [
+        0.11000000000000032,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumLid",
+      "position": [
+        47.0,
+        3.4250000000000003,
+        -24.0
+      ],
+      "size": [
+        0.04999999999999982,
+        1.73,
+        1.73
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumBung",
+      "position": [
+        47.38,
+        3.47,
+        -23.72
+      ],
+      "size": [
+        0.040000000000000036,
+        0.19,
+        0.19
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        45.75,
+        0.25,
+        24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        47,
+        0.25,
+        24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletRunner",
+      "position": [
+        48.25,
+        0.25,
+        24
+      ],
+      "size": [
+        0.35,
+        0.5,
+        3.5
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        22.5
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        23.1
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        23.7
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        24.3
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        24.9
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "PalletDeck",
+      "position": [
+        47,
+        0.59,
+        25.5
+      ],
+      "size": [
+        3.5,
+        0.18,
+        0.42
+      ],
+      "color": [
+        120,
+        98,
+        68
+      ],
+      "material": "WoodPlanks",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SteelDrum",
+      "position": [
+        47.0,
+        2.0500000000000003,
+        24.0
+      ],
+      "size": [
+        2.7,
+        1.8,
+        1.8
+      ],
+      "color": [
+        75,
+        88,
+        60
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        47.0,
+        0.85,
+        24.0
+      ],
+      "size": [
+        0.1100000000000001,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        47.0,
+        1.5,
+        24.0
+      ],
+      "size": [
+        0.10999999999999988,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        47.0,
+        2.5999999999999996,
+        24.0
+      ],
+      "size": [
+        0.11000000000000032,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumHoop",
+      "position": [
+        47.0,
+        3.3,
+        24.0
+      ],
+      "size": [
+        0.11000000000000032,
+        1.86,
+        1.86
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumLid",
+      "position": [
+        47.0,
+        3.4250000000000003,
+        24.0
+      ],
+      "size": [
+        0.04999999999999982,
+        1.73,
+        1.73
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DrumBung",
+      "position": [
+        47.38,
+        3.47,
+        24.28
+      ],
+      "size": [
+        0.040000000000000036,
+        0.19,
+        0.19
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "ExteriorCargo",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ExternalReservoir",
+      "position": [
+        -25.0,
+        11.0,
+        -64.0
+      ],
+      "size": [
+        22.0,
+        18,
+        18
+      ],
+      "color": [
+        188,
+        186,
+        167
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ReservoirBand",
+      "position": [
+        -25.0,
+        1.1,
+        -64.0
+      ],
+      "size": [
+        0.19999999999999996,
+        18.3,
+        18.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ReservoirBand",
+      "position": [
+        -25.0,
+        11.1,
+        -64.0
+      ],
+      "size": [
+        0.1999999999999993,
+        18.3,
+        18.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ReservoirBand",
+      "position": [
+        -25.0,
+        21.1,
+        -64.0
+      ],
+      "size": [
+        0.1999999999999993,
+        18.3,
+        18.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ExternalReservoir",
+      "position": [
+        0.0,
+        11.0,
+        -64.0
+      ],
+      "size": [
+        22.0,
+        18,
+        18
+      ],
+      "color": [
+        188,
+        186,
+        167
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ReservoirBand",
+      "position": [
+        0.0,
+        1.1,
+        -64.0
+      ],
+      "size": [
+        0.19999999999999996,
+        18.3,
+        18.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ReservoirBand",
+      "position": [
+        0.0,
+        11.1,
+        -64.0
+      ],
+      "size": [
+        0.1999999999999993,
+        18.3,
+        18.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ReservoirBand",
+      "position": [
+        0.0,
+        21.1,
+        -64.0
+      ],
+      "size": [
+        0.1999999999999993,
+        18.3,
+        18.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ExternalReservoir",
+      "position": [
+        25.0,
+        11.0,
+        -64.0
+      ],
+      "size": [
+        22.0,
+        18,
+        18
+      ],
+      "color": [
+        188,
+        186,
+        167
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ReservoirBand",
+      "position": [
+        25.0,
+        1.1,
+        -64.0
+      ],
+      "size": [
+        0.19999999999999996,
+        18.3,
+        18.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ReservoirBand",
+      "position": [
+        25.0,
+        11.1,
+        -64.0
+      ],
+      "size": [
+        0.1999999999999993,
+        18.3,
+        18.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ReservoirBand",
+      "position": [
+        25.0,
+        21.1,
+        -64.0
+      ],
+      "size": [
+        0.1999999999999993,
+        18.3,
+        18.3
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "WaterworksBackdrop",
+      "solid": false,
+      "shape": 2,
+      "R": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "IndustrialBuilding",
+      "position": [
+        0,
+        11.5,
+        67
+      ],
+      "size": [
+        96,
+        23,
+        30
+      ],
+      "color": [
+        111,
+        86,
+        72
+      ],
+      "material": "Brick",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "RoofCoping",
+      "position": [
+        0,
+        23.175,
+        67
+      ],
+      "size": [
+        96.5,
+        0.35,
+        30.5
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "CornerColumn",
+      "position": [
+        -47.4,
+        11.5,
+        51.9
+      ],
+      "size": [
+        0.5,
+        23,
+        0.3
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "CornerColumn",
+      "position": [
+        47.4,
+        11.5,
+        51.9
+      ],
+      "size": [
+        0.5,
+        23,
+        0.3
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -44,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -44,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -44,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -37,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -37,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -37,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -30,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -30,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -30,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -23,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -23,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -23,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -16,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -16,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -16,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -9,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -9,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -9,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -2,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -2,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -2,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        5,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        5,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        5,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        12,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        12,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        12,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        19,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        19,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        19,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        26,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        26,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        26,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        33,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        33,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        33,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        40,
+        7,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        40,
+        7,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        40,
+        5.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -44,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -44,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -44,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -37,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -37,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -37,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -30,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -30,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -30,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -23,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -23,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -23,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -16,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -16,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -16,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -9,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -9,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -9,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -2,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -2,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -2,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        5,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        5,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        5,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        12,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        12,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        12,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        19,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        19,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        19,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        26,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        26,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        26,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        33,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        33,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        33,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        40,
+        14,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        40,
+        14,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        40,
+        12.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -44,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -44,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -44,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -37,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -37,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -37,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -30,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -30,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -30,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -23,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -23,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -23,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -16,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -16,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -16,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -9,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -9,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -9,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        -2,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        -2,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        -2,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        5,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        5,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        5,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        12,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        12,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        12,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        19,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        19,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        19,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        26,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        26,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        26,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        33,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        33,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        33,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "FactoryWindow",
+      "position": [
+        40,
+        21,
+        51.83
+      ],
+      "size": [
+        4,
+        3.1,
+        0.12
+      ],
+      "color": [
+        57,
+        79,
+        83
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowMullion",
+      "position": [
+        40,
+        21,
+        51.75
+      ],
+      "size": [
+        0.09,
+        3.2,
+        0.06
+      ],
+      "color": [
+        65,
+        72,
+        73
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "WindowSill",
+      "position": [
+        40,
+        19.35,
+        51.7
+      ],
+      "size": [
+        4.4,
+        0.18,
+        0.5
+      ],
+      "color": [
+        116,
+        115,
+        105
+      ],
+      "material": "Metal",
+      "zone": "Backdrop",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "BarrierTiePoint",
+      "position": [
+        -14.45,
+        1.6,
+        15.975
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.035
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "CoverFurniture",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "BarrierTiePoint",
+      "position": [
+        -9.55,
+        1.6,
+        15.975
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.035
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "CoverFurniture",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "BarrierTiePoint",
+      "position": [
+        -14.45,
+        1.6,
+        18.025
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.035
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "CoverFurniture",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "BarrierTiePoint",
+      "position": [
+        -9.55,
+        1.6,
+        18.025
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.035
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "CoverFurniture",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "BarrierTiePoint",
+      "position": [
+        9.55,
+        1.6,
+        -18.025
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.035
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "CoverFurniture",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "BarrierTiePoint",
+      "position": [
+        14.45,
+        1.6,
+        -18.025
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.035
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "CoverFurniture",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "BarrierTiePoint",
+      "position": [
+        9.55,
+        1.6,
+        -15.975
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.035
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "CoverFurniture",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "BarrierTiePoint",
+      "position": [
+        14.45,
+        1.6,
+        -15.975
+      ],
+      "size": [
+        0.14,
+        0.14,
+        0.035
+      ],
+      "color": [
+        31,
+        37,
+        39
+      ],
+      "material": "Metal",
+      "zone": "CoverFurniture",
+      "solid": false,
+      "shape": 1,
+      "R": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "status": "External build. Not imported or tested in Roblox Studio.",
+  "footprint": [
+    76,
+    68
+  ]
+}
