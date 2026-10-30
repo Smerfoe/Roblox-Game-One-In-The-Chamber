@@ -21,6 +21,11 @@ for file in sorted((ROOT/'models').glob('*.rbxmx')):
   assert all(math.isfinite(x) and x>0 for x in size)
   for axis in ['X','Y','Z','R00','R01','R02','R10','R11','R12','R20','R21','R22']:
    assert math.isfinite(float(p.find(f"CoordinateFrame[@name='CFrame']/{axis}").text))
+  frame=p.find("CoordinateFrame[@name='CFrame']")
+  rotation=[[float(frame.find(f'R{i}{j}').text) for j in range(3)] for i in range(3)]
+  for i in range(3):
+   for j in range(3):
+    assert abs(sum(rotation[k][i]*rotation[k][j] for k in range(3))-(1 if i==j else 0))<1e-6,'Invalid rotation'
  assert len(anchored)==1
  graph={r:[] for r in parts};incoming={r:0 for r in parts}
  for n in nodes:
@@ -30,7 +35,7 @@ for file in sorted((ROOT/'models').glob('*.rbxmx')):
   graph[a].append(b);incoming[b]+=1
   if n.attrib['class']=='Motor6D':joints.append(p.find("string[@name='Name']").text)
  assert len(set(joints))==len(joints)
- expected={'Presentation','Slide','Hammer','Magazine','Cartridge'} if file.stem.startswith('Service') else {'Presentation'}
+ expected=({'Presentation','Slide','Hammer','Magazine','Cartridge'} if file.stem.startswith('Service') else {'Presentation','Cylinder','Hammer','Cartridge'} if file.stem.startswith('Python') else {'Presentation'})
  assert set(joints)==expected,(file,set(joints))
  assert all(incoming[r]==(0 if r in anchored else 1) for r in parts),'Unattached or overconstrained part'
  seen=set();stack=anchored.copy()

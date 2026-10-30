@@ -1,0 +1,3565 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="PythonMagnum_Prototype">
+    <Properties>
+      <string name="Name">PythonMagnum_Prototype</string>
+      <Ref name="PrimaryPart">PythonMagnum_Prototype_001</Ref>
+    </Properties>
+    <Item class="Part" referent="PythonMagnum_Prototype_001">
+      <Properties>
+        <string name="Name">Anchor</string>
+        <Vector3 name="size">
+          <X>0.05</X>
+          <Y>0.05</Y>
+          <Z>0.05</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>-0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <Color3 name="Color">
+          <R>0.10196078431372549</R>
+          <G>0.11372549019607843</G>
+          <B>0.12156862745098039</B>
+        </Color3>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="Massless">true</bool>
+        <bool name="CastShadow">false</bool>
+        <float name="Transparency">1</float>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+      </Properties>
+    </Item>
+    <Item class="Model" referent="PythonMagnum_PrototypeBody">
+      <Properties>
+        <string name="Name">Body</string>
+      </Properties>
+      <Item class="Part" referent="PythonMagnum_Prototype_002">
+        <Properties>
+          <string name="Name">BodyPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="PythonMagnum_Prototype_002Joint">
+          <Properties>
+            <string name="Name">Presentation</string>
+            <Ref name="Part0">PythonMagnum_Prototype_001</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_002</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_006">
+        <Properties>
+          <string name="Name">LowerFrame</string>
+          <Vector3 name="size">
+            <X>0.29</X>
+            <Y>0.2</Y>
+            <Z>0.91</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.15</Y>
+            <Z>-0.16</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_006Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_006</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_007">
+        <Properties>
+          <string name="Name">TopStrap</string>
+          <Vector3 name="size">
+            <X>0.3</X>
+            <Y>0.12</Y>
+            <Z>0.98</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.52</Y>
+            <Z>-0.16</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_007Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_007</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_008">
+        <Properties>
+          <string name="Name">FrontFrame</string>
+          <Vector3 name="size">
+            <X>0.3</X>
+            <Y>0.65</Y>
+            <Z>0.12</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.18</Y>
+            <Z>-0.59</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_008Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_008</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_009">
+        <Properties>
+          <string name="Name">RearFrame</string>
+          <Vector3 name="size">
+            <X>0.29</X>
+            <Y>0.63</Y>
+            <Z>0.14</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.13</Y>
+            <Z>0.32</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_009Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_009</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_010">
+        <Properties>
+          <string name="Name">LongBarrel</string>
+          <Vector3 name="size">
+            <X>1.9</X>
+            <Y>0.29</Y>
+            <Z>0.29</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.3</Y>
+            <Z>-1.58</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_010Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_010</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_011">
+        <Properties>
+          <string name="Name">FullUnderlug</string>
+          <Vector3 name="size">
+            <X>0.27</X>
+            <Y>0.22</Y>
+            <Z>1.9</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.09</Y>
+            <Z>-1.58</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_011Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_011</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_012">
+        <Properties>
+          <string name="Name">VentRibTop</string>
+          <Vector3 name="size">
+            <X>0.2</X>
+            <Y>0.055</Y>
+            <Z>1.92</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.57</Y>
+            <Z>-1.58</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_012Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_012</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_013">
+        <Properties>
+          <string name="Name">VentRibBridge</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.14</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.49</Y>
+            <Z>-0.75</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_013Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_013</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_014">
+        <Properties>
+          <string name="Name">VentRibBridge</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.14</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.49</Y>
+            <Z>-1.06</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_014Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_014</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_015">
+        <Properties>
+          <string name="Name">VentRibBridge</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.14</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.49</Y>
+            <Z>-1.37</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_015Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_015</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_016">
+        <Properties>
+          <string name="Name">VentRibBridge</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.14</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.49</Y>
+            <Z>-1.68</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_016Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_016</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_017">
+        <Properties>
+          <string name="Name">VentRibBridge</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.14</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.49</Y>
+            <Z>-1.99</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_017Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_017</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_018">
+        <Properties>
+          <string name="Name">VentRibBridge</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.14</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.49</Y>
+            <Z>-2.3</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_018Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_018</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_019">
+        <Properties>
+          <string name="Name">MuzzleFace</string>
+          <Vector3 name="size">
+            <X>0.025</X>
+            <Y>0.3</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.3</Y>
+            <Z>-2.54</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_019Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_019</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_020">
+        <Properties>
+          <string name="Name">MuzzleBore</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.16</Y>
+            <Z>0.16</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.3</Y>
+            <Z>-2.556</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_020Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_020</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_021">
+        <Properties>
+          <string name="Name">FrontSight</string>
+          <Vector3 name="size">
+            <X>0.065</X>
+            <Y>0.12</Y>
+            <Z>0.15</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.64</Y>
+            <Z>-2.35</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_021Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_021</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_022">
+        <Properties>
+          <string name="Name">RearSight</string>
+          <Vector3 name="size">
+            <X>0.24</X>
+            <Y>0.08</Y>
+            <Z>0.15</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.62</Y>
+            <Z>0.2</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_022Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_022</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_039">
+        <Properties>
+          <string name="Name">CylinderRelease</string>
+          <Vector3 name="size">
+            <X>0.045</X>
+            <Y>0.13</Y>
+            <Z>0.18</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.166</X>
+            <Y>0.15</Y>
+            <Z>0.27</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_039Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_039</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_042">
+        <Properties>
+          <string name="Name">GripTang</string>
+          <Vector3 name="size">
+            <X>0.26</X>
+            <Y>0.95</Y>
+            <Z>0.4</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.61</Y>
+            <Z>0.42</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_042Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_042</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_043">
+        <Properties>
+          <string name="Name">WalnutGrip</string>
+          <Vector3 name="size">
+            <X>0.1</X>
+            <Y>0.87</Y>
+            <Z>0.43</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.16</X>
+            <Y>-0.61</Y>
+            <Z>0.45</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3607843137254902</R>
+            <G>0.2235294117647059</G>
+            <B>0.15294117647058825</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_043Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_043</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_044">
+        <Properties>
+          <string name="Name">GripMedallion</string>
+          <Vector3 name="size">
+            <X>0.018</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.217</X>
+            <Y>-0.48</Y>
+            <Z>0.4</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.596078431372549</R>
+            <G>0.5176470588235295</G>
+            <B>0.3254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_044Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_044</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_045">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.216</X>
+            <Y>-0.5</Y>
+            <Z>0.46</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_045Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_045</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_046">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.216</X>
+            <Y>-0.565</Y>
+            <Z>0.482</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_046Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_046</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_047">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.216</X>
+            <Y>-0.63</Y>
+            <Z>0.504</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_047Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_047</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_048">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.216</X>
+            <Y>-0.695</Y>
+            <Z>0.526</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_048Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_048</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_049">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.216</X>
+            <Y>-0.76</Y>
+            <Z>0.548</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_049Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_049</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_050">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.216</X>
+            <Y>-0.825</Y>
+            <Z>0.57</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_050Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_050</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_051">
+        <Properties>
+          <string name="Name">WalnutGrip</string>
+          <Vector3 name="size">
+            <X>0.1</X>
+            <Y>0.87</Y>
+            <Z>0.43</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.16</X>
+            <Y>-0.61</Y>
+            <Z>0.45</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.3607843137254902</R>
+            <G>0.2235294117647059</G>
+            <B>0.15294117647058825</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_051Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_051</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_052">
+        <Properties>
+          <string name="Name">GripMedallion</string>
+          <Vector3 name="size">
+            <X>0.018</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.217</X>
+            <Y>-0.48</Y>
+            <Z>0.4</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.596078431372549</R>
+            <G>0.5176470588235295</G>
+            <B>0.3254901960784314</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_052Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_052</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_053">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.216</X>
+            <Y>-0.5</Y>
+            <Z>0.46</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_053Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_053</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_054">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.216</X>
+            <Y>-0.565</Y>
+            <Z>0.482</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_054Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_054</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_055">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.216</X>
+            <Y>-0.63</Y>
+            <Z>0.504</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_055Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_055</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_056">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.216</X>
+            <Y>-0.695</Y>
+            <Z>0.526</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_056Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_056</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_057">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.216</X>
+            <Y>-0.76</Y>
+            <Z>0.548</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_057Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_057</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_058">
+        <Properties>
+          <string name="Name">GripCheckering</string>
+          <Vector3 name="size">
+            <X>0.009</X>
+            <Y>0.012</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.216</X>
+            <Y>-0.825</Y>
+            <Z>0.57</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.94551858</R11>
+            <R12>0.32556815</R12>
+            <R20>-0.0</R20>
+            <R21>-0.32556815</R21>
+            <R22>0.94551858</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.1607843137254902</G>
+            <B>0.11764705882352941</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">512</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_058Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_058</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_059">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.08075964241596387</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.26011695</Y>
+            <Z>-0.33539999</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.99349008</R10>
+            <R11>0.0</R11>
+            <R12>-0.11391862</R12>
+            <R20>0.11391862</R20>
+            <R21>-0.0</R21>
+            <R22>-0.99349008</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_059Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_059</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_060">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07948281573255868</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.33761695</Y>
+            <Z>-0.31731342</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.94065737</R10>
+            <R11>0.0</R11>
+            <R12>-0.33935781</R12>
+            <R20>0.33935781</R20>
+            <R21>-0.0</R21>
+            <R22>-0.94065737</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_060Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_060</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_061">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07722135199234693</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.40710155</Y>
+            <Z>-0.28237284</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.83141645</R10>
+            <R11>0.0</R11>
+            <R12>-0.55564979</R12>
+            <R20>0.55564979</R20>
+            <R21>-0.0</R21>
+            <R22>-0.83141645</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_061Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_061</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_062">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07452471744843431</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.46383549</Y>
+            <Z>-0.23295942</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.6610528</R10>
+            <R11>0.0</R11>
+            <R12>-0.75033939</R12>
+            <R20>0.75033939</R20>
+            <R21>-0.0</R21>
+            <R22>-0.6610528</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_062Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_062</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_063">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07210792409658634</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.50395244</Y>
+            <Z>-0.17244057</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.42948305</R10>
+            <R11>0.0</R11>
+            <R12>-0.90307492</R12>
+            <R20>0.90307492</R20>
+            <R21>-0.0</R21>
+            <R22>-0.42948305</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_063Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_063</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_064">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07067496636816009</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.5247185</Y>
+            <Z>-0.10494057</Z>
+            <R00>-0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>-0.14945877</R10>
+            <R11>0.0</R11>
+            <R12>-0.98876796</R12>
+            <R20>0.98876796</R20>
+            <R21>-0.0</R21>
+            <R22>-0.14945877</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_064Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_064</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_065">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07067496636816009</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.5247185</Y>
+            <Z>-0.03505943</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.14945877</R10>
+            <R11>0.0</R11>
+            <R12>-0.98876796</R12>
+            <R20>0.98876796</R20>
+            <R21>0.0</R21>
+            <R22>0.14945877</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_065Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_065</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_066">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07210792409658624</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.50395244</Y>
+            <Z>0.03244057</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.42948305</R10>
+            <R11>0.0</R11>
+            <R12>-0.90307492</R12>
+            <R20>0.90307492</R20>
+            <R21>0.0</R21>
+            <R22>0.42948305</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_066Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_066</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_067">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.0745247174484344</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.46383549</Y>
+            <Z>0.09295942</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.6610528</R10>
+            <R11>0.0</R11>
+            <R12>-0.75033939</R12>
+            <R20>0.75033939</R20>
+            <R21>0.0</R21>
+            <R22>0.6610528</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_067Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_067</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_068">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07722135199234698</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.40710155</Y>
+            <Z>0.14237284</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.83141645</R10>
+            <R11>0.0</R11>
+            <R12>-0.55564979</R12>
+            <R20>0.55564979</R20>
+            <R21>0.0</R21>
+            <R22>0.83141645</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_068Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_068</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_069">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.07948281573255857</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.33761695</Y>
+            <Z>0.17731342</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.94065737</R10>
+            <R11>0.0</R11>
+            <R12>-0.33935781</R12>
+            <R20>0.33935781</R20>
+            <R21>0.0</R21>
+            <R22>0.94065737</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_069Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_069</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_070">
+        <Properties>
+          <string name="Name">RoundedTriggerGuard</string>
+          <Vector3 name="size">
+            <X>0.08075964241596395</X>
+            <Y>0.064</Y>
+            <Z>0.064</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.0</X>
+            <Y>-0.26011695</Y>
+            <Z>0.19539999</Z>
+            <R00>0.0</R00>
+            <R01>-1.0</R01>
+            <R02>-0.0</R02>
+            <R10>0.99349008</R10>
+            <R11>0.0</R11>
+            <R12>-0.11391862</R12>
+            <R20>0.11391862</R20>
+            <R21>0.0</R21>
+            <R22>0.99349008</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_070Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_070</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_071">
+        <Properties>
+          <string name="Name">Trigger</string>
+          <Vector3 name="size">
+            <X>0.1</X>
+            <Y>0.2</Y>
+            <Z>0.055</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.31</Y>
+            <Z>-0.05</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.95105652</R11>
+            <R12>0.30901699</R12>
+            <R20>-0.0</R20>
+            <R21>-0.30901699</R21>
+            <R22>0.95105652</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_071Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_071</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="PythonMagnum_PrototypeCylinder">
+      <Properties>
+        <string name="Name">Cylinder</string>
+      </Properties>
+      <Item class="Part" referent="PythonMagnum_Prototype_003">
+        <Properties>
+          <string name="Name">CylinderPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.18</X>
+            <Y>-0.12</Y>
+            <Z>0.08</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="PythonMagnum_Prototype_003Joint">
+          <Properties>
+            <string name="Name">Cylinder</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_003</Ref>
+            <CoordinateFrame name="C0">
+              <X>-0.18</X>
+              <Y>-0.12</Y>
+              <Z>0.08</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_023">
+        <Properties>
+          <string name="Name">CylinderShell</string>
+          <Vector3 name="size">
+            <X>0.62</X>
+            <Y>0.62</Y>
+            <Z>0.62</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.16</Y>
+            <Z>-0.12</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_023Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_023</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_024">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.17</X>
+            <Y>0.16</Y>
+            <Z>0.198</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_024Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_024</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_025">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.075</Y>
+            <Z>0.42</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.302</X>
+            <Y>0.16</Y>
+            <Z>-0.12</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.43137254901960786</R>
+            <G>0.47058823529411764</G>
+            <B>0.5019607843137255</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_025Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_025</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_026">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.085</X>
+            <Y>0.30722432</Y>
+            <Z>0.198</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_026Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_026</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_027">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.075</Y>
+            <Z>0.42</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.151</X>
+            <Y>0.42153967</Y>
+            <Z>-0.12</Z>
+            <R00>0.5</R00>
+            <R01>-0.8660254</R01>
+            <R02>0.0</R02>
+            <R10>0.8660254</R10>
+            <R11>0.5</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.43137254901960786</R>
+            <G>0.47058823529411764</G>
+            <B>0.5019607843137255</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_027Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_027</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_028">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.085</X>
+            <Y>0.30722432</Y>
+            <Z>0.198</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_028Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_028</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_029">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.075</Y>
+            <Z>0.42</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.151</X>
+            <Y>0.42153967</Y>
+            <Z>-0.12</Z>
+            <R00>-0.5</R00>
+            <R01>-0.8660254</R01>
+            <R02>0.0</R02>
+            <R10>0.8660254</R10>
+            <R11>-0.5</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.43137254901960786</R>
+            <G>0.47058823529411764</G>
+            <B>0.5019607843137255</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_029Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_029</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_030">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.17</X>
+            <Y>0.16</Y>
+            <Z>0.198</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_030Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_030</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_031">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.075</Y>
+            <Z>0.42</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.302</X>
+            <Y>0.16</Y>
+            <Z>-0.12</Z>
+            <R00>-1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>-1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.43137254901960786</R>
+            <G>0.47058823529411764</G>
+            <B>0.5019607843137255</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_031Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_031</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_032">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.085</X>
+            <Y>0.01277568</Y>
+            <Z>0.198</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_032Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_032</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_033">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.075</Y>
+            <Z>0.42</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.151</X>
+            <Y>-0.10153967</Y>
+            <Z>-0.12</Z>
+            <R00>-0.5</R00>
+            <R01>0.8660254</R01>
+            <R02>-0.0</R02>
+            <R10>-0.8660254</R10>
+            <R11>-0.5</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.43137254901960786</R>
+            <G>0.47058823529411764</G>
+            <B>0.5019607843137255</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_033Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_033</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_034">
+        <Properties>
+          <string name="Name">EmptyChamberRecess</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.085</X>
+            <Y>0.01277568</Y>
+            <Z>0.198</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_034Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_034</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_035">
+        <Properties>
+          <string name="Name">CylinderFlute</string>
+          <Vector3 name="size">
+            <X>0.012</X>
+            <Y>0.075</Y>
+            <Z>0.42</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.151</X>
+            <Y>-0.10153967</Y>
+            <Z>-0.12</Z>
+            <R00>0.5</R00>
+            <R01>0.8660254</R01>
+            <R02>0.0</R02>
+            <R10>-0.8660254</R10>
+            <R11>0.5</R11>
+            <R12>-0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.43137254901960786</R>
+            <G>0.47058823529411764</G>
+            <B>0.5019607843137255</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_035Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_035</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_036">
+        <Properties>
+          <string name="Name">CraneArm</string>
+          <Vector3 name="size">
+            <X>0.12</X>
+            <Y>0.1</Y>
+            <Z>0.64</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.14</X>
+            <Y>-0.08</Y>
+            <Z>-0.12</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_036Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_036</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_037">
+        <Properties>
+          <string name="Name">CranePivotCap</string>
+          <Vector3 name="size">
+            <X>0.08</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.185</X>
+            <Y>-0.12</Y>
+            <Z>0.08</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_037Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_037</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_038">
+        <Properties>
+          <string name="Name">ExtractorRod</string>
+          <Vector3 name="size">
+            <X>0.2</X>
+            <Y>0.06</Y>
+            <Z>0.06</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.16</Y>
+            <Z>-0.54</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_038Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_003</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_038</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="PythonMagnum_PrototypeHammer">
+      <Properties>
+        <string name="Name">Hammer</string>
+      </Properties>
+      <Item class="Part" referent="PythonMagnum_Prototype_004">
+        <Properties>
+          <string name="Name">HammerPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.3</Y>
+            <Z>0.42</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="PythonMagnum_Prototype_004Joint">
+          <Properties>
+            <string name="Name">Hammer</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_004</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0.3</Y>
+              <Z>0.42</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_040">
+        <Properties>
+          <string name="Name">HammerBody</string>
+          <Vector3 name="size">
+            <X>0.13</X>
+            <Y>0.22</Y>
+            <Z>0.12</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.33</Y>
+            <Z>0.43</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_040Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_004</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_040</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_041">
+        <Properties>
+          <string name="Name">HammerSpur</string>
+          <Vector3 name="size">
+            <X>0.18</X>
+            <Y>0.09</Y>
+            <Z>0.22</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.46</Y>
+            <Z>0.49</Z>
+            <R00>1.0</R00>
+            <R01>-0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>0.92718385</R11>
+            <R12>0.37460659</R12>
+            <R20>-0.0</R20>
+            <R21>-0.37460659</R21>
+            <R22>0.92718385</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6627450980392157</R>
+            <G>0.6901960784313725</G>
+            <B>0.7098039215686275</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_041Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_004</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_041</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="Model" referent="PythonMagnum_PrototypeCartridge">
+      <Properties>
+        <string name="Name">Cartridge</string>
+      </Properties>
+      <Item class="Part" referent="PythonMagnum_Prototype_005">
+        <Properties>
+          <string name="Name">CartridgePivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.85</X>
+            <Y>0.1</Y>
+            <Z>0.85</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="PythonMagnum_Prototype_005Joint">
+          <Properties>
+            <string name="Name">Cartridge</string>
+            <Ref name="Part0">PythonMagnum_Prototype_002</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_005</Ref>
+            <CoordinateFrame name="C0">
+              <X>-0.85</X>
+              <Y>0.1</Y>
+              <Z>0.85</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_072">
+        <Properties>
+          <string name="Name">SingleCartridge</string>
+          <Vector3 name="size">
+            <X>0.28</X>
+            <Y>0.09</Y>
+            <Z>0.09</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.85</X>
+            <Y>0.1</Y>
+            <Z>0.85</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6588235294117647</R>
+            <G>0.5176470588235295</G>
+            <B>0.24313725490196078</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_072Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_005</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_072</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="PythonMagnum_Prototype_073">
+        <Properties>
+          <string name="Name">CartridgeTip</string>
+          <Vector3 name="size">
+            <X>0.055</X>
+            <Y>0.08</Y>
+            <Z>0.08</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.85</X>
+            <Y>0.1</Y>
+            <Z>0.68</Z>
+            <R00>0.0</R00>
+            <R01>0.0</R01>
+            <R02>1.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-1.0</R20>
+            <R21>0.0</R21>
+            <R22>0.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.6078431372549019</R>
+            <G>0.4235294117647059</G>
+            <B>0.26666666666666666</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="PythonMagnum_Prototype_073Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">PythonMagnum_Prototype_005</Ref>
+            <Ref name="Part1">PythonMagnum_Prototype_073</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

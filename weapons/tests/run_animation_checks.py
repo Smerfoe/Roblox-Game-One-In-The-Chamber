@@ -26,10 +26,10 @@ local TweenService={GetValue=function(_,alpha) return alpha end}
 local game={GetService=function(_,name) return name=='RunService' and RunService or TweenService end}
 '''
 CHECKS=r'''
-local function rig(pistol)
+local function rig(pistol, revolver)
  local list={};local anchor={Name='Anchor',CFrame=CFrame.identity,IsA=function(_,n) return n=='BasePart' end}
  table.insert(list,anchor)
- for _,name in (pistol and {'Presentation','Slide','Hammer','Magazine','Cartridge'} or {'Presentation'}) do
+ for _,name in (pistol and {'Presentation','Slide','Hammer','Magazine','Cartridge'} or revolver and {'Presentation','Cylinder','Hammer','Cartridge'} or {'Presentation'}) do
   table.insert(list,{Name=name,C0=CFrame.identity,IsA=function(_,n) return n=='Motor6D' end})
  end
  for _,name in {'SingleCartridge','CartridgeTip'} do
@@ -63,6 +63,25 @@ assert(not b:Play('Reload'));assert(b:Play('Attack'));advance(b,60);assert(b.act
 assert(b:Play('Inspect'));b:Cancel();assert(b.active==nil)
 b:SetCamera({CFrame=CFrame.new(4,5,6)});advance(b,1);assert(b.anchor.CFrame.x>4)
 b:Destroy()
+
+local revolver=Animator.new(rig(false,true),'Revolver',camera)
+assert(revolver:Play('Reload'));advance(revolver,65)
+assert(revolver.cartridges[1].Transparency==0)
+assert(revolver.joints.Slide==nil and revolver.joints.Magazine==nil)
+advance(revolver,60);assert(revolver.cartridges[1].Transparency==1)
+revolver:Cancel();assert(revolver.cartridges[1].Transparency==1)
+assert(revolver:Play('Inspect'));advance(revolver,310);assert(revolver.active==nil)
+assert(revolver:Play('Fire'));advance(revolver,40);assert(revolver.active==nil)
+revolver:Destroy()
+for _,kind in {'Machete','ButterKnife'} do
+ local blade=Animator.new(rig(false),kind,camera)
+ assert(not blade:Play('Reload') and not blade:Play('Fire'))
+ assert(blade:Play('Attack'));advance(blade,60);assert(blade.active==nil)
+ assert(blade:Play('Inspect'));blade:SetLocomotion('Sprint');assert(blade.active==nil)
+ blade:SetLocomotion('Idle');assert(blade:Play('Inspect'));advance(blade,280);assert(blade.active==nil)
+ blade:Destroy()
+end
+
 print('PASS animation state checks: action availability, inspection gating/interruption, cartridge timing, cancellation, locomotion, repeatability, knife attack, camera swap and idempotent cleanup.')
 print('Mocks do not validate real Roblox rotations, motor evaluation, import, rendering, timing feel or hands.')
 '''

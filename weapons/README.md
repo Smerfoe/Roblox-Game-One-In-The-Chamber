@@ -1,25 +1,27 @@
-# Service 1911 and Karambit — animated prototype pack
+# Animated weapon prototype pack
 
 This is a standalone first-person weapon presentation pack for Studio review. It contains REAL editable Roblox models and executable procedural Luau animations, not only concept pictures. It does not modify the existing Studio weapons or game services.
+
+The pack now includes the Python-style revolver, machete and literal butter knife as well. Read **[EXPANSION.md](EXPANSION.md)** for the new rigs, animation sequences and checks. The rare Python finishes are concept art only.
 
 ## What is built
 
 - **Service1911_Prototype:** 74 native parts/wedges, separate wood grips, slide, hammer, magazine and one cartridge prop; rounded trigger guard, grip screws, slide serrations, sight details and muzzle inset.
 - **Karambit_Prototype:** 59 native parts/wedges, continuous hooked blade profile and open finger ring, separate grip scales and pins.
 - **WeaponAnimator:** client-side procedural equip, firing/recoil/slide/hammer, single-cartridge magazine reload presentation, pistol inspection, knife equip/slash/inspection flourish, and idle/sprint/slide poses. No animation asset IDs or upload permissions are required for this procedural preview.
-- **WeaponPreviewPack.rbxmx:** importable Folder containing both rigs and the animation ModuleScript.
+- **WeaponPreviewPack.rbxmx:** importable Folder containing all five rigs and the animation ModuleScript.
 - **WeaponPreviewClient.rbxmx:** importable Studio-only LocalScript for testing.
 - **GeometryPreview.png:** a plotted view of the ACTUAL exported geometry, not concept art or a Roblox engine screenshot.
 
-These are native-part prototypes, not photorealistic final meshes or production animation. The user-approved finish concept images have more surface detail. The knife's silhouette is continuous but faceted; a later artist-authored mesh/material pass will improve appearance. No custom textures, hand/finger animations, arm rigs, sound effects, multiplayer world animation, or Colt Python revolver are included in this pack. The current Studio weapon/viewmodel code was not available in GitHub, so these cannot claim drop-in compatibility with that implementation.
+These are native-part prototypes, not photorealistic final meshes or production animation. The user-approved finish concept images have more surface detail. The knife's silhouette is continuous but faceted; a later artist-authored mesh/material pass will improve appearance. No custom textures, hand/finger animations, arm rigs, sound effects or multiplayer world animation are included in this pack. The current Studio weapon/viewmodel code was not available in GitHub, so these cannot claim drop-in compatibility with that implementation.
 
 ## Quick preview in a SEPARATE Studio Baseplate
 
 1. Pull this folder from GitHub. Save a backup and open a separate Baseplate; do not install the preview into the working game.
-2. Import `WeaponPreviewPack.rbxmx` using Insert from File or drag into Studio, then MOVE the resulting **WeaponPreviewPack** Folder into **ReplicatedStorage** before pressing Play. This folder includes the ModuleScript and the two models. Keep the name unchanged.
+2. Import `WeaponPreviewPack.rbxmx` using Insert from File or drag into Studio, then MOVE the resulting **WeaponPreviewPack** Folder into **ReplicatedStorage** before pressing Play. This folder includes the ModuleScript and five models. Keep the name unchanged.
 3. Import `WeaponPreviewClient.rbxmx`, then MOVE the resulting **WeaponPreviewClient** LocalScript into **StarterPlayer > StarterPlayerScripts**. Do not leave a LocalScript in Workspace and expect it to run.
 4. Press Play (client Play, not server-only Run). It temporarily locks first-person and clones only the selected prototype under CurrentCamera. It does not delete any existing viewmodel. Use the separate Baseplate to avoid duplicate weapons or input conflicts.
-5. Controls: left click = fire/slash animation; F = inspect; R = cosmetic pistol reload; Q = switch prototype; hold Left Shift = sprint pose; hold C = slide pose; P = stop preview and restore the previous camera mode. Shift/C only preview weapon poses; they do not implement locomotion or change character speed.
+5. Controls: left click = fire/slash animation; F = inspect; R = cosmetic pistol/revolver reload; Q = cycle all five prototypes; hold Left Shift = sprint pose; hold C = slide pose; P = stop preview and restore the previous camera mode. Shift/C only preview weapon poses; they do not implement locomotion or change character speed.
 6. Reset the character during testing and verify cleanup/recreation. Stop Play to restore edit state.
 
 The expected hierarchy is:
@@ -29,6 +31,9 @@ ReplicatedStorage
 └── WeaponPreviewPack
     ├── Service1911_Prototype
     ├── Karambit_Prototype
+    ├── PythonMagnum_Prototype
+    ├── Machete_Prototype
+    ├── ButterKnife_Prototype
     └── WeaponAnimator (ModuleScript)
 StarterPlayer
 └── StarterPlayerScripts
@@ -55,7 +60,7 @@ The R key exists ONLY in this visual sandbox. It never changes ammo. In the live
 
 ## Rig contract
 
-Both rigs have one anchored transparent **Anchor** at the origin and one **Presentation** Motor6D to the body. Every other part is unanchored, massless and noncolliding; CanTouch/CanQuery/shadows are disabled. Each visible part is welded exactly once to its assembly. The 1911 has unique **Slide**, **Hammer**, **Magazine**, and **Cartridge** Motor6Ds. The root points down local -Z.
+All rigs have one anchored transparent **Anchor** at the origin and one **Presentation** Motor6D to the body. Every other part is unanchored, massless and noncolliding; CanTouch/CanQuery/shadows are disabled. Each visible part is welded exactly once to its assembly. The 1911 has unique **Slide**, **Hammer**, **Magazine**, and **Cartridge** Motor6Ds. The root points down local -Z.
 
 WeaponAnimator adjusts C0 from captured rest values. It must be the only writer for those joints: don't run an Animator or another C0 procedural controller on them simultaneously. Tune view offset after import and test camera clipping. Destroy the driver before deleting the model, and recreate it on weapon/model replacement. The module does not own player cameras or gameplay state; the sandbox LocalScript owns its temporary first-person camera mode.
 

@@ -1,0 +1,1286 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="Machete_Prototype">
+    <Properties>
+      <string name="Name">Machete_Prototype</string>
+      <Ref name="PrimaryPart">Machete_Prototype_001</Ref>
+    </Properties>
+    <Item class="Part" referent="Machete_Prototype_001">
+      <Properties>
+        <string name="Name">Anchor</string>
+        <Vector3 name="size">
+          <X>0.05</X>
+          <Y>0.05</Y>
+          <Z>0.05</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>-0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <Color3 name="Color">
+          <R>0.10196078431372549</R>
+          <G>0.11372549019607843</G>
+          <B>0.12156862745098039</B>
+        </Color3>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <bool name="Massless">true</bool>
+        <bool name="CastShadow">false</bool>
+        <float name="Transparency">1</float>
+        <token name="Material">1088</token>
+        <token name="shape">1</token>
+        <token name="TopSurface">0</token>
+        <token name="BottomSurface">0</token>
+      </Properties>
+    </Item>
+    <Item class="Model" referent="Machete_PrototypeBody">
+      <Properties>
+        <string name="Name">Body</string>
+      </Properties>
+      <Item class="Part" referent="Machete_Prototype_002">
+        <Properties>
+          <string name="Name">BodyPivot</string>
+          <Vector3 name="size">
+            <X>0.04</X>
+            <Y>0.04</Y>
+            <Z>0.04</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.10196078431372549</R>
+            <G>0.11372549019607843</G>
+            <B>0.12156862745098039</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">1</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="Motor6D" referent="Machete_Prototype_002Joint">
+          <Properties>
+            <string name="Name">Presentation</string>
+            <Ref name="Part0">Machete_Prototype_001</Ref>
+            <Ref name="Part1">Machete_Prototype_002</Ref>
+            <CoordinateFrame name="C0">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+            <CoordinateFrame name="C1">
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>-0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Machete_Prototype_003">
+        <Properties>
+          <string name="Name">FullTang</string>
+          <Vector3 name="size">
+            <X>0.11</X>
+            <Y>0.93</Y>
+            <Z>0.3</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.15</Y>
+            <Z>0.05</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_003Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_003</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Machete_Prototype_004">
+        <Properties>
+          <string name="Name">HandleScale</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.81</Y>
+            <Z>0.28</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>-0.085</X>
+            <Y>-0.17</Y>
+            <Z>0.05</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.25882352941176473</G>
+            <B>0.21568627450980393</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_004Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_004</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Machete_Prototype_005">
+        <Properties>
+          <string name="Name">HandleScale</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.81</Y>
+            <Z>0.28</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0.085</X>
+            <Y>-0.17</Y>
+            <Z>0.05</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.24705882352941178</R>
+            <G>0.25882352941176473</G>
+            <B>0.21568627450980393</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_005Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_005</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Machete_Prototype_006">
+        <Properties>
+          <string name="Name">HandleRivet</string>
+          <Vector3 name="size">
+            <X>0.2</X>
+            <Y>0.065</Y>
+            <Z>0.065</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.45</Y>
+            <Z>0.05</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.48627450980392156</R>
+            <G>0.5098039215686274</G>
+            <B>0.49019607843137253</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_006Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_006</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Machete_Prototype_007">
+        <Properties>
+          <string name="Name">HandleRivet</string>
+          <Vector3 name="size">
+            <X>0.2</X>
+            <Y>0.065</Y>
+            <Z>0.065</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>-0.1</Y>
+            <Z>0.05</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.48627450980392156</R>
+            <G>0.5098039215686274</G>
+            <B>0.49019607843137253</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_007Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_007</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Machete_Prototype_008">
+        <Properties>
+          <string name="Name">HandleRivet</string>
+          <Vector3 name="size">
+            <X>0.2</X>
+            <Y>0.065</Y>
+            <Z>0.065</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.2</Y>
+            <Z>0.05</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.48627450980392156</R>
+            <G>0.5098039215686274</G>
+            <B>0.49019607843137253</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">2</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_008Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_008</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Part" referent="Machete_Prototype_009">
+        <Properties>
+          <string name="Name">GuardStop</string>
+          <Vector3 name="size">
+            <X>0.2</X>
+            <Y>0.065</Y>
+            <Z>0.46</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.31</Y>
+            <Z>0.03</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>-0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.23921568627450981</R>
+            <G>0.25882352941176473</G>
+            <B>0.27450980392156865</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="shape">1</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_009Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_009</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_010">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.25540590873709595</Y>
+            <Z>0.20896847078489664</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.31</Y>
+            <Z>0.045</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.63323779</R11>
+            <R12>0.7739573</R12>
+            <R20>0</R20>
+            <R21>-0.7739573</R21>
+            <R22>-0.63323779</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_010Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_010</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_011">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.25540590873709595</Y>
+            <Z>0.35953834535717916</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.53</Y>
+            <Z>-0.135</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.63323779</R11>
+            <R12>-0.7739573</R12>
+            <R20>0</R20>
+            <R21>-0.7739573</R21>
+            <R22>0.63323779</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_011Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_011</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_012">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.3095829196813284</Y>
+            <Z>0.25329511610290506</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.75</Y>
+            <Z>0.05</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.63323779</R11>
+            <R12>-0.7739573</R12>
+            <R20>0</R20>
+            <R21>0.7739573</R21>
+            <R22>0.63323779</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_012Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_012</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_013">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.3095829196813284</Y>
+            <Z>0.31521170003917076</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.53</Y>
+            <Z>0.23</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.63323779</R11>
+            <R12>0.7739573</R12>
+            <R20>0</R20>
+            <R21>0.7739573</R21>
+            <R22>-0.63323779</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_013Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_013</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_014">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.3095829196813284</Y>
+            <Z>0.25329511610290506</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0.75</Y>
+            <Z>0.05</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.63323779</R11>
+            <R12>0.7739573</R12>
+            <R20>0</R20>
+            <R21>-0.7739573</R21>
+            <R22>-0.63323779</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_014Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_014</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_015">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.3095829196813284</Y>
+            <Z>0.4573384040746898</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.025</Y>
+            <Z>-0.175</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.63323779</R11>
+            <R12>-0.7739573</R12>
+            <R20>0</R20>
+            <R21>-0.7739573</R21>
+            <R22>0.63323779</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_015Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_015</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_016">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.36375993062556083</Y>
+            <Z>0.29762176142091334</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.3</Y>
+            <Z>0.035</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.63323779</R11>
+            <R12>-0.7739573</R12>
+            <R20>0</R20>
+            <R21>0.7739573</R21>
+            <R22>0.63323779</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_016Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_016</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_017">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.36375993062556083</Y>
+            <Z>0.41301175875668145</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.025</Y>
+            <Z>0.26</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.63323779</R11>
+            <R12>0.7739573</R12>
+            <R20>0</R20>
+            <R21>0.7739573</R21>
+            <R22>-0.63323779</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_017Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_017</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_018">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.3323401871576774</Y>
+            <Z>0.33234018715767744</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.3</Y>
+            <Z>0.035</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.70710678</R11>
+            <R12>0.70710678</R12>
+            <R20>0</R20>
+            <R21>-0.70710678</R21>
+            <R22>-0.70710678</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_018Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_018</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_019">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.3323401871576774</Y>
+            <Z>0.4454772721475249</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.575</Y>
+            <Z>-0.24</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.70710678</R11>
+            <R12>-0.70710678</R12>
+            <R20>0</R20>
+            <R21>-0.70710678</R21>
+            <R22>0.70710678</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_019Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_019</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_020">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.3535533905932738</Y>
+            <Z>0.3535533905932738</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.85</Y>
+            <Z>-0.03</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.70710678</R11>
+            <R12>-0.70710678</R12>
+            <R20>0</R20>
+            <R21>0.70710678</R21>
+            <R22>0.70710678</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_020Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_020</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_021">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.3535533905932738</Y>
+            <Z>0.42426406871192857</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.575</Y>
+            <Z>0.245</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.70710678</R11>
+            <R12>0.70710678</R12>
+            <R20>0</R20>
+            <R21>0.70710678</R21>
+            <R22>-0.70710678</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_021Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_021</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_022">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.2023735560288825</Y>
+            <Z>0.4572143302874754</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.85</Y>
+            <Z>-0.03</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.91442866</R11>
+            <R12>0.40474711</R12>
+            <R20>0</R20>
+            <R21>-0.40474711</R21>
+            <R22>-0.91442866</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_022Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_022</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_023">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.2023735560288825</Y>
+            <Z>0.2098688729188413</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.985</Y>
+            <Z>-0.335</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.91442866</R11>
+            <R12>-0.40474711</R12>
+            <R20>0</R20>
+            <R21>-0.40474711</R21>
+            <R22>0.91442866</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_023Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_023</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_024">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.1861836715465721</Y>
+            <Z>0.42063718386447746</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>2.12</Y>
+            <Z>-0.16</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.91442866</R11>
+            <R12>-0.40474711</R12>
+            <R20>0</R20>
+            <R21>0.40474711</R21>
+            <R22>0.91442866</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_024Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_024</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_025">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.1861836715465721</Y>
+            <Z>0.24644601934183924</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1.985</Y>
+            <Z>0.145</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>0.91442866</R11>
+            <R12>0.40474711</R12>
+            <R20>0</R20>
+            <R21>0.40474711</R21>
+            <R22>-0.91442866</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_025Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_025</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_026">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.10984253577731574</Y>
+            <Z>0.44669297882775055</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>2.12</Y>
+            <Z>-0.16</Z>
+            <R00>1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.97107169</R11>
+            <R12>0.23878812</R12>
+            <R20>0</R20>
+            <R21>-0.23878812</R21>
+            <R22>-0.97107169</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_026Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_026</Ref>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="WedgePart" referent="Machete_Prototype_027">
+        <Properties>
+          <string name="Name">BladeSurface</string>
+          <Vector3 name="size">
+            <X>0.07</X>
+            <Y>0.10984253577731574</Y>
+            <Z>0.18147897215382583</Z>
+          </Vector3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>2.195</Y>
+            <Z>-0.465</Z>
+            <R00>-1.0</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>-0.97107169</R11>
+            <R12>-0.23878812</R12>
+            <R20>0</R20>
+            <R21>-0.23878812</R21>
+            <R22>0.97107169</R22>
+          </CoordinateFrame>
+          <Color3 name="Color">
+            <R>0.5764705882352941</R>
+            <G>0.592156862745098</G>
+            <B>0.5686274509803921</B>
+          </Color3>
+          <bool name="Anchored">false</bool>
+          <bool name="CanCollide">false</bool>
+          <bool name="CanTouch">false</bool>
+          <bool name="CanQuery">false</bool>
+          <bool name="Massless">true</bool>
+          <bool name="CastShadow">false</bool>
+          <float name="Transparency">0</float>
+          <token name="Material">1088</token>
+          <token name="TopSurface">0</token>
+          <token name="BottomSurface">0</token>
+        </Properties>
+        <Item class="WeldConstraint" referent="Machete_Prototype_027Weld">
+          <Properties>
+            <string name="Name">AssemblyWeld</string>
+            <Ref name="Part0">Machete_Prototype_002</Ref>
+            <Ref name="Part1">Machete_Prototype_027</Ref>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

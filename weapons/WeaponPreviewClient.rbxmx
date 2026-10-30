@@ -19,7 +19,9 @@ local player = Players.LocalPlayer
 local previousMode = player.CameraMode
 player.CameraMode = Enum.CameraMode.LockFirstPerson
 local index, sprint, sliding, stopped = 1, false, false, false
-local names = {"Service1911_Prototype", "Karambit_Prototype"}
+local names = {"Service1911_Prototype", "Karambit_Prototype", "PythonMagnum_Prototype", "Machete_Prototype", "ButterKnife_Prototype"}
+local kinds = {"Pistol", "Knife", "Revolver", "Machete", "ButterKnife"}
+local function isFirearm(): boolean return kinds[index] == "Pistol" or kinds[index] == "Revolver" end
 local current: Model? = nil
 local animation: any = nil
 local connections: {RBXScriptConnection} = {}
@@ -36,7 +38,7 @@ local function load()
 	local clone = source:Clone()
 	clone.Parent = camera
 	current = clone
-	animation = Animator.new(clone, index == 1 and "Pistol" or "Knife", camera)
+	animation = Animator.new(clone, kinds[index], camera)
 	animation:SetLocomotion(sliding and "Slide" or (sprint and "Sprint" or "Idle"))
 	animation:Play("Equip")
 end
@@ -51,11 +53,11 @@ end
 table.insert(connections, UserInputService.InputBegan:Connect(function(input, processed)
 	if processed or UserInputService:GetFocusedTextBox() then return end
 	if input.KeyCode == Enum.KeyCode.P then stop(); return end
-	if input.KeyCode == Enum.KeyCode.Q then index = index == 1 and 2 or 1; load(); return end
+	if input.KeyCode == Enum.KeyCode.Q then index = index % #names + 1; load(); return end
 	if not animation then return end
-	if input.UserInputType == Enum.UserInputType.MouseButton1 then animation:Play(index == 1 and "Fire" or "Attack")
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then animation:Play(isFirearm() and "Fire" or "Attack")
 	elseif input.KeyCode == Enum.KeyCode.F then animation:Play("Inspect")
-	elseif input.KeyCode == Enum.KeyCode.R and index == 1 then animation:Play("Reload")
+	elseif input.KeyCode == Enum.KeyCode.R and isFirearm() then animation:Play("Reload")
 	elseif input.KeyCode == Enum.KeyCode.LeftShift then sprint = true; animation:SetLocomotion(sliding and "Slide" or "Sprint")
 	elseif input.KeyCode == Enum.KeyCode.C then sliding = true; animation:SetLocomotion("Slide") end
 end))
@@ -73,7 +75,7 @@ table.insert(connections, player.CharacterAdded:Connect(function() if not stoppe
 table.insert(connections, Workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function() if not stopped then load() end end))
 table.insert(connections, script.Destroying:Connect(stop))
 load()
-print("Weapon preview: click fire/slash; F inspect; R cosmetic reload; Q swap; hold Shift sprint pose; hold C slide pose; P stop. No gameplay actions occur.")
+print("Weapon preview: click fire/slash; F inspect; R cosmetic reload; Q cycle 5 weapons; hold Shift sprint pose; hold C slide pose; P stop. No gameplay actions occur.")
 </ProtectedString>
     </Properties>
   </Item>
