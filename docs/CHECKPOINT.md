@@ -1,4 +1,4 @@
-# Checkpoint — 2026-10-30 (Player data + inventory skins)
+# Checkpoint — 2026-10-31 (Player data + inventory skins, verified)
 
 Studio place: "One In The Chamber", Team Create, **not published**. Studio scripts match `src/`; every file's byte length was checked after install. Full details: `docs/PLAYER_DATA.md`.
 
@@ -24,19 +24,38 @@ Backup: `ServerStorage.Backups.PrePlayerData_2026-10-30`.
 
 - **Passed:**
   - `DataTests` 13/13.
-  - Live Studio play test: grants, equip validation (unowned, wrong weapon, injected id, unknown weapon, cooldown, malformed), delayed save, competing session `Locked`, leave/rejoin restore, store-down `Failed` with no overwrite, transient-error recovery, newer schema refused.
+  - Live Studio play test of the data layer: grants, equip validation (unowned, wrong weapon, injected id, unknown weapon, cooldown, malformed), delayed save, competing session `Locked`, leave/rejoin restore, store-down `Failed` with no overwrite, transient-error recovery, newer schema refused.
   - Skins correct on the server Tool and the client viewmodel in practice; ammo unchanged; equip refused in practice.
+- **Verification pass (2026-10-31), after Studio was restarted:**
+  - All 41 Studio scripts matched `src/` byte for byte; nothing was lost.
+  - **Inventory click-through (real clicks):** open → preview Slate (not equipped) → EQUIP → equipped tag and list update → Karambit → Ember → equipped. Failed-load view (store down) shows a warning, and EQUIP is disabled. Profile shows Slate and Ember. Screenshots: `docs/screenshots/inventory_1_open` … `inventory_5_load_failed`, `profile_equipped_skins`.
+  - **Fixed:** the failed-load view also claimed "you don't own other skins"; that note now shows only when the inventory actually loaded. The skin grid now has padding, so the selection outline isn't clipped.
+  - **Two clients, full flow:**
+    - Player1 queued from the menu and Player2 from a pad, and the match started (Blue / Red).
+    - Each client saw the other's Tool in the other's skin (Slate vs Desert), and each viewmodel matched its own skin. Screenshot: `match_desert_skin_first_person.jpg`.
+    - Best of five, 0-1 → 1-1 → 1-2 → 2-2 → 3-2, using these combat rules:
+      - pistol elimination with the bullet restored;
+      - front knife hit for 50;
+      - backstab for 100 in one hit;
+      - a shot blocked by the spawn shield, and a miss with no ammo that switched to the knife.
+    - Ammo never went above 1. Combat behaved as before; skins changed nothing.
+    - The eliminated player's camera switched to the arena overview (Scriptable) during RoundEnd (checked in round 2).
+    - Result: Victory for Player1, Defeat for Player2.
+    - Both players returned to the lobby with match attributes cleared, no weapons, and saved skins intact. Equipping works again in the lobby.
+- **Notes from the run:**
+  - Several test knife swings "missed" because the scripted body turn hadn't finished. This was the test harness, not a game bug; real swings in the same positions hit.
+  - One shot in round 1 came from Player2's window without a scripted command, probably stray input from my screen tools. It was validated normally (one elimination, bullet restored).
 - **Not run:**
-  - real DataStore (needs Studio API access);
-  - Inventory screen screenshots and a click-through (lost the device connection);
-  - a 2-client match with skins;
+  - real DataStore (Studio API access is still off; stays untested);
+  - result-screen screenshot (verified through attributes only);
+  - spectating screenshot (camera state verified, image not captured);
   - real devices (touch, gamepad).
-- **Failed:** none.
+- **Failed:** none outstanding.
 
 ## Next step
 
-1. When the computer is reachable again: screenshot and click through the Inventory screen. Then run a 2-client match and confirm both players see each other's skins. Optionally run real-DataStore rejoin tests if Studio API access is enabled.
-2. Then decide on store and crates scope (not started; needs approval).
+1. When Studio API access is enabled, run the real-DataStore save/rejoin tests against `OITC_PlayerData_STUDIO_v1` only.
+2. Then review ChatGPT's map updates in the review place, or decide the next approved stage (store and crates are not started and need approval).
 
 ---
 

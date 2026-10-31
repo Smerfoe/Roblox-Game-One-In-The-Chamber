@@ -154,8 +154,7 @@ Controller B closes the screen, like the other menus.
 ### Not run yet
 
 - **Real DataStore**: needs "Enable Studio Access to API Services". A real rejoin across separate play sessions is still untested. All data logic was exercised against the in-memory store.
-- **Inventory screen visuals:** no screenshots, and the flow wasn't clicked through. Equip was tested through the real remote, but I lost the connection to the Studio computer before UI screenshots.
-- **Entering a real match with skins:** a match round uses the same LoadoutService path as practice, which passed, but a 2-client match with skins was not run.
+- ~~Inventory screen visuals~~ and ~~a 2-client match with skins~~: done 2026-10-31. See `docs/CHECKPOINT.md` and `docs/screenshots/inventory_*`.
 - **Two real servers competing:** simulated with a second session object on the same store (unit and live). Real cross-server behaviour needs published or real-DataStore testing.
 - **Platforms:** touch and gamepad on real devices, and small screens.
 

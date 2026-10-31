@@ -176,7 +176,8 @@ local function rebuildSkins()
 			shown += 1
 		end
 	end
-	emptyNote.Visible = shown <= 1
+	-- only claim "you don't own others" when the server actually sent the inventory
+	emptyNote.Visible = shown <= 1 and dataUsable()
 	if not selectedSkin or SkinCatalog.GetSkin(selectedSkin).Weapon ~= selectedWeapon or not isOwned(selectedSkin) then
 		selectSkin(equippedFor(selectedWeapon))
 	end
@@ -373,6 +374,13 @@ local function build()
 		ScrollBarThickness = 6,
 		Parent = middle,
 	}, {
+		-- room for the 3px selection outline so it isn't clipped by the scroll frame
+		new("UIPadding", {
+			PaddingTop = UDim.new(0, 3),
+			PaddingLeft = UDim.new(0, 3),
+			PaddingRight = UDim.new(0, 3),
+			PaddingBottom = UDim.new(0, 3),
+		}),
 		new("UIGridLayout", {
 			CellSize = UDim2.fromOffset(128, 120),
 			CellPadding = UDim2.fromOffset(Theme.Space.S, Theme.Space.S),
