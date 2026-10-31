@@ -26,10 +26,10 @@ end
 
 -- viewmodel proportions (studs): thickness X/Z, length Y
 local SIZE = {
-	UpperArm = Vector3.new(0.36, 0.95, 0.36),
-	LowerArm = Vector3.new(0.3, 0.9, 0.3),
-	Hand = Vector3.new(0.3, 0.32, 0.26),
-	R6Arm = Vector3.new(0.32, 1.7, 0.32),
+	UpperArm = Vector3.new(0.43, 1, 0.43),
+	LowerArm = Vector3.new(0.36, 0.95, 0.36),
+	Hand = Vector3.new(0.36, 0.38, 0.31),
+	R6Arm = Vector3.new(0.38, 1.8, 0.38),
 }
 
 -- Hand and elbow placement. Grip offsets are in the weapon grip's axes; elbow
