@@ -137,3 +137,17 @@ After that comes Stage 4, inventory and skins.
 - **Foundry decoration is paused** while the full environment build happens elsewhere. The v2 builder in `maps/exports/drafts/` was never run.
 - The review place is saved locally as `Documents\Place1OITC_TeamMapReview_2026-10-30.rbxl`; the original Foundry is kept in its `ServerStorage.TeamMapOriginals`.
 - Merged `main` (team map models) into this branch; there were no conflicts.
+
+## First-person arms fix (2026-10-31)
+
+New Studio-only scripts were added outside this repo: `Shared.AvatarArms`, `Shared.PolishEffects`, `Config.PolishConfig`, `Services.MovementService`, `Controllers.MovementController` and `Controllers.FeedbackController`. `ViewmodelController` (now with arms, inspect on F, draw animations and sprint/slide pose) and `CombatService` were also changed. Only `AvatarArms` was changed here; everything else was left exactly as it was.
+
+- **Problem:** the cloned avatar arms kept the avatar's bulky sizes, because the clone's Humanoid re-applied body scaling. The shoulders sat beside the camera, so the arms filled the bottom of the screen, and both hands pointed straight up.
+- **Fix:** `src/ReplicatedStorage/Shared/AvatarArms.luau` (same `Build` / `Place` interface):
+  - automatic scaling is turned off on the clone, and the arms get slim viewmodel sizes (the avatar's colours and shirt are kept);
+  - the right hand sits on the grip and follows the forearm;
+  - the pistol gets a left support hand under the grip; the knife is one-handed (left arm hidden);
+  - elbows and shoulders are solved from fixed segment lengths, so the arms never stretch during recoil, slashes or the inspect.
+- **Backup:** `ServerStorage.Backups.PreArmsFix_2026-10-31` (the previous AvatarArms and ViewmodelController).
+- **Checked in practice:** pistol hold, knife hold, and the F inspect with the knife. Screenshots: `docs/screenshots/arms_pistol.jpg`, `arms_knife.jpg`.
+- **Not done:** the other new Studio scripts are not in `src/` yet, so `src/` ViewmodelController and CombatService are older than Studio.
