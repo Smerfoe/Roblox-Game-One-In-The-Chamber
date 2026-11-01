@@ -1,0 +1,18 @@
+[
+  {
+    "source": "ServerScriptService\\Data\\ProfileStore.luau",
+    "sha256": "6cff1ba18d90ddc49cc90f4a8a112600e18538244beb953e5edcf2d2acc759d2"
+  },
+  {
+    "source": "ServerScriptService\\Data\\MemoryStore.luau",
+    "sha256": "78fbf20753ee603b63c9ecb390a290f14a298cb035cd57886abe0541b9411516"
+  },
+  {
+    "source": "ServerScriptService\\Data\\DataConfig.luau",
+    "sha256": "58dac3f4257dde3b2b4ea2e27022e58a0119dd664c2faa73ef60a6bee65709e5"
+  },
+  {
+    "source": "ServerScriptService\\Data\\DataTests.luau",
+    "sha256": "4ddec58fa062a2c3b4b22be014acf01bad460b000389670b8218b2e15c482e92"
+  }
+]

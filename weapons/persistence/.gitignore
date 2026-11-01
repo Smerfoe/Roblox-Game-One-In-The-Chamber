@@ -1,0 +1,4 @@
+tools/luau-0.745/
+coverage.out
+profile.out
+trace.json
