@@ -209,7 +209,7 @@ local function build(name, skinId, equippedTool)
 	SkinAppearance.Apply(model, name, skinId)
 	local graph
  if kind then
-  graph={kind=kind,links={},root=sourceMap[template:FindFirstChild("Handle")]}
+  graph={kind=kind,links={},root=sourceMap[template:FindFirstChild("Handle")],scale=template:GetAttribute("ViewScale") or 1}
   for _,joint in template:GetDescendants() do
    if (joint:IsA("Motor6D") or joint:IsA("WeldConstraint")) and joint.Part0 and joint.Part1 then
     local child,parent=sourceMap[joint.Part1],sourceMap[joint.Part0]
@@ -289,7 +289,9 @@ local offset = current.def.offset
    local link=current.graph.links[part]
    local cf
    if part==current.graph.root then cf=root
-   elseif link then cf=solve(link.parent)*link.rest*(link.motor and (deltas[link.name] or CFrame.identity) or CFrame.identity)*link.inverse
+   elseif link then local d=link.motor and deltas[link.name] or CFrame.identity
+    if current.graph.scale~=1 then d=CFrame.new(d.Position*current.graph.scale)*d.Rotation end -- tracks were authored at prototype size
+    cf=solve(link.parent)*link.rest*d*link.inverse
    else cf=root*current.parts[part] end
    solved[part]=cf;visiting[part]=nil;return cf
   end
