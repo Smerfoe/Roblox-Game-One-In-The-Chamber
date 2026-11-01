@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Folder" referent="PersistentArmoryCandidate">
+    <Properties>
+      <string name="Name">PersistentArmoryCandidate</string>
+    </Properties>
+    <Item class="ModuleScript" referent="Catalog">
+      <Properties>
+        <string name="Name">Catalog</string>
+        <ProtectedString name="Source">-- Draft prices; no automatic coin earnings or paid crates are enabled.
+local Catalog = {
+    MaxCoins = 2147483647,
+    ReceiptLimit = 32,
+    Items = {
+        Service1911 = { Slot = "Pistol", Price = 0, Default = true },
+        OldWestRevolver = { Slot = "Pistol", Price = 2500 },
+        HeavyEagle = { Slot = "Pistol", Price = 7000 },
+        PythonMagnum = { Slot = "Pistol", Price = 10000 },
+        FrontierRepeater = { Slot = "Pistol", Price = 100000 },
+        BasicKnife = { Slot = "Knife", Default = true },
+        Karambit = { Slot = "Knife" },
+        ButterflyKnife = { Slot = "Knife" },
+        Machete = { Slot = "Knife" },
+        TrailBowie = { Slot = "Knife" },
+    },
+    Crates = {
+        TestBlades = {
+            Price = 10, StudioOnly = true,
+            -- Equal integer buckets: 25% each. No client supplies the roll.
+            Items = { "Karambit", "ButterflyKnife", "Machete", "TrailBowie" },
+        },
+    },
+    CreditSources = { Match = true, AdminGrant = true, Migration = true },
+}
+local function freeze(t)
+    for _, value in pairs(t) do
+        if type(value) == "table" then freeze(value) end
+    end
+    return table.freeze(t)
+end
+return freeze(Catalog)
+</ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="ModuleScript" referent="Schema">
+      <Properties>
+        <string name="Name">Schema</string>
+        <ProtectedString name="Source">-- Candidate schema v2. Does not modify the installed schema or Studio.
+local Schema = { CURRENT = 2 }
+function Schema.DeepCopy(value)
+    if type(value) ~= "table" then return value end
+    local out = {}
+    for k, v in pairs(value) do out[k] = Schema.DeepCopy(v) end
+    return out
+end
+local function integer(value, low, high)
+    return type(value) == "number" and value == value and value % 1 == 0 and value &gt;= low and value &lt;= high
+end
+function Schema.IsNewer(data)
+    return type(data) == "table" and type(data.SchemaVersion) == "number" and data.SchemaVersion &gt; Schema.CURRENT
+end
+local function freshArmory()
+    return {
+        Coins = 0, Owned = { Service1911 = true, BasicKnife = true },
+        Selected = { Pistol = "Service1911", Knife = "BasicKnife" },
+        LastSequence = 0, Receipts = {}, ReceiptOrder = {},
+        CreditCursors = {},
+    }
+end
+function Schema.Default()
+    return { SchemaVersion = 2, Inventory = { Skins = {} }, Equipped = {}, Progression = {}, Armory = freshArmory() }
+end
+local function repairLegacy(data)
+    if type(data.Inventory) ~= "table" then data.Inventory = {} end
+    if type(data.Inventory.Skins) ~= "table" then data.Inventory.Skins = {} end
+    for id, owned in pairs(data.Inventory.Skins) do
+        if type(id) ~= "string" or owned ~= true then data.Inventory.Skins[id] = nil end
+    end
+    if type(data.Equipped) ~= "table" then data.Equipped = {} end
+    for id, skin in pairs(data.Equipped) do
+        if type(id) ~= "string" or type(skin) ~= "string" then data.Equipped[id] = nil end
+    end
+    if type(data.Progression) ~= "table" then data.Progression = {} end
+end
+local function validateArmory(a)
+    -- Fail closed on corrupt currency/idempotency records; never reset them to zero.
+    assert(type(a) == "table", "CorruptArmory")
+    assert(integer(a.Coins, 0, 2147483647), "CorruptCoins")
+    assert(integer(a.LastSequence, 0, 9007199254740990), "CorruptSequence")
+    assert(type(a.Owned) == "table" and type(a.Selected) == "table", "CorruptOwnership")
+    for id, value in pairs(a.Owned) do assert(type(id) == "string" and value == true, "CorruptOwnership") end
+    for slot, id in pairs(a.Selected) do assert(type(slot) == "string" and type(id) == "string", "CorruptSelection") end
+    assert(type(a.Receipts) == "table" and type(a.ReceiptOrder) == "table", "CorruptReceipts")
+    assert(#a.ReceiptOrder &lt;= 32, "CorruptReceiptLimit")
+    local seen, previous = {}, 0
+    for key in pairs(a.ReceiptOrder) do assert(integer(key, 1, #a.ReceiptOrder), "CorruptReceiptArray") end
+    for index, sequence in ipairs(a.ReceiptOrder) do
+        assert(integer(sequence, 1, a.LastSequence) and sequence &gt; previous, "CorruptReceiptOrder")
+        local key = tostring(sequence)
+        local receipt = a.Receipts[key]
+        assert(type(receipt) == "table" and receipt.Sequence == sequence and type(receipt.Action) == "string"
+            and type(receipt.ItemId) == "string" and type(receipt.Result) == "table"
+            and type(receipt.Result.Code) == "string" and type(receipt.Result.ItemId) == "string"
+            and integer(receipt.Result.Cost, 0, 2147483647), "CorruptReceipt")
+        seen[key] = true; previous = sequence
+        assert(a.ReceiptOrder[index] == sequence)
+    end
+    for key in pairs(a.Receipts) do assert(seen[key], "OrphanReceipt") end
+    assert(type(a.CreditCursors) == "table", "CorruptCreditCursors")
+    for source, sequence in pairs(a.CreditCursors) do
+        assert(type(source) == "string" and integer(sequence, 0, 9007199254740990), "CorruptCreditCursor")
+    end
+    a.Owned.Service1911 = true; a.Owned.BasicKnife = true
+end
+function Schema.Migrate(stored)
+    if stored == nil then return Schema.Default(), true end
+    assert(type(stored) == "table", "CorruptRecord")
+    assert(not Schema.IsNewer(stored), "NewerSchema")
+    local version = stored.SchemaVersion
+    if version == nil then version = 1 end
+    assert(integer(version, 1, Schema.CURRENT), "CorruptSchemaVersion")
+    local data = Schema.DeepCopy(stored)
+    repairLegacy(data)
+    local changed = version ~= Schema.CURRENT
+    if version == 1 then
+        -- Armory did not exist in v1. Preserve an unexpected same-named field for review.
+        assert(data.Armory == nil, "UnexpectedV1Armory")
+        data.Armory = freshArmory()
+        -- Existing players retain access to their old default knife.
+        data.Armory.Owned.Karambit = true
+        data.Armory.Selected.Knife = "Karambit"
+    end
+    data.SchemaVersion = Schema.CURRENT
+    validateArmory(data.Armory)
+    return data, changed
+end
+return Schema
+</ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="ModuleScript" referent="Transactions">
+      <Properties>
+        <string name="Name">Transactions</string>
+        <ProtectedString name="Source">-- Pure domain rules. Server owns context and RNG; never feed either from a remote.
+local Schema = require(script.Parent.Schema)
+local Catalog = require(script.Parent.Catalog)
+local T = {}
+local function integer(n, low, high)
+    return type(n) == "number" and n == n and n % 1 == 0 and n &gt;= low and n &lt;= high
+end
+local function result(code, item, cost)
+    return { Code = code, ItemId = item or "", Cost = cost or 0 }
+end
+function T.ValidateRequest(request)
+    return type(request) == "table" and integer(request.Sequence, 1, 9007199254740990)
+        and type(request.Action) == "string" and #request.Action &lt;= 16
+        and type(request.ItemId) == "string" and #request.ItemId &lt;= 64
+end
+function T.Replay(data, request)
+    local a = data.Armory
+    if request.Sequence &gt; a.LastSequence then return nil end
+    local old = a.Receipts[tostring(request.Sequence)]
+    if not old then return result("ExpiredRequest") end
+    if old.Action ~= request.Action or old.ItemId ~= request.ItemId then return result("SequenceConflict") end
+    return Schema.DeepCopy(old.Result)
+end
+local function perform(a, request, context, randomIndex)
+    local action, id = request.Action, request.ItemId
+    if context.InLobby ~= true then return result("ReturnToLobby") end
+    if action == "Buy" then
+        local item = Catalog.Items[id]
+        if not item or item.Slot ~= "Pistol" or item.Price == nil then return result("UnknownPurchase") end
+        if a.Owned[id] then return result("AlreadyOwned", id) end
+        if a.Coins &lt; item.Price then return result("InsufficientCoins") end
+        a.Coins = a.Coins - item.Price; a.Owned[id] = true
+        return result("Purchased", id, item.Price)
+    elseif action == "Equip" then
+        local item = Catalog.Items[id]
+        if not item then return result("UnknownItem") end
+        if not a.Owned[id] then return result("NotOwned") end
+        a.Selected[item.Slot] = id
+        return result("Equipped", id)
+    elseif action == "Crate" then
+        local crate = Catalog.Crates[id]
+        if not crate then return result("UnknownCrate") end
+        if crate.StudioOnly and context.IsStudio ~= true then return result("CrateDisabled") end
+        if a.Coins &lt; crate.Price then return result("InsufficientCoins") end
+        local index = randomIndex(#crate.Items)
+        assert(integer(index, 1, #crate.Items), "InvalidServerRoll")
+        local won = crate.Items[index]
+        if a.Owned[won] then return result("DuplicateRefund", won, 0) end
+        a.Coins = a.Coins - crate.Price; a.Owned[won] = true
+        return result("Unboxed", won, crate.Price)
+    end
+    return result("UnknownAction")
+end
+function T.Apply(data, request, context, randomIndex)
+    if not T.ValidateRequest(request) then return nil, result("InvalidRequest") end
+    local replay = T.Replay(data, request)
+    if replay then return nil, replay end
+    if request.Sequence ~= data.Armory.LastSequence + 1 then return nil, result("OutOfOrder") end
+    local working = Schema.DeepCopy(data)
+    local receipt = perform(working.Armory, request, context, randomIndex)
+    local a = working.Armory
+    a.LastSequence = request.Sequence
+    a.Receipts[tostring(request.Sequence)] = {
+        Sequence = request.Sequence, Action = request.Action, ItemId = request.ItemId, Result = receipt,
+    }
+    table.insert(a.ReceiptOrder, request.Sequence)
+    if #a.ReceiptOrder &gt; Catalog.ReceiptLimit then
+        a.Receipts[tostring(table.remove(a.ReceiptOrder, 1))] = nil
+    end
+    return working, Schema.DeepCopy(receipt)
+end
+-- Server-only award API. Cursor must be a durable, ordered event number per source.
+-- Do not expose this as a remote or derive source/amount/event from client data.
+function T.Credit(data, source, event, amount)
+    if not Catalog.CreditSources[source] or not integer(event, 1, 9007199254740990)
+        or not integer(amount, 1, Catalog.MaxCoins) then return nil, result("InvalidCredit") end
+    local previous = data.Armory.CreditCursors[source] or 0
+    if event &lt;= previous then return nil, result("CreditAlreadyProcessed") end
+    if event ~= previous + 1 then return nil, result("CreditOutOfOrder") end
+    if data.Armory.Coins &gt; Catalog.MaxCoins - amount then return nil, result("CoinLimit") end
+    local working = Schema.DeepCopy(data)
+    working.Armory.Coins = working.Armory.Coins + amount
+    working.Armory.CreditCursors[source] = event
+    return working, result("Credited", source, -amount)
+end
+function T.Selection(data, slot)
+    local id = data.Armory.Selected[slot]
+    local item = Catalog.Items[id]
+    if item and item.Slot == slot and data.Armory.Owned[id] then return id end
+    return slot == "Pistol" and "Service1911" or slot == "Knife" and "BasicKnife" or nil
+end
+return T
+</ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="ModuleScript" referent="Coordinator">
+      <Properties>
+        <string name="Name">Coordinator</string>
+        <ProtectedString name="Source">-- One owner for an already session-locked full player profile.
+-- ALL profile mutations and saves must go through this coordinator after integration.
+local Schema = require(script.Parent.Schema)
+local Transactions = require(script.Parent.Transactions)
+local Coordinator = {}
+Coordinator.__index = Coordinator
+function Coordinator.new(options)
+    assert(options.Profile and options.Profile.Active, "Active locked profile required")
+    assert(options.ProfileStore and options.RandomIndex and options.Context, "Missing server dependencies")
+    assert(options.Profile.Data.SchemaVersion == Schema.CURRENT, "Migrate with candidate Schema before opening")
+    return setmetatable({
+        profile = options.Profile, store = options.ProfileStore,
+        randomIndex = options.RandomIndex, context = options.Context,
+        confirmed = Schema.DeepCopy(options.Profile.Data),
+        busy = false, pending = nil, lost = false, closed = false,
+    }, Coordinator)
+end
+function Coordinator:Status()
+    if self.lost then return "SessionLost" end
+    if self.closed then return "Closed" end
+    if self.busy then return "Saving" end
+    if self.pending then return "Pending" end
+    if not self.profile.Active then return "Inactive" end
+    return "Ready"
+end
+function Coordinator:Snapshot()
+    local a = self.confirmed.Armory
+    return {
+        Status = self:Status(), Coins = a.Coins, Owned = Schema.DeepCopy(a.Owned),
+        Selected = { Pistol = Transactions.Selection(self.confirmed, "Pistol"), Knife = Transactions.Selection(self.confirmed, "Knife") },
+        NextSequence = a.LastSequence + 1,
+        PendingSequence = self.pending and self.pending.request and self.pending.request.Sequence or nil,
+    }
+end
+local function response(code)
+    return { Code = code }
+end
+local function noYield(fn)
+    local thread = coroutine.create(fn)
+    local ok, a, b = coroutine.resume(thread)
+    if coroutine.status(thread) ~= "dead" then
+        coroutine.close(thread)
+        return false, "Server mutator yielded"
+    end
+    return ok, a, b
+end
+local function sameRequest(a, b)
+    return a and b and a.Sequence == b.Sequence and a.Action == b.Action and a.ItemId == b.ItemId
+end
+function Coordinator:_persist()
+    assert(not self.busy and self.pending)
+    self.busy = true
+    local ok, status = pcall(function() return self.store:Save(self.profile, false) end)
+    self.busy = false
+    if ok and status == "Ok" then
+        self.confirmed = Schema.DeepCopy(self.profile.Data)
+        local result = Schema.DeepCopy(self.pending.result)
+        self.pending = nil
+        return result
+    elseif ok and (status == "LostLock" or status == "Inactive") then
+        self.lost = true
+        return response("SessionLost")
+    end
+    -- Save may have committed before an acknowledgement was lost. Keep the exact
+    -- working snapshot/roll, block mutations, and retry that snapshot unchanged.
+    return response("Pending")
+end
+function Coordinator:_stage(working, result, request)
+    self.profile.Data = working
+    self.pending = { result = Schema.DeepCopy(result), request = request and Schema.DeepCopy(request) }
+    return self:_persist()
+end
+function Coordinator:Transact(request)
+    if not Transactions.ValidateRequest(request) then return response("InvalidRequest") end
+    if self.busy then return response("Busy") end
+    if self.lost or self.closed or not self.profile.Active then return response("Unavailable") end
+    if self.pending then
+        if sameRequest(self.pending.request, request) then return self:_persist() end
+        return response("Pending")
+    end
+    local ok, working, result = noYield(function()
+        return Transactions.Apply(self.confirmed, request, self.context(), self.randomIndex)
+    end)
+    if not ok then return response("InternalError") end
+    if not working then return result end -- replay / malformed ordering: no save, no charge
+    return self:_stage(working, result, request)
+end
+-- Trusted server caller only; never include this method in remote dispatch.
+function Coordinator:Credit(source, event, amount)
+    if self:Status() ~= "Ready" then return response("Unavailable") end
+    local working, result = Transactions.Credit(self.confirmed, source, event, amount)
+    if not working then return result end
+    return self:_stage(working, result)
+end
+-- Preserve skin/progression writes through the SAME profile owner, instead of
+-- letting the old DataService.Update race against a spending transaction.
+function Coordinator:UpdateLegacy(mutator)
+    if self:Status() ~= "Ready" then return response("Unavailable") end
+    local working = Schema.DeepCopy(self.confirmed)
+    local ok, changed = noYield(function() return mutator(working) end)
+    if not ok then return response("InternalError") end
+    if changed ~= true then return response("Unchanged") end
+    -- The armory API is the exclusive owner of these fields.
+    working.Armory = Schema.DeepCopy(self.confirmed.Armory)
+    working.SchemaVersion = Schema.CURRENT
+    return self:_stage(working, response("Updated"))
+end
+function Coordinator:RetryPending()
+    if self.busy then return response("Busy") end
+    if self.lost or self.closed or not self.profile.Active then return response("Unavailable") end
+    if not self.pending then return response("NothingPending") end
+    return self:_persist()
+end
+function Coordinator:Flush(release)
+    if self.busy then return response("Busy") end
+    if self.lost or self.closed or not self.profile.Active then return response("Unavailable") end
+    if self.pending then
+        local saved = self:_persist()
+        if self.pending then return saved end
+    end
+    self.busy = true
+    local ok, status = pcall(function() return self.store:Save(self.profile, release == true) end)
+    self.busy = false
+    if ok and status == "Ok" then
+        if release then self.closed = true end
+        return response("Saved")
+    end
+    if ok and (status == "LostLock" or status == "Inactive") then self.lost = true;return response("SessionLost") end
+    return response("SaveFailed")
+end
+return Coordinator
+</ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="ModuleScript" referent="RequestRouter">
+      <Properties>
+        <string name="Name">RequestRouter</string>
+        <ProtectedString name="Source">-- Transport-neutral adapter. It never trusts client prices, context or RNG.
+local Transactions = require(script.Parent.Transactions)
+local Router = {}
+Router.__index = Router
+function Router.new(options)
+    assert(options.GetOwner and options.Now, "server owner lookup and clock required")
+    return setmetatable({ getOwner = options.GetOwner, now = options.Now, last = {} }, Router)
+end
+function Router:Handle(player, action, request)
+    if action ~= "Snapshot" and action ~= "Transact" then return { Code = "InvalidAction" } end
+    local now = self.now()
+    if self.last[player] and now - self.last[player] &lt; 1 then return { Code = "RateLimited" } end
+    self.last[player] = now
+    local owner = self.getOwner(player)
+    if not owner then return { Code = "DataUnavailable" } end
+    if action == "Snapshot" then return { Code = "Snapshot", Snapshot = owner:Snapshot() } end
+    if not Transactions.ValidateRequest(request) then return { Code = "InvalidRequest", Snapshot = owner:Snapshot() } end
+    -- Drop all fields except the validated request identity.
+    local result = owner:Transact({ Sequence = request.Sequence, Action = request.Action, ItemId = request.ItemId })
+    return { Code = result.Code, Result = result, Snapshot = owner:Snapshot() }
+end
+function Router:Forget(player)
+    self.last[player] = nil
+end
+return Router
+</ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="ModuleScript" referent="OwnerAdapter">
+      <Properties>
+        <string name="Name">OwnerAdapter</string>
+        <ProtectedString name="Source">-- Candidate DataService integration seam. Requires a single existing profile owner.
+-- This module does not create a DataStore, acquire another lock or start remotes.
+local Schema = require(script.Parent.Schema)
+local Coordinator = require(script.Parent.Coordinator)
+local Adapter = {}
+Adapter.__index = Adapter
+function Adapter.new(options)
+    assert(options.Changed, "Inject the existing DataService changed publisher")
+    local owner = Coordinator.new(options)
+    return setmetatable({ owner = owner, changed = options.Changed }, Adapter)
+end
+function Adapter:GetOwner()
+    return self.owner
+end
+function Adapter:GetStatus()
+    return self.owner:Status()
+end
+function Adapter:Snapshot()
+    return self.owner:Snapshot()
+end
+function Adapter:GetData()
+    return Schema.DeepCopy(self.owner.confirmed)
+end
+function Adapter:Update(mutator)
+    local result = self.owner:UpdateLegacy(mutator)
+    self.changed(self.owner:Status())
+    return result -- caller must handle Pending; do not convert it to success
+end
+function Adapter:Transact(request)
+    local result = self.owner:Transact(request)
+    self.changed(self.owner:Status())
+    return result
+end
+-- Trusted server code only; RequestRouter does not dispatch this method.
+function Adapter:Credit(source, event, amount)
+    local result = self.owner:Credit(source, event, amount)
+    self.changed(self.owner:Status())
+    return result
+end
+function Adapter:RetryPending()
+    local result = self.owner:RetryPending()
+    self.changed(self.owner:Status())
+    return result
+end
+function Adapter:Save(release)
+    local result = self.owner:Flush(release)
+    self.changed(self.owner:Status())
+    return result
+end
+return Adapter
+</ProtectedString>
+      </Properties>
+    </Item>
+  </Item>
+</roblox>

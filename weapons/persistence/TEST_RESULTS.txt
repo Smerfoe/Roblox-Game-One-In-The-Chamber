@@ -1,0 +1,48 @@
+PASS  new player loads defaults and takes the lock
+PASS  save persists data and refreshes the lock
+PASS  leave releases the lock; rejoin (other server) gets the saved data
+PASS  competing session: second server waits, then gives up without writing
+PASS  competing session: a released lock is picked up while waiting
+PASS  stale lock (crashed server) is taken over; the old server can't save over it
+PASS  failed load (store down) never writes and leaves existing data intact
+PASS  transient errors: load succeeds after retries with backoff
+PASS  save failure keeps the profile active and the old record; a later save works
+PASS  data from a newer schema is refused and never overwritten
+PASS  an unreadable record is refused and never overwritten
+PASS  schema repair keeps valid entries and drops wrong types
+PASS  same server rejoin: own lock is reused
+13 passed, 0 failed
+PASS existing 13 persistence/session-lock regressions
+PASS new accounts have zero coins and free pistol/basic knife
+PASS v1 migration preserves skins, equipment and unrelated fields
+PASS repeated migration is idempotent and keeps unknown owned IDs
+PASS newer and malformed monetary records fail closed
+PASS purchase saves ownership/deduction/receipt in one record
+PASS request replay across save/rejoin cannot charge twice
+PASS same sequence with a different payload is rejected
+PASS out-of-order and malformed packets consume nothing
+PASS insufficient funds, unknown products and unowned equip are safe
+PASS owned purchase doesn't charge; equip selection survives rejoin
+PASS crate roll is recorded once and duplicate has zero net cost
+PASS all crate buckets map to valid owned items
+PASS live test crate stays disabled and client cannot forge context
+PASS purchases outside lobby are refused
+PASS save failure hides provisional reward and blocks more spending
+PASS lost save acknowledgement retries same roll without double award
+PASS crash after uncertain commit recovers receipt in new session
+PASS stale old session cannot overwrite new owner
+PASS overlapping requests see Busy while save yields
+PASS evicted old receipt cannot be charged or rerolled again
+PASS trusted credits are ordered, bounded and replay safe
+PASS legacy skin mutation preserves currency, items and receipts
+PASS invalid server RNG never mutates data
+PASS router rate limits, strips authority fields and cleans up
+PASS yielding server RNG cannot create overlapping unsaved mutations
+PASS yielding/throwing context or legacy callbacks fail closed
+PASS failed load and malformed monetary record cannot become defaults
+PASS pending award flushes before releasing profile on leave
+PASS credit after lost acknowledgement survives crash without a second credit
+PASS owner adapter exposes confirmed data and publishes pending/recovery
+PASS randomized transaction history conserves coins and never loses ownership
+PASS request router and owner adapter integrate without a second profile writer
+ARMORY SUITE: 33 passed, 0 failed
