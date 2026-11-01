@@ -1,0 +1,52 @@
+[
+  {
+    "model": "ButterflyKnife_Prototype",
+    "instances": 69,
+    "passed": true
+  },
+  {
+    "model": "ButterKnife_Prototype",
+    "instances": 47,
+    "passed": true
+  },
+  {
+    "model": "FrontierRepeater_Prototype",
+    "instances": 133,
+    "passed": true
+  },
+  {
+    "model": "HeavyEagle_Prototype",
+    "instances": 167,
+    "passed": true
+  },
+  {
+    "model": "Karambit_Prototype",
+    "instances": 119,
+    "passed": true
+  },
+  {
+    "model": "Machete_Prototype",
+    "instances": 55,
+    "passed": true
+  },
+  {
+    "model": "OldWestRevolver_Prototype",
+    "instances": 141,
+    "passed": true
+  },
+  {
+    "model": "PythonMagnum_Prototype",
+    "instances": 150,
+    "passed": true
+  },
+  {
+    "model": "Service1911_Prototype",
+    "instances": 153,
+    "passed": true
+  },
+  {
+    "model": "TrailBowie_Prototype",
+    "instances": 155,
+    "passed": true
+  }
+]
