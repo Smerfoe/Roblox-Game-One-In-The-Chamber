@@ -1,0 +1,4 @@
+-- Health: replaces Roblox's default "Health" character script, which slowly
+-- regenerates health (about 1% per second). One in the Chamber has no
+-- regeneration: a knife hit (50) stays until the player's next life.
+-- Leaving this script empty is what turns regeneration off.
